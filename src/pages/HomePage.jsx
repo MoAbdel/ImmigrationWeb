@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Users, Flag, FileText, ScrollText, Heart, Award, Shield, Phone, CheckCircle, Send, Star, ChevronDown } from 'lucide-react';
+import { Users, Flag, FileText, ScrollText, Heart, Award, Shield, Phone, CheckCircle, Send, Star, ChevronDown, TrendingUp, Clock, BadgeCheck, Lock } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
 const HomePage = ({ language, content }) => {
@@ -13,37 +13,87 @@ const HomePage = ({ language, content }) => {
 
   return (
     <div className={`min-h-screen bg-gray-50 ${isRTL ? 'rtl' : 'ltr'}`} dir={isRTL ? 'rtl' : 'ltr'}>
-      {/* Hero Section */}
+      {/* Hero Section - Enhanced with Gradient Overlay */}
       <section
         id="home"
-        className="relative h-[600px] flex items-center justify-center text-white"
+        className="relative h-[700px] flex items-center justify-center text-white overflow-hidden"
         style={{
-          backgroundImage: 'linear-gradient(rgba(15, 23, 42, 0.7), rgba(15, 23, 42, 0.7)), url(https://images.unsplash.com/photo-1569025743873-ea3a9ade89f9?q=80&w=2000)',
+          backgroundImage: 'linear-gradient(135deg, rgba(15, 23, 42, 0.85) 0%, rgba(30, 41, 59, 0.75) 100%), url(https://images.unsplash.com/photo-1569025743873-ea3a9ade89f9?q=80&w=2000)',
           backgroundSize: 'cover',
-          backgroundPosition: 'center'
+          backgroundPosition: 'center',
+          backgroundAttachment: 'fixed'
         }}
       >
-        <div className="max-w-4xl mx-auto px-4 text-center">
-          <h2 className="text-4xl sm:text-5xl md:text-6xl font-serif font-bold mb-6 leading-tight">
-            {t.hero.headline}
-          </h2>
-          <p className="text-xl sm:text-2xl mb-8 text-gray-200">
-            {t.hero.subhead}
-          </p>
-          <button className="bg-amber-600 hover:bg-amber-700 text-white px-8 py-4 rounded-lg text-lg font-semibold transition-all transform hover:scale-105 shadow-lg">
-            {t.hero.cta}
-          </button>
+        {/* Animated gradient overlay */}
+        <div className="absolute inset-0 bg-gradient-to-br from-slate-900/50 via-transparent to-amber-900/20"></div>
+
+        <div className="max-w-5xl mx-auto px-4 text-center relative z-10">
+          <div className="fade-in-up">
+            <h1 className="text-5xl sm:text-6xl md:text-7xl font-serif font-bold mb-6 leading-tight text-shadow-lg">
+              {t.hero.headline}
+            </h1>
+            <p className="text-xl sm:text-2xl md:text-3xl mb-10 text-gray-100 font-light max-w-3xl mx-auto">
+              {t.hero.subhead}
+            </p>
+            <button className="btn-premium text-lg inline-flex items-center gap-2">
+              <Phone size={20} />
+              {t.hero.cta}
+            </button>
+          </div>
+        </div>
+
+        {/* Decorative elements */}
+        <div className="absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-t from-gray-50 to-transparent"></div>
+      </section>
+
+      {/* Statistics Section - New Premium Addition */}
+      <section className="py-16 bg-white relative -mt-20 z-20">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
+            {t.stats.map((stat, idx) => (
+              <div key={idx} className="bg-gradient-to-br from-slate-900 to-slate-800 rounded-2xl p-8 text-center shadow-premium hover:shadow-premium-lg transition-all duration-300 transform hover:scale-105">
+                <div className="text-4xl md:text-5xl font-bold text-gradient mb-2">
+                  {stat.number}
+                </div>
+                <div className="text-gray-300 font-medium">
+                  {stat.label}
+                </div>
+              </div>
+            ))}
+          </div>
         </div>
       </section>
 
-      {/* Services Section */}
-      <section id="services" className="py-20 bg-white">
+      {/* Trust Badges Section - New */}
+      <section className="py-12 bg-gradient-to-r from-amber-50 to-orange-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-16">
-            <h2 className="text-4xl font-serif font-bold text-slate-900 mb-4">
+          <h3 className="text-center text-2xl font-bold text-slate-900 mb-8 font-serif">
+            {t.trustTitle}
+          </h3>
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+            {t.trustBadges.map((badge, idx) => {
+              const icons = [BadgeCheck, Lock, Users, Shield];
+              const IconComponent = icons[idx];
+              return (
+                <div key={idx} className="flex items-center justify-center gap-2 bg-white rounded-xl p-4 shadow-md hover:shadow-lg transition-all">
+                  <IconComponent className="text-amber-600 flex-shrink-0" size={24} />
+                  <span className="text-sm font-semibold text-slate-900">{badge.text}</span>
+                </div>
+              );
+            })}
+          </div>
+        </div>
+      </section>
+
+      {/* Services Section - Enhanced with Premium Cards */}
+      <section id="services" className="py-24 bg-white">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-20">
+            <h2 className="text-5xl font-serif font-bold text-slate-900 mb-6">
               {t.servicesTitle}
             </h2>
-            <p className="text-xl text-gray-600">
+            <div className="w-24 h-1 bg-gradient-to-r from-amber-600 to-amber-400 mx-auto mb-6"></div>
+            <p className="text-xl text-gray-600 max-w-2xl mx-auto">
               {t.servicesSubtitle}
             </p>
           </div>
@@ -62,29 +112,35 @@ const HomePage = ({ language, content }) => {
                 <Link
                   key={idx}
                   to={routes[idx]}
-                  className="bg-gray-50 rounded-xl p-6 shadow-lg hover:shadow-xl transition-all border border-gray-200 hover:border-amber-400 transform hover:scale-105 cursor-pointer"
+                  className="group relative bg-white rounded-2xl p-8 shadow-premium hover:shadow-premium-lg transition-all duration-500 border border-gray-100 hover:border-amber-400 transform hover:scale-105 overflow-hidden"
                 >
-                  <div className="flex items-center justify-center w-16 h-16 bg-slate-900 rounded-lg mb-4 mx-auto">
-                    <IconComponent className="text-amber-400" size={32} />
-                  </div>
-                  <h3 className="text-xl font-bold text-slate-900 mb-4 text-center font-serif">
-                    {category.title}
-                  </h3>
-                  <ul className="space-y-2 mb-4">
-                    {category.services.map((service, serviceIdx) => (
-                      <li
-                        key={serviceIdx}
-                        className="text-gray-700 flex items-start gap-2"
-                      >
-                        <span className="text-amber-600 mt-1">•</span>
-                        <span>{service}</span>
-                      </li>
-                    ))}
-                  </ul>
-                  <div className="text-center mt-4">
-                    <span className="text-amber-600 font-semibold hover:text-amber-700">
-                      {language === 'en' ? 'Learn More →' : 'اعرف المزيد ←'}
-                    </span>
+                  {/* Gradient overlay on hover */}
+                  <div className="absolute inset-0 bg-gradient-to-br from-amber-50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+
+                  <div className="relative z-10">
+                    <div className="flex items-center justify-center w-20 h-20 gradient-premium rounded-2xl mb-6 mx-auto shadow-lg group-hover:shadow-xl transition-all duration-300 transform group-hover:rotate-6">
+                      <IconComponent className="text-amber-400" size={36} />
+                    </div>
+                    <h3 className="text-2xl font-bold text-slate-900 mb-6 text-center font-serif group-hover:text-amber-700 transition-colors">
+                      {category.title}
+                    </h3>
+                    <ul className="space-y-3 mb-6">
+                      {category.services.map((service, serviceIdx) => (
+                        <li
+                          key={serviceIdx}
+                          className="text-gray-700 flex items-start gap-3 group-hover:text-gray-900 transition-colors"
+                        >
+                          <CheckCircle className="text-amber-600 flex-shrink-0 mt-0.5" size={18} />
+                          <span className="font-medium">{service}</span>
+                        </li>
+                      ))}
+                    </ul>
+                    <div className="text-center mt-6 pt-6 border-t border-gray-200">
+                      <span className="text-amber-600 font-bold group-hover:text-amber-700 inline-flex items-center gap-2">
+                        {language === 'en' ? 'Learn More' : 'اعرف المزيد'}
+                        <span className="transform group-hover:translate-x-1 transition-transform">→</span>
+                      </span>
+                    </div>
                   </div>
                 </Link>
               );
@@ -93,14 +149,19 @@ const HomePage = ({ language, content }) => {
         </div>
       </section>
 
-      {/* How It Works Section */}
-      <section className="py-20 bg-gray-50">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-16">
-            <h2 className="text-4xl font-serif font-bold text-slate-900 mb-4">
+      {/* How It Works Section - Enhanced */}
+      <section className="py-24 gradient-premium text-white relative overflow-hidden">
+        {/* Decorative background elements */}
+        <div className="absolute top-0 left-0 w-96 h-96 bg-amber-500/10 rounded-full filter blur-3xl"></div>
+        <div className="absolute bottom-0 right-0 w-96 h-96 bg-blue-500/10 rounded-full filter blur-3xl"></div>
+
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+          <div className="text-center mb-20">
+            <h2 className="text-5xl font-serif font-bold mb-6">
               {t.howItWorksTitle}
             </h2>
-            <p className="text-xl text-gray-600">
+            <div className="w-24 h-1 bg-gradient-to-r from-amber-600 to-amber-400 mx-auto mb-6"></div>
+            <p className="text-xl text-gray-300 max-w-2xl mx-auto">
               {t.howItWorksSubtitle}
             </p>
           </div>
@@ -111,25 +172,28 @@ const HomePage = ({ language, content }) => {
               const IconComponent = icons[idx];
 
               return (
-                <div key={idx} className="relative">
+                <div key={idx} className="relative group">
                   <div className="flex flex-col items-center text-center">
-                    <div className="w-20 h-20 bg-amber-600 rounded-full flex items-center justify-center mb-4 shadow-lg">
-                      <IconComponent className="text-white" size={32} />
+                    <div className="w-24 h-24 gradient-gold rounded-full flex items-center justify-center mb-6 shadow-2xl group-hover:scale-110 transition-transform duration-300 relative">
+                      <IconComponent className="text-white" size={36} />
+                      <div className="absolute inset-0 rounded-full bg-white/20 animate-pulse"></div>
                     </div>
-                    <div className="text-3xl font-bold text-amber-600 mb-2">
+                    <div className="text-4xl font-bold text-amber-400 mb-3">
                       {step.step}
                     </div>
-                    <h3 className="text-xl font-bold text-slate-900 mb-2 font-serif">
+                    <h3 className="text-2xl font-bold mb-3 font-serif">
                       {step.title}
                     </h3>
-                    <p className="text-gray-600">
+                    <p className="text-gray-300 leading-relaxed">
                       {step.description}
                     </p>
                   </div>
-                  {/* Connector Arrow (except for last item) */}
+                  {/* Enhanced Connector */}
                   {idx < 3 && (
-                    <div className="hidden lg:block absolute top-10 left-[60%] w-[80%] h-0.5 bg-amber-300">
-                      <div className={`absolute ${isRTL ? 'left-0' : 'right-0'} top-1/2 -translate-y-1/2 w-0 h-0 border-t-4 border-t-transparent border-b-4 border-b-transparent ${isRTL ? 'border-l-4 border-l-amber-300' : 'border-r-4 border-r-amber-300'}`}></div>
+                    <div className="hidden lg:block absolute top-12 left-[60%] w-[80%]">
+                      <div className="h-0.5 bg-gradient-to-r from-amber-400 to-amber-600 relative">
+                        <div className="absolute -right-1 top-1/2 -translate-y-1/2 w-2 h-2 bg-amber-400 rounded-full"></div>
+                      </div>
                     </div>
                   )}
                 </div>
@@ -139,35 +203,40 @@ const HomePage = ({ language, content }) => {
         </div>
       </section>
 
-      {/* Why Choose Us Section */}
-      <section id="about" className="py-20 bg-slate-900 text-white">
+      {/* Why Choose Us Section - Enhanced */}
+      <section id="about" className="py-24 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-16">
-            <h2 className="text-4xl font-serif font-bold mb-4">
+          <div className="text-center mb-20">
+            <h2 className="text-5xl font-serif font-bold text-slate-900 mb-6">
               {t.whyTitle}
             </h2>
-            <p className="text-xl text-gray-300">
+            <div className="w-24 h-1 bg-gradient-to-r from-amber-600 to-amber-400 mx-auto mb-6"></div>
+            <p className="text-xl text-gray-600 max-w-2xl mx-auto">
               {t.whySubtitle}
             </p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
             {t.whyFeatures.map((feature, idx) => {
               const IconComponent = feature.icon;
               return (
                 <div
                   key={idx}
-                  className="text-center p-8 bg-slate-800 rounded-xl hover:bg-slate-700 transition-colors"
+                  className="relative group text-center p-10 bg-gradient-to-br from-gray-50 to-white rounded-2xl shadow-premium hover:shadow-premium-lg transition-all duration-500 border border-gray-100 hover:border-amber-200"
                 >
-                  <div className="flex items-center justify-center w-20 h-20 bg-amber-600 rounded-full mb-6 mx-auto">
-                    <IconComponent size={40} />
+                  <div className="absolute inset-0 bg-gradient-to-br from-amber-50/50 to-transparent rounded-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+
+                  <div className="relative z-10">
+                    <div className="flex items-center justify-center w-24 h-24 gradient-gold rounded-full mb-8 mx-auto shadow-xl group-hover:shadow-2xl transition-all duration-300 transform group-hover:scale-110">
+                      <IconComponent size={44} className="text-white" />
+                    </div>
+                    <h3 className="text-2xl font-bold mb-4 font-serif text-slate-900">
+                      {feature.title}
+                    </h3>
+                    <p className="text-gray-600 leading-relaxed text-lg">
+                      {feature.description}
+                    </p>
                   </div>
-                  <h3 className="text-2xl font-bold mb-4 font-serif">
-                    {feature.title}
-                  </h3>
-                  <p className="text-gray-300 leading-relaxed">
-                    {feature.description}
-                  </p>
                 </div>
               );
             })}
@@ -175,32 +244,39 @@ const HomePage = ({ language, content }) => {
         </div>
       </section>
 
-      {/* Testimonials Section */}
-      <section className="py-20 bg-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-16">
-            <h2 className="text-4xl font-serif font-bold text-slate-900 mb-4">
+      {/* Testimonials Section - Enhanced */}
+      <section className="py-24 bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 text-white relative overflow-hidden">
+        {/* Background decoration */}
+        <div className="absolute inset-0 opacity-10">
+          <div className="absolute top-1/4 left-1/4 w-64 h-64 bg-amber-500 rounded-full filter blur-3xl"></div>
+          <div className="absolute bottom-1/4 right-1/4 w-96 h-96 bg-blue-500 rounded-full filter blur-3xl"></div>
+        </div>
+
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+          <div className="text-center mb-20">
+            <h2 className="text-5xl font-serif font-bold mb-6">
               {t.testimonialsTitle}
             </h2>
-            <p className="text-xl text-gray-600">
+            <div className="w-24 h-1 bg-gradient-to-r from-amber-600 to-amber-400 mx-auto mb-6"></div>
+            <p className="text-xl text-gray-300 max-w-2xl mx-auto">
               {t.testimonialsSubtitle}
             </p>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {t.testimonials.map((testimonial, idx) => (
-              <div key={idx} className="bg-gray-50 rounded-xl p-8 shadow-lg hover:shadow-xl transition-shadow">
-                <div className="flex mb-4">
+              <div key={idx} className="group bg-white/5 backdrop-blur-sm rounded-2xl p-8 shadow-premium-lg hover:shadow-2xl transition-all duration-500 border border-white/10 hover:border-amber-400/50 transform hover:scale-105">
+                <div className="flex gap-1 mb-6">
                   {[...Array(testimonial.rating)].map((_, starIdx) => (
-                    <Star key={starIdx} className="text-amber-500 fill-amber-500" size={20} />
+                    <Star key={starIdx} className="text-amber-400 fill-amber-400" size={24} />
                   ))}
                 </div>
-                <p className="text-gray-700 mb-6 italic leading-relaxed">
+                <p className="text-gray-200 mb-8 italic leading-relaxed text-lg font-light">
                   "{testimonial.text}"
                 </p>
-                <div className="border-t pt-4">
-                  <p className="font-bold text-slate-900">{testimonial.name}</p>
-                  <p className="text-gray-600 text-sm">{testimonial.location}</p>
+                <div className="border-t border-white/10 pt-6">
+                  <p className="font-bold text-white text-lg">{testimonial.name}</p>
+                  <p className="text-amber-400 text-sm mt-1">{testimonial.location}</p>
                 </div>
               </div>
             ))}
@@ -208,41 +284,42 @@ const HomePage = ({ language, content }) => {
         </div>
       </section>
 
-      {/* FAQ Section */}
-      <section className="py-20 bg-gray-50">
+      {/* FAQ Section - Enhanced */}
+      <section className="py-24 bg-gray-50">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-16">
-            <h2 className="text-4xl font-serif font-bold text-slate-900 mb-4">
+          <div className="text-center mb-20">
+            <h2 className="text-5xl font-serif font-bold text-slate-900 mb-6">
               {t.faqTitle}
             </h2>
-            <p className="text-xl text-gray-600">
+            <div className="w-24 h-1 bg-gradient-to-r from-amber-600 to-amber-400 mx-auto mb-6"></div>
+            <p className="text-xl text-gray-600 max-w-2xl mx-auto">
               {t.faqSubtitle}
             </p>
           </div>
 
           <div className="space-y-4">
             {t.faqs.map((faq, idx) => (
-              <div key={idx} className="bg-white rounded-xl shadow-md overflow-hidden">
+              <div key={idx} className="bg-white rounded-2xl shadow-premium overflow-hidden hover:shadow-premium-lg transition-all duration-300">
                 <button
                   onClick={() => toggleFaq(idx)}
-                  className="w-full px-6 py-5 text-left flex justify-between items-center hover:bg-gray-50 transition-colors"
+                  className="w-full px-8 py-6 text-left flex justify-between items-center hover:bg-gray-50 transition-colors group"
                 >
-                  <span className="font-bold text-lg text-slate-900 pr-4">
+                  <span className="font-bold text-xl text-slate-900 pr-4 group-hover:text-amber-700 transition-colors">
                     {faq.question}
                   </span>
                   <ChevronDown
-                    className={`text-amber-600 flex-shrink-0 transition-transform ${
+                    className={`text-amber-600 flex-shrink-0 transition-all duration-300 ${
                       openFaqIndex === idx ? 'transform rotate-180' : ''
                     }`}
-                    size={24}
+                    size={28}
                   />
                 </button>
                 <div
-                  className={`px-6 overflow-hidden transition-all duration-300 ${
-                    openFaqIndex === idx ? 'max-h-96 py-4' : 'max-h-0'
+                  className={`px-8 overflow-hidden transition-all duration-500 ${
+                    openFaqIndex === idx ? 'max-h-96 py-6' : 'max-h-0'
                   }`}
                 >
-                  <p className="text-gray-700 leading-relaxed">
+                  <p className="text-gray-700 leading-relaxed text-lg border-t border-gray-100 pt-6">
                     {faq.answer}
                   </p>
                 </div>
@@ -252,16 +329,23 @@ const HomePage = ({ language, content }) => {
         </div>
       </section>
 
-      {/* Final CTA Band */}
-      <section className="py-16 bg-slate-900 text-white">
-        <div className="max-w-4xl mx-auto px-4 text-center">
-          <h2 className="text-4xl font-serif font-bold mb-4">
+      {/* Final CTA Band - Enhanced with Gradient */}
+      <section className="py-24 gradient-premium relative overflow-hidden">
+        {/* Animated background */}
+        <div className="absolute inset-0 opacity-20">
+          <div className="absolute top-0 left-1/4 w-96 h-96 bg-amber-500 rounded-full filter blur-3xl animate-pulse"></div>
+          <div className="absolute bottom-0 right-1/4 w-96 h-96 bg-blue-500 rounded-full filter blur-3xl animate-pulse" style={{ animationDelay: '1s' }}></div>
+        </div>
+
+        <div className="max-w-4xl mx-auto px-4 text-center relative z-10">
+          <h2 className="text-5xl font-serif font-bold mb-6 text-white">
             {t.finalCtaTitle}
           </h2>
-          <p className="text-xl text-gray-300 mb-8">
+          <p className="text-2xl text-gray-200 mb-10 font-light">
             {t.finalCtaText}
           </p>
-          <button className="bg-amber-600 hover:bg-amber-700 text-white px-10 py-4 rounded-lg text-lg font-semibold transition-all transform hover:scale-105 shadow-lg">
+          <button className="btn-premium text-xl inline-flex items-center gap-3">
+            <Phone size={24} />
             {t.finalCtaButton}
           </button>
         </div>
