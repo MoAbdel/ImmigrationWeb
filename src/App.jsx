@@ -1,21 +1,17 @@
 import React, { useState } from 'react';
-import {
-  Users,
-  Flag,
-  FileText,
-  ScrollText,
-  Heart,
-  Award,
-  Shield,
-  Phone,
-  Mail,
-  MapPin,
-  Facebook,
-  Instagram,
-  Linkedin,
-  Youtube,
-  Music
-} from 'lucide-react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { Users, Flag, FileText, ScrollText, Heart, Award, Shield } from 'lucide-react';
+
+// Components
+import Navbar from './components/Navbar';
+import Footer from './components/Footer';
+
+// Pages
+import HomePage from './pages/HomePage';
+import VisasFamilyPage from './pages/VisasFamilyPage';
+import StatusCitizenshipPage from './pages/StatusCitizenshipPage';
+import LegalDocumentsPage from './pages/LegalDocumentsPage';
+import ProfessionalServicesPage from './pages/ProfessionalServicesPage';
 
 const App = () => {
   const [language, setLanguage] = useState('en');
@@ -215,205 +211,24 @@ const App = () => {
     }
   };
 
-  const t = content[language];
-  const isRTL = language === 'ar';
-
   return (
-    <div className={`min-h-screen bg-gray-50 ${isRTL ? 'rtl' : 'ltr'}`} dir={isRTL ? 'rtl' : 'ltr'}>
-      {/* Navbar */}
-      <nav className="bg-slate-900 text-white shadow-lg sticky top-0 z-50">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex justify-between items-center h-20">
-            <div className="flex-shrink-0">
-              <h1 className="text-xl sm:text-2xl font-serif font-bold text-amber-400">
-                {t.logo}
-              </h1>
-            </div>
+    <Router>
+      <div className="min-h-screen flex flex-col">
+        <Navbar language={language} setLanguage={setLanguage} content={content} />
 
-            <div className="hidden md:flex space-x-8 rtl:space-x-reverse">
-              <a href="#home" className="hover:text-amber-400 transition-colors">{t.nav.home}</a>
-              <a href="#services" className="hover:text-amber-400 transition-colors">{t.nav.services}</a>
-              <a href="#about" className="hover:text-amber-400 transition-colors">{t.nav.about}</a>
-              <a href="#contact" className="hover:text-amber-400 transition-colors">{t.nav.contact}</a>
-            </div>
+        <main className="flex-grow">
+          <Routes>
+            <Route path="/" element={<HomePage language={language} content={content} />} />
+            <Route path="/services/visas-family" element={<VisasFamilyPage language={language} />} />
+            <Route path="/services/status-citizenship" element={<StatusCitizenshipPage language={language} />} />
+            <Route path="/services/legal-documents" element={<LegalDocumentsPage language={language} />} />
+            <Route path="/services/professional-services" element={<ProfessionalServicesPage language={language} />} />
+          </Routes>
+        </main>
 
-            <button
-              onClick={() => setLanguage(language === 'en' ? 'ar' : 'en')}
-              className="bg-amber-600 hover:bg-amber-700 px-4 py-2 rounded-lg font-medium transition-colors flex items-center gap-2"
-            >
-              {language === 'en' ? '🇸🇦' : '🇺🇸'} {t.langToggle}
-            </button>
-          </div>
-        </div>
-      </nav>
-
-      {/* Hero Section */}
-      <section
-        id="home"
-        className="relative h-[600px] flex items-center justify-center text-white"
-        style={{
-          backgroundImage: 'linear-gradient(rgba(15, 23, 42, 0.7), rgba(15, 23, 42, 0.7)), url(https://images.unsplash.com/photo-1569025743873-ea3a9ade89f9?q=80&w=2000)',
-          backgroundSize: 'cover',
-          backgroundPosition: 'center'
-        }}
-      >
-        <div className="max-w-4xl mx-auto px-4 text-center">
-          <h2 className="text-4xl sm:text-5xl md:text-6xl font-serif font-bold mb-6 leading-tight">
-            {t.hero.headline}
-          </h2>
-          <p className="text-xl sm:text-2xl mb-8 text-gray-200">
-            {t.hero.subhead}
-          </p>
-          <button className="bg-amber-600 hover:bg-amber-700 text-white px-8 py-4 rounded-lg text-lg font-semibold transition-all transform hover:scale-105 shadow-lg">
-            {t.hero.cta}
-          </button>
-        </div>
-      </section>
-
-      {/* Services Section */}
-      <section id="services" className="py-20 bg-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-16">
-            <h2 className="text-4xl font-serif font-bold text-slate-900 mb-4">
-              {t.servicesTitle}
-            </h2>
-            <p className="text-xl text-gray-600">
-              {t.servicesSubtitle}
-            </p>
-          </div>
-
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-            {t.categories.map((category, idx) => {
-              const IconComponent = category.icon;
-              return (
-                <div
-                  key={idx}
-                  className="bg-gray-50 rounded-xl p-6 shadow-lg hover:shadow-xl transition-shadow border border-gray-200 hover:border-amber-400"
-                >
-                  <div className="flex items-center justify-center w-16 h-16 bg-slate-900 rounded-lg mb-4 mx-auto">
-                    <IconComponent className="text-amber-400" size={32} />
-                  </div>
-                  <h3 className="text-xl font-bold text-slate-900 mb-4 text-center font-serif">
-                    {category.title}
-                  </h3>
-                  <ul className="space-y-2">
-                    {category.services.map((service, serviceIdx) => (
-                      <li
-                        key={serviceIdx}
-                        className="text-gray-700 flex items-start gap-2"
-                      >
-                        <span className="text-amber-600 mt-1">•</span>
-                        <span>{service}</span>
-                      </li>
-                    ))}
-                  </ul>
-                </div>
-              );
-            })}
-          </div>
-        </div>
-      </section>
-
-      {/* Why Choose Us Section */}
-      <section id="about" className="py-20 bg-slate-900 text-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-16">
-            <h2 className="text-4xl font-serif font-bold mb-4">
-              {t.whyTitle}
-            </h2>
-            <p className="text-xl text-gray-300">
-              {t.whySubtitle}
-            </p>
-          </div>
-
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            {t.whyFeatures.map((feature, idx) => {
-              const IconComponent = feature.icon;
-              return (
-                <div
-                  key={idx}
-                  className="text-center p-8 bg-slate-800 rounded-xl hover:bg-slate-700 transition-colors"
-                >
-                  <div className="flex items-center justify-center w-20 h-20 bg-amber-600 rounded-full mb-6 mx-auto">
-                    <IconComponent size={40} />
-                  </div>
-                  <h3 className="text-2xl font-bold mb-4 font-serif">
-                    {feature.title}
-                  </h3>
-                  <p className="text-gray-300 leading-relaxed">
-                    {feature.description}
-                  </p>
-                </div>
-              );
-            })}
-          </div>
-        </div>
-      </section>
-
-      {/* Footer */}
-      <footer id="contact" className="bg-slate-950 text-white py-12">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
-            {/* About */}
-            <div>
-              <h3 className="text-2xl font-serif font-bold text-amber-400 mb-4">
-                {t.logo}
-              </h3>
-              <p className="text-gray-400">
-                {t.footer.tagline}
-              </p>
-            </div>
-
-            {/* Contact */}
-            <div>
-              <h4 className="text-xl font-bold mb-4">{t.footer.contact}</h4>
-              <div className="space-y-3">
-                <div className="flex items-center gap-3">
-                  <MapPin size={20} className="text-amber-400" />
-                  <span className="text-gray-400">{t.footer.address}</span>
-                </div>
-                <div className="flex items-center gap-3">
-                  <Phone size={20} className="text-amber-400" />
-                  <span className="text-gray-400">{t.footer.phone}</span>
-                </div>
-                <div className="flex items-center gap-3">
-                  <Mail size={20} className="text-amber-400" />
-                  <span className="text-gray-400">{t.footer.email}</span>
-                </div>
-              </div>
-            </div>
-
-            {/* Social Media */}
-            <div>
-              <h4 className="text-xl font-bold mb-4">{t.footer.social}</h4>
-              <div className="flex gap-4">
-                <a href="#" className="bg-slate-800 p-3 rounded-full hover:bg-amber-600 transition-colors">
-                  <Facebook size={24} />
-                </a>
-                <a href="#" className="bg-slate-800 p-3 rounded-full hover:bg-amber-600 transition-colors">
-                  <Instagram size={24} />
-                </a>
-                <a href="#" className="bg-slate-800 p-3 rounded-full hover:bg-amber-600 transition-colors">
-                  <Youtube size={24} />
-                </a>
-                <a href="#" className="bg-slate-800 p-3 rounded-full hover:bg-amber-600 transition-colors">
-                  <Music size={24} />
-                </a>
-              </div>
-            </div>
-          </div>
-
-          <div className="border-t border-slate-800 pt-8 text-center">
-            <p className="text-gray-400 text-sm">
-              {t.footer.disclaimer}
-            </p>
-            <p className="text-gray-500 text-sm mt-2">
-              © {new Date().getFullYear()} Immigration Solution & Services. All rights reserved.
-            </p>
-          </div>
-        </div>
-      </footer>
-    </div>
+        <Footer language={language} content={content} />
+      </div>
+    </Router>
   );
 };
 
