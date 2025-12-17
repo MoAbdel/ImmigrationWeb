@@ -47,7 +47,7 @@ const Navbar = ({ language, setLanguage, content }) => {
             className="gradient-gold hover:from-amber-700 hover:to-amber-600 px-5 py-3 rounded-xl font-semibold transition-all duration-300 flex items-center gap-2 shadow-lg hover:shadow-xl transform hover:scale-105"
           >
             <Globe size={18} className="pulse-slow" />
-            {language === 'en' ? '🇸🇦' : '🇺🇸'} {t.langToggle}
+            {language === 'en' ? t.langToggle : '🇺🇸 ' + t.langToggle}
           </button>
         </div>
       </div>
