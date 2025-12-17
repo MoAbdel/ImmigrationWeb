@@ -1,28 +1,38 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import { Globe } from 'lucide-react';
+import { Globe, Menu, X } from 'lucide-react';
 
 const Navbar = ({ language, setLanguage, content }) => {
   const t = content[language];
   const isRTL = language === 'ar';
+  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+
+  const toggleMobileMenu = () => {
+    setMobileMenuOpen(!mobileMenuOpen);
+  };
+
+  const closeMobileMenu = () => {
+    setMobileMenuOpen(false);
+  };
 
   return (
     <nav className="gradient-premium text-white shadow-premium sticky top-0 z-50 backdrop-blur-md bg-slate-900/95">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex justify-between items-center h-24">
+        <div className="flex justify-between items-center h-20 md:h-24">
           <div className="flex-shrink-0">
-            <Link to="/" className="group">
-              <div className="flex items-center gap-3">
-                <div className="w-12 h-12 rounded-xl gradient-gold flex items-center justify-center shadow-lg group-hover:shadow-xl transition-all duration-300 transform group-hover:scale-110">
-                  <span className="text-2xl font-bold text-white">IS</span>
+            <Link to="/" className="group" onClick={closeMobileMenu}>
+              <div className="flex items-center gap-2 md:gap-3">
+                <div className="w-10 h-10 md:w-12 md:h-12 rounded-xl gradient-gold flex items-center justify-center shadow-lg group-hover:shadow-xl transition-all duration-300 transform group-hover:scale-110">
+                  <span className="text-xl md:text-2xl font-bold text-white">IS</span>
                 </div>
-                <h1 className="text-xl sm:text-2xl font-serif font-bold text-white group-hover:text-amber-400 transition-colors duration-300">
+                <h1 className="text-lg sm:text-xl md:text-2xl font-serif font-bold text-white group-hover:text-amber-400 transition-colors duration-300">
                   {t.logo}
                 </h1>
               </div>
             </Link>
           </div>
 
+          {/* Desktop Navigation */}
           <div className="hidden md:flex space-x-10 rtl:space-x-reverse">
             <Link to="/" className="relative group py-2">
               <span className="hover:text-amber-400 transition-colors font-medium">{t.nav.home}</span>
@@ -42,14 +52,64 @@ const Navbar = ({ language, setLanguage, content }) => {
             </a>
           </div>
 
-          <button
-            onClick={() => setLanguage(language === 'en' ? 'ar' : 'en')}
-            className="gradient-gold hover:from-amber-700 hover:to-amber-600 px-5 py-3 rounded-xl font-semibold transition-all duration-300 flex items-center gap-2 shadow-lg hover:shadow-xl transform hover:scale-105"
-          >
-            <Globe size={18} className="pulse-slow" />
-            {language === 'en' ? t.langToggle : '🇺🇸 ' + t.langToggle}
-          </button>
+          {/* Right Side: Language Toggle + Mobile Menu Button */}
+          <div className="flex items-center gap-3">
+            <button
+              onClick={() => setLanguage(language === 'en' ? 'ar' : 'en')}
+              className="gradient-gold hover:from-amber-700 hover:to-amber-600 px-3 py-2 md:px-5 md:py-3 rounded-xl font-semibold transition-all duration-300 flex items-center gap-2 shadow-lg hover:shadow-xl transform hover:scale-105 text-sm md:text-base"
+            >
+              <Globe size={16} className="md:hidden pulse-slow" />
+              <Globe size={18} className="hidden md:block pulse-slow" />
+              <span className="hidden sm:inline">{language === 'en' ? t.langToggle : '🇺🇸 ' + t.langToggle}</span>
+              <span className="sm:hidden">{language === 'en' ? 'ع' : 'EN'}</span>
+            </button>
+
+            {/* Mobile Menu Button */}
+            <button
+              onClick={toggleMobileMenu}
+              className="md:hidden p-2 rounded-lg hover:bg-white/10 transition-colors"
+              aria-label="Toggle menu"
+            >
+              {mobileMenuOpen ? <X size={24} /> : <Menu size={24} />}
+            </button>
+          </div>
         </div>
+
+        {/* Mobile Menu */}
+        {mobileMenuOpen && (
+          <div className="md:hidden py-4 border-t border-white/10">
+            <div className="flex flex-col space-y-4">
+              <Link
+                to="/"
+                className="px-4 py-2 hover:bg-white/10 rounded-lg transition-colors font-medium"
+                onClick={closeMobileMenu}
+              >
+                {t.nav.home}
+              </Link>
+              <a
+                href="/#services"
+                className="px-4 py-2 hover:bg-white/10 rounded-lg transition-colors font-medium"
+                onClick={closeMobileMenu}
+              >
+                {t.nav.services}
+              </a>
+              <a
+                href="/#about"
+                className="px-4 py-2 hover:bg-white/10 rounded-lg transition-colors font-medium"
+                onClick={closeMobileMenu}
+              >
+                {t.nav.about}
+              </a>
+              <a
+                href="/#contact"
+                className="px-4 py-2 hover:bg-white/10 rounded-lg transition-colors font-medium"
+                onClick={closeMobileMenu}
+              >
+                {t.nav.contact}
+              </a>
+            </div>
+          </div>
+        )}
       </div>
     </nav>
   );
