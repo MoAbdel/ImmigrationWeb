@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Users, Flag, FileText, ScrollText, Heart, Award, Shield, Phone, CheckCircle, Send, Star, ChevronDown, TrendingUp, Clock, BadgeCheck, Lock } from 'lucide-react';
+import { Users, Flag, FileText, ScrollText, Heart, Award, Shield, Phone, CheckCircle, Send, Star, ChevronDown } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
 const HomePage = ({ language, content }) => {
@@ -43,46 +43,7 @@ const HomePage = ({ language, content }) => {
         </div>
 
         {/* Decorative elements */}
-        <div className="absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-t from-gray-50 to-transparent"></div>
-      </section>
-
-      {/* Statistics Section - New Premium Addition */}
-      <section className="py-16 bg-white relative -mt-20 z-20">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
-            {t.stats.map((stat, idx) => (
-              <div key={idx} className="bg-gradient-to-br from-slate-900 to-slate-800 rounded-2xl p-8 text-center shadow-premium hover:shadow-premium-lg transition-all duration-300 transform hover:scale-105">
-                <div className="text-4xl md:text-5xl font-bold text-gradient mb-2">
-                  {stat.number}
-                </div>
-                <div className="text-gray-300 font-medium">
-                  {stat.label}
-                </div>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* Trust Badges Section - New */}
-      <section className="py-12 bg-gradient-to-r from-amber-50 to-orange-50">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h3 className="text-center text-2xl font-bold text-slate-900 mb-8 font-serif">
-            {t.trustTitle}
-          </h3>
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-            {t.trustBadges.map((badge, idx) => {
-              const icons = [BadgeCheck, Lock, Users, Shield];
-              const IconComponent = icons[idx];
-              return (
-                <div key={idx} className="flex items-center justify-center gap-2 bg-white rounded-xl p-4 shadow-md hover:shadow-lg transition-all">
-                  <IconComponent className="text-amber-600 flex-shrink-0" size={24} />
-                  <span className="text-sm font-semibold text-slate-900">{badge.text}</span>
-                </div>
-              );
-            })}
-          </div>
-        </div>
+        <div className="absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-t from-white to-transparent"></div>
       </section>
 
       {/* Services Section - Enhanced with Premium Cards */}

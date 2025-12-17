@@ -158,23 +158,6 @@ const App = () => {
         }
       ],
 
-      // Statistics
-      stats: [
-        { number: "15+", label: "Years of Experience" },
-        { number: "5000+", label: "Cases Completed" },
-        { number: "98%", label: "Success Rate" },
-        { number: "24/7", label: "Support Available" }
-      ],
-
-      // Trust Badges
-      trustTitle: "Trusted & Certified",
-      trustBadges: [
-        { text: "USCIS Certified Translations" },
-        { text: "Licensed Notary Public" },
-        { text: "Bilingual Expert Staff" },
-        { text: "Confidential & Secure" }
-      ],
-
       // Final CTA
       finalCtaTitle: "Ready to Start Your Journey?",
       finalCtaText: "Take the first step toward achieving your American dream today",
@@ -330,23 +313,6 @@ const App = () => {
           question: "هل تقدمون مشورة قانونية؟",
           answer: "نحن لسنا محامين ولا نقدم المشورة القانونية. نحن متخصصون في خدمات إعداد الوثائق لطلبات الهجرة. للمسائل القانونية المعقدة أو الحالات المتنازع عليها، يمكننا إحالتك إلى محامي هجرة مؤهلين في شبكتنا."
         }
-      ],
-
-      // Statistics
-      stats: [
-        { number: "١٥+", label: "سنة من الخبرة" },
-        { number: "٥٠٠٠+", label: "حالة مكتملة" },
-        { number: "٩٨٪", label: "معدل النجاح" },
-        { number: "٢٤/٧", label: "دعم متاح" }
-      ],
-
-      // Trust Badges
-      trustTitle: "موثوق ومعتمد",
-      trustBadges: [
-        { text: "ترجمات معتمدة من USCIS" },
-        { text: "كاتب عدل مرخص" },
-        { text: "فريق خبراء ثنائي اللغة" },
-        { text: "سري وآمن" }
       ],
 
       // Final CTA
