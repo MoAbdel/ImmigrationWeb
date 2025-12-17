@@ -37,7 +37,6 @@ const VisasFamilyPage = ({ language }) => {
           details: [
             "Form I-129F Petition for Alien Fiancé(e)",
             "Embassy interview preparation",
-            "Medical examination coordination",
             "Evidence of genuine relationship",
             "Supporting documentation compilation",
             "Follow-up adjustment of status after marriage"
@@ -140,7 +139,6 @@ const VisasFamilyPage = ({ language }) => {
           details: [
             "نموذج I-129F التماس للخطيب الأجنبي",
             "الإعداد لمقابلة السفارة",
-            "تنسيق الفحص الطبي",
             "إثبات العلاقة الحقيقية",
             "تجميع الوثائق الداعمة",
             "متابعة تعديل الوضع بعد الزواج"

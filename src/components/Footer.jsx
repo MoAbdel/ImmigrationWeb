@@ -102,7 +102,7 @@ const Footer = ({ language, content }) => {
               {t.footer.disclaimer}
             </p>
             <p className="text-gray-400 text-xs sm:text-sm">
-              © {new Date().getFullYear()} Immigration Solution & Services. All rights reserved.
+              © {new Date().getFullYear()} Immigration Solution Services. All rights reserved.
             </p>
           </div>
         </div>

@@ -19,7 +19,7 @@ const App = () => {
   const content = {
     en: {
       // Navbar
-      logo: "Immigration Solution & Services",
+      logo: "Immigration Solution Services",
       nav: {
         home: "Home",
         services: "Services",
