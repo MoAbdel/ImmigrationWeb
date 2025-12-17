@@ -102,6 +102,67 @@ const App = () => {
         }
       ],
 
+      // How It Works
+      howItWorksTitle: "Our Simple Process",
+      howItWorksSubtitle: "Getting started is easy - just four simple steps",
+      howItWorksSteps: [
+        { step: "1", title: "Consultation", description: "Free initial consultation to understand your needs" },
+        { step: "2", title: "Document Prep", description: "We prepare all necessary documents accurately" },
+        { step: "3", title: "Review", description: "Thorough review to ensure everything is perfect" },
+        { step: "4", title: "Filing", description: "We file your application and track its progress" }
+      ],
+
+      // Testimonials
+      testimonialsTitle: "Success Stories",
+      testimonialsSubtitle: "Hear from our satisfied clients",
+      testimonials: [
+        {
+          name: "Sarah Johnson",
+          location: "Los Angeles, CA",
+          text: "The team helped me with my citizenship application. They were professional, patient, and made the entire process stress-free. I'm now a proud U.S. citizen!",
+          rating: 5
+        },
+        {
+          name: "أحمد العلي",
+          location: "Orange County, CA",
+          text: "خدمة ممتازة! ساعدوني في لم شمل عائلتي. الفريق يتحدث العربية بطلاقة وكانوا متعاونين جداً في كل خطوة.",
+          rating: 5
+        },
+        {
+          name: "Maria Garcia",
+          location: "San Diego, CA",
+          text: "I needed translation and notary services for my green card renewal. Fast, accurate, and affordable. Highly recommend!",
+          rating: 5
+        }
+      ],
+
+      // FAQ
+      faqTitle: "Common Questions",
+      faqSubtitle: "Find answers to frequently asked questions",
+      faqs: [
+        {
+          question: "How long does the immigration process take?",
+          answer: "Processing times vary depending on the type of application. Family-based petitions can take 6 months to 3+ years, while citizenship applications typically take 8-14 months. We provide realistic timelines during your consultation and keep you updated throughout the process."
+        },
+        {
+          question: "Are your translations certified for USCIS?",
+          answer: "Yes! All our translations include a certificate of accuracy and meet USCIS requirements. Our certified translations are accepted by USCIS, embassies, courts, and other official agencies. We can also provide notarized translations when required."
+        },
+        {
+          question: "What are your fees?",
+          answer: "We believe in transparent pricing. Translation services start at $30 per page, notary services at $15 per signature, and immigration document preparation varies by case complexity. Contact us for a detailed quote based on your specific needs - no hidden fees, ever."
+        },
+        {
+          question: "Do you provide legal advice?",
+          answer: "We are not attorneys and do not provide legal advice. We specialize in document preparation services for immigration applications. For complex legal matters or contested cases, we can refer you to qualified immigration attorneys in our network."
+        }
+      ],
+
+      // Final CTA
+      finalCtaTitle: "Ready to Start Your Journey?",
+      finalCtaText: "Take the first step toward achieving your American dream today",
+      finalCtaButton: "Contact Us Today",
+
       // Footer
       footer: {
         tagline: "Your trusted immigration partner",
@@ -197,6 +258,67 @@ const App = () => {
           description: "اهتمام دقيق بالتفاصيل في إعداد ومعالجة جميع وثائق الهجرة الخاصة بك."
         }
       ],
+
+      // How It Works
+      howItWorksTitle: "خطوات العمل",
+      howItWorksSubtitle: "البدء سهل - أربع خطوات بسيطة فقط",
+      howItWorksSteps: [
+        { step: "١", title: "استشارة", description: "استشارة أولية مجانية لفهم احتياجاتك" },
+        { step: "٢", title: "إعداد الوثائق", description: "نقوم بإعداد جميع الوثائق اللازمة بدقة" },
+        { step: "٣", title: "المراجعة", description: "مراجعة شاملة للتأكد من أن كل شيء مثالي" },
+        { step: "٤", title: "التقديم", description: "نقدم طلبك ونتابع تقدمه" }
+      ],
+
+      // Testimonials
+      testimonialsTitle: "قصص النجاح",
+      testimonialsSubtitle: "استمع من عملائنا الراضين",
+      testimonials: [
+        {
+          name: "Sarah Johnson",
+          location: "لوس أنجلوس، كاليفورنيا",
+          text: "The team helped me with my citizenship application. They were professional, patient, and made the entire process stress-free. I'm now a proud U.S. citizen!",
+          rating: 5
+        },
+        {
+          name: "أحمد العلي",
+          location: "أورانج كاونتي، كاليفورنيا",
+          text: "خدمة ممتازة! ساعدوني في لم شمل عائلتي. الفريق يتحدث العربية بطلاقة وكانوا متعاونين جداً في كل خطوة.",
+          rating: 5
+        },
+        {
+          name: "Maria Garcia",
+          location: "سان دييغو، كاليفورنيا",
+          text: "I needed translation and notary services for my green card renewal. Fast, accurate, and affordable. Highly recommend!",
+          rating: 5
+        }
+      ],
+
+      // FAQ
+      faqTitle: "أسئلة شائعة",
+      faqSubtitle: "اعثر على إجابات للأسئلة المتداولة",
+      faqs: [
+        {
+          question: "كم من الوقت تستغرق عملية الهجرة؟",
+          answer: "تختلف أوقات المعالجة حسب نوع الطلب. يمكن أن تستغرق التماسات الهجرة العائلية من 6 أشهر إلى أكثر من 3 سنوات، بينما تستغرق طلبات الجنسية عادةً من 8 إلى 14 شهرًا. نحن نقدم جداول زمنية واقعية خلال استشارتك ونبقيك على اطلاع طوال العملية."
+        },
+        {
+          question: "هل ترجماتكم معتمدة من USCIS؟",
+          answer: "نعم! تتضمن جميع ترجماتنا شهادة دقة وتفي بمتطلبات USCIS. ترجماتنا المعتمدة مقبولة من قبل USCIS والسفارات والمحاكم والوكالات الرسمية الأخرى. يمكننا أيضًا تقديم ترجمات موثقة عند الحاجة."
+        },
+        {
+          question: "ما هي رسومكم؟",
+          answer: "نحن نؤمن بالتسعير الشفاف. تبدأ خدمات الترجمة من 30 دولارًا للصفحة، وخدمات التوثيق من 15 دولارًا لكل توقيع، ويختلف إعداد وثائق الهجرة حسب تعقيد الحالة. اتصل بنا للحصول على عرض أسعار مفصل بناءً على احتياجاتك المحددة - لا توجد رسوم خفية أبدًا."
+        },
+        {
+          question: "هل تقدمون مشورة قانونية؟",
+          answer: "نحن لسنا محامين ولا نقدم المشورة القانونية. نحن متخصصون في خدمات إعداد الوثائق لطلبات الهجرة. للمسائل القانونية المعقدة أو الحالات المتنازع عليها، يمكننا إحالتك إلى محامي هجرة مؤهلين في شبكتنا."
+        }
+      ],
+
+      // Final CTA
+      finalCtaTitle: "هل أنت مستعد لبدء رحلتك؟",
+      finalCtaText: "اتخذ الخطوة الأولى نحو تحقيق حلمك الأمريكي اليوم",
+      finalCtaButton: "اتصل بنا اليوم",
 
       // Footer
       footer: {
