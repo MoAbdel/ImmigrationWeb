@@ -18,7 +18,7 @@ const HomePage = ({ language, content }) => {
         id="home"
         className="relative min-h-[500px] sm:min-h-[600px] md:h-[700px] flex items-center justify-center text-white overflow-hidden"
         style={{
-          backgroundImage: 'linear-gradient(135deg, rgba(15, 23, 42, 0.85) 0%, rgba(30, 41, 59, 0.75) 100%), url(https://images.unsplash.com/photo-1569025743873-ea3a9ade89f9?q=80&w=2000)',
+          backgroundImage: 'linear-gradient(135deg, rgba(15, 23, 42, 0.85) 0%, rgba(30, 41, 59, 0.75) 100%), url(https://images.unsplash.com/photo-1564121211835-e88c852648ab?q=80&w=2000)',
           backgroundSize: 'cover',
           backgroundPosition: 'center',
           backgroundAttachment: 'scroll'
