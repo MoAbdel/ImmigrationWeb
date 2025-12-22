@@ -167,9 +167,9 @@ const App = () => {
       footer: {
         tagline: "Your trusted immigration partner",
         contact: "Contact Us",
-        address: "Lake Forest, CA",
-        phone: "(555) 123-4567",
-        email: "info@immigrationsolution.com",
+        address: "11088 Trask Ave. Suite 200-K, Garden Grove, CA 92843",
+        phone: "(714) 421-8872",
+        email: "imgso2005@yahoo.com",
         social: "Follow Us",
         disclaimer: "We are not attorneys. We provide document preparation services."
       }
@@ -324,9 +324,9 @@ const App = () => {
       footer: {
         tagline: "شريكك الموثوق في الهجرة",
         contact: "اتصل بنا",
-        address: "ليك فورست، كاليفورنيا",
-        phone: "(555) 123-4567",
-        email: "info@immigrationsolution.com",
+        address: "11088 شارع تراسك. جناح 200-ك، جاردن جروف، كاليفورنيا 92843",
+        phone: "(714) 421-8872",
+        email: "imgso2005@yahoo.com",
         social: "تابعنا",
         disclaimer: "نحن لسنا محامين. نحن نقدم خدمات إعداد الوثائق."
       }
