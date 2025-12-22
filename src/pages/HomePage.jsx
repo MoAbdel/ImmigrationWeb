@@ -137,8 +137,7 @@ const HomePage = ({ language, content }) => {
                 <div key={idx} className="relative group">
                   <div className="flex flex-col items-center text-center">
                     <div className="w-20 h-20 sm:w-24 sm:h-24 gradient-gold rounded-full flex items-center justify-center mb-4 sm:mb-6 shadow-2xl group-hover:scale-110 transition-transform duration-300 relative">
-                      <IconComponent className="text-white" size={28} />
-                      <IconComponent className="hidden sm:block text-white" size={36} />
+                      <IconComponent className="text-white" size={32} />
                       <div className="absolute inset-0 rounded-full bg-white/20 animate-pulse"></div>
                     </div>
                     <div className="text-3xl sm:text-4xl font-bold text-amber-400 mb-2 sm:mb-3">
