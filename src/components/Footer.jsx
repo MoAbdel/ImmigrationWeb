@@ -20,18 +20,18 @@ const Footer = ({ language, content }) => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 sm:gap-10 md:gap-12 mb-8 sm:mb-10 md:mb-12">
           {/* About */}
           <div>
-            <div className="flex items-center gap-2 sm:gap-3 mb-4 sm:mb-6">
-              <div className="w-10 h-10 sm:w-12 sm:h-12 rounded-xl gradient-gold flex items-center justify-center shadow-lg">
-                <span className="text-lg sm:text-xl font-bold text-white">IS</span>
-              </div>
-              <h3 className="text-xl sm:text-2xl font-serif font-bold text-white">
-                {t.logo}
-              </h3>
-            </div>
-            <p className="text-sm sm:text-base text-gray-300 leading-relaxed mb-4 sm:mb-6">
-              {t.footer.tagline}
+            <h3 className="text-xl sm:text-2xl font-serif font-bold text-white mb-4 sm:mb-6">
+              {t.logo}
+            </h3>
+            <p className="text-sm sm:text-base text-gray-300 leading-relaxed mb-3 sm:mb-4">
+              {t.footer.description}
             </p>
-            <div className="w-12 sm:w-16 h-1 bg-gradient-to-r from-amber-600 to-amber-400"></div>
+            <p className="text-sm sm:text-base text-gray-300 leading-relaxed mb-3 sm:mb-4">
+              {t.footer.services}
+            </p>
+            <p className="text-xs sm:text-sm text-amber-400 font-semibold">
+              {t.footer.hours}
+            </p>
           </div>
 
           {/* Contact */}

@@ -21,14 +21,9 @@ const Navbar = ({ language, setLanguage, content }) => {
         <div className="flex justify-between items-center h-20 md:h-24">
           <div className="flex-shrink-0">
             <Link to="/" className="group" onClick={closeMobileMenu}>
-              <div className="flex items-center gap-2 md:gap-3">
-                <div className="w-10 h-10 md:w-12 md:h-12 rounded-xl gradient-gold flex items-center justify-center shadow-lg group-hover:shadow-xl transition-all duration-300 transform group-hover:scale-110">
-                  <span className="text-xl md:text-2xl font-bold text-white">IS</span>
-                </div>
-                <h1 className="text-lg sm:text-xl md:text-2xl font-serif font-bold text-white group-hover:text-amber-400 transition-colors duration-300">
-                  {t.logo}
-                </h1>
-              </div>
+              <h1 className="text-lg sm:text-xl md:text-2xl font-serif font-bold text-white group-hover:text-amber-400 transition-colors duration-300">
+                {t.logo}
+              </h1>
             </Link>
           </div>
 

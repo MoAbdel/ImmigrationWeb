@@ -165,7 +165,9 @@ const App = () => {
 
       // Footer
       footer: {
-        tagline: "Your trusted immigration partner",
+        description: "Professional immigration document preparation services helping families and individuals navigate the U.S. immigration process with confidence and accuracy.",
+        services: "Specializing in family petitions, visa applications, citizenship, work permits, translations, and notary services.",
+        hours: "Monday - Friday: 9:00 AM - 6:00 PM | Saturday: 10:00 AM - 3:00 PM",
         contact: "Contact Us",
         address: "11088 Trask Ave. Suite 200-K, Garden Grove, CA 92843",
         phone: "(714) 421-8872",
@@ -322,7 +324,9 @@ const App = () => {
 
       // Footer
       footer: {
-        tagline: "شريكك الموثوق في الهجرة",
+        description: "خدمات إعداد وثائق الهجرة الاحترافية تساعد العائلات والأفراد على التنقل في عملية الهجرة الأمريكية بثقة ودقة.",
+        services: "متخصصون في التماسات الأسرة، وطلبات التأشيرات، والمواطنة، وتصاريح العمل، والترجمة، وخدمات التوثيق.",
+        hours: "الاثنين - الجمعة: 9:00 صباحًا - 6:00 مساءً | السبت: 10:00 صباحًا - 3:00 مساءً",
         contact: "اتصل بنا",
         address: "11088 شارع تراسك. جناح 200-ك، جاردن جروف، كاليفورنيا 92843",
         phone: "(714) 421-8872",
