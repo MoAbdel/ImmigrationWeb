@@ -295,30 +295,6 @@ const HomePage = ({ language, content }) => {
 
       {/* Contact Form */}
       <ContactForm language={language} content={content} />
-
-      {/* Final CTA Band - Enhanced with Gradient */}
-      <section className="py-12 sm:py-16 md:py-24 gradient-premium relative overflow-hidden">
-        {/* Animated background */}
-        <div className="absolute inset-0 opacity-20">
-          <div className="absolute top-0 left-1/4 w-96 h-96 bg-amber-500 rounded-full filter blur-3xl animate-pulse"></div>
-          <div className="absolute bottom-0 right-1/4 w-96 h-96 bg-blue-500 rounded-full filter blur-3xl animate-pulse" style={{ animationDelay: '1s' }}></div>
-        </div>
-
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 text-center relative z-10">
-          <h2 className="text-3xl sm:text-4xl md:text-5xl font-serif font-bold mb-4 sm:mb-6 text-white">
-            {t.finalCtaTitle}
-          </h2>
-          <p className="text-lg sm:text-xl md:text-2xl text-gray-200 mb-8 sm:mb-10 font-light px-4">
-            {t.finalCtaText}
-          </p>
-          <a href="#contact-form" className="btn-premium text-base sm:text-lg md:text-xl inline-flex items-center gap-2 sm:gap-3 w-full sm:w-auto justify-center">
-            <Phone size={18} className="sm:hidden" />
-            <Phone size={20} className="hidden sm:block md:hidden" />
-            <Phone size={24} className="hidden md:block" />
-            {t.finalCtaButton}
-          </a>
-        </div>
-      </section>
     </div>
   );
 };
