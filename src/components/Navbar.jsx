@@ -21,7 +21,7 @@ const Navbar = ({ language, setLanguage, content }) => {
         <div className="flex justify-between items-center h-20 md:h-24">
           <div className="flex-shrink-0">
             <Link to="/" className="group" onClick={closeMobileMenu}>
-              <h1 className="text-lg sm:text-xl md:text-2xl font-serif font-bold text-white group-hover:text-amber-400 transition-colors duration-300">
+              <h1 className="text-sm sm:text-xl md:text-2xl font-serif font-bold text-white group-hover:text-amber-400 transition-colors duration-300">
                 {t.logo}
               </h1>
             </Link>
