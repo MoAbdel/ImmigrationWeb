@@ -163,6 +163,36 @@ const App = () => {
       finalCtaText: "Take the first step toward achieving your American dream today",
       finalCtaButton: "Contact Us Today",
 
+      // Contact Form
+      contactForm: {
+        title: "Get Started Today",
+        subtitle: "Fill out the form below and we'll get back to you within 24 hours",
+        nameLabel: "Full Name *",
+        namePlaceholder: "Enter your full name",
+        emailLabel: "Email Address *",
+        emailPlaceholder: "your.email@example.com",
+        phoneLabel: "Phone Number *",
+        phonePlaceholder: "(555) 123-4567",
+        serviceLabel: "Service Needed *",
+        servicePlaceholder: "Select a service",
+        serviceOptions: [
+          "Family Petitions (I-130)",
+          "K1 Fiancé Visa",
+          "Citizenship/Naturalization",
+          "Adjustment of Status",
+          "Green Card Renewal",
+          "Work Authorization (EAD)",
+          "Travel Document (Advance Parole)",
+          "Translation Services",
+          "Notary Services",
+          "Other"
+        ],
+        messageLabel: "Tell Us About Your Case *",
+        messagePlaceholder: "Please provide details about your immigration needs...",
+        submitButton: "Submit Request",
+        successMessage: "Thank you! We'll contact you within 24 hours."
+      },
+
       // Footer
       footer: {
         description: "Professional immigration document preparation services helping families and individuals navigate the U.S. immigration process with confidence and accuracy.",
@@ -321,6 +351,36 @@ const App = () => {
       finalCtaTitle: "هل أنت مستعد لبدء رحلتك؟",
       finalCtaText: "اتخذ الخطوة الأولى نحو تحقيق حلمك الأمريكي اليوم",
       finalCtaButton: "اتصل بنا اليوم",
+
+      // Contact Form
+      contactForm: {
+        title: "ابدأ اليوم",
+        subtitle: "املأ النموذج أدناه وسنتواصل معك خلال 24 ساعة",
+        nameLabel: "الاسم الكامل *",
+        namePlaceholder: "أدخل اسمك الكامل",
+        emailLabel: "البريد الإلكتروني *",
+        emailPlaceholder: "your.email@example.com",
+        phoneLabel: "رقم الهاتف *",
+        phonePlaceholder: "(555) 123-4567",
+        serviceLabel: "الخدمة المطلوبة *",
+        servicePlaceholder: "اختر خدمة",
+        serviceOptions: [
+          "التماسات العائلة (I-130)",
+          "K1 فيزا الخطوبة",
+          "الجنسية/التجنس",
+          "تعديل الوضع",
+          "تجديد البطاقة الخضراء",
+          "تصريح العمل (EAD)",
+          "وثيقة السفر (الإفراج المسبق)",
+          "خدمات الترجمة",
+          "خدمات التوثيق",
+          "أخرى"
+        ],
+        messageLabel: "أخبرنا عن قضيتك *",
+        messagePlaceholder: "يرجى تقديم تفاصيل حول احتياجاتك في الهجرة...",
+        submitButton: "إرسال الطلب",
+        successMessage: "شكراً لك! سنتواصل معك خلال 24 ساعة."
+      },
 
       // Footer
       footer: {

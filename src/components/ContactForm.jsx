@@ -1,0 +1,158 @@
+import React, { useState } from 'react';
+import { Send } from 'lucide-react';
+
+const ContactForm = ({ language, content }) => {
+  const t = content[language];
+  const isRTL = language === 'ar';
+
+  const [formData, setFormData] = useState({
+    name: '',
+    email: '',
+    phone: '',
+    service: '',
+    message: ''
+  });
+
+  const handleChange = (e) => {
+    setFormData({
+      ...formData,
+      [e.target.name]: e.target.value
+    });
+  };
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    // Form submission logic will go here
+    console.log('Form submitted:', formData);
+    // Reset form
+    setFormData({
+      name: '',
+      email: '',
+      phone: '',
+      service: '',
+      message: ''
+    });
+    alert(t.contactForm.successMessage);
+  };
+
+  return (
+    <section id="contact-form" className="py-12 sm:py-16 md:py-24 bg-gray-50">
+      <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="text-center mb-12 sm:mb-16">
+          <h2 className="text-3xl sm:text-4xl md:text-5xl font-serif font-bold text-slate-900 mb-4 sm:mb-6">
+            {t.contactForm.title}
+          </h2>
+          <div className="w-20 sm:w-24 h-1 bg-gradient-to-r from-amber-600 to-amber-400 mx-auto mb-4 sm:mb-6"></div>
+          <p className="text-base sm:text-lg md:text-xl text-gray-600 max-w-2xl mx-auto px-4">
+            {t.contactForm.subtitle}
+          </p>
+        </div>
+
+        <div className="bg-white rounded-2xl shadow-premium p-6 sm:p-8 md:p-10">
+          <form onSubmit={handleSubmit} className={`space-y-6 ${isRTL ? 'rtl' : 'ltr'}`} dir={isRTL ? 'rtl' : 'ltr'}>
+            {/* Name */}
+            <div>
+              <label htmlFor="name" className="block text-sm font-semibold text-slate-900 mb-2">
+                {t.contactForm.nameLabel}
+              </label>
+              <input
+                type="text"
+                id="name"
+                name="name"
+                value={formData.name}
+                onChange={handleChange}
+                required
+                className="w-full px-4 py-3 border-2 border-gray-200 rounded-xl focus:border-amber-500 focus:outline-none focus:ring-2 focus:ring-amber-200 transition-all text-slate-900"
+                placeholder={t.contactForm.namePlaceholder}
+              />
+            </div>
+
+            {/* Email */}
+            <div>
+              <label htmlFor="email" className="block text-sm font-semibold text-slate-900 mb-2">
+                {t.contactForm.emailLabel}
+              </label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                value={formData.email}
+                onChange={handleChange}
+                required
+                className="w-full px-4 py-3 border-2 border-gray-200 rounded-xl focus:border-amber-500 focus:outline-none focus:ring-2 focus:ring-amber-200 transition-all text-slate-900"
+                placeholder={t.contactForm.emailPlaceholder}
+              />
+            </div>
+
+            {/* Phone */}
+            <div>
+              <label htmlFor="phone" className="block text-sm font-semibold text-slate-900 mb-2">
+                {t.contactForm.phoneLabel}
+              </label>
+              <input
+                type="tel"
+                id="phone"
+                name="phone"
+                value={formData.phone}
+                onChange={handleChange}
+                required
+                className="w-full px-4 py-3 border-2 border-gray-200 rounded-xl focus:border-amber-500 focus:outline-none focus:ring-2 focus:ring-amber-200 transition-all text-slate-900"
+                placeholder={t.contactForm.phonePlaceholder}
+              />
+            </div>
+
+            {/* Service Selection */}
+            <div>
+              <label htmlFor="service" className="block text-sm font-semibold text-slate-900 mb-2">
+                {t.contactForm.serviceLabel}
+              </label>
+              <select
+                id="service"
+                name="service"
+                value={formData.service}
+                onChange={handleChange}
+                required
+                className="w-full px-4 py-3 border-2 border-gray-200 rounded-xl focus:border-amber-500 focus:outline-none focus:ring-2 focus:ring-amber-200 transition-all text-slate-900 bg-white"
+              >
+                <option value="">{t.contactForm.servicePlaceholder}</option>
+                {t.contactForm.serviceOptions.map((option, idx) => (
+                  <option key={idx} value={option}>
+                    {option}
+                  </option>
+                ))}
+              </select>
+            </div>
+
+            {/* Message */}
+            <div>
+              <label htmlFor="message" className="block text-sm font-semibold text-slate-900 mb-2">
+                {t.contactForm.messageLabel}
+              </label>
+              <textarea
+                id="message"
+                name="message"
+                value={formData.message}
+                onChange={handleChange}
+                required
+                rows="5"
+                className="w-full px-4 py-3 border-2 border-gray-200 rounded-xl focus:border-amber-500 focus:outline-none focus:ring-2 focus:ring-amber-200 transition-all resize-none text-slate-900"
+                placeholder={t.contactForm.messagePlaceholder}
+              ></textarea>
+            </div>
+
+            {/* Submit Button */}
+            <button
+              type="submit"
+              className="w-full btn-premium text-lg py-4 flex items-center justify-center gap-3"
+            >
+              <Send size={20} />
+              {t.contactForm.submitButton}
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+  );
+};
+
+export default ContactForm;

@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Users, Flag, FileText, ScrollText, Heart, Award, Shield, Phone, CheckCircle, Send, Star, ChevronDown } from 'lucide-react';
 import { Link } from 'react-router-dom';
+import ContactForm from '../components/ContactForm';
 
 const HomePage = ({ language, content }) => {
   const t = content[language];
@@ -35,11 +36,11 @@ const HomePage = ({ language, content }) => {
             <p className="text-lg sm:text-xl md:text-2xl lg:text-3xl mb-8 sm:mb-10 text-gray-100 font-light max-w-3xl mx-auto px-4">
               {t.hero.subhead}
             </p>
-            <button className="btn-premium text-base sm:text-lg inline-flex items-center gap-2 w-full sm:w-auto justify-center">
+            <a href="#contact-form" className="btn-premium text-base sm:text-lg inline-flex items-center gap-2 w-full sm:w-auto justify-center">
               <Phone size={18} className="sm:hidden" />
               <Phone size={20} className="hidden sm:block" />
               {t.hero.cta}
-            </button>
+            </a>
           </div>
         </div>
 
@@ -292,6 +293,9 @@ const HomePage = ({ language, content }) => {
         </div>
       </section>
 
+      {/* Contact Form */}
+      <ContactForm language={language} content={content} />
+
       {/* Final CTA Band - Enhanced with Gradient */}
       <section className="py-12 sm:py-16 md:py-24 gradient-premium relative overflow-hidden">
         {/* Animated background */}
@@ -307,12 +311,12 @@ const HomePage = ({ language, content }) => {
           <p className="text-lg sm:text-xl md:text-2xl text-gray-200 mb-8 sm:mb-10 font-light px-4">
             {t.finalCtaText}
           </p>
-          <button className="btn-premium text-base sm:text-lg md:text-xl inline-flex items-center gap-2 sm:gap-3 w-full sm:w-auto justify-center">
+          <a href="#contact-form" className="btn-premium text-base sm:text-lg md:text-xl inline-flex items-center gap-2 sm:gap-3 w-full sm:w-auto justify-center">
             <Phone size={18} className="sm:hidden" />
             <Phone size={20} className="hidden sm:block md:hidden" />
             <Phone size={24} className="hidden md:block" />
             {t.finalCtaButton}
-          </button>
+          </a>
         </div>
       </section>
     </div>
