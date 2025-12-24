@@ -1,9 +1,11 @@
 import React, { useState } from 'react';
+import { useForm, ValidationError } from '@formspree/react';
 import { Send } from 'lucide-react';
 
 const ContactForm = ({ language, content }) => {
   const t = content[language];
   const isRTL = language === 'ar';
+  const [state, handleSubmit] = useForm(import.meta.env.VITE_FORMSPREE_ID);
 
   const [formData, setFormData] = useState({
     name: '',
@@ -20,20 +22,18 @@ const ContactForm = ({ language, content }) => {
     });
   };
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    // Form submission logic will go here
-    console.log('Form submitted:', formData);
-    // Reset form
-    setFormData({
-      name: '',
-      email: '',
-      phone: '',
-      service: '',
-      message: ''
-    });
-    alert(t.contactForm.successMessage);
-  };
+  if (state.succeeded) {
+    return (
+      <section id="contact-form" className="py-12 sm:py-16 md:py-24 gradient-premium relative overflow-hidden">
+         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 text-center">
+            <h2 className="text-3xl sm:text-4xl md:text-5xl font-serif font-bold text-white mb-6">
+              {t.contactForm.successMessage || "Thanks for joining!"}
+            </h2>
+            <div className="w-24 h-1 bg-gradient-to-r from-amber-600 to-amber-400 mx-auto"></div>
+         </div>
+      </section>
+    );
+  }
 
   return (
     <section id="contact-form" className="py-12 sm:py-16 md:py-24 gradient-premium relative overflow-hidden">
