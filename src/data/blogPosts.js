@@ -381,6 +381,196 @@ export const blogPosts = [
     category: "family",
     date: "2025-12-28",
     readTime: 10
+  },
+  {
+    id: 21,
+    slug: "vawa-self-petition-los-angeles",
+    pillar: "family",
+    title: {
+      en: "VAWA Self-Petition in Los Angeles: Immigration Protection for Abuse Survivors",
+      ar: "طلب VAWA الذاتي في لوس أنجلوس: حماية الهجرة للناجين من الإساءة"
+    },
+    excerpt: {
+      en: "Confidential VAWA self-petition help for abuse survivors in Los Angeles. Arabic-speaking staff, safe and private consultations.",
+      ar: "مساعدة سرية في طلب VAWA الذاتي للناجين من الإساءة في لوس أنجلوس. فريق يتحدث العربية، استشارات آمنة وخاصة."
+    },
+    location: "Los Angeles",
+    county: "Los Angeles County",
+    targetDemographic: ["Women", "Abuse Survivors", "Arab"],
+    category: "family",
+    date: "2025-12-28",
+    readTime: 10
+  },
+  {
+    id: 22,
+    slug: "f1-student-visa-extension-irvine",
+    pillar: "work",
+    title: {
+      en: "F-1 Student Visa Extension in Irvine: Guide for International STEM Students",
+      ar: "تمديد تأشيرة الطالب F-1 في إرفاين: دليل لطلاب STEM الدوليين"
+    },
+    excerpt: {
+      en: "F-1 student visa extension and status help in Irvine. STEM OPT, program transfers, and visa maintenance for UCI students.",
+      ar: "تمديد تأشيرة الطالب F-1 ومساعدة الوضع في إرفاين. STEM OPT، نقل البرامج، والحفاظ على التأشيرة لطلاب UCI."
+    },
+    location: "Irvine",
+    county: "Orange County",
+    targetDemographic: ["Student", "STEM", "International"],
+    category: "work",
+    date: "2025-12-28",
+    readTime: 9
+  },
+  {
+    id: 23,
+    slug: "l1a-intracompany-transfer-irvine",
+    pillar: "work",
+    title: {
+      en: "L-1A Intracompany Transfer in Irvine: Executive & Manager Visa for Business Owners",
+      ar: "نقل L-1A داخل الشركة في إرفاين: تأشيرة التنفيذيين والمديرين لأصحاب الأعمال"
+    },
+    excerpt: {
+      en: "L-1A intracompany transfer visa help in Irvine for executives and managers. Arabic-speaking business immigration support.",
+      ar: "مساعدة تأشيرة نقل L-1A داخل الشركة في إرفاين للتنفيذيين والمديرين. دعم هجرة الأعمال بالعربية."
+    },
+    location: "Irvine",
+    county: "Orange County",
+    targetDemographic: ["Business Owner", "Executive", "Manager"],
+    category: "work",
+    date: "2025-12-28",
+    readTime: 11
+  },
+  {
+    id: 24,
+    slug: "consular-processing-vs-adjustment-anaheim",
+    pillar: "status",
+    title: {
+      en: "Consular Processing vs. Adjustment of Status in Anaheim: Which Path to Your Green Card?",
+      ar: "المعالجة القنصلية مقابل تعديل الوضع في أنهايم: أي طريق لبطاقتك الخضراء؟"
+    },
+    excerpt: {
+      en: "Compare consular processing and adjustment of status for your green card in Anaheim. Expert guidance for Little Arabia families.",
+      ar: "قارن المعالجة القنصلية وتعديل الوضع لبطاقتك الخضراء في أنهايم. إرشادات خبراء لعائلات ليتل أريبيا."
+    },
+    location: "Anaheim",
+    county: "Orange County",
+    targetDemographic: ["Arab", "Family"],
+    category: "status",
+    date: "2025-12-28",
+    readTime: 10
+  },
+  {
+    id: 25,
+    slug: "daca-information-riverside",
+    pillar: "community",
+    title: {
+      en: "DACA Information in Riverside: Deferred Action for Childhood Arrivals Guide",
+      ar: "معلومات DACA في ريفرسايد: دليل الإجراء المؤجل للقادمين في الطفولة"
+    },
+    excerpt: {
+      en: "DACA renewal help and information in Riverside for Dreamers. Arabic-speaking immigration assistance for Inland Empire residents.",
+      ar: "مساعدة ومعلومات تجديد DACA في ريفرسايد للحالمين. مساعدة هجرة بالعربية لسكان إنلاند إمباير."
+    },
+    location: "Riverside",
+    county: "Riverside County",
+    targetDemographic: ["Dreamer", "Youth", "Arab"],
+    category: "community",
+    date: "2025-12-28",
+    readTime: 9
+  },
+  {
+    id: 26,
+    slug: "eb5-investment-green-card-irvine",
+    pillar: "work",
+    title: {
+      en: "EB-5 Investment Green Card in Irvine: Investor Visa for Entrepreneurs",
+      ar: "البطاقة الخضراء للاستثمار EB-5 في إرفاين: تأشيرة المستثمر لرواد الأعمال"
+    },
+    excerpt: {
+      en: "EB-5 investment green card guidance in Irvine for entrepreneurs and investors. Path to permanent residence through investment.",
+      ar: "إرشادات البطاقة الخضراء للاستثمار EB-5 في إرفاين لرواد الأعمال والمستثمرين. طريق للإقامة الدائمة من خلال الاستثمار."
+    },
+    location: "Irvine",
+    county: "Orange County",
+    targetDemographic: ["Investor", "Entrepreneur", "Business"],
+    category: "work",
+    date: "2025-12-28",
+    readTime: 12
+  },
+  {
+    id: 27,
+    slug: "divorce-immigration-impact-garden-grove",
+    pillar: "family",
+    title: {
+      en: "Divorce and Immigration Impact in Garden Grove: Protecting Your Status",
+      ar: "الطلاق وتأثيره على الهجرة في جاردن جروف: حماية وضعك"
+    },
+    excerpt: {
+      en: "How divorce affects your immigration case in Garden Grove. Arabic-speaking help for pending petitions and green cards.",
+      ar: "كيف يؤثر الطلاق على قضية هجرتك في جاردن جروف. مساعدة بالعربية للطلبات المعلقة والبطاقات الخضراء."
+    },
+    location: "Garden Grove",
+    county: "Orange County",
+    targetDemographic: ["Family", "Arab"],
+    category: "family",
+    date: "2025-12-28",
+    readTime: 10
+  },
+  {
+    id: 28,
+    slug: "emergency-passport-services-el-cajon",
+    pillar: "travel",
+    title: {
+      en: "Emergency Passport Services in El Cajon: Travel Document Help for Iraqi Refugees",
+      ar: "خدمات جواز السفر الطارئ في إل كاجون: مساعدة وثائق السفر للاجئين العراقيين"
+    },
+    excerpt: {
+      en: "Emergency passport help for Iraqi refugees in El Cajon. Expedited processing and refugee travel document assistance.",
+      ar: "مساعدة جواز السفر الطارئ للاجئين العراقيين في إل كاجون. معالجة سريعة ومساعدة وثائق سفر اللاجئين."
+    },
+    location: "El Cajon",
+    county: "San Diego County",
+    targetDemographic: ["Iraqi", "Refugee", "Emergency"],
+    category: "travel",
+    date: "2025-12-28",
+    readTime: 8
+  },
+  {
+    id: 29,
+    slug: "medical-exam-i693-san-diego",
+    pillar: "status",
+    title: {
+      en: "Immigration Medical Exam I-693 in San Diego: Complete Guide for Green Card Applicants",
+      ar: "الفحص الطبي للهجرة I-693 في سان دييغو: دليل شامل لطالبي البطاقة الخضراء"
+    },
+    excerpt: {
+      en: "Complete guide to immigration medical exam I-693 in San Diego. Find civil surgeons and prepare for your exam.",
+      ar: "دليل كامل للفحص الطبي للهجرة I-693 في سان دييغو. ابحث عن الجراحين المدنيين وجهز لفحصك."
+    },
+    location: "San Diego",
+    county: "San Diego County",
+    targetDemographic: ["Green Card Applicant", "Arab"],
+    category: "status",
+    date: "2025-12-28",
+    readTime: 9
+  },
+  {
+    id: 30,
+    slug: "name-change-immigration-los-angeles",
+    pillar: "documents",
+    title: {
+      en: "Name Change and Immigration in Los Angeles: Legal Name Updates for Immigrants",
+      ar: "تغيير الاسم والهجرة في لوس أنجلوس: تحديثات الاسم القانوني للمهاجرين"
+    },
+    excerpt: {
+      en: "How to change your name during immigration process in Los Angeles. Naturalization name change and document updates.",
+      ar: "كيفية تغيير اسمك أثناء عملية الهجرة في لوس أنجلوس. تغيير اسم التجنس وتحديثات الوثائق."
+    },
+    location: "Los Angeles",
+    county: "Los Angeles County",
+    targetDemographic: ["Naturalization", "Arab"],
+    category: "documents",
+    date: "2025-12-28",
+    readTime: 8
   }
 ];
 
