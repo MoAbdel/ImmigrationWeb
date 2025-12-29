@@ -45,6 +45,10 @@ const Navbar = ({ language, setLanguage, content }) => {
               <span className="hover:text-amber-400 transition-colors font-medium">{t.nav.contact}</span>
               <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-gradient-to-r from-amber-600 to-amber-400 group-hover:w-full transition-all duration-300"></span>
             </a>
+            <Link to="/blog" className="relative group py-2">
+              <span className="hover:text-amber-400 transition-colors font-medium">{t.nav.blog}</span>
+              <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-gradient-to-r from-amber-600 to-amber-400 group-hover:w-full transition-all duration-300"></span>
+            </Link>
           </div>
 
           {/* Right Side: Language Toggle + Mobile Menu Button */}
@@ -102,6 +106,13 @@ const Navbar = ({ language, setLanguage, content }) => {
               >
                 {t.nav.contact}
               </a>
+              <Link
+                to="/blog"
+                className="px-4 py-2 hover:bg-white/10 rounded-lg transition-colors font-medium"
+                onClick={closeMobileMenu}
+              >
+                {t.nav.blog}
+              </Link>
             </div>
           </div>
         )}

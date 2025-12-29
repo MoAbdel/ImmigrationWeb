@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { HelmetProvider } from 'react-helmet-async';
 import { Users, Flag, FileText, ScrollText, Heart, Award, Shield } from 'lucide-react';
 
 // Components
@@ -13,6 +14,29 @@ import StatusCitizenshipPage from './pages/StatusCitizenshipPage';
 import LegalDocumentsPage from './pages/LegalDocumentsPage';
 import ProfessionalServicesPage from './pages/ProfessionalServicesPage';
 
+// Blog
+import BlogPage from './pages/blog/BlogPage';
+import FamilyPetitionI130ElCajon from './pages/blog/posts/FamilyPetitionI130ElCajon';
+import BringingParentsAnaheim from './pages/blog/posts/BringingParentsAnaheim';
+import SiblingImmigrationRiverside from './pages/blog/posts/SiblingImmigrationRiverside';
+import AsylumApplicationElCajon from './pages/blog/posts/AsylumApplicationElCajon';
+import RefugeeAdjustmentSanDiego from './pages/blog/posts/RefugeeAdjustmentSanDiego';
+import K1FianceVisaAnaheim from './pages/blog/posts/K1FianceVisaAnaheim';
+import MarriageGreenCardIrvine from './pages/blog/posts/MarriageGreenCardIrvine';
+import NaturalizationGardenGrove from './pages/blog/posts/NaturalizationGardenGrove';
+import CivicsTestCorona from './pages/blog/posts/CivicsTestCorona';
+import H1BVisaIrvine from './pages/blog/posts/H1BVisaIrvine';
+import OPTtoH1BSanDiego from './pages/blog/posts/OPTtoH1BSanDiego';
+import GreenCardRenewalLosAngeles from './pages/blog/posts/GreenCardRenewalLosAngeles';
+import AdjustmentOfStatusRiverside from './pages/blog/posts/AdjustmentOfStatusRiverside';
+import AdvanceParoleGardenGrove from './pages/blog/posts/AdvanceParoleGardenGrove';
+import RefugeeTravelDocElCajon from './pages/blog/posts/RefugeeTravelDocElCajon';
+import USCISTranslationAnaheim from './pages/blog/posts/USCISTranslationAnaheim';
+import AffidavitOfSupportSanDiego from './pages/blog/posts/AffidavitOfSupportSanDiego';
+import KnowYourRightsLosAngeles from './pages/blog/posts/KnowYourRightsLosAngeles';
+import IraqiChaldeanResourcesElCajon from './pages/blog/posts/IraqiChaldeanResourcesElCajon';
+import I730RefugeeFamilySanDiego from './pages/blog/posts/I730RefugeeFamilySanDiego';
+
 const App = () => {
   const [language, setLanguage] = useState('en');
 
@@ -24,7 +48,8 @@ const App = () => {
         home: "Home",
         services: "Services",
         about: "About",
-        contact: "Contact"
+        contact: "Contact",
+        blog: "Blog"
       },
       langToggle: "العربية",
 
@@ -213,7 +238,8 @@ const App = () => {
         home: "الرئيسية",
         services: "الخدمات",
         about: "من نحن",
-        contact: "اتصل بنا"
+        contact: "اتصل بنا",
+        blog: "المدونة"
       },
       langToggle: "English",
 
@@ -398,23 +424,48 @@ const App = () => {
   };
 
   return (
-    <Router>
-      <div className="min-h-screen flex flex-col">
-        <Navbar language={language} setLanguage={setLanguage} content={content} />
+    <HelmetProvider>
+      <Router>
+        <div className="min-h-screen flex flex-col">
+          <Navbar language={language} setLanguage={setLanguage} content={content} />
 
-        <main className="flex-grow">
-          <Routes>
+          <main className="flex-grow">
+            <Routes>
             <Route path="/" element={<HomePage language={language} content={content} />} />
             <Route path="/services/visas-family" element={<VisasFamilyPage language={language} />} />
             <Route path="/services/status-citizenship" element={<StatusCitizenshipPage language={language} />} />
             <Route path="/services/legal-documents" element={<LegalDocumentsPage language={language} />} />
             <Route path="/services/professional-services" element={<ProfessionalServicesPage language={language} />} />
-          </Routes>
-        </main>
 
-        <Footer language={language} content={content} />
-      </div>
-    </Router>
+            {/* Blog Routes */}
+            <Route path="/blog" element={<BlogPage language={language} />} />
+            <Route path="/blog/family-petition-i130-el-cajon" element={<FamilyPetitionI130ElCajon language={language} />} />
+            <Route path="/blog/bringing-parents-anaheim" element={<BringingParentsAnaheim language={language} />} />
+            <Route path="/blog/sibling-immigration-riverside" element={<SiblingImmigrationRiverside language={language} />} />
+            <Route path="/blog/asylum-application-el-cajon" element={<AsylumApplicationElCajon language={language} />} />
+            <Route path="/blog/refugee-adjustment-san-diego" element={<RefugeeAdjustmentSanDiego language={language} />} />
+            <Route path="/blog/k1-fiance-visa-anaheim" element={<K1FianceVisaAnaheim language={language} />} />
+            <Route path="/blog/marriage-green-card-irvine" element={<MarriageGreenCardIrvine language={language} />} />
+            <Route path="/blog/naturalization-garden-grove" element={<NaturalizationGardenGrove language={language} />} />
+            <Route path="/blog/civics-test-corona" element={<CivicsTestCorona language={language} />} />
+            <Route path="/blog/h1b-visa-irvine" element={<H1BVisaIrvine language={language} />} />
+            <Route path="/blog/opt-to-h1b-san-diego" element={<OPTtoH1BSanDiego language={language} />} />
+            <Route path="/blog/green-card-renewal-los-angeles" element={<GreenCardRenewalLosAngeles language={language} />} />
+            <Route path="/blog/adjustment-of-status-riverside" element={<AdjustmentOfStatusRiverside language={language} />} />
+            <Route path="/blog/advance-parole-garden-grove" element={<AdvanceParoleGardenGrove language={language} />} />
+            <Route path="/blog/refugee-travel-doc-el-cajon" element={<RefugeeTravelDocElCajon language={language} />} />
+            <Route path="/blog/uscis-translation-anaheim" element={<USCISTranslationAnaheim language={language} />} />
+            <Route path="/blog/affidavit-of-support-san-diego" element={<AffidavitOfSupportSanDiego language={language} />} />
+            <Route path="/blog/know-your-rights-los-angeles" element={<KnowYourRightsLosAngeles language={language} />} />
+            <Route path="/blog/iraqi-chaldean-resources-el-cajon" element={<IraqiChaldeanResourcesElCajon language={language} />} />
+            <Route path="/blog/i730-refugee-family-san-diego" element={<I730RefugeeFamilySanDiego language={language} />} />
+          </Routes>
+          </main>
+
+          <Footer language={language} content={content} />
+        </div>
+      </Router>
+    </HelmetProvider>
   );
 };
 
