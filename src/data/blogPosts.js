@@ -571,6 +571,196 @@ export const blogPosts = [
     category: "documents",
     date: "2025-12-28",
     readTime: 8
+  },
+  {
+    id: 31,
+    slug: "credible-fear-interview-glendale",
+    pillar: "asylum",
+    title: {
+      en: "Credible Fear Interview Prep in Glendale: Guide for Armenian & Arab Asylum Seekers",
+      ar: "التحضير لمقابلة الخوف المعقول في غليندال: دليل لطالبي اللجوء الأرمن والعرب"
+    },
+    excerpt: {
+      en: "Expert preparation for credible fear interviews in Glendale. Armenian and Arab asylum seeker support with Arabic-speaking staff.",
+      ar: "إعداد متخصص لمقابلات الخوف المعقول في غليندال. دعم طالبي اللجوء الأرمن والعرب مع فريق يتحدث العربية."
+    },
+    location: "Glendale",
+    county: "Los Angeles County",
+    targetDemographic: ["Armenian", "Arab", "Asylum Seeker"],
+    category: "asylum",
+    date: "2025-12-29",
+    readTime: 12
+  },
+  {
+    id: 32,
+    slug: "work-authorization-ead-rancho-cucamonga",
+    pillar: "status",
+    title: {
+      en: "Work Authorization EAD in Rancho Cucamonga: Employment Authorization Document Guide",
+      ar: "تصريح العمل EAD في رانشو كوكامونجا: دليل وثيقة تصريح العمل"
+    },
+    excerpt: {
+      en: "EAD work permit help in Rancho Cucamonga. I-765 application, renewal, and replacement for Inland Empire workers.",
+      ar: "مساعدة تصريح العمل EAD في رانشو كوكامونجا. طلب I-765، التجديد، والاستبدال لعمال إنلاند إمباير."
+    },
+    location: "Rancho Cucamonga",
+    county: "San Bernardino County",
+    targetDemographic: ["Worker", "Pending Applicant", "Arab"],
+    category: "status",
+    date: "2025-12-29",
+    readTime: 9
+  },
+  {
+    id: 33,
+    slug: "perm-employment-green-card-ontario",
+    pillar: "work",
+    title: {
+      en: "PERM Employment Green Card in Ontario: Labor Certification Guide for Inland Empire Workers",
+      ar: "البطاقة الخضراء للتوظيف PERM في أونتاريو: دليل شهادة العمل لعمال إنلاند إمباير"
+    },
+    excerpt: {
+      en: "PERM labor certification guidance in Ontario CA for employment-based green cards. Support for employers and workers.",
+      ar: "إرشاد شهادة العمل PERM في أونتاريو كاليفورنيا للبطاقات الخضراء القائمة على التوظيف. دعم لأصحاب العمل والعمال."
+    },
+    location: "Ontario",
+    county: "San Bernardino County",
+    targetDemographic: ["Worker", "Professional", "Employer"],
+    category: "work",
+    date: "2025-12-29",
+    readTime: 11
+  },
+  {
+    id: 34,
+    slug: "citizenship-refugees-chula-vista",
+    pillar: "citizenship",
+    title: {
+      en: "Citizenship for Refugees in Chula Vista: Naturalization Guide for South Bay Families",
+      ar: "الجنسية للاجئين في تشولا فيستا: دليل التجنس لعائلات ساوث باي"
+    },
+    excerpt: {
+      en: "Citizenship services for refugees in Chula Vista. N-400 naturalization help for adjusted refugees in South Bay.",
+      ar: "خدمات الجنسية للاجئين في تشولا فيستا. مساعدة التجنس N-400 للاجئين المعدل وضعهم في ساوث باي."
+    },
+    location: "Chula Vista",
+    county: "San Diego County",
+    targetDemographic: ["Refugee", "Arab", "Family"],
+    category: "citizenship",
+    date: "2025-12-29",
+    readTime: 10
+  },
+  {
+    id: 35,
+    slug: "military-spouse-immigration-oceanside",
+    pillar: "marriage",
+    title: {
+      en: "Military Spouse Immigration in Oceanside: Green Card Help for Camp Pendleton Families",
+      ar: "هجرة أزواج العسكريين في أوشنسايد: مساعدة البطاقة الخضراء لعائلات كامب بندلتون"
+    },
+    excerpt: {
+      en: "Military spouse immigration help near Camp Pendleton. Green cards, naturalization, and parole in place for military families.",
+      ar: "مساعدة هجرة أزواج العسكريين بالقرب من كامب بندلتون. البطاقات الخضراء، التجنس، والإفراج المشروط في المكان للعائلات العسكرية."
+    },
+    location: "Oceanside",
+    county: "San Diego County",
+    targetDemographic: ["Military", "Spouse", "Family"],
+    category: "marriage",
+    date: "2025-12-29",
+    readTime: 10
+  },
+  {
+    id: 36,
+    slug: "large-family-immigration-temecula",
+    pillar: "family",
+    title: {
+      en: "Immigration for Large Families in Temecula: Multi-Member Family Petition Guide",
+      ar: "الهجرة للعائلات الكبيرة في تيميكولا: دليل طلبات العائلات متعددة الأفراد"
+    },
+    excerpt: {
+      en: "Immigration help for large families in Temecula. Multi-member petitions, derivative beneficiaries, and children's immigration.",
+      ar: "مساعدة الهجرة للعائلات الكبيرة في تيميكولا. طلبات متعددة الأعضاء، المستفيدون المشتقون، وهجرة الأطفال."
+    },
+    location: "Temecula",
+    county: "Riverside County",
+    targetDemographic: ["Family", "Arab", "Children"],
+    category: "family",
+    date: "2025-12-29",
+    readTime: 9
+  },
+  {
+    id: 37,
+    slug: "reentry-permit-murrieta",
+    pillar: "travel",
+    title: {
+      en: "Re-Entry Permit in Murrieta: Extended Travel for Green Card Holders",
+      ar: "تصريح إعادة الدخول في موريتا: السفر الممتد لحاملي البطاقة الخضراء"
+    },
+    excerpt: {
+      en: "Re-entry permit help in Murrieta for extended travel abroad. Maintain your permanent resident status while traveling.",
+      ar: "مساعدة تصريح إعادة الدخول في موريتا للسفر الممتد للخارج. حافظ على وضع إقامتك الدائمة أثناء السفر."
+    },
+    location: "Murrieta",
+    county: "Riverside County",
+    targetDemographic: ["Green Card Holder", "Traveler", "Arab"],
+    category: "travel",
+    date: "2025-12-29",
+    readTime: 8
+  },
+  {
+    id: 38,
+    slug: "i751-removing-conditions-corona",
+    pillar: "marriage",
+    title: {
+      en: "I-751 Removing Conditions in Corona: Guide for Conditional Green Card Holders",
+      ar: "I-751 إزالة الشروط في كورونا: دليل لحاملي البطاقة الخضراء المشروطة"
+    },
+    excerpt: {
+      en: "I-751 petition help in Corona for conditional green cards. Remove conditions on your marriage-based green card.",
+      ar: "مساعدة طلب I-751 في كورونا للبطاقات الخضراء المشروطة. أزل الشروط عن بطاقتك الخضراء القائمة على الزواج."
+    },
+    location: "Corona",
+    county: "Riverside County",
+    targetDemographic: ["Married Couple", "Conditional Resident", "Arab"],
+    category: "marriage",
+    date: "2025-12-29",
+    readTime: 10
+  },
+  {
+    id: 39,
+    slug: "refugee-resettlement-glendale",
+    pillar: "community",
+    title: {
+      en: "Refugee Resettlement Help in Glendale: Community Resources for Armenian & Arab Refugees",
+      ar: "مساعدة إعادة توطين اللاجئين في غليندال: موارد مجتمعية للاجئين الأرمن والعرب"
+    },
+    excerpt: {
+      en: "Refugee resettlement resources in Glendale. Community support, document services, and immigration help for newly arrived refugees.",
+      ar: "موارد إعادة توطين اللاجئين في غليندال. دعم مجتمعي، خدمات الوثائق، ومساعدة الهجرة للاجئين الواصلين حديثاً."
+    },
+    location: "Glendale",
+    county: "Los Angeles County",
+    targetDemographic: ["Refugee", "Armenian", "Arab"],
+    category: "community",
+    date: "2025-12-29",
+    readTime: 10
+  },
+  {
+    id: 40,
+    slug: "green-card-interview-prep-rancho-cucamonga",
+    pillar: "status",
+    title: {
+      en: "Green Card Interview Prep in Rancho Cucamonga: Complete Guide for Inland Empire Applicants",
+      ar: "التحضير لمقابلة البطاقة الخضراء في رانشو كوكامونجا: دليل شامل لمتقدمي إنلاند إمباير"
+    },
+    excerpt: {
+      en: "Green card interview preparation in Rancho Cucamonga. Mock interviews, document organization, and question preparation.",
+      ar: "التحضير لمقابلة البطاقة الخضراء في رانشو كوكامونجا. مقابلات تجريبية، تنظيم الوثائق، وإعداد الأسئلة."
+    },
+    location: "Rancho Cucamonga",
+    county: "San Bernardino County",
+    targetDemographic: ["Green Card Applicant", "Arab", "Family"],
+    category: "status",
+    date: "2025-12-29",
+    readTime: 11
   }
 ];
 

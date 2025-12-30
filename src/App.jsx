@@ -36,6 +36,26 @@ import AffidavitOfSupportSanDiego from './pages/blog/posts/AffidavitOfSupportSan
 import KnowYourRightsLosAngeles from './pages/blog/posts/KnowYourRightsLosAngeles';
 import IraqiChaldeanResourcesElCajon from './pages/blog/posts/IraqiChaldeanResourcesElCajon';
 import I730RefugeeFamilySanDiego from './pages/blog/posts/I730RefugeeFamilySanDiego';
+import VAWASelfPetitionLosAngeles from './pages/blog/posts/VAWASelfPetitionLosAngeles';
+import F1StudentVisaIrvine from './pages/blog/posts/F1StudentVisaIrvine';
+import L1AIntracompanyIrvine from './pages/blog/posts/L1AIntracompanyIrvine';
+import ConsularProcessingAnaheim from './pages/blog/posts/ConsularProcessingAnaheim';
+import DACAInformationRiverside from './pages/blog/posts/DACAInformationRiverside';
+import EB5InvestmentIrvine from './pages/blog/posts/EB5InvestmentIrvine';
+import DivorceImmigrationGardenGrove from './pages/blog/posts/DivorceImmigrationGardenGrove';
+import EmergencyPassportElCajon from './pages/blog/posts/EmergencyPassportElCajon';
+import MedicalExamI693SanDiego from './pages/blog/posts/MedicalExamI693SanDiego';
+import NameChangeImmigrationLosAngeles from './pages/blog/posts/NameChangeImmigrationLosAngeles';
+import CredibleFearInterviewGlendale from './pages/blog/posts/CredibleFearInterviewGlendale';
+import WorkAuthorizationEADRanchoCucamonga from './pages/blog/posts/WorkAuthorizationEADRanchoCucamonga';
+import PERMEmploymentGreenCardOntario from './pages/blog/posts/PERMEmploymentGreenCardOntario';
+import CitizenshipRefugeesChulVista from './pages/blog/posts/CitizenshipRefugeesChulVista';
+import MilitarySpouseImmigrationOceanside from './pages/blog/posts/MilitarySpouseImmigrationOceanside';
+import LargeFamilyImmigrationTemecula from './pages/blog/posts/LargeFamilyImmigrationTemecula';
+import ReEntryPermitMurrieta from './pages/blog/posts/ReEntryPermitMurrieta';
+import I751RemovingConditionsCorona from './pages/blog/posts/I751RemovingConditionsCorona';
+import RefugeeResettlementGlendale from './pages/blog/posts/RefugeeResettlementGlendale';
+import GreenCardInterviewPrepRanchoCucamonga from './pages/blog/posts/GreenCardInterviewPrepRanchoCucamonga';
 
 const App = () => {
   const [language, setLanguage] = useState('en');
@@ -459,6 +479,26 @@ const App = () => {
             <Route path="/blog/know-your-rights-los-angeles" element={<KnowYourRightsLosAngeles language={language} />} />
             <Route path="/blog/iraqi-chaldean-resources-el-cajon" element={<IraqiChaldeanResourcesElCajon language={language} />} />
             <Route path="/blog/i730-refugee-family-san-diego" element={<I730RefugeeFamilySanDiego language={language} />} />
+            <Route path="/blog/vawa-self-petition-los-angeles" element={<VAWASelfPetitionLosAngeles language={language} />} />
+            <Route path="/blog/f1-student-visa-extension-irvine" element={<F1StudentVisaIrvine language={language} />} />
+            <Route path="/blog/l1a-intracompany-transfer-irvine" element={<L1AIntracompanyIrvine language={language} />} />
+            <Route path="/blog/consular-processing-vs-adjustment-anaheim" element={<ConsularProcessingAnaheim language={language} />} />
+            <Route path="/blog/daca-information-riverside" element={<DACAInformationRiverside language={language} />} />
+            <Route path="/blog/eb5-investment-green-card-irvine" element={<EB5InvestmentIrvine language={language} />} />
+            <Route path="/blog/divorce-immigration-impact-garden-grove" element={<DivorceImmigrationGardenGrove language={language} />} />
+            <Route path="/blog/emergency-passport-services-el-cajon" element={<EmergencyPassportElCajon language={language} />} />
+            <Route path="/blog/medical-exam-i693-san-diego" element={<MedicalExamI693SanDiego language={language} />} />
+            <Route path="/blog/name-change-immigration-los-angeles" element={<NameChangeImmigrationLosAngeles language={language} />} />
+            <Route path="/blog/credible-fear-interview-glendale" element={<CredibleFearInterviewGlendale language={language} />} />
+            <Route path="/blog/work-authorization-ead-rancho-cucamonga" element={<WorkAuthorizationEADRanchoCucamonga language={language} />} />
+            <Route path="/blog/perm-employment-green-card-ontario" element={<PERMEmploymentGreenCardOntario language={language} />} />
+            <Route path="/blog/citizenship-refugees-chula-vista" element={<CitizenshipRefugeesChulVista language={language} />} />
+            <Route path="/blog/military-spouse-immigration-oceanside" element={<MilitarySpouseImmigrationOceanside language={language} />} />
+            <Route path="/blog/large-family-immigration-temecula" element={<LargeFamilyImmigrationTemecula language={language} />} />
+            <Route path="/blog/reentry-permit-murrieta" element={<ReEntryPermitMurrieta language={language} />} />
+            <Route path="/blog/i751-removing-conditions-corona" element={<I751RemovingConditionsCorona language={language} />} />
+            <Route path="/blog/refugee-resettlement-glendale" element={<RefugeeResettlementGlendale language={language} />} />
+            <Route path="/blog/green-card-interview-prep-rancho-cucamonga" element={<GreenCardInterviewPrepRanchoCucamonga language={language} />} />
           </Routes>
           </main>
 
