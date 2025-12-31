@@ -56,6 +56,16 @@ import ReEntryPermitMurrieta from './pages/blog/posts/ReEntryPermitMurrieta';
 import I751RemovingConditionsCorona from './pages/blog/posts/I751RemovingConditionsCorona';
 import RefugeeResettlementGlendale from './pages/blog/posts/RefugeeResettlementGlendale';
 import GreenCardInterviewPrepRanchoCucamonga from './pages/blog/posts/GreenCardInterviewPrepRanchoCucamonga';
+import UVisaCrimeVictimsSantaAna from './pages/blog/posts/UVisaCrimeVictimsSantaAna';
+import TPSTemporaryProtectedStatusLongBeach from './pages/blog/posts/TPSTemporaryProtectedStatusLongBeach';
+import B1B2VisaExtensionFullerton from './pages/blog/posts/B1B2VisaExtensionFullerton';
+import N600CertificateCitizenshipCostaMesa from './pages/blog/posts/N600CertificateCitizenshipCostaMesa';
+import I601WaiverEscondido from './pages/blog/posts/I601WaiverEscondido';
+import HumanitarianParoleFontana from './pages/blog/posts/HumanitarianParoleFontana';
+import PublicChargeRulePomona from './pages/blog/posts/PublicChargeRulePomona';
+import I864AJointSponsorTorrance from './pages/blog/posts/I864AJointSponsorTorrance';
+import TNVisaSanBernardino from './pages/blog/posts/TNVisaSanBernardino';
+import ExpeditedNaturalizationVista from './pages/blog/posts/ExpeditedNaturalizationVista';
 
 const App = () => {
   const [language, setLanguage] = useState('en');
@@ -499,6 +509,16 @@ const App = () => {
             <Route path="/blog/i751-removing-conditions-corona" element={<I751RemovingConditionsCorona language={language} />} />
             <Route path="/blog/refugee-resettlement-glendale" element={<RefugeeResettlementGlendale language={language} />} />
             <Route path="/blog/green-card-interview-prep-rancho-cucamonga" element={<GreenCardInterviewPrepRanchoCucamonga language={language} />} />
+            <Route path="/blog/u-visa-crime-victims-santa-ana" element={<UVisaCrimeVictimsSantaAna language={language} />} />
+            <Route path="/blog/tps-temporary-protected-status-long-beach" element={<TPSTemporaryProtectedStatusLongBeach language={language} />} />
+            <Route path="/blog/b1-b2-visa-extension-fullerton" element={<B1B2VisaExtensionFullerton language={language} />} />
+            <Route path="/blog/n600-certificate-citizenship-costa-mesa" element={<N600CertificateCitizenshipCostaMesa language={language} />} />
+            <Route path="/blog/i-601-waiver-escondido" element={<I601WaiverEscondido language={language} />} />
+            <Route path="/blog/humanitarian-parole-fontana" element={<HumanitarianParoleFontana language={language} />} />
+            <Route path="/blog/public-charge-rule-pomona" element={<PublicChargeRulePomona language={language} />} />
+            <Route path="/blog/i-864a-joint-sponsor-torrance" element={<I864AJointSponsorTorrance language={language} />} />
+            <Route path="/blog/tn-visa-san-bernardino" element={<TNVisaSanBernardino language={language} />} />
+            <Route path="/blog/expedited-naturalization-vista" element={<ExpeditedNaturalizationVista language={language} />} />
           </Routes>
           </main>
 

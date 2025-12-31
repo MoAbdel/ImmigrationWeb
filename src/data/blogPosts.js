@@ -761,6 +761,196 @@ export const blogPosts = [
     category: "status",
     date: "2025-12-29",
     readTime: 11
+  },
+  {
+    id: 41,
+    slug: "u-visa-crime-victims-santa-ana",
+    pillar: "status",
+    title: {
+      en: "U Visa for Crime Victims in Santa Ana: Protection for Immigrant Survivors",
+      ar: "تأشيرة U لضحايا الجرائم في سانتا آنا: حماية للناجين المهاجرين"
+    },
+    excerpt: {
+      en: "U visa help for crime victims in Santa Ana. Arabic-speaking support for immigrant survivors seeking work authorization and path to green card.",
+      ar: "مساعدة تأشيرة U لضحايا الجرائم في سانتا آنا. دعم بالعربية للناجين المهاجرين الباحثين عن تصريح العمل والطريق إلى البطاقة الخضراء."
+    },
+    location: "Santa Ana",
+    county: "Orange County",
+    targetDemographic: ["Crime Victim", "Abuse Survivor", "Arab"],
+    category: "status",
+    date: "2025-12-30",
+    readTime: 11
+  },
+  {
+    id: 42,
+    slug: "tps-temporary-protected-status-long-beach",
+    pillar: "status",
+    title: {
+      en: "TPS Temporary Protected Status in Long Beach: Guide for Protected Nationals",
+      ar: "TPS الوضع المحمي المؤقت في لونغ بيتش: دليل للمواطنين المحميين"
+    },
+    excerpt: {
+      en: "TPS help in Long Beach for nationals of designated countries. Arabic-speaking support for work permit renewal and status maintenance.",
+      ar: "مساعدة TPS في لونغ بيتش لمواطني البلدان المعينة. دعم بالعربية لتجديد تصريح العمل والحفاظ على الوضع."
+    },
+    location: "Long Beach",
+    county: "Los Angeles County",
+    targetDemographic: ["Syrian", "Yemeni", "TPS Holder", "Arab"],
+    category: "status",
+    date: "2025-12-30",
+    readTime: 10
+  },
+  {
+    id: 43,
+    slug: "b1-b2-visa-extension-fullerton",
+    pillar: "travel",
+    title: {
+      en: "B1/B2 Visa Extension in Fullerton: Extend Your Visitor Stay in Orange County",
+      ar: "تمديد تأشيرة B1/B2 في فولرتون: مدد إقامتك كزائر في مقاطعة أورانج"
+    },
+    excerpt: {
+      en: "B1/B2 visitor visa extension help in Fullerton. Arabic-speaking support for tourist and business visa extensions with Form I-539 preparation.",
+      ar: "مساعدة تمديد تأشيرة الزائر B1/B2 في فولرتون. دعم بالعربية لتمديدات تأشيرة السياحة والأعمال مع إعداد نموذج I-539."
+    },
+    location: "Fullerton",
+    county: "Orange County",
+    targetDemographic: ["Visitor", "Tourist", "Business", "Arab"],
+    category: "travel",
+    date: "2025-12-30",
+    readTime: 9
+  },
+  {
+    id: 44,
+    slug: "n600-certificate-citizenship-costa-mesa",
+    pillar: "citizenship",
+    title: {
+      en: "N-600 Certificate of Citizenship in Costa Mesa: Proof of U.S. Citizenship for Children",
+      ar: "شهادة الجنسية N-600 في كوستا ميسا: إثبات الجنسية الأمريكية للأطفال"
+    },
+    excerpt: {
+      en: "N-600 application help in Costa Mesa for children who acquired U.S. citizenship through parents. Arabic-speaking citizenship documentation support.",
+      ar: "مساعدة طلب N-600 في كوستا ميسا للأطفال الذين اكتسبوا الجنسية الأمريكية من خلال الوالدين. دعم توثيق الجنسية بالعربية."
+    },
+    location: "Costa Mesa",
+    county: "Orange County",
+    targetDemographic: ["Child", "Derived Citizenship", "Arab"],
+    category: "citizenship",
+    date: "2025-12-30",
+    readTime: 10
+  },
+  {
+    id: 45,
+    slug: "i-601-waiver-escondido",
+    pillar: "status",
+    title: {
+      en: "I-601 Waiver in Escondido: Overcoming Inadmissibility for Green Card Applicants",
+      ar: "إعفاء I-601 في إسكونديدو: التغلب على عدم القبول لمتقدمي البطاقة الخضراء"
+    },
+    excerpt: {
+      en: "I-601 waiver help in Escondido for green card applicants with inadmissibility issues. Arabic-speaking support for unlawful presence waivers.",
+      ar: "مساعدة إعفاء I-601 في إسكونديدو لمتقدمي البطاقة الخضراء الذين لديهم مشاكل عدم القبول. دعم بالعربية لإعفاءات الوجود غير القانوني."
+    },
+    location: "Escondido",
+    county: "San Diego County",
+    targetDemographic: ["Waiver", "Inadmissible", "Arab"],
+    category: "status",
+    date: "2025-12-30",
+    readTime: 11
+  },
+  {
+    id: 46,
+    slug: "humanitarian-parole-fontana",
+    pillar: "status",
+    title: {
+      en: "Humanitarian Parole in Fontana: Emergency Entry to the United States",
+      ar: "الإفراج الإنساني في فونتانا: الدخول الطارئ إلى الولايات المتحدة"
+    },
+    excerpt: {
+      en: "Humanitarian parole help in Fontana for urgent emergencies. Arabic-speaking support for family medical emergencies and humanitarian cases.",
+      ar: "مساعدة الإفراج الإنساني في فونتانا للطوارئ العاجلة. دعم بالعربية لحالات الطوارئ الطبية العائلية والحالات الإنسانية."
+    },
+    location: "Fontana",
+    county: "San Bernardino County",
+    targetDemographic: ["Emergency", "Humanitarian", "Arab"],
+    category: "status",
+    date: "2025-12-30",
+    readTime: 10
+  },
+  {
+    id: 47,
+    slug: "public-charge-rule-pomona",
+    pillar: "community",
+    title: {
+      en: "Public Charge Rule in Pomona: What Immigrants Need to Know",
+      ar: "قاعدة العبء العام في بومونا: ما يحتاج المهاجرون معرفته"
+    },
+    excerpt: {
+      en: "Public charge rule guidance in Pomona. Understanding how benefits affect green card applications with Arabic-speaking immigration help.",
+      ar: "إرشاد قاعدة العبء العام في بومونا. فهم كيف تؤثر المزايا على طلبات البطاقة الخضراء مع مساعدة الهجرة بالعربية."
+    },
+    location: "Pomona",
+    county: "Los Angeles County",
+    targetDemographic: ["Benefits", "Green Card Applicant", "Arab"],
+    category: "community",
+    date: "2025-12-30",
+    readTime: 9
+  },
+  {
+    id: 48,
+    slug: "i-864a-joint-sponsor-torrance",
+    pillar: "family",
+    title: {
+      en: "I-864A Joint Sponsor in Torrance: When Your Sponsor Needs Help",
+      ar: "الكفيل المشترك I-864A في تورانس: عندما يحتاج كفيلك مساعدة"
+    },
+    excerpt: {
+      en: "I-864A joint sponsor help in Torrance. When income is insufficient for green card sponsorship with Arabic-speaking immigration support.",
+      ar: "مساعدة الكفيل المشترك I-864A في تورانس. عندما يكون الدخل غير كافٍ لكفالة البطاقة الخضراء مع دعم الهجرة بالعربية."
+    },
+    location: "Torrance",
+    county: "Los Angeles County",
+    targetDemographic: ["Sponsor", "Family", "Arab"],
+    category: "family",
+    date: "2025-12-30",
+    readTime: 9
+  },
+  {
+    id: 49,
+    slug: "tn-visa-san-bernardino",
+    pillar: "work",
+    title: {
+      en: "TN Visa in San Bernardino: NAFTA/USMCA Professional Work Visa Guide",
+      ar: "تأشيرة TN في سان برناردينو: دليل تأشيرة العمل المهنية NAFTA/USMCA"
+    },
+    excerpt: {
+      en: "TN visa help in San Bernardino for Canadian and Mexican professionals. USMCA work authorization for qualified occupations.",
+      ar: "مساعدة تأشيرة TN في سان برناردينو للمهنيين الكنديين والمكسيكيين. تصريح العمل USMCA للمهن المؤهلة."
+    },
+    location: "San Bernardino",
+    county: "San Bernardino County",
+    targetDemographic: ["Professional", "Canadian", "Mexican"],
+    category: "work",
+    date: "2025-12-30",
+    readTime: 10
+  },
+  {
+    id: 50,
+    slug: "expedited-naturalization-vista",
+    pillar: "citizenship",
+    title: {
+      en: "Expedited Naturalization in Vista: Fast Track to U.S. Citizenship",
+      ar: "التجنس السريع في فيستا: المسار السريع للجنسية الأمريكية"
+    },
+    excerpt: {
+      en: "Expedited naturalization help in Vista for military, spouses of citizens, and urgent cases. Arabic-speaking citizenship support.",
+      ar: "مساعدة التجنس السريع في فيستا للعسكريين وأزواج المواطنين والحالات العاجلة. دعم الجنسية بالعربية."
+    },
+    location: "Vista",
+    county: "San Diego County",
+    targetDemographic: ["Military", "Spouse", "Urgent", "Arab"],
+    category: "citizenship",
+    date: "2025-12-30",
+    readTime: 10
   }
 ];
 
