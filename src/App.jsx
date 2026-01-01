@@ -66,6 +66,16 @@ import PublicChargeRulePomona from './pages/blog/posts/PublicChargeRulePomona';
 import I864AJointSponsorTorrance from './pages/blog/posts/I864AJointSponsorTorrance';
 import TNVisaSanBernardino from './pages/blog/posts/TNVisaSanBernardino';
 import ExpeditedNaturalizationVista from './pages/blog/posts/ExpeditedNaturalizationVista';
+import E2TreatyInvestorAnaheim from './pages/blog/posts/E2TreatyInvestorAnaheim';
+import YemeniRefugeeSupportElCajon from './pages/blog/posts/YemeniRefugeeSupportElCajon';
+import MarriageFraudDefenseGardenGrove from './pages/blog/posts/MarriageFraudDefenseGardenGrove';
+import N648MedicalWaiverSanDiego from './pages/blog/posts/N648MedicalWaiverSanDiego';
+import USCISCaseStatusLosAngeles from './pages/blog/posts/USCISCaseStatusLosAngeles';
+import I130UnmarriedChildrenRiverside from './pages/blog/posts/I130UnmarriedChildrenRiverside';
+import CitizenshipMarriageCorona from './pages/blog/posts/CitizenshipMarriageCorona';
+import IraqiSIVElCajon from './pages/blog/posts/IraqiSIVElCajon';
+import K3SpouseVisaOntario from './pages/blog/posts/K3SpouseVisaOntario';
+import AvoidingImmigrationScamsAnaheim from './pages/blog/posts/AvoidingImmigrationScamsAnaheim';
 
 const App = () => {
   const [language, setLanguage] = useState('en');
@@ -519,6 +529,16 @@ const App = () => {
             <Route path="/blog/i-864a-joint-sponsor-torrance" element={<I864AJointSponsorTorrance language={language} />} />
             <Route path="/blog/tn-visa-san-bernardino" element={<TNVisaSanBernardino language={language} />} />
             <Route path="/blog/expedited-naturalization-vista" element={<ExpeditedNaturalizationVista language={language} />} />
+            <Route path="/blog/e2-treaty-investor-visa-anaheim" element={<E2TreatyInvestorAnaheim language={language} />} />
+            <Route path="/blog/yemeni-refugee-support-el-cajon" element={<YemeniRefugeeSupportElCajon language={language} />} />
+            <Route path="/blog/marriage-fraud-investigation-defense-garden-grove" element={<MarriageFraudDefenseGardenGrove language={language} />} />
+            <Route path="/blog/n648-medical-disability-waiver-san-diego" element={<N648MedicalWaiverSanDiego language={language} />} />
+            <Route path="/blog/uscis-case-status-inquiry-los-angeles" element={<USCISCaseStatusLosAngeles language={language} />} />
+            <Route path="/blog/i130-unmarried-adult-children-riverside" element={<I130UnmarriedChildrenRiverside language={language} />} />
+            <Route path="/blog/citizenship-through-marriage-corona" element={<CitizenshipMarriageCorona language={language} />} />
+            <Route path="/blog/iraqi-siv-special-immigrant-visa-el-cajon" element={<IraqiSIVElCajon language={language} />} />
+            <Route path="/blog/k3-spouse-visa-ontario" element={<K3SpouseVisaOntario language={language} />} />
+            <Route path="/blog/avoiding-immigration-scams-anaheim" element={<AvoidingImmigrationScamsAnaheim language={language} />} />
           </Routes>
           </main>
 

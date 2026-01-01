@@ -951,6 +951,196 @@ export const blogPosts = [
     category: "citizenship",
     date: "2025-12-30",
     readTime: 10
+  },
+  {
+    id: 51,
+    slug: "e2-treaty-investor-visa-anaheim",
+    pillar: "work",
+    title: {
+      en: "E-2 Treaty Investor Visa in Anaheim: Start Your Business in Little Arabia",
+      ar: "تأشيرة المستثمر E-2 في أنهايم: ابدأ عملك في ليتل أريبيا"
+    },
+    excerpt: {
+      en: "E-2 treaty investor visa help for Arab entrepreneurs in Anaheim's Little Arabia. Start or buy a business in the U.S.",
+      ar: "مساعدة تأشيرة المستثمر E-2 لرواد الأعمال العرب في ليتل أريبيا أنهايم. ابدأ أو اشترِ عملاً في الولايات المتحدة."
+    },
+    location: "Anaheim",
+    county: "Orange County",
+    targetDemographic: ["Entrepreneur", "Business Owner", "Arab"],
+    category: "work",
+    date: "2026-01-01",
+    readTime: 11
+  },
+  {
+    id: 52,
+    slug: "yemeni-refugee-support-el-cajon",
+    pillar: "asylum",
+    title: {
+      en: "Yemeni Refugee Support in El Cajon: Asylum & Immigration Help",
+      ar: "دعم اللاجئين اليمنيين في إل كاجون: مساعدة اللجوء والهجرة"
+    },
+    excerpt: {
+      en: "Compassionate support for Yemeni refugees in El Cajon. Help with asylum, TPS, and family reunification.",
+      ar: "دعم رحيم للاجئين اليمنيين في إل كاجون. مساعدة في اللجوء، TPS، ولم شمل الأسرة."
+    },
+    location: "El Cajon",
+    county: "San Diego County",
+    targetDemographic: ["Yemeni", "Refugee", "Asylum"],
+    category: "asylum",
+    date: "2026-01-01",
+    readTime: 12
+  },
+  {
+    id: 53,
+    slug: "marriage-fraud-investigation-defense-garden-grove",
+    pillar: "marriage",
+    title: {
+      en: "Marriage Fraud Investigation Defense in Garden Grove: Protecting Your Case",
+      ar: "الدفاع في تحقيق احتيال الزواج في جاردن جروف: حماية قضيتك"
+    },
+    excerpt: {
+      en: "Help for genuine couples facing marriage fraud investigations. Prepare evidence and respond to USCIS inquiries.",
+      ar: "مساعدة للأزواج الحقيقيين الذين يواجهون تحقيقات احتيال الزواج. إعداد الأدلة والرد على استفسارات USCIS."
+    },
+    location: "Garden Grove",
+    county: "Orange County",
+    targetDemographic: ["Married Couple", "Arab"],
+    category: "marriage",
+    date: "2026-01-01",
+    readTime: 10
+  },
+  {
+    id: 54,
+    slug: "n648-medical-disability-waiver-san-diego",
+    pillar: "citizenship",
+    title: {
+      en: "N-648 Medical Disability Waiver in San Diego: English & Civics Test Exemption",
+      ar: "إعفاء الإعاقة الطبية N-648 في سان دييغو: إعفاء اختبار الإنجليزية والتربية المدنية"
+    },
+    excerpt: {
+      en: "Medical waiver help for citizenship applicants with disabilities. Get exempt from English and civics tests.",
+      ar: "مساعدة الإعفاء الطبي لمتقدمي الجنسية ذوي الإعاقات. احصل على إعفاء من اختبارات الإنجليزية والتربية المدنية."
+    },
+    location: "San Diego",
+    county: "San Diego County",
+    targetDemographic: ["Senior", "Disabled", "Arab"],
+    category: "citizenship",
+    date: "2026-01-01",
+    readTime: 9
+  },
+  {
+    id: 55,
+    slug: "uscis-case-status-inquiry-los-angeles",
+    pillar: "documents",
+    title: {
+      en: "USCIS Case Status Inquiry in Los Angeles: Track Your Immigration Case",
+      ar: "الاستعلام عن حالة قضية USCIS في لوس أنجلوس: تتبع قضية هجرتك"
+    },
+    excerpt: {
+      en: "Help tracking your immigration case status in Los Angeles. Understand delays and request expedites.",
+      ar: "مساعدة في تتبع حالة قضية هجرتك في لوس أنجلوس. فهم التأخيرات وطلب التسريع."
+    },
+    location: "Los Angeles",
+    county: "Los Angeles County",
+    targetDemographic: ["All", "Arab"],
+    category: "documents",
+    date: "2026-01-01",
+    readTime: 8
+  },
+  {
+    id: 56,
+    slug: "i130-unmarried-adult-children-riverside",
+    pillar: "family",
+    title: {
+      en: "I-130 for Unmarried Adult Children in Riverside: F2B Family Preference Guide",
+      ar: "I-130 للأطفال البالغين غير المتزوجين في ريفرسايد: دليل فئة التفضيل العائلي F2B"
+    },
+    excerpt: {
+      en: "Help sponsoring your unmarried adult children in Riverside. F2B preference category guide for Inland Empire families.",
+      ar: "مساعدة في كفالة أطفالك البالغين غير المتزوجين في ريفرسايد. دليل فئة التفضيل F2B لعائلات إنلاند إمباير."
+    },
+    location: "Riverside",
+    county: "Riverside County",
+    targetDemographic: ["Family", "Arab"],
+    category: "family",
+    date: "2026-01-01",
+    readTime: 9
+  },
+  {
+    id: 57,
+    slug: "citizenship-through-marriage-corona",
+    pillar: "citizenship",
+    title: {
+      en: "Citizenship Through Marriage in Corona: 3-Year Naturalization Guide",
+      ar: "الجنسية من خلال الزواج في كورونا: دليل التجنس لـ 3 سنوات"
+    },
+    excerpt: {
+      en: "Faster path to citizenship for spouses of U.S. citizens. Qualify after 3 years instead of 5.",
+      ar: "مسار أسرع للجنسية لأزواج المواطنين الأمريكيين. تأهل بعد 3 سنوات بدلاً من 5."
+    },
+    location: "Corona",
+    county: "Riverside County",
+    targetDemographic: ["Married", "Arab"],
+    category: "citizenship",
+    date: "2026-01-01",
+    readTime: 10
+  },
+  {
+    id: 58,
+    slug: "iraqi-siv-special-immigrant-visa-el-cajon",
+    pillar: "asylum",
+    title: {
+      en: "Iraqi SIV Special Immigrant Visa in El Cajon: Guide for Translators & Interpreters",
+      ar: "تأشيرة المهاجر الخاص العراقي SIV في إل كاجون: دليل للمترجمين والمترجمين الفوريين"
+    },
+    excerpt: {
+      en: "Special Immigrant Visa help for Iraqis who served with U.S. forces. SIV for translators and interpreters.",
+      ar: "مساعدة تأشيرة المهاجر الخاص للعراقيين الذين خدموا مع القوات الأمريكية. SIV للمترجمين والمترجمين الفوريين."
+    },
+    location: "El Cajon",
+    county: "San Diego County",
+    targetDemographic: ["Iraqi", "Translator", "Veteran"],
+    category: "asylum",
+    date: "2026-01-01",
+    readTime: 11
+  },
+  {
+    id: 59,
+    slug: "k3-spouse-visa-ontario",
+    pillar: "marriage",
+    title: {
+      en: "K-3 Spouse Visa in Ontario: Bringing Your Spouse to America Faster",
+      ar: "تأشيرة الزوج K-3 في أونتاريو: إحضار زوجتك إلى أمريكا أسرع"
+    },
+    excerpt: {
+      en: "Understanding the K-3 non-immigrant spouse visa option. Comparing K-3 to CR-1/IR-1 immigrant visas.",
+      ar: "فهم خيار تأشيرة الزوج غير المهاجر K-3. مقارنة K-3 مع تأشيرات المهاجر CR-1/IR-1."
+    },
+    location: "Ontario",
+    county: "San Bernardino County",
+    targetDemographic: ["Married", "Arab"],
+    category: "marriage",
+    date: "2026-01-01",
+    readTime: 9
+  },
+  {
+    id: 60,
+    slug: "avoiding-immigration-scams-anaheim",
+    pillar: "community",
+    title: {
+      en: "Avoiding Immigration Scams in Anaheim: Protect Yourself in Little Arabia",
+      ar: "تجنب عمليات الاحتيال في الهجرة في أنهايم: احمِ نفسك في ليتل أريبيا"
+    },
+    excerpt: {
+      en: "Learn to identify and avoid immigration fraud targeting Arab communities. Protect your family and your case.",
+      ar: "تعلم تحديد وتجنب الاحتيال في الهجرة الذي يستهدف المجتمعات العربية. احمِ عائلتك وقضيتك."
+    },
+    location: "Anaheim",
+    county: "Orange County",
+    targetDemographic: ["All", "Arab"],
+    category: "community",
+    date: "2026-01-01",
+    readTime: 10
   }
 ];
 
