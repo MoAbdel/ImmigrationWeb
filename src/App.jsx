@@ -76,6 +76,16 @@ import CitizenshipMarriageCorona from './pages/blog/posts/CitizenshipMarriageCor
 import IraqiSIVElCajon from './pages/blog/posts/IraqiSIVElCajon';
 import K3SpouseVisaOntario from './pages/blog/posts/K3SpouseVisaOntario';
 import AvoidingImmigrationScamsAnaheim from './pages/blog/posts/AvoidingImmigrationScamsAnaheim';
+import EB2NIWWestminster from './pages/blog/posts/EB2NIWWestminster';
+import H4EADWorkPermitBuenaPark from './pages/blog/posts/H4EADWorkPermitBuenaPark';
+import DeportationDefensePasadena from './pages/blog/posts/DeportationDefensePasadena';
+import PalestinianAsylumChulaVista from './pages/blog/posts/PalestinianAsylumChulaVista';
+import ChildStatusProtectionActHuntingtonBeach from './pages/blog/posts/ChildStatusProtectionActHuntingtonBeach';
+import I290BMotionReopenLakeForest from './pages/blog/posts/I290BMotionReopenLakeForest';
+import DeferredInspectionMissionViejo from './pages/blog/posts/DeferredInspectionMissionViejo';
+import AdoptionImmigrationWhittier from './pages/blog/posts/AdoptionImmigrationWhittier';
+import EmploymentVerificationI9Downey from './pages/blog/posts/EmploymentVerificationI9Downey';
+import ArabSeniorResourcesSantaClarita from './pages/blog/posts/ArabSeniorResourcesSantaClarita';
 
 const App = () => {
   const [language, setLanguage] = useState('en');
@@ -539,6 +549,16 @@ const App = () => {
             <Route path="/blog/iraqi-siv-special-immigrant-visa-el-cajon" element={<IraqiSIVElCajon language={language} />} />
             <Route path="/blog/k3-spouse-visa-ontario" element={<K3SpouseVisaOntario language={language} />} />
             <Route path="/blog/avoiding-immigration-scams-anaheim" element={<AvoidingImmigrationScamsAnaheim language={language} />} />
+            <Route path="/blog/eb2-niw-national-interest-waiver-westminster" element={<EB2NIWWestminster language={language} />} />
+            <Route path="/blog/h4-ead-work-permit-buena-park" element={<H4EADWorkPermitBuenaPark language={language} />} />
+            <Route path="/blog/deportation-defense-help-pasadena" element={<DeportationDefensePasadena language={language} />} />
+            <Route path="/blog/palestinian-asylum-support-chula-vista" element={<PalestinianAsylumChulaVista language={language} />} />
+            <Route path="/blog/child-status-protection-act-huntington-beach" element={<ChildStatusProtectionActHuntingtonBeach language={language} />} />
+            <Route path="/blog/i-290b-motion-reopen-reconsider-lake-forest" element={<I290BMotionReopenLakeForest language={language} />} />
+            <Route path="/blog/deferred-inspection-mission-viejo" element={<DeferredInspectionMissionViejo language={language} />} />
+            <Route path="/blog/adoption-immigration-whittier" element={<AdoptionImmigrationWhittier language={language} />} />
+            <Route path="/blog/employment-verification-i9-downey" element={<EmploymentVerificationI9Downey language={language} />} />
+            <Route path="/blog/arab-senior-citizens-immigration-resources-santa-clarita" element={<ArabSeniorResourcesSantaClarita language={language} />} />
           </Routes>
           </main>
 

@@ -1141,6 +1141,196 @@ export const blogPosts = [
     category: "community",
     date: "2026-01-01",
     readTime: 10
+  },
+  {
+    id: 61,
+    slug: "eb2-niw-national-interest-waiver-westminster",
+    pillar: "work",
+    title: {
+      en: "EB-2 NIW National Interest Waiver in Westminster: Green Card Without Employer Sponsor",
+      ar: "إعفاء المصلحة الوطنية EB-2 NIW في ويستمنستر: البطاقة الخضراء بدون كفيل عمل"
+    },
+    excerpt: {
+      en: "Self-petition for permanent residence for exceptional professionals. No employer sponsor required for EB-2 NIW.",
+      ar: "تقديم ذاتي للإقامة الدائمة للمهنيين الاستثنائيين. لا يلزم كفيل من صاحب العمل لـ EB-2 NIW."
+    },
+    location: "Westminster",
+    county: "Orange County",
+    targetDemographic: ["Professional", "STEM", "Healthcare", "Arab"],
+    category: "work",
+    date: "2026-01-01",
+    readTime: 12
+  },
+  {
+    id: 62,
+    slug: "h4-ead-work-permit-buena-park",
+    pillar: "work",
+    title: {
+      en: "H-4 EAD Work Permit in Buena Park: Employment for H-1B Spouses",
+      ar: "تصريح العمل H-4 EAD في بوينا بارك: التوظيف لأزواج H-1B"
+    },
+    excerpt: {
+      en: "Work authorization for dependent spouses of H-1B visa holders. Arabic-speaking H-4 EAD support.",
+      ar: "تصريح العمل للأزواج المعالين لحاملي تأشيرة H-1B. دعم H-4 EAD بالعربية."
+    },
+    location: "Buena Park",
+    county: "Orange County",
+    targetDemographic: ["H-4 Spouse", "Professional", "Arab"],
+    category: "work",
+    date: "2026-01-01",
+    readTime: 10
+  },
+  {
+    id: 63,
+    slug: "deportation-defense-help-pasadena",
+    pillar: "asylum",
+    title: {
+      en: "Deportation Defense Help in Pasadena: Immigration Court Assistance for Arab Families",
+      ar: "مساعدة الدفاع ضد الترحيل في باسادينا: مساعدة محكمة الهجرة للعائلات العربية"
+    },
+    excerpt: {
+      en: "Understanding your rights and options when facing removal proceedings. Document preparation and attorney referrals.",
+      ar: "فهم حقوقك وخياراتك عند مواجهة إجراءات الإبعاد. إعداد الوثائق وإحالات المحامين."
+    },
+    location: "Pasadena",
+    county: "Los Angeles County",
+    targetDemographic: ["Removal Proceedings", "Arab", "Family"],
+    category: "asylum",
+    date: "2026-01-01",
+    readTime: 13
+  },
+  {
+    id: 64,
+    slug: "palestinian-asylum-support-chula-vista",
+    pillar: "asylum",
+    title: {
+      en: "Palestinian Asylum Support in Chula Vista: Refugee & Asylum Help for Gaza & West Bank Families",
+      ar: "دعم اللجوء الفلسطيني في تشولا فيستا: مساعدة اللاجئين واللجوء لعائلات غزة والضفة الغربية"
+    },
+    excerpt: {
+      en: "Compassionate immigration assistance for Palestinian families seeking protection in the United States.",
+      ar: "مساعدة هجرة رحيمة للعائلات الفلسطينية التي تبحث عن الحماية في الولايات المتحدة."
+    },
+    location: "Chula Vista",
+    county: "San Diego County",
+    targetDemographic: ["Palestinian", "Refugee", "Asylum", "Arab"],
+    category: "asylum",
+    date: "2026-01-01",
+    readTime: 14
+  },
+  {
+    id: 65,
+    slug: "child-status-protection-act-huntington-beach",
+    pillar: "family",
+    title: {
+      en: "Child Status Protection Act in Huntington Beach: Protect Your Child's Immigration Eligibility",
+      ar: "قانون حماية وضع الطفل في هنتنغتون بيتش: حماية أهلية طفلك للهجرة"
+    },
+    excerpt: {
+      en: "Understanding CSPA age-out protection for immigrant children. Prevent your child from aging out of eligibility.",
+      ar: "فهم حماية CSPA من تجاوز السن للأطفال المهاجرين. امنع طفلك من تجاوز سن الأهلية."
+    },
+    location: "Huntington Beach",
+    county: "Orange County",
+    targetDemographic: ["Family", "Children", "Arab"],
+    category: "family",
+    date: "2026-01-01",
+    readTime: 11
+  },
+  {
+    id: 66,
+    slug: "i-290b-motion-reopen-reconsider-lake-forest",
+    pillar: "status",
+    title: {
+      en: "I-290B Motion to Reopen or Reconsider in Lake Forest: Appeal USCIS Denials",
+      ar: "طلب I-290B لإعادة الفتح أو إعادة النظر في ليك فورست: استئناف رفض USCIS"
+    },
+    excerpt: {
+      en: "Challenge unfavorable USCIS decisions with motions to reopen or reconsider. 30-day filing deadline.",
+      ar: "الطعن في قرارات USCIS غير المواتية بطلبات إعادة الفتح أو إعادة النظر. موعد نهائي 30 يوماً."
+    },
+    location: "Lake Forest",
+    county: "Orange County",
+    targetDemographic: ["Denied Applicant", "Arab"],
+    category: "status",
+    date: "2026-01-01",
+    readTime: 10
+  },
+  {
+    id: 67,
+    slug: "deferred-inspection-mission-viejo",
+    pillar: "travel",
+    title: {
+      en: "Deferred Inspection in Mission Viejo: CBP Entry Issues & Secondary Inspection Help",
+      ar: "التفتيش المؤجل في ميشن فيجو: مشاكل دخول CBP ومساعدة التفتيش الثانوي"
+    },
+    excerpt: {
+      en: "Resolve port of entry problems with Customs and Border Protection. Document preparation for CBP appointments.",
+      ar: "حل مشاكل نقطة الدخول مع الجمارك وحماية الحدود. إعداد الوثائق لمواعيد CBP."
+    },
+    location: "Mission Viejo",
+    county: "Orange County",
+    targetDemographic: ["Traveler", "Green Card Holder", "Arab"],
+    category: "travel",
+    date: "2026-01-01",
+    readTime: 10
+  },
+  {
+    id: 68,
+    slug: "adoption-immigration-whittier",
+    pillar: "family",
+    title: {
+      en: "Adoption Immigration in Whittier: Bringing Your Adopted Child to America",
+      ar: "هجرة التبني في ويتير: إحضار طفلك المتبنى إلى أمريكا"
+    },
+    excerpt: {
+      en: "Immigration pathways for international adoptions. IR-3, IR-4, IH-3, IH-4 visa categories explained.",
+      ar: "مسارات الهجرة للتبني الدولي. شرح فئات تأشيرات IR-3، IR-4، IH-3، IH-4."
+    },
+    location: "Whittier",
+    county: "Los Angeles County",
+    targetDemographic: ["Adoptive Family", "Arab"],
+    category: "family",
+    date: "2026-01-01",
+    readTime: 12
+  },
+  {
+    id: 69,
+    slug: "employment-verification-i9-downey",
+    pillar: "documents",
+    title: {
+      en: "Employment Verification I-9 in Downey: Work Authorization Documentation Guide",
+      ar: "التحقق من التوظيف I-9 في داوني: دليل توثيق تصريح العمل"
+    },
+    excerpt: {
+      en: "Understanding Form I-9 requirements for employers and employees. Document translation and compliance help.",
+      ar: "فهم متطلبات نموذج I-9 لأصحاب العمل والموظفين. مساعدة ترجمة الوثائق والامتثال."
+    },
+    location: "Downey",
+    county: "Los Angeles County",
+    targetDemographic: ["Employee", "Employer", "Arab"],
+    category: "documents",
+    date: "2026-01-01",
+    readTime: 10
+  },
+  {
+    id: 70,
+    slug: "arab-senior-citizens-immigration-resources-santa-clarita",
+    pillar: "community",
+    title: {
+      en: "Arab Senior Citizens Immigration Resources in Santa Clarita: Help for Elderly Immigrants",
+      ar: "موارد هجرة كبار السن العرب في سانتا كلاريتا: مساعدة للمهاجرين المسنين"
+    },
+    excerpt: {
+      en: "Immigration services and accommodations for Arabic-speaking seniors. N-648 waivers and citizenship help.",
+      ar: "خدمات الهجرة والتسهيلات لكبار السن الناطقين بالعربية. إعفاءات N-648 ومساعدة الجنسية."
+    },
+    location: "Santa Clarita",
+    county: "Los Angeles County",
+    targetDemographic: ["Senior", "Elderly", "Arab"],
+    category: "community",
+    date: "2026-01-01",
+    readTime: 11
   }
 ];
 
