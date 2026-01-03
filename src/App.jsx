@@ -86,6 +86,16 @@ import DeferredInspectionMissionViejo from './pages/blog/posts/DeferredInspectio
 import AdoptionImmigrationWhittier from './pages/blog/posts/AdoptionImmigrationWhittier';
 import EmploymentVerificationI9Downey from './pages/blog/posts/EmploymentVerificationI9Downey';
 import ArabSeniorResourcesSantaClarita from './pages/blog/posts/ArabSeniorResourcesSantaClarita';
+import WidowWidowerImmigrationRiverside from './pages/blog/posts/WidowWidowerImmigrationRiverside';
+import NaturalizationFeeWaiverElCajon from './pages/blog/posts/NaturalizationFeeWaiverElCajon';
+import EB1AExtraordinaryAbilityLaJolla from './pages/blog/posts/EB1AExtraordinaryAbilityLaJolla';
+import LebaneseCommunityResourcesOrangeCounty from './pages/blog/posts/LebaneseCommunityResourcesOrangeCounty';
+import EmergencyAdvanceParoleCorona from './pages/blog/posts/EmergencyAdvanceParoleCorona';
+import MarriageCertificateAuthenticationTemecula from './pages/blog/posts/MarriageCertificateAuthenticationTemecula';
+import AsylumInterviewPreparationSanDiego from './pages/blog/posts/AsylumInterviewPreparationSanDiego';
+import ReligiousWorkerR1VisaGlendale from './pages/blog/posts/ReligiousWorkerR1VisaGlendale';
+import I751WaiverDivorcedCouplesOntario from './pages/blog/posts/I751WaiverDivorcedCouplesOntario';
+import EgyptianCommunityResourcesAnaheim from './pages/blog/posts/EgyptianCommunityResourcesAnaheim';
 
 const App = () => {
   const [language, setLanguage] = useState('en');
@@ -559,6 +569,16 @@ const App = () => {
             <Route path="/blog/adoption-immigration-whittier" element={<AdoptionImmigrationWhittier language={language} />} />
             <Route path="/blog/employment-verification-i9-downey" element={<EmploymentVerificationI9Downey language={language} />} />
             <Route path="/blog/arab-senior-citizens-immigration-resources-santa-clarita" element={<ArabSeniorResourcesSantaClarita language={language} />} />
+            <Route path="/blog/widow-widower-immigration-benefits-riverside" element={<WidowWidowerImmigrationRiverside language={language} />} />
+            <Route path="/blog/naturalization-fee-waiver-el-cajon" element={<NaturalizationFeeWaiverElCajon language={language} />} />
+            <Route path="/blog/eb1a-extraordinary-ability-visa-la-jolla" element={<EB1AExtraordinaryAbilityLaJolla language={language} />} />
+            <Route path="/blog/lebanese-community-immigration-resources-orange-county" element={<LebaneseCommunityResourcesOrangeCounty language={language} />} />
+            <Route path="/blog/emergency-advance-parole-corona" element={<EmergencyAdvanceParoleCorona language={language} />} />
+            <Route path="/blog/marriage-certificate-authentication-temecula" element={<MarriageCertificateAuthenticationTemecula language={language} />} />
+            <Route path="/blog/asylum-interview-preparation-san-diego" element={<AsylumInterviewPreparationSanDiego language={language} />} />
+            <Route path="/blog/religious-worker-r1-visa-glendale" element={<ReligiousWorkerR1VisaGlendale language={language} />} />
+            <Route path="/blog/i751-waiver-divorced-couples-ontario" element={<I751WaiverDivorcedCouplesOntario language={language} />} />
+            <Route path="/blog/egyptian-community-immigration-resources-anaheim" element={<EgyptianCommunityResourcesAnaheim language={language} />} />
           </Routes>
           </main>
 

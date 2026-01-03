@@ -1331,6 +1331,196 @@ export const blogPosts = [
     category: "community",
     date: "2026-01-01",
     readTime: 11
+  },
+  {
+    id: 71,
+    slug: "widow-widower-immigration-riverside",
+    pillar: "family",
+    title: {
+      en: "Widow/Widower Immigration Rights in Riverside: Self-Petition Guide for Surviving Spouses",
+      ar: "حقوق هجرة الأرامل في ريفرسايد: دليل التقديم الذاتي للأزواج الناجين"
+    },
+    excerpt: {
+      en: "Understanding your immigration options after losing your U.S. citizen spouse. Self-petition for green card through I-360.",
+      ar: "فهم خيارات الهجرة بعد فقدان زوجك المواطن الأمريكي. التقديم الذاتي للبطاقة الخضراء من خلال I-360."
+    },
+    location: "Riverside",
+    county: "Riverside County",
+    targetDemographic: ["Widow", "Widower", "Arab"],
+    category: "family",
+    date: "2026-01-03",
+    readTime: 10
+  },
+  {
+    id: 72,
+    slug: "naturalization-fee-waiver-el-cajon",
+    pillar: "citizenship",
+    title: {
+      en: "Naturalization Fee Waiver in El Cajon: Free Citizenship Application for Low-Income Applicants",
+      ar: "إعفاء رسوم التجنس في إل كاجون: طلب جنسية مجاني للمتقدمين ذوي الدخل المحدود"
+    },
+    excerpt: {
+      en: "How Iraqi and Syrian refugees in El Cajon can apply for citizenship without paying USCIS fees through I-912 fee waiver.",
+      ar: "كيف يمكن للاجئين العراقيين والسوريين في إل كاجون التقدم للجنسية دون دفع رسوم USCIS من خلال إعفاء I-912."
+    },
+    location: "El Cajon",
+    county: "San Diego County",
+    targetDemographic: ["Refugee", "Low-Income", "Iraqi", "Syrian"],
+    category: "citizenship",
+    date: "2026-01-03",
+    readTime: 9
+  },
+  {
+    id: 73,
+    slug: "eb1a-extraordinary-ability-la-jolla",
+    pillar: "work",
+    title: {
+      en: "EB-1A Extraordinary Ability Visa in La Jolla: Green Card for Exceptional Scientists & Researchers",
+      ar: "تأشيرة EB-1A للقدرة الاستثنائية في لا جولا: البطاقة الخضراء للعلماء والباحثين المتميزين"
+    },
+    excerpt: {
+      en: "Self-petition pathway to permanent residence for distinguished professionals at UCSD, Scripps, and biotech companies.",
+      ar: "مسار التقديم الذاتي للإقامة الدائمة للمهنيين المتميزين في UCSD وسكريبس وشركات التكنولوجيا الحيوية."
+    },
+    location: "La Jolla",
+    county: "San Diego County",
+    targetDemographic: ["Scientist", "Researcher", "Professional"],
+    category: "work",
+    date: "2026-01-03",
+    readTime: 11
+  },
+  {
+    id: 74,
+    slug: "lebanese-community-resources-orange-county",
+    pillar: "community",
+    title: {
+      en: "Lebanese Community Immigration Resources in Orange County: Guide for Lebanese Families",
+      ar: "موارد الهجرة للمجتمع اللبناني في مقاطعة أورانج: دليل للعائلات اللبنانية"
+    },
+    excerpt: {
+      en: "Immigration services and community support for Lebanese-Americans. TPS updates, E-2 visas, family petitions.",
+      ar: "خدمات الهجرة ودعم المجتمع للأمريكيين اللبنانيين. تحديثات TPS، تأشيرات E-2، طلبات العائلة."
+    },
+    location: "Orange County",
+    county: "Orange County",
+    targetDemographic: ["Lebanese", "Arab"],
+    category: "community",
+    date: "2026-01-03",
+    readTime: 10
+  },
+  {
+    id: 75,
+    slug: "emergency-advance-parole-corona",
+    pillar: "travel",
+    title: {
+      en: "Emergency Advance Parole in Corona: Urgent Travel While Your Green Card is Pending",
+      ar: "الإفراج المسبق الطارئ في كورونا: السفر العاجل أثناء انتظار البطاقة الخضراء"
+    },
+    excerpt: {
+      en: "How to request expedited travel authorization for family emergencies while your adjustment of status is pending.",
+      ar: "كيفية طلب تصريح السفر المعجل لحالات الطوارئ العائلية أثناء انتظار تعديل وضعك."
+    },
+    location: "Corona",
+    county: "Riverside County",
+    targetDemographic: ["Emergency", "Pending Applicant", "Arab"],
+    category: "travel",
+    date: "2026-01-03",
+    readTime: 9
+  },
+  {
+    id: 76,
+    slug: "marriage-certificate-authentication-temecula",
+    pillar: "documents",
+    title: {
+      en: "Marriage Certificate Authentication in Temecula: Document Preparation for Immigration",
+      ar: "توثيق شهادة الزواج في تيميكولا: إعداد الوثائق للهجرة"
+    },
+    excerpt: {
+      en: "How to properly authenticate and translate marriage certificates for USCIS from Middle Eastern countries.",
+      ar: "كيفية توثيق وترجمة شهادات الزواج بشكل صحيح لـ USCIS من دول الشرق الأوسط."
+    },
+    location: "Temecula",
+    county: "Riverside County",
+    targetDemographic: ["Married", "Arab"],
+    category: "documents",
+    date: "2026-01-03",
+    readTime: 8
+  },
+  {
+    id: 77,
+    slug: "asylum-interview-preparation-san-diego",
+    pillar: "asylum",
+    title: {
+      en: "Asylum Interview Preparation in San Diego: Complete Guide for Arab Refugees",
+      ar: "التحضير لمقابلة اللجوء في سان دييغو: دليل شامل للاجئين العرب"
+    },
+    excerpt: {
+      en: "How to prepare for your affirmative asylum interview at the San Diego Asylum Office. Mock interviews, documentation help.",
+      ar: "كيفية التحضير لمقابلة اللجوء الإيجابي في مكتب اللجوء في سان دييغو. مقابلات تجريبية، مساعدة التوثيق."
+    },
+    location: "San Diego",
+    county: "San Diego County",
+    targetDemographic: ["Asylum Seeker", "Iraqi", "Syrian", "Arab"],
+    category: "asylum",
+    date: "2026-01-03",
+    readTime: 12
+  },
+  {
+    id: 78,
+    slug: "religious-worker-r1-visa-glendale",
+    pillar: "work",
+    title: {
+      en: "R-1 Religious Worker Visa in Glendale: Immigration for Ministers, Priests & Religious Workers",
+      ar: "تأشيرة العامل الديني R-1 في غليندال: الهجرة للوزراء والكهنة والعاملين الدينيين"
+    },
+    excerpt: {
+      en: "How churches and mosques can sponsor religious workers from abroad. Minister, imam, and priest visas.",
+      ar: "كيف يمكن للكنائس والمساجد رعاية العمال الدينيين من الخارج. تأشيرات الوزير والإمام والكاهن."
+    },
+    location: "Glendale",
+    county: "Los Angeles County",
+    targetDemographic: ["Religious Worker", "Minister", "Church"],
+    category: "work",
+    date: "2026-01-03",
+    readTime: 10
+  },
+  {
+    id: 79,
+    slug: "i751-waiver-divorced-couples-ontario",
+    pillar: "status",
+    title: {
+      en: "I-751 Waiver for Divorced Couples in Ontario: Remove Conditions After Marriage Ends",
+      ar: "إعفاء I-751 للأزواج المطلقين في أونتاريو: إزالة الشروط بعد انتهاء الزواج"
+    },
+    excerpt: {
+      en: "How to obtain your permanent green card when your marriage-based conditional residency ends in divorce.",
+      ar: "كيفية الحصول على بطاقتك الخضراء الدائمة عندما تنتهي إقامتك المشروطة القائمة على الزواج بالطلاق."
+    },
+    location: "Ontario",
+    county: "San Bernardino County",
+    targetDemographic: ["Divorced", "Conditional Resident", "Arab"],
+    category: "status",
+    date: "2026-01-03",
+    readTime: 10
+  },
+  {
+    id: 80,
+    slug: "egyptian-community-resources-anaheim",
+    pillar: "community",
+    title: {
+      en: "Egyptian Community Immigration Resources in Anaheim: Guide for Egyptian Families in Little Arabia",
+      ar: "موارد الهجرة للمجتمع المصري في أنهايم: دليل للعائلات المصرية في ليتل أريبيا"
+    },
+    excerpt: {
+      en: "Immigration services and support for Egyptian-Americans in Little Arabia. Coptic and Muslim family resources.",
+      ar: "خدمات الهجرة والدعم للأمريكيين المصريين في ليتل أريبيا. موارد العائلات القبطية والمسلمة."
+    },
+    location: "Anaheim",
+    county: "Orange County",
+    targetDemographic: ["Egyptian", "Coptic", "Arab"],
+    category: "community",
+    date: "2026-01-03",
+    readTime: 9
   }
 ];
 
