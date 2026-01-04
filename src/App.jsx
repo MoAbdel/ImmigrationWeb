@@ -96,6 +96,16 @@ import AsylumInterviewPreparationSanDiego from './pages/blog/posts/AsylumIntervi
 import ReligiousWorkerR1VisaGlendale from './pages/blog/posts/ReligiousWorkerR1VisaGlendale';
 import I751WaiverDivorcedCouplesOntario from './pages/blog/posts/I751WaiverDivorcedCouplesOntario';
 import EgyptianCommunityResourcesAnaheim from './pages/blog/posts/EgyptianCommunityResourcesAnaheim';
+import O1ArtistVisaGlendale from './pages/blog/posts/O1ArtistVisaGlendale';
+import I140PriorityDateSantaAna from './pages/blog/posts/I140PriorityDateSantaAna';
+import GrandparentVisitorVisaMurrieta from './pages/blog/posts/GrandparentVisitorVisaMurrieta';
+import JordanianCommunityResourcesChinoHills from './pages/blog/posts/JordanianCommunityResourcesChinoHills';
+import CATProtectionElCajon from './pages/blog/posts/CATProtectionElCajon';
+import EB3UnskilledWorkerOntario from './pages/blog/posts/EB3UnskilledWorkerOntario';
+import BirthCertificateCorrectionGardenGrove from './pages/blog/posts/BirthCertificateCorrectionGardenGrove';
+import F3MarriedChildrenLongBeach from './pages/blog/posts/F3MarriedChildrenLongBeach';
+import DualIntentVisaIrvine from './pages/blog/posts/DualIntentVisaIrvine';
+import ArabWomenEntrepreneursOC from './pages/blog/posts/ArabWomenEntrepreneursOC';
 
 const App = () => {
   const [language, setLanguage] = useState('en');
@@ -579,6 +589,16 @@ const App = () => {
             <Route path="/blog/religious-worker-r1-visa-glendale" element={<ReligiousWorkerR1VisaGlendale language={language} />} />
             <Route path="/blog/i751-waiver-divorced-couples-ontario" element={<I751WaiverDivorcedCouplesOntario language={language} />} />
             <Route path="/blog/egyptian-community-immigration-resources-anaheim" element={<EgyptianCommunityResourcesAnaheim language={language} />} />
+            <Route path="/blog/o1-extraordinary-artist-visa-glendale" element={<O1ArtistVisaGlendale language={language} />} />
+            <Route path="/blog/i140-priority-date-santa-ana" element={<I140PriorityDateSantaAna language={language} />} />
+            <Route path="/blog/grandparent-visitor-visa-murrieta" element={<GrandparentVisitorVisaMurrieta language={language} />} />
+            <Route path="/blog/jordanian-community-resources-chino-hills" element={<JordanianCommunityResourcesChinoHills language={language} />} />
+            <Route path="/blog/cat-protection-el-cajon" element={<CATProtectionElCajon language={language} />} />
+            <Route path="/blog/eb3-unskilled-worker-ontario" element={<EB3UnskilledWorkerOntario language={language} />} />
+            <Route path="/blog/birth-certificate-correction-garden-grove" element={<BirthCertificateCorrectionGardenGrove language={language} />} />
+            <Route path="/blog/f3-married-children-long-beach" element={<F3MarriedChildrenLongBeach language={language} />} />
+            <Route path="/blog/dual-intent-visa-issues-irvine" element={<DualIntentVisaIrvine language={language} />} />
+            <Route path="/blog/arab-women-entrepreneurs-orange-county" element={<ArabWomenEntrepreneursOC language={language} />} />
           </Routes>
           </main>
 

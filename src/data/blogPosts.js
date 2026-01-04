@@ -1521,6 +1521,196 @@ export const blogPosts = [
     category: "community",
     date: "2026-01-03",
     readTime: 9
+  },
+  {
+    id: 81,
+    slug: "o1-extraordinary-artist-visa-glendale",
+    pillar: "work",
+    title: {
+      en: "O-1 Extraordinary Artist Visa in Glendale: Immigration for Performers & Visual Artists",
+      ar: "تأشيرة O-1 للفنانين المتميزين في غليندال: الهجرة للفنانين الأدائيين والبصريين"
+    },
+    excerpt: {
+      en: "Expert O-1B visa guidance for artists in Glendale. Help for musicians, actors, filmmakers, and visual artists with extraordinary achievement.",
+      ar: "إرشاد متخصص لتأشيرة O-1B للفنانين في غليندال. مساعدة للموسيقيين والممثلين وصانعي الأفلام والفنانين البصريين ذوي الإنجازات الاستثنائية."
+    },
+    location: "Glendale",
+    county: "Los Angeles County",
+    targetDemographic: ["Artist", "Performer", "Arab"],
+    category: "work",
+    date: "2026-01-04",
+    readTime: 11
+  },
+  {
+    id: 82,
+    slug: "i140-priority-date-santa-ana",
+    pillar: "status",
+    title: {
+      en: "Understanding I-140 Priority Date in Santa Ana: Your Place in the Green Card Line",
+      ar: "فهم تاريخ الأولوية I-140 في سانتا آنا: مكانك في طابور البطاقة الخضراء"
+    },
+    excerpt: {
+      en: "Complete guide to understanding priority dates in Santa Ana. How visa bulletin affects your green card timeline and what to do while waiting.",
+      ar: "دليل شامل لفهم تواريخ الأولوية في سانتا آنا. كيف تؤثر نشرة التأشيرات على جدولك الزمني للبطاقة الخضراء وماذا تفعل أثناء الانتظار."
+    },
+    location: "Santa Ana",
+    county: "Orange County",
+    targetDemographic: ["Professional", "Worker", "Arab"],
+    category: "status",
+    date: "2026-01-04",
+    readTime: 10
+  },
+  {
+    id: 83,
+    slug: "grandparent-visitor-visa-murrieta",
+    pillar: "travel",
+    title: {
+      en: "Grandparent Visitor Visa in Murrieta: B-2 Visa Guide for Elderly Parents",
+      ar: "تأشيرة زيارة الأجداد في موريتا: دليل تأشيرة B-2 للوالدين المسنين"
+    },
+    excerpt: {
+      en: "How to help your elderly parents visit from the Middle East. B-2 visitor visa tips and extended stay options for grandparents in Murrieta.",
+      ar: "كيفية مساعدة والديك المسنين للزيارة من الشرق الأوسط. نصائح تأشيرة الزائر B-2 وخيارات الإقامة الممتدة للأجداد في موريتا."
+    },
+    location: "Murrieta",
+    county: "Riverside County",
+    targetDemographic: ["Senior", "Family", "Arab"],
+    category: "travel",
+    date: "2026-01-04",
+    readTime: 10
+  },
+  {
+    id: 84,
+    slug: "jordanian-community-resources-chino-hills",
+    pillar: "community",
+    title: {
+      en: "Jordanian Community Immigration Resources in Chino Hills: Guide for Jordanian Families",
+      ar: "موارد الهجرة للمجتمع الأردني في تشينو هيلز: دليل للعائلات الأردنية"
+    },
+    excerpt: {
+      en: "Immigration services and community support for Jordanian-Americans in Chino Hills. E-2 visas, family petitions, and community resources.",
+      ar: "خدمات الهجرة ودعم المجتمع للأمريكيين الأردنيين في تشينو هيلز. تأشيرات E-2، طلبات العائلة، وموارد المجتمع."
+    },
+    location: "Chino Hills",
+    county: "San Bernardino County",
+    targetDemographic: ["Jordanian", "Arab"],
+    category: "community",
+    date: "2026-01-04",
+    readTime: 10
+  },
+  {
+    id: 85,
+    slug: "cat-protection-el-cajon",
+    pillar: "asylum",
+    title: {
+      en: "Convention Against Torture (CAT) Protection in El Cajon: Last Resort Relief from Removal",
+      ar: "الحماية بموجب اتفاقية مناهضة التعذيب (CAT) في إل كاجون: الملاذ الأخير من الترحيل"
+    },
+    excerpt: {
+      en: "Understanding CAT protection for Iraqi and Syrian nationals in El Cajon. When asylum is denied but torture risk remains.",
+      ar: "فهم حماية CAT للمواطنين العراقيين والسوريين في إل كاجون. عندما يُرفض اللجوء لكن خطر التعذيب يبقى."
+    },
+    location: "El Cajon",
+    county: "San Diego County",
+    targetDemographic: ["Iraqi", "Syrian", "Refugee", "Arab"],
+    category: "asylum",
+    date: "2026-01-04",
+    readTime: 12
+  },
+  {
+    id: 86,
+    slug: "eb3-unskilled-worker-ontario",
+    pillar: "work",
+    title: {
+      en: "EB-3 Unskilled Worker Visa in Ontario: Green Card for Essential Workers",
+      ar: "تأشيرة EB-3 للعمال غير المهرة في أونتاريو: البطاقة الخضراء للعمال الأساسيين"
+    },
+    excerpt: {
+      en: "Employment-based green cards for unskilled workers in Ontario's warehousing and logistics sector. PERM process and requirements.",
+      ar: "البطاقات الخضراء القائمة على التوظيف للعمال غير المهرة في قطاع المستودعات والخدمات اللوجستية في أونتاريو. عملية PERM والمتطلبات."
+    },
+    location: "Ontario",
+    county: "San Bernardino County",
+    targetDemographic: ["Worker", "Unskilled", "Arab"],
+    category: "work",
+    date: "2026-01-04",
+    readTime: 11
+  },
+  {
+    id: 87,
+    slug: "birth-certificate-correction-garden-grove",
+    pillar: "documents",
+    title: {
+      en: "Birth Certificate Correction for Immigration in Garden Grove: Fixing Document Errors",
+      ar: "تصحيح شهادة الميلاد للهجرة في جاردن جروف: إصلاح أخطاء الوثائق"
+    },
+    excerpt: {
+      en: "How to correct name, date, and other errors on birth certificates for USCIS. Arabic document discrepancy solutions in Garden Grove.",
+      ar: "كيفية تصحيح الاسم والتاريخ والأخطاء الأخرى في شهادات الميلاد لـ USCIS. حلول تناقض الوثائق العربية في جاردن جروف."
+    },
+    location: "Garden Grove",
+    county: "Orange County",
+    targetDemographic: ["Document", "Arab"],
+    category: "documents",
+    date: "2026-01-04",
+    readTime: 9
+  },
+  {
+    id: 88,
+    slug: "f3-married-children-long-beach",
+    pillar: "family",
+    title: {
+      en: "F3 Married Adult Children Immigration in Long Beach: Third Preference Family Visa Guide",
+      ar: "هجرة الأبناء البالغين المتزوجين F3 في لونغ بيتش: دليل تأشيرة التفضيل العائلي الثالث"
+    },
+    excerpt: {
+      en: "Understanding the F3 category for married adult children of U.S. citizens in Long Beach. Wait times, processing, and planning ahead.",
+      ar: "فهم فئة F3 للأبناء البالغين المتزوجين من المواطنين الأمريكيين في لونغ بيتش. أوقات الانتظار والمعالجة والتخطيط المسبق."
+    },
+    location: "Long Beach",
+    county: "Los Angeles County",
+    targetDemographic: ["Family", "Married Children", "Arab"],
+    category: "family",
+    date: "2026-01-04",
+    readTime: 10
+  },
+  {
+    id: 89,
+    slug: "dual-intent-visa-issues-irvine",
+    pillar: "status",
+    title: {
+      en: "Understanding Dual Intent Visa Issues in Irvine: H-1B to Green Card Navigation",
+      ar: "فهم قضايا تأشيرة النية المزدوجة في إيرفاين: التنقل من H-1B إلى البطاقة الخضراء"
+    },
+    excerpt: {
+      en: "Expert guidance on dual intent challenges for Irvine tech professionals. Maintain H-1B status while pursuing permanent residency.",
+      ar: "إرشادات متخصصة حول تحديات النية المزدوجة للمحترفين التقنيين في إيرفاين. الحفاظ على حالة H-1B أثناء السعي للإقامة الدائمة."
+    },
+    location: "Irvine",
+    county: "Orange County",
+    targetDemographic: ["Tech", "Professional", "H-1B"],
+    category: "status",
+    date: "2026-01-04",
+    readTime: 11
+  },
+  {
+    id: 90,
+    slug: "arab-women-entrepreneurs-orange-county",
+    pillar: "community",
+    title: {
+      en: "Arab Women Entrepreneurs: Immigration Pathways in Orange County",
+      ar: "رائدات الأعمال العربيات: مسارات الهجرة في مقاطعة أورانج"
+    },
+    excerpt: {
+      en: "Business visa options and support resources for Arab-American women business owners. E-2, L-1, and EB-5 pathways.",
+      ar: "خيارات تأشيرات الأعمال وموارد الدعم لصاحبات الأعمال العربيات الأمريكيات. مسارات E-2 وL-1 وEB-5."
+    },
+    location: "Orange County",
+    county: "Orange County",
+    targetDemographic: ["Women", "Entrepreneur", "Arab"],
+    category: "community",
+    date: "2026-01-04",
+    readTime: 12
   }
 ];
 
