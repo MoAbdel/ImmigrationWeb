@@ -1711,6 +1711,196 @@ export const blogPosts = [
     category: "community",
     date: "2026-01-04",
     readTime: 12
+  },
+  {
+    id: 91,
+    slug: "stepchild-immigration-santa-ana",
+    pillar: "family",
+    title: {
+      en: "Stepchild Immigration in Santa Ana: Green Cards for Blended Arab Families",
+      ar: "هجرة أبناء الزوج/الزوجة في سانتا آنا: البطاقة الخضراء للعائلات العربية المختلطة"
+    },
+    excerpt: {
+      en: "Expert stepchild immigration help in Santa Ana. Understand USCIS requirements for stepchildren green cards for blended families.",
+      ar: "مساعدة خبراء في هجرة أبناء الزوج في سانتا آنا. فهم متطلبات USCIS للبطاقة الخضراء لأبناء الزوج للعائلات المختلطة."
+    },
+    location: "Santa Ana",
+    county: "Orange County",
+    targetDemographic: ["Blended Family", "Stepchildren", "Arab"],
+    category: "family",
+    date: "2026-01-05",
+    readTime: 9
+  },
+  {
+    id: 92,
+    slug: "visa-bulletin-guide-orange-county",
+    pillar: "status",
+    title: {
+      en: "Understanding the Visa Bulletin: A Guide for Orange County Immigrant Families",
+      ar: "فهم نشرة التأشيرات: دليل لعائلات المهاجرين في مقاطعة أورانج"
+    },
+    excerpt: {
+      en: "Complete guide to understanding the USCIS Visa Bulletin for Orange County families. Track priority dates and understand wait times.",
+      ar: "دليل شامل لفهم نشرة تأشيرات USCIS لعائلات مقاطعة أورانج. تتبع تواريخ الأولوية وفهم أوقات الانتظار."
+    },
+    location: "Orange County",
+    county: "Orange County",
+    targetDemographic: ["Family", "Immigrant", "Arab"],
+    category: "status",
+    date: "2026-01-05",
+    readTime: 11
+  },
+  {
+    id: 93,
+    slug: "i485-concurrent-filing-irvine",
+    pillar: "status",
+    title: {
+      en: "I-485 Concurrent Filing in Irvine: Streamlined Green Card Applications",
+      ar: "التقديم المتزامن I-485 في إرفاين: طلبات البطاقة الخضراء المبسطة"
+    },
+    excerpt: {
+      en: "Expert I-485 concurrent filing services in Irvine. File family petition and green card together for faster processing.",
+      ar: "خدمات التقديم المتزامن I-485 الخبيرة في إرفاين. قدم طلب العائلة والبطاقة الخضراء معاً لمعالجة أسرع."
+    },
+    location: "Irvine",
+    county: "Orange County",
+    targetDemographic: ["Tech", "Professional", "Arab"],
+    category: "status",
+    date: "2026-01-05",
+    readTime: 10
+  },
+  {
+    id: 94,
+    slug: "cancellation-of-removal-pomona",
+    pillar: "asylum",
+    title: {
+      en: "Cancellation of Removal in Pomona: Defense for Long-Term Residents",
+      ar: "إلغاء الترحيل في بومونا: الدفاع للمقيمين طويلي الأمد"
+    },
+    excerpt: {
+      en: "Expert cancellation of removal guidance for Pomona families. 10-year presence requirement and exceptional hardship explained.",
+      ar: "إرشادات خبراء في إلغاء الترحيل لعائلات بومونا. شرح متطلب الوجود 10 سنوات والمشقة الاستثنائية."
+    },
+    location: "Pomona",
+    county: "Los Angeles County",
+    targetDemographic: ["Long-term Resident", "Undocumented", "Arab"],
+    category: "asylum",
+    date: "2026-01-05",
+    readTime: 12
+  },
+  {
+    id: 95,
+    slug: "f1-visa-reinstatement-riverside",
+    pillar: "work",
+    title: {
+      en: "F-1 Visa Reinstatement in Riverside: Regaining Student Status",
+      ar: "إعادة وضع تأشيرة F-1 في ريفرسايد: استعادة وضع الطالب"
+    },
+    excerpt: {
+      en: "Expert F-1 reinstatement assistance in Riverside. Help for UC Riverside students who have fallen out of status.",
+      ar: "مساعدة خبراء في إعادة وضع F-1 في ريفرسايد. مساعدة لطلاب UC Riverside الذين فقدوا وضعهم."
+    },
+    location: "Riverside",
+    county: "Riverside County",
+    targetDemographic: ["Student", "F-1", "International"],
+    category: "work",
+    date: "2026-01-05",
+    readTime: 10
+  },
+  {
+    id: 96,
+    slug: "syrian-community-resources-el-cajon",
+    pillar: "community",
+    title: {
+      en: "Syrian Community Immigration Resources in El Cajon: Complete Guide",
+      ar: "موارد الهجرة للمجتمع السوري في إل كاجون: دليل شامل"
+    },
+    excerpt: {
+      en: "Complete Syrian community immigration guide for El Cajon. Refugee adjustment, TPS, family reunification, and naturalization help.",
+      ar: "دليل هجرة شامل للمجتمع السوري في إل كاجون. تعديل وضع اللاجئ، TPS، لم شمل الأسرة، ومساعدة التجنس."
+    },
+    location: "El Cajon",
+    county: "San Diego County",
+    targetDemographic: ["Syrian", "Refugee", "Arab"],
+    category: "community",
+    date: "2026-01-05",
+    readTime: 11
+  },
+  {
+    id: 97,
+    slug: "eb1c-multinational-managers-irvine",
+    pillar: "work",
+    title: {
+      en: "EB-1C Green Cards for Multinational Managers in Irvine: Executive Immigration",
+      ar: "البطاقات الخضراء EB-1C للمديرين متعددي الجنسيات في إرفاين: هجرة التنفيذيين"
+    },
+    excerpt: {
+      en: "EB-1C multinational manager green card services in Irvine. Fast-track immigration for executives and business owners.",
+      ar: "خدمات البطاقة الخضراء EB-1C للمديرين متعددي الجنسيات في إرفاين. هجرة سريعة للتنفيذيين وأصحاب الأعمال."
+    },
+    location: "Irvine",
+    county: "Orange County",
+    targetDemographic: ["Executive", "Business Owner", "Multinational"],
+    category: "work",
+    date: "2026-01-05",
+    readTime: 11
+  },
+  {
+    id: 98,
+    slug: "withholding-of-removal-glendale",
+    pillar: "asylum",
+    title: {
+      en: "Withholding of Removal in Glendale: Protection When Asylum is Denied",
+      ar: "حجب الترحيل في غليندال: الحماية عندما يُرفض اللجوء"
+    },
+    excerpt: {
+      en: "Expert withholding of removal guidance for Glendale residents. Protection after asylum denial for Armenian and Arab communities.",
+      ar: "إرشادات خبراء في حجب الترحيل لسكان غليندال. الحماية بعد رفض اللجوء للمجتمعات الأرمنية والعربية."
+    },
+    location: "Glendale",
+    county: "Los Angeles County",
+    targetDemographic: ["Armenian", "Arab", "Asylum"],
+    category: "asylum",
+    date: "2026-01-05",
+    readTime: 10
+  },
+  {
+    id: 99,
+    slug: "nvc-processing-anaheim",
+    pillar: "status",
+    title: {
+      en: "National Visa Center Processing in Anaheim: Guide for Arab Families",
+      ar: "معالجة المركز الوطني للتأشيرات في أنهايم: دليل للعائلات العربية"
+    },
+    excerpt: {
+      en: "Expert NVC processing guidance for Anaheim families. Navigate National Visa Center procedures for family immigration cases.",
+      ar: "إرشادات خبراء في معالجة NVC لعائلات أنهايم. التنقل في إجراءات المركز الوطني للتأشيرات لقضايا هجرة العائلة."
+    },
+    location: "Anaheim",
+    county: "Orange County",
+    targetDemographic: ["Family", "Consular Processing", "Arab"],
+    category: "status",
+    date: "2026-01-05",
+    readTime: 10
+  },
+  {
+    id: 100,
+    slug: "i129f-fiance-visa-categories-ontario",
+    pillar: "marriage",
+    title: {
+      en: "I-129F Fiancé Visa Categories in Ontario: K-1 and K-2 Visas Explained",
+      ar: "فئات تأشيرة الخطيب I-129F في أونتاريو: شرح تأشيرات K-1 و K-2"
+    },
+    excerpt: {
+      en: "Expert I-129F fiancé visa guidance in Ontario, CA. K-1 and K-2 visa categories explained for Inland Empire families.",
+      ar: "إرشادات خبراء في تأشيرة الخطيب I-129F في أونتاريو، كاليفورنيا. شرح فئات تأشيرة K-1 و K-2 لعائلات إنلاند إمباير."
+    },
+    location: "Ontario",
+    county: "San Bernardino County",
+    targetDemographic: ["Fiancé", "K-1", "Arab"],
+    category: "marriage",
+    date: "2026-01-05",
+    readTime: 10
   }
 ];
 
