@@ -1901,6 +1901,196 @@ export const blogPosts = [
     category: "marriage",
     date: "2026-01-05",
     readTime: 10
+  },
+  {
+    id: 101,
+    slug: "j1-visa-waiver-san-marcos",
+    pillar: "work",
+    title: {
+      en: "J-1 Visa Waiver Services in San Marcos: Overcoming the Two-Year Home Residency Requirement",
+      ar: "خدمات إعفاء تأشيرة J-1 في سان ماركوس: التغلب على شرط الإقامة لمدة عامين"
+    },
+    excerpt: {
+      en: "Expert J-1 visa waiver assistance in San Marcos for physicians, researchers, and exchange visitors. Conrad 30 waiver help available.",
+      ar: "مساعدة خبراء في إعفاء تأشيرة J-1 في سان ماركوس للأطباء والباحثين وزوار التبادل. مساعدة إعفاء Conrad 30 متوفرة."
+    },
+    location: "San Marcos",
+    county: "San Diego County",
+    targetDemographic: ["Professional", "Medical", "Academic"],
+    category: "work",
+    date: "2026-01-06",
+    readTime: 10
+  },
+  {
+    id: 102,
+    slug: "i212-permission-reapply-oceanside",
+    pillar: "status",
+    title: {
+      en: "I-212 Permission to Reapply in Oceanside: Second Chance After Deportation",
+      ar: "إذن I-212 لإعادة التقديم في أوشنسايد: فرصة ثانية بعد الترحيل"
+    },
+    excerpt: {
+      en: "Expert I-212 permission to reapply assistance in Oceanside. Help returning to the USA after deportation or removal.",
+      ar: "مساعدة خبراء في إذن I-212 لإعادة التقديم في أوشنسايد. مساعدة في العودة إلى الولايات المتحدة بعد الترحيل."
+    },
+    location: "Oceanside",
+    county: "San Diego County",
+    targetDemographic: ["Deportee", "Military Family", "Arab"],
+    category: "status",
+    date: "2026-01-06",
+    readTime: 11
+  },
+  {
+    id: 103,
+    slug: "special-immigrant-juvenile-pomona",
+    pillar: "status",
+    title: {
+      en: "Special Immigrant Juvenile Status (SIJS) in Pomona: Protection for Abused & Abandoned Youth",
+      ar: "وضع المهاجر الخاص للأحداث (SIJS) في بومونا: حماية للشباب المعتدى عليهم والمهجورين"
+    },
+    excerpt: {
+      en: "Expert SIJS assistance in Pomona for abused, neglected, or abandoned youth. Path to green card for eligible juveniles.",
+      ar: "مساعدة خبراء SIJS في بومونا للشباب المعتدى عليهم أو المهملين أو المهجورين. طريق للبطاقة الخضراء للأحداث المؤهلين."
+    },
+    location: "Pomona",
+    county: "Los Angeles County",
+    targetDemographic: ["Youth", "Humanitarian", "Vulnerable"],
+    category: "status",
+    date: "2026-01-06",
+    readTime: 12
+  },
+  {
+    id: 104,
+    slug: "i601a-provisional-waiver-victorville",
+    pillar: "status",
+    title: {
+      en: "I-601A Provisional Unlawful Presence Waiver in Victorville: Stay with Your Family",
+      ar: "إعفاء I-601A المؤقت للوجود غير القانوني في فيكتورفيل: ابق مع عائلتك"
+    },
+    excerpt: {
+      en: "Expert I-601A provisional waiver assistance in Victorville. Waive 3/10 year bars before your visa interview.",
+      ar: "مساعدة خبراء في إعفاء I-601A المؤقت في فيكتورفيل. إعفاء حظر 3/10 سنوات قبل مقابلة التأشيرة."
+    },
+    location: "Victorville",
+    county: "San Bernardino County",
+    targetDemographic: ["Family", "Undocumented Spouse", "Arab"],
+    category: "status",
+    date: "2026-01-06",
+    readTime: 11
+  },
+  {
+    id: 105,
+    slug: "afghan-siv-special-immigrant-visa-anaheim",
+    pillar: "asylum",
+    title: {
+      en: "Afghan Special Immigrant Visa (SIV) Services in Anaheim: Support for Afghan Allies",
+      ar: "خدمات تأشيرة المهاجر الخاص الأفغاني (SIV) في أنهايم: دعم الحلفاء الأفغان"
+    },
+    excerpt: {
+      en: "Expert Afghan SIV assistance in Anaheim for translators, interpreters, and those who worked with U.S. forces.",
+      ar: "مساعدة خبراء في تأشيرة SIV الأفغانية في أنهايم للمترجمين والذين عملوا مع القوات الأمريكية."
+    },
+    location: "Anaheim",
+    county: "Orange County",
+    targetDemographic: ["Afghan", "Military Ally", "Refugee"],
+    category: "asylum",
+    date: "2026-01-06",
+    readTime: 12
+  },
+  {
+    id: 106,
+    slug: "immigration-bond-hearing-san-bernardino",
+    pillar: "status",
+    title: {
+      en: "Immigration Bond Hearing Help in San Bernardino: Release from Detention",
+      ar: "مساعدة جلسة كفالة الهجرة في سان برناردينو: الإفراج من الاحتجاز"
+    },
+    excerpt: {
+      en: "Expert immigration bond hearing assistance in San Bernardino. Help getting loved ones released from detention.",
+      ar: "مساعدة خبراء في جلسة كفالة الهجرة في سان برناردينو. مساعدة في إطلاق سراح الأحباء من الاحتجاز."
+    },
+    location: "San Bernardino",
+    county: "San Bernardino County",
+    targetDemographic: ["Detained", "Family", "Arab"],
+    category: "status",
+    date: "2026-01-06",
+    readTime: 10
+  },
+  {
+    id: 107,
+    slug: "parole-in-place-military-families-camp-pendleton",
+    pillar: "status",
+    title: {
+      en: "Parole in Place for Military Families near Camp Pendleton: Path to Legal Status",
+      ar: "الإفراج المشروط في المكان للعائلات العسكرية بالقرب من كامب بندلتون: طريق للوضع القانوني"
+    },
+    excerpt: {
+      en: "Expert Parole in Place assistance near Camp Pendleton for military families. Path to green card for undocumented spouses.",
+      ar: "مساعدة خبراء في الإفراج المشروط في المكان بالقرب من كامب بندلتون للعائلات العسكرية."
+    },
+    location: "Camp Pendleton",
+    county: "San Diego County",
+    targetDemographic: ["Military Family", "Veteran Spouse", "Arab"],
+    category: "status",
+    date: "2026-01-06",
+    readTime: 11
+  },
+  {
+    id: 108,
+    slug: "f1-sevis-transfer-costa-mesa",
+    pillar: "work",
+    title: {
+      en: "F-1 SEVIS Transfer Services in Costa Mesa: Change Schools Without Losing Status",
+      ar: "خدمات نقل SEVIS F-1 في كوستا ميسا: غير المدارس دون فقدان الوضع"
+    },
+    excerpt: {
+      en: "Expert F-1 SEVIS transfer assistance in Costa Mesa. Help changing schools without losing student status.",
+      ar: "مساعدة خبراء في نقل SEVIS F-1 في كوستا ميسا. مساعدة في تغيير المدارس دون فقدان وضع الطالب."
+    },
+    location: "Costa Mesa",
+    county: "Orange County",
+    targetDemographic: ["Student", "International", "Arab"],
+    category: "work",
+    date: "2026-01-06",
+    readTime: 9
+  },
+  {
+    id: 109,
+    slug: "b2-tourist-visa-change-status-carlsbad",
+    pillar: "status",
+    title: {
+      en: "B-2 Tourist Visa Change of Status in Carlsbad: Transition to Another Visa Category",
+      ar: "تغيير وضع تأشيرة B-2 السياحية في كارلسباد: الانتقال إلى فئة تأشيرة أخرى"
+    },
+    excerpt: {
+      en: "Expert B-2 change of status assistance in Carlsbad. Change from tourist visa to F-1 student or other visa categories.",
+      ar: "مساعدة خبراء في تغيير وضع B-2 في كارلسباد. التغيير من تأشيرة السياحة إلى F-1 طالب أو فئات أخرى."
+    },
+    location: "Carlsbad",
+    county: "San Diego County",
+    targetDemographic: ["Visitor", "Tourist", "Arab"],
+    category: "status",
+    date: "2026-01-06",
+    readTime: 10
+  },
+  {
+    id: 110,
+    slug: "bia-immigration-appeals-santa-ana",
+    pillar: "status",
+    title: {
+      en: "Board of Immigration Appeals (BIA) Services in Santa Ana: Challenge Unfavorable Decisions",
+      ar: "خدمات مجلس استئناف الهجرة (BIA) في سانتا آنا: طعن في القرارات غير المواتية"
+    },
+    excerpt: {
+      en: "Expert BIA appeals assistance in Santa Ana. Challenge unfavorable immigration court decisions.",
+      ar: "مساعدة خبراء في استئنافات BIA في سانتا آنا. طعن في قرارات محكمة الهجرة غير المواتية."
+    },
+    location: "Santa Ana",
+    county: "Orange County",
+    targetDemographic: ["Appeals", "Court", "Arab"],
+    category: "status",
+    date: "2026-01-06",
+    readTime: 11
   }
 ];
 
