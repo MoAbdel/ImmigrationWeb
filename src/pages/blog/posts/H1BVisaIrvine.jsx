@@ -14,7 +14,7 @@ const H1BVisaIrvine = ({ language }) => {
       location: "Irvine",
       date: "December 28, 2025",
       readTime: "9 min read",
-      author: "Immigration Solution Services",
+      author: "SoCal Immigration Services",
       locationIntro: "Irvine is a major tech hub in Orange County, home to many companies that sponsor H-1B workers. For Middle Eastern tech professionals, understanding the H-1B process is essential for career growth in America.",
 
       sections: [

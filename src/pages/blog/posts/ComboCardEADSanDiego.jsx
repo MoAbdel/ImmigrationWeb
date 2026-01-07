@@ -14,8 +14,8 @@ const ComboCardEADSanDiego = ({ language }) => {
       location: "San Diego",
       date: "January 7, 2026",
       readTime: "10 min read",
-      author: "Immigration Solution Services",
-      locationIntro: "For San Diego residents applying for a green card through adjustment of status, the Combo Card offers significant benefits by combining work authorization and travel permission into a single document. Immigration Solution Services helps clients understand and obtain this valuable document while their green card application is pending.",
+      author: "SoCal Immigration Services",
+      locationIntro: "For San Diego residents applying for a green card through adjustment of status, the Combo Card offers significant benefits by combining work authorization and travel permission into a single document. SoCal Immigration Services helps clients understand and obtain this valuable document while their green card application is pending.",
 
       sections: [
         {

@@ -14,8 +14,8 @@ const BiometricsAppointmentAnaheim = ({ language }) => {
       location: "Anaheim",
       date: "January 7, 2026",
       readTime: "10 min read",
-      author: "Immigration Solution Services",
-      locationIntro: "After filing many immigration applications, USCIS requires applicants to attend a biometrics appointment to collect fingerprints, photographs, and signatures. For residents of Anaheim and Orange County, biometrics appointments are typically scheduled at the Santa Ana Application Support Center (ASC). Immigration Solution Services helps clients prepare for this important step in their immigration journey.",
+      author: "SoCal Immigration Services",
+      locationIntro: "After filing many immigration applications, USCIS requires applicants to attend a biometrics appointment to collect fingerprints, photographs, and signatures. For residents of Anaheim and Orange County, biometrics appointments are typically scheduled at the Santa Ana Application Support Center (ASC). SoCal Immigration Services helps clients prepare for this important step in their immigration journey.",
 
       sections: [
         {

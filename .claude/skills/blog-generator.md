@@ -1,6 +1,6 @@
 # Blog Generator Skill - SEO/GEO/AIO/AEO Optimized
 
-Generate hyper-optimized, geo-targeted, bilingual blog content for Immigration Solution Services - the premier Arab immigration services company serving all of Southern California from Garden Grove, CA.
+Generate hyper-optimized, geo-targeted, bilingual blog content for SoCal Immigration Services - the premier Arab immigration services company serving all of Southern California from Irvine, CA.
 
 ## Usage
 
@@ -30,7 +30,7 @@ Examples:
 | Irvine | Tech professionals, students | H-1B, F-1, OPT, employment visa |
 | Riverside | Young families, commuters | green card, adjustment of status |
 | Corona | Growing Arab families | family reunification, citizenship |
-| Garden Grove | Central hub, all services | document preparation, translations |
+| Garden Grove | Large Arab community | document preparation, translations |
 | Rancho Cucamonga | Inland Empire professionals | work authorization, employment |
 | Glendale | Armenian-Arab community, asylum | asylum, refugee adjustment |
 | Los Angeles | Volume market, diverse needs | immigration services, naturalization |
@@ -362,10 +362,10 @@ const schema = {
   "headline": "Title with Location",
   "author": {
     "@type": "Organization",
-    "name": "Immigration Solution Services",
+    "name": "SoCal Immigration Services",
     "address": {
       "@type": "PostalAddress",
-      "addressLocality": "Garden Grove",
+      "addressLocality": "Irvine",
       "addressRegion": "CA"
     }
   },
@@ -406,7 +406,7 @@ const schema = {
 ```jsx
 // Include Bing Places references
 const bingOptimized = {
-  businessName: "Immigration Solution Services",
+  businessName: "SoCal Immigration Services",
   category: "Immigration & Naturalization Consultants",
   serviceAreas: ["Orange County", "San Diego County", "Riverside County", "Los Angeles County"]
 };
@@ -440,7 +440,7 @@ Each blog post MUST include:
 
 3. ENTITY RELATIONSHIPS:
    Connect concepts AI models understand:
-   "K-1 Fiancé Visa" → "USCIS" → "Immigration Solution Services" → "Anaheim"
+   "K-1 Fiancé Visa" → "USCIS" → "SoCal Immigration Services" → "Anaheim"
 
 4. FACTUAL CITATIONS:
    Reference official sources (USCIS.gov, State.gov)
@@ -462,7 +462,7 @@ Key Points: Numbered or bulleted
 5. Next steps
 
 Closing: Clear call-to-action with location
-"Contact Immigration Solution Services in Garden Grove for [service] help in [location]."
+"Contact SoCal Immigration Services in Garden Grove for [service] help in [location]."
 ```
 
 ---
@@ -488,7 +488,7 @@ Provide actionable next steps
 ### Entity Salience:
 ```
 HIGH-SALIENCE ENTITIES TO ESTABLISH:
-- "Immigration Solution Services" + "Garden Grove" + "Arab immigrants"
+- "SoCal Immigration Services" + "Garden Grove" + "Arab immigrants"
 - "Little Arabia immigration help" + "Anaheim"
 - "Iraqi refugee services" + "El Cajon"
 - "Arab immigration attorney alternative" + "Southern California"
@@ -505,7 +505,7 @@ Repeat key entity combinations 3-5 times naturally throughout content.
 ```
 PARAGRAPH SNIPPETS (40-50 words):
 Include a concise definition block after each H2:
-"[Term] in [Location] refers to [definition]. For Arab immigrants, this means [benefit]. Immigration Solution Services provides [specific help] to [demographic] throughout [region]."
+"[Term] in [Location] refers to [definition]. For Arab immigrants, this means [benefit]. SoCal Immigration Services provides [specific help] to [demographic] throughout [region]."
 
 LIST SNIPPETS:
 Use numbered lists for processes:
@@ -595,7 +595,7 @@ EVERY POST MUST LINK TO:
 ANCHOR TEXT VARIETY:
 - Exact match: "K-1 visa services in Anaheim"
 - Partial match: "K-1 help in Anaheim"
-- Branded: "Immigration Solution Services in Anaheim"
+- Branded: "SoCal Immigration Services in Anaheim"
 - Generic: "learn more about our Anaheim services"
 ```
 
@@ -806,7 +806,7 @@ When generating 20 posts, distribute across:
 
 ## Disclaimer (End of Every Post):
 ```
-**Disclaimer**: This article provides general information about [topic] in [location] and does not constitute legal advice. Immigration Solution Services is a document preparation company, not a law firm. For legal advice specific to your situation, please consult with a licensed immigration attorney. Processing times and requirements may change; verify current information with USCIS.gov.
+**Disclaimer**: This article provides general information about [topic] in [location] and does not constitute legal advice. SoCal Immigration Services is a document preparation company, not a law firm. For legal advice specific to your situation, please consult with a licensed immigration attorney. Processing times and requirements may change; verify current information with USCIS.gov.
 ```
 
 ## Arabic Translation Requirements:
@@ -836,7 +836,7 @@ Each post should target:
 
 ---
 
-This skill generates hyper-localized, demographically-targeted, fully-optimized content that positions Immigration Solution Services as THE premier immigration service for Arab immigrants throughout all of Southern California.
+This skill generates hyper-localized, demographically-targeted, fully-optimized content that positions SoCal Immigration Services as THE premier immigration service for Arab immigrants throughout all of Southern California.
 
 ---
 
@@ -854,11 +854,11 @@ The following sections implement 2026 industry standards for maximum search visi
   "@context": "https://schema.org",
   "@type": "Organization",
   "@id": "https://socalimmigrationservices.com/#organization",
-  "name": "Immigration Solution Services",
+  "name": "SoCal Immigration Services",
   "url": "https://socalimmigrationservices.com",
   "address": {
     "@type": "PostalAddress",
-    "addressLocality": "Garden Grove",
+    "addressLocality": "Irvine",
     "addressRegion": "CA"
   },
   "sameAs": [
@@ -886,7 +886,7 @@ The following sections implement 2026 industry standards for maximum search visi
 ### Entity Nesting Hierarchy
 
 ```
-Organization (Immigration Solution Services)
+Organization (SoCal Immigration Services)
   └── LocalBusiness (Garden Grove Office)
        └── Service (Visa Document Preparation)
             └── Offer (Service Pricing)
@@ -900,12 +900,12 @@ Organization (Immigration Solution Services)
     {
       "@type": "Organization",
       "@id": "https://socalimmigrationservices.com/#organization",
-      "name": "Immigration Solution Services"
+      "name": "SoCal Immigration Services"
     },
     {
       "@type": "LocalBusiness",
       "@id": "https://socalimmigrationservices.com/#localbusiness",
-      "name": "Immigration Solution Services - Garden Grove",
+      "name": "SoCal Immigration Services - Garden Grove",
       "parentOrganization": {"@id": "https://socalimmigrationservices.com/#organization"},
       "areaServed": [
         {"@type": "City", "name": "El Cajon"},
@@ -932,7 +932,7 @@ Organization (Immigration Solution Services)
 ```json
 {
   "@type": "LocalBusiness",
-  "name": "Immigration Solution Services",
+  "name": "SoCal Immigration Services",
   "potentialAction": [
     {
       "@type": "ScheduleAction",
@@ -1018,7 +1018,7 @@ Organization (Immigration Solution Services)
 {
   "@type": "ImageObject",
   "contentUrl": "https://socalimmigrationservices.com/images/garden-grove-office.jpg",
-  "caption": "Immigration Solution Services Garden Grove office serving Arab immigrants",
+  "caption": "SoCal Immigration Services Garden Grove office serving Arab immigrants",
   "width": "1200",
   "height": "630"
 }

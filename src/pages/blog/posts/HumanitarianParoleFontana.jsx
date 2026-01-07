@@ -14,8 +14,8 @@ const HumanitarianParoleFontana = ({ language }) => {
       location: "Fontana",
       date: "December 30, 2025",
       readTime: "10 min read",
-      author: "Immigration Solution Services",
-      locationIntro: "For families in Fontana facing urgent situations where a loved one needs emergency entry to the United States, humanitarian parole may provide a solution. Immigration Solution Services helps families understand this discretionary immigration option and prepare compelling applications.",
+      author: "SoCal Immigration Services",
+      locationIntro: "For families in Fontana facing urgent situations where a loved one needs emergency entry to the United States, humanitarian parole may provide a solution. SoCal Immigration Services helps families understand this discretionary immigration option and prepare compelling applications.",
 
       sections: [
         {
@@ -128,7 +128,7 @@ const HumanitarianParoleFontana = ({ language }) => {
         },
         {
           heading: "Our Humanitarian Parole Services in Fontana",
-          content: "Immigration Solution Services helps Fontana families with:",
+          content: "SoCal Immigration Services helps Fontana families with:",
           list: [
             "Emergency case assessment and evaluation",
             "Form I-131 preparation for humanitarian parole",

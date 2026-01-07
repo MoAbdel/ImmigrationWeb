@@ -14,8 +14,8 @@ const ReligiousWorkerR1VisaGlendale = ({ language }) => {
       location: "Glendale",
       date: "January 3, 2026",
       readTime: "10 min read",
-      author: "Immigration Solution Services",
-      locationIntro: "Glendale is home to diverse religious communities, including Armenian churches, Orthodox congregations, and mosques serving the Arab-American community. When these religious organizations need to bring ministers, priests, imams, or other religious workers from abroad, the R-1 Religious Worker Visa provides a pathway. Immigration Solution Services helps Glendale religious institutions navigate this specialized immigration process.",
+      author: "SoCal Immigration Services",
+      locationIntro: "Glendale is home to diverse religious communities, including Armenian churches, Orthodox congregations, and mosques serving the Arab-American community. When these religious organizations need to bring ministers, priests, imams, or other religious workers from abroad, the R-1 Religious Worker Visa provides a pathway. SoCal Immigration Services helps Glendale religious institutions navigate this specialized immigration process.",
 
       sections: [
         {
@@ -106,7 +106,7 @@ const ReligiousWorkerR1VisaGlendale = ({ language }) => {
           ]
         },
         {
-          heading: "Why Choose Immigration Solution Services?",
+          heading: "Why Choose SoCal Immigration Services?",
           content: "Our services for Glendale religious organizations include:",
           list: [
             "Experience with diverse religious denominations (Christian, Muslim, other faiths)",

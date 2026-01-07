@@ -14,8 +14,8 @@ const ImmigrationBondHearingSanBernardino = ({ language }) => {
       location: "San Bernardino",
       date: "January 6, 2026",
       readTime: "10 min read",
-      author: "Immigration Solution Services",
-      locationIntro: "San Bernardino County is home to the Adelanto ICE Processing Center, one of the largest immigration detention facilities in California. Many families in San Bernardino and the Inland Empire have loved ones detained at Adelanto or other facilities. Understanding the immigration bond process is crucial for those seeking to reunite with detained family members. Immigration Solution Services helps families navigate this stressful process.",
+      author: "SoCal Immigration Services",
+      locationIntro: "San Bernardino County is home to the Adelanto ICE Processing Center, one of the largest immigration detention facilities in California. Many families in San Bernardino and the Inland Empire have loved ones detained at Adelanto or other facilities. Understanding the immigration bond process is crucial for those seeking to reunite with detained family members. SoCal Immigration Services helps families navigate this stressful process.",
 
       sections: [
         {
@@ -115,7 +115,7 @@ const ImmigrationBondHearingSanBernardino = ({ language }) => {
           content: "The Adelanto ICE Processing Center is located in San Bernardino County:\n\n• Address: 10400 Rancho Road, Adelanto, CA 92301\n• Phone: (760) 530-2003\n• Facility Code: ADEL\n\nFamily members can deposit money for the detained person's commissary account and schedule visits through the facility."
         },
         {
-          heading: "Why Choose Immigration Solution Services?",
+          heading: "Why Choose SoCal Immigration Services?",
           content: "Serving San Bernardino and the Inland Empire, we offer:",
           list: [
             "Experience with bond hearings at Adelanto and other facilities",

@@ -14,7 +14,7 @@ const I130UnmarriedChildrenRiverside = ({ language }) => {
       location: "Riverside",
       date: "January 1, 2026",
       readTime: "9 min read",
-      author: "Immigration Solution Services",
+      author: "SoCal Immigration Services",
       locationIntro: "For permanent residents in Riverside looking to bring their unmarried adult children to the United States, the I-130 family petition process can be complex. Understanding the F2B preference category and current wait times is essential for Inland Empire families.",
 
       sections: [

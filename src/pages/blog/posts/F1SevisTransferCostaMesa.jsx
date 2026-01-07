@@ -14,8 +14,8 @@ const F1SevisTransferCostaMesa = ({ language }) => {
       location: "Costa Mesa",
       date: "January 6, 2026",
       readTime: "9 min read",
-      author: "Immigration Solution Services",
-      locationIntro: "Costa Mesa, centrally located in Orange County, is surrounded by numerous colleges and universities including Orange Coast College, UC Irvine, and many private institutions. International students in the area often need to transfer between schools for academic, financial, or personal reasons. Properly completing a SEVIS transfer is crucial to maintaining F-1 status. Immigration Solution Services helps international students navigate this important process.",
+      author: "SoCal Immigration Services",
+      locationIntro: "Costa Mesa, centrally located in Orange County, is surrounded by numerous colleges and universities including Orange Coast College, UC Irvine, and many private institutions. International students in the area often need to transfer between schools for academic, financial, or personal reasons. Properly completing a SEVIS transfer is crucial to maintaining F-1 status. SoCal Immigration Services helps international students navigate this important process.",
 
       sections: [
         {
@@ -132,7 +132,7 @@ const F1SevisTransferCostaMesa = ({ language }) => {
           ]
         },
         {
-          heading: "Why Choose Immigration Solution Services?",
+          heading: "Why Choose SoCal Immigration Services?",
           content: "Serving Costa Mesa and all of Orange County, we offer:",
           list: [
             "Experience with F-1 SEVIS transfers",

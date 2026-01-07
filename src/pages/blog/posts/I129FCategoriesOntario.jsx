@@ -14,8 +14,8 @@ const I129FCategoriesOntario = ({ language }) => {
       location: "Ontario",
       date: "January 5, 2026",
       readTime: "10 min read",
-      author: "Immigration Solution Services",
-      locationIntro: "Ontario, California, in the heart of the Inland Empire, is home to many families seeking to unite with their loved ones through the fiancé visa process. The I-129F petition is the foundation for bringing your fiancé (and their children) to the United States. Immigration Solution Services helps Ontario families understand the K-1 and K-2 visa categories and navigate this emotional and complex process.",
+      author: "SoCal Immigration Services",
+      locationIntro: "Ontario, California, in the heart of the Inland Empire, is home to many families seeking to unite with their loved ones through the fiancé visa process. The I-129F petition is the foundation for bringing your fiancé (and their children) to the United States. SoCal Immigration Services helps Ontario families understand the K-1 and K-2 visa categories and navigate this emotional and complex process.",
 
       sections: [
         {
@@ -135,7 +135,7 @@ const I129FCategoriesOntario = ({ language }) => {
           }
         },
         {
-          heading: "Why Choose Immigration Solution Services?",
+          heading: "Why Choose SoCal Immigration Services?",
           content: "Serving Ontario and the Inland Empire, we provide:",
           list: [
             "Comprehensive I-129F petition preparation",

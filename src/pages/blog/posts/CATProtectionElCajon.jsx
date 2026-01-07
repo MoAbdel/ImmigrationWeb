@@ -14,8 +14,8 @@ const CATProtectionElCajon = ({ language }) => {
       location: "El Cajon",
       date: "January 4, 2026",
       readTime: "13 min read",
-      author: "Immigration Solution Services",
-      locationIntro: "For Iraqi and Syrian refugees in El Cajon facing removal proceedings, the Convention Against Torture (CAT) may provide critical protection when other forms of relief are unavailable. Even if asylum is denied, CAT protection can prevent deportation to a country where you would face torture. Immigration Solution Services helps refugees understand this important safeguard.",
+      author: "SoCal Immigration Services",
+      locationIntro: "For Iraqi and Syrian refugees in El Cajon facing removal proceedings, the Convention Against Torture (CAT) may provide critical protection when other forms of relief are unavailable. Even if asylum is denied, CAT protection can prevent deportation to a country where you would face torture. SoCal Immigration Services helps refugees understand this important safeguard.",
 
       sections: [
         {
@@ -112,7 +112,7 @@ const CATProtectionElCajon = ({ language }) => {
           content: "There are two forms of CAT protection:\n\n• Withholding of Removal Under CAT: Stronger protection, cannot be removed to the country of torture. May be removed to a third country.\n\n• Deferral of Removal Under CAT: Weaker protection, granted when bars apply. Can be terminated at any time if conditions change. Still prevents removal.\n\nDeferral is often granted to those who would otherwise be barred due to criminal history or other factors."
         },
         {
-          heading: "Why Choose Immigration Solution Services?",
+          heading: "Why Choose SoCal Immigration Services?",
           content: "We help El Cajon refugees with CAT cases:",
           list: [
             "Arabic-speaking staff who understand Iraqi and Syrian situations",

@@ -14,8 +14,8 @@ const I864AJointSponsorTorrance = ({ language }) => {
       location: "Torrance",
       date: "December 30, 2025",
       readTime: "9 min read",
-      author: "Immigration Solution Services",
-      locationIntro: "For families in Torrance where the primary sponsor doesn't meet income requirements for a green card petition, a joint sponsor can help. Immigration Solution Services helps families understand their options and prepare proper sponsorship documentation.",
+      author: "SoCal Immigration Services",
+      locationIntro: "For families in Torrance where the primary sponsor doesn't meet income requirements for a green card petition, a joint sponsor can help. SoCal Immigration Services helps families understand their options and prepare proper sponsorship documentation.",
 
       sections: [
         {
@@ -147,7 +147,7 @@ const I864AJointSponsorTorrance = ({ language }) => {
         },
         {
           heading: "Our I-864A Services in Torrance",
-          content: "Immigration Solution Services helps Torrance families with:",
+          content: "SoCal Immigration Services helps Torrance families with:",
           list: [
             "Income requirement calculations",
             "Household size determination",

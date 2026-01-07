@@ -14,8 +14,8 @@ const NaturalizationFeeWaiverElCajon = ({ language }) => {
       location: "El Cajon",
       date: "January 3, 2026",
       readTime: "9 min read",
-      author: "Immigration Solution Services",
-      locationIntro: "For many Iraqi and Syrian refugee families in El Cajon, the $760 USCIS naturalization fee can be a significant barrier to citizenship. Immigration Solution Services helps low-income residents of San Diego County's largest refugee community understand and apply for fee waivers that can eliminate or reduce citizenship application costs.",
+      author: "SoCal Immigration Services",
+      locationIntro: "For many Iraqi and Syrian refugee families in El Cajon, the $760 USCIS naturalization fee can be a significant barrier to citizenship. SoCal Immigration Services helps low-income residents of San Diego County's largest refugee community understand and apply for fee waivers that can eliminate or reduce citizenship application costs.",
 
       sections: [
         {
@@ -89,7 +89,7 @@ const NaturalizationFeeWaiverElCajon = ({ language }) => {
           content: "If you don't qualify for a full fee waiver but the fee is still difficult, USCIS offers a reduced fee option:\n\n• Income must be greater than 150% but at or below 200% of poverty guidelines\n• The filing fee is reduced to $380 (a $330 savings)\n• Use Form I-942, Request for Reduced Fee\n• Still requires documentation of income"
         },
         {
-          heading: "Why Choose Immigration Solution Services?",
+          heading: "Why Choose SoCal Immigration Services?",
           content: "Our team helps El Cajon families navigate the fee waiver process:",
           list: [
             "Arabic-speaking staff who understand refugee family situations",

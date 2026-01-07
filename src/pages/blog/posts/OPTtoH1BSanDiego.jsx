@@ -14,7 +14,7 @@ const OPTtoH1BSanDiego = ({ language }) => {
       location: "San Diego",
       date: "December 28, 2025",
       readTime: "8 min read",
-      author: "Immigration Solution Services",
+      author: "SoCal Immigration Services",
       locationIntro: "San Diego's universities produce many international graduates, including Arab students pursuing careers in America. Transitioning from F-1 student status through OPT to H-1B is a critical path.",
 
       sections: [

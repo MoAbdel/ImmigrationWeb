@@ -14,7 +14,7 @@ const DeferredInspectionMissionViejo = ({ language }) => {
       location: "Mission Viejo",
       date: "January 1, 2026",
       readTime: "10 min read",
-      author: "Immigration Solution Services",
+      author: "SoCal Immigration Services",
       locationIntro: "Mission Viejo, one of the largest planned communities in Orange County, is home to many international travelers and immigrant families. When issues arise at a U.S. port of entry, Customs and Border Protection (CBP) may issue a deferred inspection notice, requiring the traveler to appear at a local CBP office to complete the inspection process.",
 
       sections: [

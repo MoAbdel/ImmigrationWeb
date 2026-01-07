@@ -14,7 +14,7 @@ const ChildStatusProtectionActHuntingtonBeach = ({ language }) => {
       location: "Huntington Beach",
       date: "January 1, 2026",
       readTime: "11 min read",
-      author: "Immigration Solution Services",
+      author: "SoCal Immigration Services",
       locationIntro: "Huntington Beach, known for its beautiful coastline and family-friendly communities, is home to many immigrant families navigating the complex U.S. immigration system. The Child Status Protection Act (CSPA) provides crucial protection for children who might otherwise 'age out' of immigration benefits when they turn 21.",
 
       sections: [

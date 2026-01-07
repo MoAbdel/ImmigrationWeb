@@ -14,7 +14,7 @@ const AdjustmentOfStatusRiverside = ({ language }) => {
       location: "Riverside",
       date: "December 28, 2025",
       readTime: "9 min read",
-      author: "Immigration Solution Services",
+      author: "SoCal Immigration Services",
       locationIntro: "Riverside families seeking to adjust their status to permanent resident can do so without leaving the United States. Form I-485 allows eligible immigrants in the Inland Empire to apply for their green cards from within America.",
 
       sections: [

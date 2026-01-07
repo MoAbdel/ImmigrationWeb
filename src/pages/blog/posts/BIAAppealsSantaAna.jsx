@@ -14,8 +14,8 @@ const BIAAppealsSantaAna = ({ language }) => {
       location: "Santa Ana",
       date: "January 6, 2026",
       readTime: "11 min read",
-      author: "Immigration Solution Services",
-      locationIntro: "Santa Ana is home to one of the busiest immigration courts in the nation. Many individuals who receive unfavorable decisions from the Santa Ana Immigration Court have the right to appeal to the Board of Immigration Appeals (BIA). Understanding the appeals process is crucial for those seeking a second chance at relief. Immigration Solution Services helps families navigate this complex process.",
+      author: "SoCal Immigration Services",
+      locationIntro: "Santa Ana is home to one of the busiest immigration courts in the nation. Many individuals who receive unfavorable decisions from the Santa Ana Immigration Court have the right to appeal to the Board of Immigration Appeals (BIA). Understanding the appeals process is crucial for those seeking a second chance at relief. SoCal Immigration Services helps families navigate this complex process.",
 
       sections: [
         {
@@ -135,7 +135,7 @@ const BIAAppealsSantaAna = ({ language }) => {
           content: "If the BIA rules against you, you may be able to appeal to federal court:\n\n• Petition for Review to the Circuit Court of Appeals (9th Circuit for California cases)\n• Must be filed within 30 days of BIA decision\n• Limited review—courts defer to BIA on many issues\n• Can request stay of removal from the court"
         },
         {
-          heading: "Why Choose Immigration Solution Services?",
+          heading: "Why Choose SoCal Immigration Services?",
           content: "Serving Santa Ana and all of Orange County, we offer:",
           list: [
             "Experience with BIA appeals process",

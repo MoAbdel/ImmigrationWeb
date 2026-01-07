@@ -14,8 +14,8 @@ const VisaBulletinGuideOC = ({ language }) => {
       location: "Orange County",
       date: "January 5, 2026",
       readTime: "11 min read",
-      author: "Immigration Solution Services",
-      locationIntro: "For the thousands of immigrant families across Orange County waiting to reunite with loved ones, the monthly Visa Bulletin is the most important government publication to understand. Immigration Solution Services helps Arab families in Anaheim, Garden Grove, Irvine, and throughout Orange County navigate this critical document that determines when they can proceed with their immigration cases.",
+      author: "SoCal Immigration Services",
+      locationIntro: "For the thousands of immigrant families across Orange County waiting to reunite with loved ones, the monthly Visa Bulletin is the most important government publication to understand. SoCal Immigration Services helps Arab families in Anaheim, Garden Grove, Irvine, and throughout Orange County navigate this critical document that determines when they can proceed with their immigration cases.",
 
       sections: [
         {
@@ -117,7 +117,7 @@ const VisaBulletinGuideOC = ({ language }) => {
           ]
         },
         {
-          heading: "Why Partner with Immigration Solution Services?",
+          heading: "Why Partner with SoCal Immigration Services?",
           content: "Serving all of Orange County from our Garden Grove location, we help with:",
           list: [
             "Monthly Visa Bulletin monitoring for your specific case",

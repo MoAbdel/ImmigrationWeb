@@ -1,6 +1,6 @@
 # Generate Blog Posts
 
-Generate SEO-optimized, bilingual blog posts for Immigration Solution Services.
+Generate SEO-optimized, bilingual blog posts for SoCal Immigration Services.
 
 ## Arguments
 - `count` (optional): Number of posts to generate (default: 5)

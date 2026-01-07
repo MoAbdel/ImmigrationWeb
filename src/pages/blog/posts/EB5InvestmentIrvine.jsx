@@ -14,8 +14,8 @@ const EB5InvestmentIrvine = ({ language }) => {
       location: "Irvine",
       date: "December 28, 2025",
       readTime: "12 min read",
-      author: "Immigration Solution Services",
-      locationIntro: "Irvine's dynamic business environment makes it an attractive destination for immigrant investors seeking the EB-5 visa. Immigration Solution Services helps entrepreneurs from the Middle East and around the world understand the EB-5 program and navigate the path to permanent residence through investment.",
+      author: "SoCal Immigration Services",
+      locationIntro: "Irvine's dynamic business environment makes it an attractive destination for immigrant investors seeking the EB-5 visa. SoCal Immigration Services helps entrepreneurs from the Middle East and around the world understand the EB-5 program and navigate the path to permanent residence through investment.",
 
       sections: [
         {
@@ -145,7 +145,7 @@ const EB5InvestmentIrvine = ({ language }) => {
           ]
         },
         {
-          heading: "Why Work With Immigration Solution Services",
+          heading: "Why Work With SoCal Immigration Services",
           content: "Our team helps investors navigate the complex EB-5 process:",
           list: [
             "Arabic and English-speaking consultation",

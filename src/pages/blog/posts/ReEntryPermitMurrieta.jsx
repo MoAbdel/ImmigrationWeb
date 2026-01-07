@@ -14,8 +14,8 @@ const ReEntryPermitMurrieta = ({ language }) => {
       location: "Murrieta",
       date: "December 29, 2025",
       readTime: "8 min read",
-      author: "Immigration Solution Services",
-      locationIntro: "For green card holders in Murrieta and Southwest Riverside planning extended travel abroad, a re-entry permit is essential for maintaining permanent resident status. Immigration Solution Services helps you prepare the documentation needed for worry-free travel.",
+      author: "SoCal Immigration Services",
+      locationIntro: "For green card holders in Murrieta and Southwest Riverside planning extended travel abroad, a re-entry permit is essential for maintaining permanent resident status. SoCal Immigration Services helps you prepare the documentation needed for worry-free travel.",
 
       sections: [
         {
@@ -107,7 +107,7 @@ const ReEntryPermitMurrieta = ({ language }) => {
         },
         {
           heading: "Our Murrieta Re-Entry Permit Services",
-          content: "Immigration Solution Services helps Murrieta green card holders with travel documents:",
+          content: "SoCal Immigration Services helps Murrieta green card holders with travel documents:",
           list: [
             "Complete I-131 application preparation",
             "Document organization and review",

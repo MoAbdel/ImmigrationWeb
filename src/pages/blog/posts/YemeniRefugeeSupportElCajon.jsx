@@ -14,7 +14,7 @@ const YemeniRefugeeSupportElCajon = ({ language }) => {
       location: "El Cajon",
       date: "January 1, 2026",
       readTime: "12 min read",
-      author: "Immigration Solution Services",
+      author: "SoCal Immigration Services",
       locationIntro: "El Cajon has become a welcoming home for Yemeni refugees fleeing the ongoing humanitarian crisis in Yemen. Our Arabic-speaking team provides compassionate support for Yemeni families navigating the complex U.S. immigration system.",
 
       sections: [

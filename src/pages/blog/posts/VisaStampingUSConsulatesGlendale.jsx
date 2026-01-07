@@ -14,8 +14,8 @@ const VisaStampingUSConsulatesGlendale = ({ language }) => {
       location: "Glendale",
       date: "January 7, 2026",
       readTime: "12 min read",
-      author: "Immigration Solution Services",
-      locationIntro: "Glendale is home to a large Armenian and Middle Eastern community, many of whom need to travel internationally and obtain or renew their U.S. visa stamps. Whether you're getting your first visa stamp or renewing an expired one, understanding the consular interview process is essential. Immigration Solution Services helps Glendale residents prepare for successful visa stamping appointments.",
+      author: "SoCal Immigration Services",
+      locationIntro: "Glendale is home to a large Armenian and Middle Eastern community, many of whom need to travel internationally and obtain or renew their U.S. visa stamps. Whether you're getting your first visa stamp or renewing an expired one, understanding the consular interview process is essential. SoCal Immigration Services helps Glendale residents prepare for successful visa stamping appointments.",
 
       sections: [
         {

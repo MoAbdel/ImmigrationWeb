@@ -14,7 +14,7 @@ const SiblingImmigrationRiverside = ({ language }) => {
       location: "Riverside",
       date: "December 28, 2025",
       readTime: "7 min read",
-      author: "Immigration Solution Services",
+      author: "SoCal Immigration Services",
       locationIntro: "Riverside's growing Arab-American community in the Inland Empire faces unique challenges when trying to bring siblings to the United States. The F4 sibling category has the longest wait times of any family immigration category, making proper planning and document preparation essential.",
 
       sections: [
@@ -89,7 +89,7 @@ const SiblingImmigrationRiverside = ({ language }) => {
         },
         {
           heading: "Serving Riverside and the Inland Empire",
-          content: "Immigration Solution Services helps Arab families throughout the Inland Empire including Riverside, Corona, Rancho Cucamonga, Ontario, and surrounding areas. We offer:",
+          content: "SoCal Immigration Services helps Arab families throughout the Inland Empire including Riverside, Corona, Rancho Cucamonga, Ontario, and surrounding areas. We offer:",
           list: [
             "Arabic and English speaking staff",
             "Experience with long-term family petitions",

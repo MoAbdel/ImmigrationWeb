@@ -14,7 +14,7 @@ const E2TreatyInvestorAnaheim = ({ language }) => {
       location: "Anaheim",
       date: "January 1, 2026",
       readTime: "11 min read",
-      author: "Immigration Solution Services",
+      author: "SoCal Immigration Services",
       locationIntro: "Anaheim's Little Arabia is a thriving hub for Arab-owned businesses. The E-2 treaty investor visa allows entrepreneurs from treaty countries to start or purchase businesses in the United States, creating economic opportunities in Orange County's vibrant Arab community.",
 
       sections: [

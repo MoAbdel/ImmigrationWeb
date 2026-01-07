@@ -14,8 +14,8 @@ const DiversityVisaLotteryIrvine = ({ language }) => {
       location: "Irvine",
       date: "January 7, 2026",
       readTime: "11 min read",
-      author: "Immigration Solution Services",
-      locationIntro: "The Diversity Visa (DV) Lottery, also known as the green card lottery, provides a unique opportunity for nationals of countries with low immigration rates to the United States to obtain permanent residency. Each year, approximately 55,000 diversity visas are available worldwide. Immigration Solution Services helps Irvine and Orange County residents understand and navigate the DV lottery process.",
+      author: "SoCal Immigration Services",
+      locationIntro: "The Diversity Visa (DV) Lottery, also known as the green card lottery, provides a unique opportunity for nationals of countries with low immigration rates to the United States to obtain permanent residency. Each year, approximately 55,000 diversity visas are available worldwide. SoCal Immigration Services helps Irvine and Orange County residents understand and navigate the DV lottery process.",
 
       sections: [
         {

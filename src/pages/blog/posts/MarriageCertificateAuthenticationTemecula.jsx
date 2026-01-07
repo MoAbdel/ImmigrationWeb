@@ -14,8 +14,8 @@ const MarriageCertificateAuthenticationTemecula = ({ language }) => {
       location: "Temecula",
       date: "January 3, 2026",
       readTime: "8 min read",
-      author: "Immigration Solution Services",
-      locationIntro: "For Temecula families navigating immigration applications, properly authenticated and translated marriage certificates are essential. Whether you're filing a family petition, adjusting status, or applying for citizenship, Immigration Solution Services helps Southwest Riverside County residents prepare documents that meet strict USCIS requirements.",
+      author: "SoCal Immigration Services",
+      locationIntro: "For Temecula families navigating immigration applications, properly authenticated and translated marriage certificates are essential. Whether you're filing a family petition, adjusting status, or applying for citizenship, SoCal Immigration Services helps Southwest Riverside County residents prepare documents that meet strict USCIS requirements.",
 
       sections: [
         {
@@ -90,7 +90,7 @@ const MarriageCertificateAuthenticationTemecula = ({ language }) => {
           content: "Understanding the difference is important for Arab immigrant families:\n\n• Civil Marriage Certificates: Issued by government authorities, generally preferred by USCIS\n\n• Religious Marriage Certificates: Issued by mosques, churches, or religious courts. May or may not be recognized depending on the country's legal system\n\n• Dual Documentation: In many Arab countries, you may have both religious and civil documentation - USCIS typically wants the civil registration\n\nWe help families understand which documents USCIS needs and how to obtain them if missing."
         },
         {
-          heading: "Why Choose Immigration Solution Services?",
+          heading: "Why Choose SoCal Immigration Services?",
           content: "Our document services for Temecula residents include:",
           list: [
             "Certified Arabic to English translation meeting USCIS requirements",

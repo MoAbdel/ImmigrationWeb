@@ -14,7 +14,7 @@ const EB2NIWWestminster = ({ language }) => {
       location: "Westminster",
       date: "January 1, 2026",
       readTime: "12 min read",
-      author: "Immigration Solution Services",
+      author: "SoCal Immigration Services",
       locationIntro: "Westminster, home to one of the largest Vietnamese and growing Arab communities in Orange County, is a hub for healthcare professionals, engineers, and entrepreneurs. The EB-2 National Interest Waiver (NIW) allows exceptional professionals to self-petition for a green card without needing an employer sponsor.",
 
       sections: [

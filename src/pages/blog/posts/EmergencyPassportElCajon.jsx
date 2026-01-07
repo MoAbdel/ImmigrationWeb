@@ -14,8 +14,8 @@ const EmergencyPassportElCajon = ({ language }) => {
       location: "El Cajon",
       date: "December 28, 2025",
       readTime: "8 min read",
-      author: "Immigration Solution Services",
-      locationIntro: "El Cajon's large Iraqi and refugee community often faces urgent travel document needs. Whether you need an emergency U.S. passport, refugee travel document, or assistance with foreign passport issues, Immigration Solution Services provides guidance to help you travel safely and legally.",
+      author: "SoCal Immigration Services",
+      locationIntro: "El Cajon's large Iraqi and refugee community often faces urgent travel document needs. Whether you need an emergency U.S. passport, refugee travel document, or assistance with foreign passport issues, SoCal Immigration Services provides guidance to help you travel safely and legally.",
 
       sections: [
         {
@@ -141,7 +141,7 @@ const EmergencyPassportElCajon = ({ language }) => {
         },
         {
           heading: "Our Travel Document Services",
-          content: "Immigration Solution Services helps El Cajon families with:",
+          content: "SoCal Immigration Services helps El Cajon families with:",
           list: [
             "Form I-131 preparation for Refugee Travel Documents",
             "Guidance on expedited U.S. passport applications",

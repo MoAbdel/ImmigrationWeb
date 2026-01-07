@@ -14,7 +14,7 @@ const H4EADWorkPermitBuenaPark = ({ language }) => {
       location: "Buena Park",
       date: "January 1, 2026",
       readTime: "10 min read",
-      author: "Immigration Solution Services",
+      author: "SoCal Immigration Services",
       locationIntro: "Buena Park, located in northwestern Orange County, is home to many families where one spouse works on H-1B status. The H-4 EAD (Employment Authorization Document) allows eligible H-4 dependent spouses to work in the United States, providing economic independence and career opportunities.",
 
       sections: [

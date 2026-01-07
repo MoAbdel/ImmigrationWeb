@@ -14,8 +14,8 @@ const MedicalExamI693SanDiego = ({ language }) => {
       location: "San Diego",
       date: "December 28, 2025",
       readTime: "9 min read",
-      author: "Immigration Solution Services",
-      locationIntro: "The immigration medical examination is a required step for most green card applicants. Immigration Solution Services helps San Diego families understand the I-693 requirements, find authorized civil surgeons, and prepare for a successful medical exam.",
+      author: "SoCal Immigration Services",
+      locationIntro: "The immigration medical examination is a required step for most green card applicants. SoCal Immigration Services helps San Diego families understand the I-693 requirements, find authorized civil surgeons, and prepare for a successful medical exam.",
 
       sections: [
         {

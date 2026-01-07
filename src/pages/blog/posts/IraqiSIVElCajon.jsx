@@ -14,7 +14,7 @@ const IraqiSIVElCajon = ({ language }) => {
       location: "El Cajon",
       date: "January 1, 2026",
       readTime: "11 min read",
-      author: "Immigration Solution Services",
+      author: "SoCal Immigration Services",
       locationIntro: "El Cajon is home to one of the largest Iraqi communities in the United States. For Iraqi nationals who served as translators, interpreters, or in other capacities with U.S. forces, the Special Immigrant Visa (SIV) program offers a pathway to lawful permanent residence in recognition of their service.",
 
       sections: [

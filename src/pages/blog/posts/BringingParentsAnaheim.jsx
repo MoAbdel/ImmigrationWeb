@@ -14,7 +14,7 @@ const BringingParentsAnaheim = ({ language }) => {
       location: "Anaheim",
       date: "December 28, 2025",
       readTime: "10 min read",
-      author: "Immigration Solution Services",
+      author: "SoCal Immigration Services",
       locationIntro: "Anaheim's Little Arabia on Brookhurst Street is the heart of Orange County's Arab-American community. For U.S. citizens in this vibrant community who want to bring their parents from the Middle East, the I-130 petition process offers a relatively fast path to family reunification.",
 
       sections: [
@@ -102,7 +102,7 @@ const BringingParentsAnaheim = ({ language }) => {
         },
         {
           heading: "Arabic Document Translation",
-          content: "All documents in Arabic must be translated into English for USCIS. At Immigration Solution Services, we provide certified Arabic-to-English translation services that meet USCIS requirements. Our translations include:\n\n• Certificate of translation accuracy\n• Translator's certification statement\n• Acceptance by all USCIS offices\n• Quick turnaround times"
+          content: "All documents in Arabic must be translated into English for USCIS. At SoCal Immigration Services, we provide certified Arabic-to-English translation services that meet USCIS requirements. Our translations include:\n\n• Certificate of translation accuracy\n• Translator's certification statement\n• Acceptance by all USCIS offices\n• Quick turnaround times"
         },
         {
           heading: "Using a Joint Sponsor",
@@ -110,7 +110,7 @@ const BringingParentsAnaheim = ({ language }) => {
         },
         {
           heading: "Why Anaheim Families Choose Us",
-          content: "Immigration Solution Services is conveniently located near Little Arabia and offers:",
+          content: "SoCal Immigration Services is conveniently located near Little Arabia and offers:",
           list: [
             "Fluent Arabic and English speaking staff",
             "Deep understanding of Middle Eastern cultures",

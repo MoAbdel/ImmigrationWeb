@@ -14,8 +14,8 @@ const EB3UnskilledWorkerOntario = ({ language }) => {
       location: "Ontario",
       date: "January 4, 2026",
       readTime: "11 min read",
-      author: "Immigration Solution Services",
-      locationIntro: "For workers in Ontario and the Inland Empire without college degrees or specialized training, the EB-3 'Other Worker' category provides a pathway to permanent residence through employment. While wait times are longer than skilled worker categories, this option remains available for dedicated workers willing to go through the process. Immigration Solution Services helps employers and workers navigate this employment-based green card option.",
+      author: "SoCal Immigration Services",
+      locationIntro: "For workers in Ontario and the Inland Empire without college degrees or specialized training, the EB-3 'Other Worker' category provides a pathway to permanent residence through employment. While wait times are longer than skilled worker categories, this option remains available for dedicated workers willing to go through the process. SoCal Immigration Services helps employers and workers navigate this employment-based green card option.",
 
       sections: [
         {
@@ -123,7 +123,7 @@ const EB3UnskilledWorkerOntario = ({ language }) => {
           content: "Given long processing times, workers must maintain legal status:\n\n• H-2A Agricultural Workers: Can maintain status through visa renewals\n\n• H-2B Other Temporary Workers: Limited to 3 years, may need to depart\n\n• Those Already in U.S.: May need to explore other visa options during wait\n\n• Those Abroad: Can wait in home country for visa availability\n\n• AC21 Portability: After I-485 pending 180 days, may change to similar job"
         },
         {
-          heading: "Why Choose Immigration Solution Services?",
+          heading: "Why Choose SoCal Immigration Services?",
           content: "We help Ontario employers and workers with EB-3 process:",
           list: [
             "PERM labor certification document preparation",

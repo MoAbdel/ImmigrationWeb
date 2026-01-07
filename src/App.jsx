@@ -17,6 +17,18 @@ import ProfessionalServicesPage from './pages/ProfessionalServicesPage';
 
 // Blog
 import BlogPage from './pages/blog/BlogPage';
+import FamilyImmigrationPage from './pages/FamilyImmigrationPage';
+import AsylumServicesPage from './pages/AsylumServicesPage';
+import CitizenshipPage from './pages/CitizenshipPage';
+import DACAServicesPage from './pages/DACAServicesPage';
+import GreenCardServicesPage from './pages/GreenCardServicesPage';
+
+// City Pages
+import IrvinePage from './pages/cities/IrvinePage';
+import AnaheimPage from './pages/cities/AnaheimPage';
+import LosAngelesPage from './pages/cities/LosAngelesPage';
+import SantaAnaPage from './pages/cities/SantaAnaPage';
+
 import FamilyPetitionI130ElCajon from './pages/blog/posts/FamilyPetitionI130ElCajon';
 import BringingParentsAnaheim from './pages/blog/posts/BringingParentsAnaheim';
 import SiblingImmigrationRiverside from './pages/blog/posts/SiblingImmigrationRiverside';
@@ -124,7 +136,7 @@ const App = () => {
   const content = {
     en: {
       // Navbar
-      logo: "Immigration Solution Services",
+      logo: "SoCal Immigration Services",
       nav: {
         home: "Home",
         services: "Services",
@@ -314,7 +326,7 @@ const App = () => {
     },
     ar: {
       // Navbar
-      logo: "حلول وخدمات الهجرة",
+      logo: "سوكال لخدمات الهجرة",
       nav: {
         home: "الرئيسية",
         services: "الخدمات",
@@ -495,7 +507,7 @@ const App = () => {
         services: "متخصصون في التماسات الأسرة، وطلبات التأشيرات، والمواطنة، وتصاريح العمل، والترجمة، وخدمات التوثيق.",
         hours: "الاثنين - الجمعة: 9:00 صباحًا - 6:00 مساءً | السبت: 10:00 صباحًا - 3:00 مساءً",
         contact: "اتصل بنا",
-        address: "11088 شارع تراسك. جناح 200-ك، جاردن جروف، كاليفورنيا 92843",
+        address: "11088 شارع تراسك، جناح 200-ك، جاردن جروف، كاليفورنيا 92843",
         phone: "(714) 421-8872",
         email: "imgso2005@yahoo.com",
         social: "تابعنا",
@@ -517,6 +529,19 @@ const App = () => {
               <Route path="/services/status-citizenship" element={<StatusCitizenshipPage language={language} />} />
               <Route path="/services/legal-documents" element={<LegalDocumentsPage language={language} />} />
               <Route path="/services/professional-services" element={<ProfessionalServicesPage language={language} />} />
+
+              {/* Additional Service Landing Pages */}
+              <Route path="/family-immigration" element={<FamilyImmigrationPage language={language} />} />
+              <Route path="/asylum-services" element={<AsylumServicesPage language={language} />} />
+              <Route path="/citizenship-naturalization" element={<CitizenshipPage language={language} />} />
+              <Route path="/daca-services" element={<DACAServicesPage language={language} />} />
+              <Route path="/green-card-services" element={<GreenCardServicesPage language={language} />} />
+
+              {/* City Landing Pages */}
+              <Route path="/irvine" element={<IrvinePage language={language} />} />
+              <Route path="/anaheim" element={<AnaheimPage language={language} />} />
+              <Route path="/los-angeles" element={<LosAngelesPage language={language} />} />
+              <Route path="/santa-ana" element={<SantaAnaPage language={language} />} />
 
               {/* Blog Routes */}
               <Route path="/blog" element={<BlogPage language={language} />} />

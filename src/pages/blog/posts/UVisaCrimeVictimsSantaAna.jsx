@@ -14,8 +14,8 @@ const UVisaCrimeVictimsSantaAna = ({ language }) => {
       location: "Santa Ana",
       date: "December 30, 2025",
       readTime: "11 min read",
-      author: "Immigration Solution Services",
-      locationIntro: "For immigrant crime victims in Santa Ana and Orange County, the U visa provides crucial protection and a path to legal status. Immigration Solution Services helps survivors understand their rights and navigate the application process with compassion and confidentiality.",
+      author: "SoCal Immigration Services",
+      locationIntro: "For immigrant crime victims in Santa Ana and Orange County, the U visa provides crucial protection and a path to legal status. SoCal Immigration Services helps survivors understand their rights and navigate the application process with compassion and confidentiality.",
 
       sections: [
         {
@@ -119,7 +119,7 @@ const UVisaCrimeVictimsSantaAna = ({ language }) => {
         },
         {
           heading: "Our U Visa Services in Santa Ana",
-          content: "Immigration Solution Services helps crime victims in Santa Ana with:",
+          content: "SoCal Immigration Services helps crime victims in Santa Ana with:",
           list: [
             "Confidential case evaluation and eligibility screening",
             "Guidance on obtaining law enforcement certification",

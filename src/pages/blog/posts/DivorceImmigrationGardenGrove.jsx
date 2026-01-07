@@ -14,8 +14,8 @@ const DivorceImmigrationGardenGrove = ({ language }) => {
       location: "Garden Grove",
       date: "December 28, 2025",
       readTime: "10 min read",
-      author: "Immigration Solution Services",
-      locationIntro: "Divorce can have significant implications for your immigration status. For Arab families in Garden Grove and Orange County facing divorce, Immigration Solution Services provides guidance on protecting your immigration case and understanding your options during this difficult time.",
+      author: "SoCal Immigration Services",
+      locationIntro: "Divorce can have significant implications for your immigration status. For Arab families in Garden Grove and Orange County facing divorce, SoCal Immigration Services provides guidance on protecting your immigration case and understanding your options during this difficult time.",
 
       sections: [
         {

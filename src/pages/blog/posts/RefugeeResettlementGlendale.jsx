@@ -14,8 +14,8 @@ const RefugeeResettlementGlendale = ({ language }) => {
       location: "Glendale",
       date: "December 29, 2025",
       readTime: "10 min read",
-      author: "Immigration Solution Services",
-      locationIntro: "Glendale is home to one of the largest Armenian communities outside of Armenia and a growing Arab refugee population. Immigration Solution Services connects newly resettled refugees with essential services and provides Arabic-speaking document support.",
+      author: "SoCal Immigration Services",
+      locationIntro: "Glendale is home to one of the largest Armenian communities outside of Armenia and a growing Arab refugee population. SoCal Immigration Services connects newly resettled refugees with essential services and provides Arabic-speaking document support.",
 
       sections: [
         {
@@ -102,7 +102,7 @@ const RefugeeResettlementGlendale = ({ language }) => {
         },
         {
           heading: "Our Glendale Refugee Services",
-          content: "Immigration Solution Services helps Glendale refugees with document preparation:",
+          content: "SoCal Immigration Services helps Glendale refugees with document preparation:",
           list: [
             "Employment Authorization Document (EAD) applications",
             "Adjustment of Status (I-485) preparation",

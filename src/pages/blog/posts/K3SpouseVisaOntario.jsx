@@ -14,7 +14,7 @@ const K3SpouseVisaOntario = ({ language }) => {
       location: "Ontario",
       date: "January 1, 2026",
       readTime: "9 min read",
-      author: "Immigration Solution Services",
+      author: "SoCal Immigration Services",
       locationIntro: "For U.S. citizens in Ontario and the Inland Empire married to foreign nationals, the long wait for an immigrant visa can be difficult. The K-3 spouse visa was designed to bring spouses to America faster while their green card application processes, though its use has changed over time.",
 
       sections: [

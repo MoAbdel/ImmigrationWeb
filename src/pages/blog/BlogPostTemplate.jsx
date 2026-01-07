@@ -15,7 +15,7 @@ const BlogPostTemplate = ({ content, language }) => {
     "description": t.metaDescription,
     "author": {
       "@type": "Organization",
-      "name": "Immigration Solution Services",
+      "name": "SoCal Immigration Services",
       "address": {
         "@type": "PostalAddress",
         "streetAddress": "11088 Trask Ave. Suite 200-K",
@@ -26,7 +26,7 @@ const BlogPostTemplate = ({ content, language }) => {
     },
     "publisher": {
       "@type": "Organization",
-      "name": "Immigration Solution Services",
+      "name": "SoCal Immigration Services",
       "logo": {
         "@type": "ImageObject",
         "url": "https://www.socalimmigrationservices.com/logo.png"
@@ -224,7 +224,7 @@ const BlogPostTemplate = ({ content, language }) => {
           <div className="mt-8 p-4 bg-gray-100 rounded-lg text-sm text-gray-600">
             <strong>{language === 'en' ? 'Disclaimer' : 'إخلاء المسؤولية'}:</strong>{' '}
             {language === 'en'
-              ? `This article provides general information about immigration services in ${t.location} and does not constitute legal advice. Immigration Solution Services is a document preparation company, not a law firm. For legal advice specific to your situation, please consult with a licensed immigration attorney.`
+              ? `This article provides general information about immigration services in ${t.location} and does not constitute legal advice. SoCal Immigration Services is a document preparation company, not a law firm. For legal advice specific to your situation, please consult with a licensed immigration attorney.`
               : `يقدم هذا المقال معلومات عامة حول خدمات الهجرة في ${t.location} ولا يشكل مشورة قانونية. شركة خدمات حلول الهجرة هي شركة إعداد وثائق وليست مكتب محاماة. للحصول على مشورة قانونية خاصة بوضعك، يرجى استشارة محامي هجرة مرخص.`}
           </div>
 

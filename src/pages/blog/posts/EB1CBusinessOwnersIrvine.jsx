@@ -14,8 +14,8 @@ const EB1CBusinessOwnersIrvine = ({ language }) => {
       location: "Irvine",
       date: "January 5, 2026",
       readTime: "11 min read",
-      author: "Immigration Solution Services",
-      locationIntro: "Irvine's thriving business environment attracts entrepreneurs and executives from around the world, including many from the Middle East who have established successful international operations. The EB-1C category offers a fast-track path to permanent residence for multinational managers and executives. Immigration Solution Services helps Irvine business leaders navigate this premier employment-based immigration category.",
+      author: "SoCal Immigration Services",
+      locationIntro: "Irvine's thriving business environment attracts entrepreneurs and executives from around the world, including many from the Middle East who have established successful international operations. The EB-1C category offers a fast-track path to permanent residence for multinational managers and executives. SoCal Immigration Services helps Irvine business leaders navigate this premier employment-based immigration category.",
 
       sections: [
         {
@@ -128,7 +128,7 @@ const EB1CBusinessOwnersIrvine = ({ language }) => {
           }
         },
         {
-          heading: "Why Choose Immigration Solution Services?",
+          heading: "Why Choose SoCal Immigration Services?",
           content: "Serving Irvine's business community, we provide:",
           list: [
             "Experience with EB-1C multinational manager petitions",

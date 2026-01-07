@@ -14,8 +14,8 @@ const F3MarriedChildrenLongBeach = ({ language }) => {
       location: "Long Beach",
       date: "January 4, 2026",
       readTime: "10 min read",
-      author: "Immigration Solution Services",
-      locationIntro: "For U.S. citizens in Long Beach wanting to sponsor married sons and daughters, the F3 (Third Family Preference) category presents significant challenges. With wait times exceeding 15 years for most countries, this category requires extraordinary patience and long-term planning. Immigration Solution Services helps families understand their options and manage these lengthy cases.",
+      author: "SoCal Immigration Services",
+      locationIntro: "For U.S. citizens in Long Beach wanting to sponsor married sons and daughters, the F3 (Third Family Preference) category presents significant challenges. With wait times exceeding 15 years for most countries, this category requires extraordinary patience and long-term planning. SoCal Immigration Services helps families understand their options and manage these lengthy cases.",
 
       sections: [
         {
@@ -107,7 +107,7 @@ const F3MarriedChildrenLongBeach = ({ language }) => {
           content: "Realistic planning for F3 cases:\n\n• Timeline: A petition filed today may not result in immigration until 2040 or later\n\n• Life Changes: Children and grandchildren will grow significantly during wait\n\n• No Shortcuts: There is no way to speed up F3 processing (visa bulletin determines everything)\n\n• Keep Documents Updated: Maintain current contact information with USCIS and NVC\n\n• Don't Overstay: F3 beneficiaries should not attempt to immigrate early by other means and overstaying"
         },
         {
-          heading: "Why Choose Immigration Solution Services?",
+          heading: "Why Choose SoCal Immigration Services?",
           content: "We help Long Beach families with long-term F3 cases:",
           list: [
             "Accurate I-130 petition preparation",

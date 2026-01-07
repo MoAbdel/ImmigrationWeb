@@ -14,7 +14,7 @@ const AdoptionImmigrationWhittier = ({ language }) => {
       location: "Whittier",
       date: "January 1, 2026",
       readTime: "12 min read",
-      author: "Immigration Solution Services",
+      author: "SoCal Immigration Services",
       locationIntro: "Whittier, a historic city in Los Angeles County, is home to many families who have expanded through international adoption. The immigration process for adopted children involves specific visa categories and requirements that vary based on the adoption circumstances and country of origin.",
 
       sections: [

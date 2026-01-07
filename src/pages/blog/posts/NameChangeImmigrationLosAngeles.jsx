@@ -14,8 +14,8 @@ const NameChangeImmigrationLosAngeles = ({ language }) => {
       location: "Los Angeles",
       date: "December 28, 2025",
       readTime: "8 min read",
-      author: "Immigration Solution Services",
-      locationIntro: "Many immigrants in Los Angeles wish to change their names - whether to adopt an Americanized version, correct spelling errors, or for personal reasons. Immigration Solution Services helps Arab families navigate name changes during the immigration process and update all necessary documents.",
+      author: "SoCal Immigration Services",
+      locationIntro: "Many immigrants in Los Angeles wish to change their names - whether to adopt an Americanized version, correct spelling errors, or for personal reasons. SoCal Immigration Services helps Arab families navigate name changes during the immigration process and update all necessary documents.",
 
       sections: [
         {

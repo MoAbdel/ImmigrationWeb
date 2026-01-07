@@ -14,7 +14,7 @@ const AsylumApplicationElCajon = ({ language }) => {
       location: "El Cajon",
       date: "December 28, 2025",
       readTime: "12 min read",
-      author: "Immigration Solution Services",
+      author: "SoCal Immigration Services",
       locationIntro: "El Cajon, often called 'The Refugee Capital of the U.S.,' is home to more than 40,000 Iraqi and Syrian refugees. For those who fled persecution in the Middle East, the asylum process offers protection and a path to permanent residence in America.",
 
       sections: [
@@ -92,7 +92,7 @@ const AsylumApplicationElCajon = ({ language }) => {
         },
         {
           heading: "Why Choose Us for Asylum Help in El Cajon",
-          content: "Immigration Solution Services understands the unique needs of El Cajon's refugee community:",
+          content: "SoCal Immigration Services understands the unique needs of El Cajon's refugee community:",
           list: [
             "Arabic-speaking staff from Iraq and Syria",
             "Cultural sensitivity and understanding of Middle Eastern persecution",

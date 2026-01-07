@@ -14,8 +14,8 @@ const L1AIntracompanyIrvine = ({ language }) => {
       location: "Irvine",
       date: "December 28, 2025",
       readTime: "11 min read",
-      author: "Immigration Solution Services",
-      locationIntro: "Irvine's thriving business environment attracts multinational companies and entrepreneurs from around the world. Immigration Solution Services helps executives, managers, and business owners from the Middle East transfer to their U.S. operations through the L-1A intracompany transfer visa program.",
+      author: "SoCal Immigration Services",
+      locationIntro: "Irvine's thriving business environment attracts multinational companies and entrepreneurs from around the world. SoCal Immigration Services helps executives, managers, and business owners from the Middle East transfer to their U.S. operations through the L-1A intracompany transfer visa program.",
 
       sections: [
         {

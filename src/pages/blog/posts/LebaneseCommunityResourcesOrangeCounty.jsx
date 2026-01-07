@@ -14,8 +14,8 @@ const LebaneseCommunityResourcesOrangeCounty = ({ language }) => {
       location: "Orange County",
       date: "January 3, 2026",
       readTime: "10 min read",
-      author: "Immigration Solution Services",
-      locationIntro: "Orange County is home to a vibrant Lebanese-American community, with significant populations in Anaheim's Little Arabia, Irvine, and throughout the region. Immigration Solution Services provides culturally sensitive immigration support for Lebanese families navigating the U.S. immigration system, from family reunification to business visas.",
+      author: "SoCal Immigration Services",
+      locationIntro: "Orange County is home to a vibrant Lebanese-American community, with significant populations in Anaheim's Little Arabia, Irvine, and throughout the region. SoCal Immigration Services provides culturally sensitive immigration support for Lebanese families navigating the U.S. immigration system, from family reunification to business visas.",
 
       sections: [
         {
@@ -89,7 +89,7 @@ const LebaneseCommunityResourcesOrangeCounty = ({ language }) => {
           ]
         },
         {
-          heading: "Why Choose Immigration Solution Services?",
+          heading: "Why Choose SoCal Immigration Services?",
           content: "Our team provides specialized support for Lebanese families in Orange County:",
           list: [
             "Arabic and English-speaking staff familiar with Lebanese culture",

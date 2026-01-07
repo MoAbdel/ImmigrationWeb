@@ -14,8 +14,8 @@ const I751RemovingConditionsCorona = ({ language }) => {
       location: "Corona",
       date: "December 29, 2025",
       readTime: "10 min read",
-      author: "Immigration Solution Services",
-      locationIntro: "For conditional green card holders in Corona and the Inland Empire, removing conditions is essential to maintaining permanent residence. Immigration Solution Services helps couples navigate the I-751 process with expert Arabic-speaking support.",
+      author: "SoCal Immigration Services",
+      locationIntro: "For conditional green card holders in Corona and the Inland Empire, removing conditions is essential to maintaining permanent residence. SoCal Immigration Services helps couples navigate the I-751 process with expert Arabic-speaking support.",
 
       sections: [
         {
@@ -117,7 +117,7 @@ const I751RemovingConditionsCorona = ({ language }) => {
         },
         {
           heading: "Our Corona I-751 Services",
-          content: "Immigration Solution Services helps Corona couples with I-751 petitions:",
+          content: "SoCal Immigration Services helps Corona couples with I-751 petitions:",
           list: [
             "Complete I-751 form preparation",
             "Evidence checklist and organization",

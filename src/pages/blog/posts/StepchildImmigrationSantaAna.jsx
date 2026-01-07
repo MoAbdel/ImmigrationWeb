@@ -14,8 +14,8 @@ const StepchildImmigrationSantaAna = ({ language }) => {
       location: "Santa Ana",
       date: "January 5, 2026",
       readTime: "9 min read",
-      author: "Immigration Solution Services",
-      locationIntro: "Santa Ana, the county seat of Orange County, is home to a vibrant and diverse immigrant community. Many Arab families in Santa Ana have formed blended families through remarriage and need guidance on how to include stepchildren in their immigration journey. Immigration Solution Services provides compassionate, culturally-sensitive assistance for stepchild immigration cases.",
+      author: "SoCal Immigration Services",
+      locationIntro: "Santa Ana, the county seat of Orange County, is home to a vibrant and diverse immigrant community. Many Arab families in Santa Ana have formed blended families through remarriage and need guidance on how to include stepchildren in their immigration journey. SoCal Immigration Services provides compassionate, culturally-sensitive assistance for stepchild immigration cases.",
 
       sections: [
         {
@@ -101,8 +101,8 @@ const StepchildImmigrationSantaAna = ({ language }) => {
           ]
         },
         {
-          heading: "Why Choose Immigration Solution Services in Santa Ana?",
-          content: "Located in Garden Grove and serving all of Orange County including Santa Ana, we offer:",
+          heading: "Why Choose SoCal Immigration Services in Santa Ana?",
+          content: "Located in Irvine and serving all of Orange County including Santa Ana, we offer:",
           list: [
             "Deep understanding of Arab family structures and blended family dynamics",
             "Arabic and English-speaking staff for clear communication",

@@ -14,8 +14,8 @@ const GreenCardInterviewPrepRanchoCucamonga = ({ language }) => {
       location: "Rancho Cucamonga",
       date: "December 29, 2025",
       readTime: "11 min read",
-      author: "Immigration Solution Services",
-      locationIntro: "For green card applicants in Rancho Cucamonga and the Inland Empire, the USCIS interview can be nerve-wracking. Immigration Solution Services helps you prepare thoroughly with Arabic-speaking support and mock interview practice.",
+      author: "SoCal Immigration Services",
+      locationIntro: "For green card applicants in Rancho Cucamonga and the Inland Empire, the USCIS interview can be nerve-wracking. SoCal Immigration Services helps you prepare thoroughly with Arabic-speaking support and mock interview practice.",
 
       sections: [
         {
@@ -135,7 +135,7 @@ const GreenCardInterviewPrepRanchoCucamonga = ({ language }) => {
         },
         {
           heading: "Our Rancho Cucamonga Interview Prep Services",
-          content: "Immigration Solution Services prepares Inland Empire applicants for success:",
+          content: "SoCal Immigration Services prepares Inland Empire applicants for success:",
           list: [
             "Document review and organization",
             "Mock interview practice sessions",

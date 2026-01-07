@@ -14,7 +14,7 @@ const N648MedicalWaiverSanDiego = ({ language }) => {
       location: "San Diego",
       date: "January 1, 2026",
       readTime: "9 min read",
-      author: "Immigration Solution Services",
+      author: "SoCal Immigration Services",
       locationIntro: "For San Diego residents with medical conditions that prevent them from learning English or civics, the N-648 medical waiver offers a path to citizenship. Our Arabic-speaking team helps applicants understand and prepare for this important exemption.",
 
       sections: [

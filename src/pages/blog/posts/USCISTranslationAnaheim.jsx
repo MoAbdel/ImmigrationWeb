@@ -14,7 +14,7 @@ const USCISTranslationAnaheim = ({ language }) => {
       location: "Anaheim",
       date: "December 28, 2025",
       readTime: "5 min read",
-      author: "Immigration Solution Services",
+      author: "SoCal Immigration Services",
       locationIntro: "Little Arabia in Anaheim is the hub for Arabic-speaking immigrants in Orange County. We provide USCIS-certified translations from Arabic to English, helping families with their immigration documents.",
 
       sections: [

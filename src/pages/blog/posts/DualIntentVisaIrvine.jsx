@@ -14,7 +14,7 @@ const DualIntentVisaIrvine = ({ language }) => {
       location: "Irvine",
       date: "January 4, 2026",
       readTime: "11 min read",
-      author: "Immigration Solution Services",
+      author: "SoCal Immigration Services",
       locationIntro: "Irvine's thriving tech corridor, home to companies like Blizzard Entertainment, Broadcom, and numerous startups, attracts talented professionals from around the world. Many of these workers face a common challenge: maintaining legal non-immigrant status while pursuing the dream of permanent residency. This is where understanding dual intent becomes crucial.",
       sections: [
         {
@@ -62,7 +62,7 @@ const DualIntentVisaIrvine = ({ language }) => {
           content: "Irvine's startup ecosystem presents unique dual intent challenges. Early-stage companies may not have established track records for PERM labor certification. Equity compensation creates tax and immigration complications. Company instability requires backup planning for status maintenance. Working with startups on H-1B requires careful evaluation of the company's ability to maintain the position and complete the green card process."
         },
         {
-          title: "How Immigration Solution Services Helps",
+          title: "How SoCal Immigration Services Helps",
           content: "Our team serves Irvine's tech community with comprehensive dual intent guidance. We help you understand which visa categories best suit your situation, develop long-term strategies balancing immediate work needs with permanent residency goals, coordinate with your employer's HR and legal teams on sponsorship processes, monitor status expirations and visa bulletin movements, and prepare you for travel and consular interactions. Our office is easily accessible from Irvine's tech corridor, and we understand the unique pressures facing high-skilled workers in competitive industries."
         }
       ],

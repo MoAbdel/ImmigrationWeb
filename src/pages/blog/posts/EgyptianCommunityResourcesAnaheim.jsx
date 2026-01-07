@@ -14,8 +14,8 @@ const EgyptianCommunityResourcesAnaheim = ({ language }) => {
       location: "Anaheim",
       date: "January 3, 2026",
       readTime: "9 min read",
-      author: "Immigration Solution Services",
-      locationIntro: "Anaheim's Little Arabia district is home to a thriving Egyptian-American community, from business owners along Brookhurst Street to families throughout Orange County. Immigration Solution Services provides culturally sensitive immigration support to Egyptian families navigating the U.S. immigration system, offering Arabic-speaking staff who understand Egyptian documentation and cultural context.",
+      author: "SoCal Immigration Services",
+      locationIntro: "Anaheim's Little Arabia district is home to a thriving Egyptian-American community, from business owners along Brookhurst Street to families throughout Orange County. SoCal Immigration Services provides culturally sensitive immigration support to Egyptian families navigating the U.S. immigration system, offering Arabic-speaking staff who understand Egyptian documentation and cultural context.",
 
       sections: [
         {
@@ -93,7 +93,7 @@ const EgyptianCommunityResourcesAnaheim = ({ language }) => {
           content: "Good news for Egyptian-Americans: Egypt allows dual citizenship, and the U.S. does not require you to renounce Egyptian citizenship when naturalizing.\n\n• You can maintain both citizenships\n• Travel to Egypt on your Egyptian passport\n• Enter the U.S. on your American passport\n• Egyptian citizenship can be passed to children born in the U.S. (with registration at the Egyptian consulate)\n\nWe advise Egyptian clients on managing dual citizenship status."
         },
         {
-          heading: "Why Choose Immigration Solution Services?",
+          heading: "Why Choose SoCal Immigration Services?",
           content: "Our team provides specialized support for Egyptian families in Anaheim:",
           list: [
             "Arabic-speaking staff familiar with Egyptian culture and dialects",

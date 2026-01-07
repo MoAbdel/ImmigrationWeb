@@ -1,4 +1,4 @@
-# Immigration Solution Services
+# SoCal Immigration Services
 
 A professional, bilingual (English/Arabic) multi-page website for immigration services with detailed service pages.
 
@@ -106,4 +106,4 @@ Each service page includes detailed information with hero section, service descr
 
 ## License
 
-All rights reserved © 2024 Immigration Solution Services
+All rights reserved © 2024 SoCal Immigration Services

@@ -14,7 +14,7 @@ const IraqiChaldeanResourcesElCajon = ({ language }) => {
       location: "El Cajon",
       date: "December 28, 2025",
       readTime: "7 min read",
-      author: "Immigration Solution Services",
+      author: "SoCal Immigration Services",
       locationIntro: "El Cajon is home to the largest Chaldean and Iraqi community outside of Iraq. This guide provides information about community resources, organizations, and immigration services available to Iraqi families in San Diego County.",
 
       sections: [
@@ -43,7 +43,7 @@ const IraqiChaldeanResourcesElCajon = ({ language }) => {
         },
         {
           heading: "Immigration Services We Offer",
-          content: "Immigration Solution Services helps the El Cajon Iraqi community with:",
+          content: "SoCal Immigration Services helps the El Cajon Iraqi community with:",
           list: [
             "Refugee adjustment of status (I-485)",
             "I-730 family reunification for refugees",

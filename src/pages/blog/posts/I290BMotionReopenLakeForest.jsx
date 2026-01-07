@@ -14,7 +14,7 @@ const I290BMotionReopenLakeForest = ({ language }) => {
       location: "Lake Forest",
       date: "January 1, 2026",
       readTime: "10 min read",
-      author: "Immigration Solution Services",
+      author: "SoCal Immigration Services",
       locationIntro: "Lake Forest, a thriving city in Orange County's Saddleback Valley, is home to many immigrant families who have built their lives in Southern California. When USCIS denies an immigration petition or application, Form I-290B provides an avenue to challenge that decision through a motion to reopen or reconsider.",
 
       sections: [

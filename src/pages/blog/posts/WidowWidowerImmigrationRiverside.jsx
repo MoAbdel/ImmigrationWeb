@@ -14,8 +14,8 @@ const WidowWidowerImmigrationRiverside = ({ language }) => {
       location: "Riverside",
       date: "January 3, 2026",
       readTime: "10 min read",
-      author: "Immigration Solution Services",
-      locationIntro: "Losing a spouse is devastating, and for immigrants in Riverside whose U.S. citizen spouse has passed away, the grief is compounded by immigration uncertainty. Immigration Solution Services helps widows and widowers in the Inland Empire understand their special rights under U.S. immigration law to self-petition for permanent residence.",
+      author: "SoCal Immigration Services",
+      locationIntro: "Losing a spouse is devastating, and for immigrants in Riverside whose U.S. citizen spouse has passed away, the grief is compounded by immigration uncertainty. SoCal Immigration Services helps widows and widowers in the Inland Empire understand their special rights under U.S. immigration law to self-petition for permanent residence.",
 
       sections: [
         {
@@ -94,7 +94,7 @@ const WidowWidowerImmigrationRiverside = ({ language }) => {
           content: "The 2-year filing deadline is strict but there may be exceptions:\n\n• If an I-130 was pending at the time of death, different rules may apply\n• If USCIS caused delays that prevented timely filing, you may have grounds for late filing\n• Consult with our team immediately to evaluate your options\n\nDon't assume you're ineligible - many Riverside families have found pathways to status even in complex situations."
         },
         {
-          heading: "Why Choose Immigration Solution Services for Widow/Widower Cases?",
+          heading: "Why Choose SoCal Immigration Services for Widow/Widower Cases?",
           content: "Our team serving Riverside and the Inland Empire provides:",
           list: [
             "Compassionate, culturally sensitive support during difficult times",

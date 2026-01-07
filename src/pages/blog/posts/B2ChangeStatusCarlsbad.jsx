@@ -14,8 +14,8 @@ const B2ChangeStatusCarlsbad = ({ language }) => {
       location: "Carlsbad",
       date: "January 6, 2026",
       readTime: "10 min read",
-      author: "Immigration Solution Services",
-      locationIntro: "Carlsbad, a beautiful coastal city in northern San Diego County, attracts many visitors from around the world. Some visitors discover opportunities while in the U.S. and wish to change their immigration status—perhaps to study at a local university, work for a company, or remain with family. Immigration Solution Services helps visitors in Carlsbad navigate the change of status process.",
+      author: "SoCal Immigration Services",
+      locationIntro: "Carlsbad, a beautiful coastal city in northern San Diego County, attracts many visitors from around the world. Some visitors discover opportunities while in the U.S. and wish to change their immigration status—perhaps to study at a local university, work for a company, or remain with family. SoCal Immigration Services helps visitors in Carlsbad navigate the change of status process.",
 
       sections: [
         {
@@ -119,7 +119,7 @@ const B2ChangeStatusCarlsbad = ({ language }) => {
           content: "Some visitors choose to leave the U.S. and apply for a new visa at a consulate abroad. This may be better if:\n\n• You have preconceived intent concerns\n• Processing times are very long\n• You need to start work or school sooner\n• You want to visit family before returning\n\nHowever, there's no guarantee the new visa will be approved."
         },
         {
-          heading: "Why Choose Immigration Solution Services?",
+          heading: "Why Choose SoCal Immigration Services?",
           content: "Serving Carlsbad and all of San Diego County, we offer:",
           list: [
             "Experience with change of status applications",

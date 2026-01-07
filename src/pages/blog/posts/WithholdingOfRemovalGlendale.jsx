@@ -14,8 +14,8 @@ const WithholdingOfRemovalGlendale = ({ language }) => {
       location: "Glendale",
       date: "January 5, 2026",
       readTime: "10 min read",
-      author: "Immigration Solution Services",
-      locationIntro: "Glendale is home to one of the largest Armenian communities in the United States, along with significant Arab and Middle Eastern populations. For individuals who may not qualify for asylum but still fear returning to their home countries, withholding of removal offers an alternative form of protection. Immigration Solution Services helps Glendale residents understand and pursue this important relief option.",
+      author: "SoCal Immigration Services",
+      locationIntro: "Glendale is home to one of the largest Armenian communities in the United States, along with significant Arab and Middle Eastern populations. For individuals who may not qualify for asylum but still fear returning to their home countries, withholding of removal offers an alternative form of protection. SoCal Immigration Services helps Glendale residents understand and pursue this important relief option.",
 
       sections: [
         {
@@ -139,7 +139,7 @@ const WithholdingOfRemovalGlendale = ({ language }) => {
           ]
         },
         {
-          heading: "Why Choose Immigration Solution Services?",
+          heading: "Why Choose SoCal Immigration Services?",
           content: "Serving Glendale's diverse community, we provide:",
           list: [
             "Experience with withholding of removal cases",

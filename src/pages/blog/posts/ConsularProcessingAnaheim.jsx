@@ -14,8 +14,8 @@ const ConsularProcessingAnaheim = ({ language }) => {
       location: "Anaheim",
       date: "December 28, 2025",
       readTime: "10 min read",
-      author: "Immigration Solution Services",
-      locationIntro: "For immigrants in Anaheim's Little Arabia community seeking green cards, choosing between consular processing and adjustment of status is a critical decision. Immigration Solution Services helps Arab families understand both pathways and select the option that best fits their situation.",
+      author: "SoCal Immigration Services",
+      locationIntro: "For immigrants in Anaheim's Little Arabia community seeking green cards, choosing between consular processing and adjustment of status is a critical decision. SoCal Immigration Services helps Arab families understand both pathways and select the option that best fits their situation.",
 
       sections: [
         {
@@ -119,7 +119,7 @@ const ConsularProcessingAnaheim = ({ language }) => {
           ]
         },
         {
-          heading: "Why Work With Immigration Solution Services",
+          heading: "Why Work With SoCal Immigration Services",
           content: "Our Anaheim-area team helps families make informed decisions:",
           list: [
             "Arabic and English-speaking case evaluation",

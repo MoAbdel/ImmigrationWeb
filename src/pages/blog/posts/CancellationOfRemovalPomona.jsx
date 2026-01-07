@@ -14,8 +14,8 @@ const CancellationOfRemovalPomona = ({ language }) => {
       location: "Pomona",
       date: "January 5, 2026",
       readTime: "12 min read",
-      author: "Immigration Solution Services",
-      locationIntro: "Pomona, located in Los Angeles County's eastern region, is home to many immigrant families who have built their lives in this community over decades. For families facing removal proceedings, cancellation of removal may offer a path to lawful permanent residence. Immigration Solution Services provides compassionate guidance to Arab families in Pomona navigating this complex immigration court process.",
+      author: "SoCal Immigration Services",
+      locationIntro: "Pomona, located in Los Angeles County's eastern region, is home to many immigrant families who have built their lives in this community over decades. For families facing removal proceedings, cancellation of removal may offer a path to lawful permanent residence. SoCal Immigration Services provides compassionate guidance to Arab families in Pomona navigating this complex immigration court process.",
 
       sections: [
         {
@@ -127,7 +127,7 @@ const CancellationOfRemovalPomona = ({ language }) => {
           ]
         },
         {
-          heading: "Why Work with Immigration Solution Services?",
+          heading: "Why Work with SoCal Immigration Services?",
           content: "Serving Pomona and the Inland Empire, we help with:",
           list: [
             "Evaluating your eligibility for cancellation of removal",

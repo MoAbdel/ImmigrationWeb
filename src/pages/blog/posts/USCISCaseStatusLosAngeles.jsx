@@ -14,7 +14,7 @@ const USCISCaseStatusLosAngeles = ({ language }) => {
       location: "Los Angeles",
       date: "January 1, 2026",
       readTime: "8 min read",
-      author: "Immigration Solution Services",
+      author: "SoCal Immigration Services",
       locationIntro: "Waiting for a USCIS decision can be stressful, especially when processing times are long. For Los Angeles area immigrants, we help track case status, understand processing updates, and navigate options when cases are delayed.",
 
       sections: [

@@ -14,7 +14,7 @@ const AffidavitOfSupportSanDiego = ({ language }) => {
       location: "San Diego",
       date: "December 28, 2025",
       readTime: "8 min read",
-      author: "Immigration Solution Services",
+      author: "SoCal Immigration Services",
       locationIntro: "When sponsoring a family member for a green card in San Diego, you must prove you can financially support them. The Affidavit of Support (Form I-864) is a legally binding contract between you and the U.S. government.",
 
       sections: [

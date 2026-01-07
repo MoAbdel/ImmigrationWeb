@@ -14,8 +14,8 @@ const I751WaiverDivorcedCouplesOntario = ({ language }) => {
       location: "Ontario",
       date: "January 3, 2026",
       readTime: "10 min read",
-      author: "Immigration Solution Services",
-      locationIntro: "When your marriage ends before you can file a joint I-751 petition to remove conditions on your green card, you may feel uncertain about your immigration future. For Ontario and Inland Empire residents, Immigration Solution Services provides guidance on the I-751 waiver process that allows you to remove conditions on your own, even after divorce.",
+      author: "SoCal Immigration Services",
+      locationIntro: "When your marriage ends before you can file a joint I-751 petition to remove conditions on your green card, you may feel uncertain about your immigration future. For Ontario and Inland Empire residents, SoCal Immigration Services provides guidance on the I-751 waiver process that allows you to remove conditions on your own, even after divorce.",
 
       sections: [
         {
@@ -108,7 +108,7 @@ const I751WaiverDivorcedCouplesOntario = ({ language }) => {
           content: "USCIS often schedules interviews for waiver cases to verify the marriage was genuine:\n\n• Be prepared to discuss your relationship history\n• Bring original documents for verification\n• Be honest about why the marriage ended\n• The focus is on whether the marriage was real when entered, not why it failed\n\nWe help Ontario clients prepare thoroughly for I-751 waiver interviews."
         },
         {
-          heading: "Why Choose Immigration Solution Services?",
+          heading: "Why Choose SoCal Immigration Services?",
           content: "Our team helps Ontario residents with I-751 waivers:",
           list: [
             "Experience with divorce-based I-751 waivers",

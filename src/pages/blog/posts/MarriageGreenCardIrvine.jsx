@@ -14,7 +14,7 @@ const MarriageGreenCardIrvine = ({ language }) => {
       location: "Irvine",
       date: "December 28, 2025",
       readTime: "8 min read",
-      author: "Immigration Solution Services",
+      author: "SoCal Immigration Services",
       locationIntro: "Irvine is home to many professional Arab-American families, with its thriving tech and business sectors attracting educated immigrants from across the Middle East. For couples navigating marriage-based immigration in this Orange County city, understanding the timeline and process is essential.",
 
       sections: [
@@ -106,7 +106,7 @@ const MarriageGreenCardIrvine = ({ language }) => {
         },
         {
           heading: "Why Irvine Couples Choose Us",
-          content: "Immigration Solution Services helps professional couples in Irvine with:",
+          content: "SoCal Immigration Services helps professional couples in Irvine with:",
           list: [
             "Understanding complex dual-application situations",
             "Document organization and review",

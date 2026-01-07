@@ -14,8 +14,8 @@ const FamilyPetitionI130ElCajon = ({ language }) => {
       location: "El Cajon",
       date: "December 28, 2025",
       readTime: "8 min read",
-      author: "Immigration Solution Services",
-      locationIntro: "El Cajon is home to one of the largest Iraqi and Chaldean communities in the United States, with over 21,000 Arab-Americans calling this San Diego County city home. Immigration Solution Services understands the unique needs of refugee families seeking to reunite with loved ones through the I-130 family petition process.",
+      author: "SoCal Immigration Services",
+      locationIntro: "El Cajon is home to one of the largest Iraqi and Chaldean communities in the United States, with over 21,000 Arab-Americans calling this San Diego County city home. SoCal Immigration Services understands the unique needs of refugee families seeking to reunite with loved ones through the I-130 family petition process.",
 
       sections: [
         {
@@ -65,8 +65,8 @@ const FamilyPetitionI130ElCajon = ({ language }) => {
           content: "Many of our El Cajon clients came to the U.S. as refugees from Iraq. If you've since become a citizen or green card holder, you have special options:\n\n• I-730 Follow-to-Join: If you were granted refugee or asylee status and have family members who were part of your original application, they may be eligible for derivative status.\n\n• Priority Date Advantages: Refugees who became permanent residents and then citizens may have earlier priority dates for certain petitions.\n\n• Document Challenges: We understand that obtaining Iraqi documents can be difficult. We help you gather alternative evidence when original documents are unavailable."
         },
         {
-          heading: "Why Choose Immigration Solution Services for Your El Cajon I-130?",
-          content: "Located in Garden Grove and serving all of San Diego County including El Cajon, we offer:",
+          heading: "Why Choose SoCal Immigration Services for Your El Cajon I-130?",
+          content: "Located in Irvine and serving all of San Diego County including El Cajon, we offer:",
           list: [
             "Arabic and English-speaking staff who understand your culture",
             "Experience with Iraqi and Chaldean family immigration cases",

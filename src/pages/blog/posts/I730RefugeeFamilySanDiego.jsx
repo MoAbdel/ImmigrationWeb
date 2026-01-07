@@ -14,7 +14,7 @@ const I730RefugeeFamilySanDiego = ({ language }) => {
       location: "San Diego",
       date: "December 28, 2025",
       readTime: "10 min read",
-      author: "Immigration Solution Services",
+      author: "SoCal Immigration Services",
       locationIntro: "San Diego County's Syrian refugee community often has family members still abroad. The I-730 petition allows refugees and asylees to bring their spouse and unmarried children under 21 to the United States.",
 
       sections: [

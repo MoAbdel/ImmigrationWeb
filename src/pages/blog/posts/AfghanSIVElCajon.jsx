@@ -14,8 +14,8 @@ const AfghanSIVElCajon = ({ language }) => {
       location: "El Cajon",
       date: "January 7, 2026",
       readTime: "14 min read",
-      author: "Immigration Solution Services",
-      locationIntro: "El Cajon has become home to a significant Afghan community, including many who bravely served alongside U.S. military forces as interpreters, translators, and in other critical roles. The Afghan Special Immigrant Visa (SIV) program provides a pathway to permanent residency for these allies and their families. Immigration Solution Services assists Afghan SIV applicants throughout San Diego County with the complex application process.",
+      author: "SoCal Immigration Services",
+      locationIntro: "El Cajon has become home to a significant Afghan community, including many who bravely served alongside U.S. military forces as interpreters, translators, and in other critical roles. The Afghan Special Immigrant Visa (SIV) program provides a pathway to permanent residency for these allies and their families. SoCal Immigration Services assists Afghan SIV applicants throughout San Diego County with the complex application process.",
 
       sections: [
         {

@@ -14,8 +14,8 @@ const ImmigrationBondHearingOrangeCounty = ({ language }) => {
       location: "Orange County",
       date: "January 7, 2026",
       readTime: "12 min read",
-      author: "Immigration Solution Services",
-      locationIntro: "When a loved one is detained by Immigration and Customs Enforcement (ICE), families face an urgent and stressful situation. Understanding the immigration bond process can mean the difference between months of separation and a quick reunion while the immigration case proceeds. Immigration Solution Services helps Orange County families navigate the bond hearing process and secure the release of their loved ones.",
+      author: "SoCal Immigration Services",
+      locationIntro: "When a loved one is detained by Immigration and Customs Enforcement (ICE), families face an urgent and stressful situation. Understanding the immigration bond process can mean the difference between months of separation and a quick reunion while the immigration case proceeds. SoCal Immigration Services helps Orange County families navigate the bond hearing process and secure the release of their loved ones.",
 
       sections: [
         {

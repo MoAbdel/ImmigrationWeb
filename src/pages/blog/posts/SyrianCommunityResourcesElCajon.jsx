@@ -14,8 +14,8 @@ const SyrianCommunityResourcesElCajon = ({ language }) => {
       location: "El Cajon",
       date: "January 5, 2026",
       readTime: "11 min read",
-      author: "Immigration Solution Services",
-      locationIntro: "El Cajon has become a primary resettlement destination for Syrian refugees in the United States, with thousands of families finding safety and building new lives in San Diego County. Immigration Solution Services is dedicated to serving the Syrian community with culturally-sensitive immigration assistance, Arabic-speaking staff, and deep understanding of the unique challenges Syrian families face.",
+      author: "SoCal Immigration Services",
+      locationIntro: "El Cajon has become a primary resettlement destination for Syrian refugees in the United States, with thousands of families finding safety and building new lives in San Diego County. SoCal Immigration Services is dedicated to serving the Syrian community with culturally-sensitive immigration assistance, Arabic-speaking staff, and deep understanding of the unique challenges Syrian families face.",
 
       sections: [
         {
@@ -24,7 +24,7 @@ const SyrianCommunityResourcesElCajon = ({ language }) => {
         },
         {
           heading: "Key Immigration Services for Syrians",
-          content: "Immigration Solution Services provides assistance with these critical immigration needs:",
+          content: "SoCal Immigration Services provides assistance with these critical immigration needs:",
           list: [
             "Refugee adjustment of status (I-485) - obtaining green cards",
             "I-730 Follow-to-Join petitions for family members",
@@ -132,8 +132,8 @@ const SyrianCommunityResourcesElCajon = ({ language }) => {
           ]
         },
         {
-          heading: "Why Choose Immigration Solution Services?",
-          content: "Located in Garden Grove and serving El Cajon and all of San Diego County, we provide:",
+          heading: "Why Choose SoCal Immigration Services?",
+          content: "Located in Irvine and serving El Cajon and all of San Diego County, we provide:",
           list: [
             "Arabic-speaking staff who understand Syrian dialect and culture",
             "Experience with Syrian refugee cases since 2015",

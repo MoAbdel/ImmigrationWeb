@@ -14,8 +14,8 @@ const NVCProcessingAnaheim = ({ language }) => {
       location: "Anaheim",
       date: "January 5, 2026",
       readTime: "10 min read",
-      author: "Immigration Solution Services",
-      locationIntro: "Anaheim's Little Arabia is home to thousands of Arab families navigating the family immigration process. When your I-130 petition is approved, the National Visa Center (NVC) becomes your next crucial step before your relative can receive their immigrant visa. Immigration Solution Services helps Anaheim families understand and complete NVC requirements efficiently.",
+      author: "SoCal Immigration Services",
+      locationIntro: "Anaheim's Little Arabia is home to thousands of Arab families navigating the family immigration process. When your I-130 petition is approved, the National Visa Center (NVC) becomes your next crucial step before your relative can receive their immigrant visa. SoCal Immigration Services helps Anaheim families understand and complete NVC requirements efficiently.",
 
       sections: [
         {
@@ -137,7 +137,7 @@ const NVCProcessingAnaheim = ({ language }) => {
           }
         },
         {
-          heading: "Why Choose Immigration Solution Services?",
+          heading: "Why Choose SoCal Immigration Services?",
           content: "Serving Anaheim's Little Arabia and all of Orange County, we provide:",
           list: [
             "Complete NVC document preparation and review",

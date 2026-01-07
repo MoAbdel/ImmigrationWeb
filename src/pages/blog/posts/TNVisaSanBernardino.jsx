@@ -14,8 +14,8 @@ const TNVisaSanBernardino = ({ language }) => {
       location: "San Bernardino",
       date: "December 30, 2025",
       readTime: "10 min read",
-      author: "Immigration Solution Services",
-      locationIntro: "For Canadian and Mexican professionals in San Bernardino seeking to work in the United States, the TN visa under the USMCA trade agreement offers a streamlined path to employment. Immigration Solution Services helps qualified professionals navigate this unique visa category.",
+      author: "SoCal Immigration Services",
+      locationIntro: "For Canadian and Mexican professionals in San Bernardino seeking to work in the United States, the TN visa under the USMCA trade agreement offers a streamlined path to employment. SoCal Immigration Services helps qualified professionals navigate this unique visa category.",
 
       sections: [
         {
@@ -126,7 +126,7 @@ const TNVisaSanBernardino = ({ language }) => {
         },
         {
           heading: "TN Visa Services in San Bernardino",
-          content: "Immigration Solution Services helps professionals in San Bernardino with:",
+          content: "SoCal Immigration Services helps professionals in San Bernardino with:",
           list: [
             "TN eligibility assessment",
             "Job offer letter review and preparation",

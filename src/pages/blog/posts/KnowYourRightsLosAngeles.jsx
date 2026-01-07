@@ -14,7 +14,7 @@ const KnowYourRightsLosAngeles = ({ language }) => {
       location: "Los Angeles",
       date: "December 28, 2025",
       readTime: "6 min read",
-      author: "Immigration Solution Services",
+      author: "SoCal Immigration Services",
       locationIntro: "Los Angeles County's Arab-American community should understand their constitutional rights during any encounter with immigration enforcement. These rights apply to everyone in the United States, regardless of immigration status.",
 
       sections: [

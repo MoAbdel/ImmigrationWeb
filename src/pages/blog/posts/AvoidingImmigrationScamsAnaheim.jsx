@@ -14,7 +14,7 @@ const AvoidingImmigrationScamsAnaheim = ({ language }) => {
       location: "Anaheim",
       date: "January 1, 2026",
       readTime: "10 min read",
-      author: "Immigration Solution Services",
+      author: "SoCal Immigration Services",
       locationIntro: "Anaheim's Little Arabia community is unfortunately targeted by immigration scammers who take advantage of immigrants' desire to obtain legal status. Learning to recognize and avoid these scams protects your family, your money, and your immigration future.",
 
       sections: [

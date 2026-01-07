@@ -14,8 +14,8 @@ const WorkAuthorizationEADRanchoCucamonga = ({ language }) => {
       location: "Rancho Cucamonga",
       date: "December 29, 2025",
       readTime: "9 min read",
-      author: "Immigration Solution Services",
-      locationIntro: "For immigrants in Rancho Cucamonga and the Inland Empire seeking work authorization, the Employment Authorization Document (EAD) is essential. Immigration Solution Services helps you navigate the I-765 application process with expert Arabic-speaking support.",
+      author: "SoCal Immigration Services",
+      locationIntro: "For immigrants in Rancho Cucamonga and the Inland Empire seeking work authorization, the Employment Authorization Document (EAD) is essential. SoCal Immigration Services helps you navigate the I-765 application process with expert Arabic-speaking support.",
 
       sections: [
         {
@@ -134,7 +134,7 @@ const WorkAuthorizationEADRanchoCucamonga = ({ language }) => {
         },
         {
           heading: "Our Rancho Cucamonga EAD Services",
-          content: "Immigration Solution Services provides comprehensive EAD assistance for Inland Empire residents:",
+          content: "SoCal Immigration Services provides comprehensive EAD assistance for Inland Empire residents:",
           list: [
             "Determine your EAD eligibility category",
             "Complete and review Form I-765",

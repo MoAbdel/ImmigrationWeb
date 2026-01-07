@@ -14,8 +14,8 @@ const USCISExpediteRequestRiverside = ({ language }) => {
       location: "Riverside",
       date: "January 7, 2026",
       readTime: "11 min read",
-      author: "Immigration Solution Services",
-      locationIntro: "When facing urgent circumstances, waiting months or years for USCIS to process your immigration application may not be an option. USCIS offers expedite processing for cases that meet certain emergency criteria. Immigration Solution Services helps Riverside County residents understand when and how to request expedited processing.",
+      author: "SoCal Immigration Services",
+      locationIntro: "When facing urgent circumstances, waiting months or years for USCIS to process your immigration application may not be an option. USCIS offers expedite processing for cases that meet certain emergency criteria. SoCal Immigration Services helps Riverside County residents understand when and how to request expedited processing.",
 
       sections: [
         {

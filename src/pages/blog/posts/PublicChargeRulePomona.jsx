@@ -14,8 +14,8 @@ const PublicChargeRulePomona = ({ language }) => {
       location: "Pomona",
       date: "December 30, 2025",
       readTime: "9 min read",
-      author: "Immigration Solution Services",
-      locationIntro: "For immigrants in Pomona applying for green cards or visas, understanding the public charge rule is essential. Immigration Solution Services helps families understand how this rule affects their applications and what benefits they can safely use.",
+      author: "SoCal Immigration Services",
+      locationIntro: "For immigrants in Pomona applying for green cards or visas, understanding the public charge rule is essential. SoCal Immigration Services helps families understand how this rule affects their applications and what benefits they can safely use.",
 
       sections: [
         {
@@ -139,7 +139,7 @@ const PublicChargeRulePomona = ({ language }) => {
         },
         {
           heading: "Our Public Charge Services in Pomona",
-          content: "Immigration Solution Services helps Pomona families with:",
+          content: "SoCal Immigration Services helps Pomona families with:",
           list: [
             "Public charge risk assessment",
             "Income calculation for Affidavit of Support",

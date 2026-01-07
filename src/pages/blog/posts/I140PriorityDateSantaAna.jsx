@@ -14,8 +14,8 @@ const I140PriorityDateSantaAna = ({ language }) => {
       location: "Santa Ana",
       date: "January 4, 2026",
       readTime: "12 min read",
-      author: "Immigration Solution Services",
-      locationIntro: "For professionals in Santa Ana waiting for their employment-based green card, understanding the priority date system and visa bulletin is crucial. With significant backlogs in most employment categories, knowing where you stand and what to expect can help you plan your immigration journey. Immigration Solution Services helps workers throughout Orange County navigate this complex system.",
+      author: "SoCal Immigration Services",
+      locationIntro: "For professionals in Santa Ana waiting for their employment-based green card, understanding the priority date system and visa bulletin is crucial. With significant backlogs in most employment categories, knowing where you stand and what to expect can help you plan your immigration journey. SoCal Immigration Services helps workers throughout Orange County navigate this complex system.",
 
       sections: [
         {
@@ -111,7 +111,7 @@ const I140PriorityDateSantaAna = ({ language }) => {
           content: "If you're from a backlogged country (like India) but your spouse is from a country with current dates, you may be able to use cross-chargeability:\n\n• Your visa can be charged to your spouse's country of birth\n• Both of you must be immigrating together\n• This can potentially save years of waiting\n\nThis is particularly relevant for Arab-American families in Santa Ana where spouses may be from different Middle Eastern countries with different wait times."
         },
         {
-          heading: "Why Choose Immigration Solution Services?",
+          heading: "Why Choose SoCal Immigration Services?",
           content: "We help Santa Ana professionals with employment-based immigration:",
           list: [
             "Priority date tracking and visa bulletin monitoring",

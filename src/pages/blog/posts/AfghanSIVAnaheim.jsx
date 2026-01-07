@@ -14,8 +14,8 @@ const AfghanSIVAnaheim = ({ language }) => {
       location: "Anaheim",
       date: "January 6, 2026",
       readTime: "12 min read",
-      author: "Immigration Solution Services",
-      locationIntro: "Anaheim and Orange County have welcomed many Afghan families who served alongside U.S. forces in Afghanistan. The Afghan Special Immigrant Visa (SIV) program provides a path to permanent residence for Afghans who worked as translators, interpreters, or in other capacities with U.S. military and government operations. Immigration Solution Services is committed to helping these brave allies navigate the SIV process.",
+      author: "SoCal Immigration Services",
+      locationIntro: "Anaheim and Orange County have welcomed many Afghan families who served alongside U.S. forces in Afghanistan. The Afghan Special Immigrant Visa (SIV) program provides a path to permanent residence for Afghans who worked as translators, interpreters, or in other capacities with U.S. military and government operations. SoCal Immigration Services is committed to helping these brave allies navigate the SIV process.",
 
       sections: [
         {
@@ -124,7 +124,7 @@ const AfghanSIVAnaheim = ({ language }) => {
           ]
         },
         {
-          heading: "Why Choose Immigration Solution Services?",
+          heading: "Why Choose SoCal Immigration Services?",
           content: "Serving Anaheim and all of Orange County, we offer:",
           list: [
             "Experience with Afghan SIV applications",

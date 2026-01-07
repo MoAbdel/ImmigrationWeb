@@ -14,7 +14,7 @@ const PalestinianAsylumChulaVista = ({ language }) => {
       location: "Chula Vista",
       date: "January 1, 2026",
       readTime: "14 min read",
-      author: "Immigration Solution Services",
+      author: "SoCal Immigration Services",
       locationIntro: "Chula Vista, San Diego County's second-largest city, is home to a growing Palestinian community. For families fleeing violence, persecution, and humanitarian crises in Gaza and the West Bank, asylum offers a path to safety and protection in the United States.",
 
       sections: [

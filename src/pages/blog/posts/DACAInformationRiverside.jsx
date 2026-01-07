@@ -14,8 +14,8 @@ const DACAInformationRiverside = ({ language }) => {
       location: "Riverside",
       date: "December 28, 2025",
       readTime: "9 min read",
-      author: "Immigration Solution Services",
-      locationIntro: "Riverside and the Inland Empire are home to thousands of DACA recipients, including members of the Arab immigrant community. Immigration Solution Services provides guidance on DACA renewals and helps Dreamers understand their options and protections under this important program.",
+      author: "SoCal Immigration Services",
+      locationIntro: "Riverside and the Inland Empire are home to thousands of DACA recipients, including members of the Arab immigrant community. SoCal Immigration Services provides guidance on DACA renewals and helps Dreamers understand their options and protections under this important program.",
 
       sections: [
         {

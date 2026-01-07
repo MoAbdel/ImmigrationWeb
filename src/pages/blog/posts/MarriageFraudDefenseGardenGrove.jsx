@@ -14,7 +14,7 @@ const MarriageFraudDefenseGardenGrove = ({ language }) => {
       location: "Garden Grove",
       date: "January 1, 2026",
       readTime: "10 min read",
-      author: "Immigration Solution Services",
+      author: "SoCal Immigration Services",
       locationIntro: "Facing a marriage fraud investigation can be terrifying for genuine couples. In Garden Grove, we help Arab-American families respond to USCIS inquiries and prove the authenticity of their marriages when their cases are questioned.",
 
       sections: [

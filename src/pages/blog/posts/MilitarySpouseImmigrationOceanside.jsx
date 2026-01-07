@@ -14,8 +14,8 @@ const MilitarySpouseImmigrationOceanside = ({ language }) => {
       location: "Oceanside",
       date: "December 29, 2025",
       readTime: "10 min read",
-      author: "Immigration Solution Services",
-      locationIntro: "For military families stationed at Camp Pendleton and living in Oceanside, immigration can present unique challenges. Immigration Solution Services understands military life and provides specialized support for service members and their immigrant spouses.",
+      author: "SoCal Immigration Services",
+      locationIntro: "For military families stationed at Camp Pendleton and living in Oceanside, immigration can present unique challenges. SoCal Immigration Services understands military life and provides specialized support for service members and their immigrant spouses.",
 
       sections: [
         {
@@ -106,7 +106,7 @@ const MilitarySpouseImmigrationOceanside = ({ language }) => {
         },
         {
           heading: "Our Oceanside Military Family Services",
-          content: "Immigration Solution Services supports Camp Pendleton families:",
+          content: "SoCal Immigration Services supports Camp Pendleton families:",
           list: [
             "Understanding of military schedules and deployments",
             "Document preparation for military family petitions",

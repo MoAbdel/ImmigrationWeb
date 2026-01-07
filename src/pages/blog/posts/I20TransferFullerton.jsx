@@ -14,8 +14,8 @@ const I20TransferFullerton = ({ language }) => {
       location: "Fullerton",
       date: "January 7, 2026",
       readTime: "10 min read",
-      author: "Immigration Solution Services",
-      locationIntro: "Fullerton is home to California State University Fullerton and Fullerton College, making it a hub for international students on F-1 visas. Whether you're transferring from another school or planning to move to a different institution, understanding the I-20 transfer process is essential to maintaining your legal status. Immigration Solution Services helps F-1 students navigate the transfer process successfully.",
+      author: "SoCal Immigration Services",
+      locationIntro: "Fullerton is home to California State University Fullerton and Fullerton College, making it a hub for international students on F-1 visas. Whether you're transferring from another school or planning to move to a different institution, understanding the I-20 transfer process is essential to maintaining your legal status. SoCal Immigration Services helps F-1 students navigate the transfer process successfully.",
 
       sections: [
         {

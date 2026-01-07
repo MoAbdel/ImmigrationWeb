@@ -14,7 +14,7 @@ const RefugeeAdjustmentSanDiego = ({ language }) => {
       location: "San Diego",
       date: "December 28, 2025",
       readTime: "9 min read",
-      author: "Immigration Solution Services",
+      author: "SoCal Immigration Services",
       locationIntro: "San Diego County is home to thousands of refugees from Iraq, Syria, and other Middle Eastern countries. If you came to the U.S. as a refugee, you must apply to adjust your status to become a permanent resident within one year of arrival. This guide explains the process for refugees in San Diego.",
 
       sections: [
@@ -95,7 +95,7 @@ const RefugeeAdjustmentSanDiego = ({ language }) => {
         },
         {
           heading: "San Diego Refugee Resources",
-          content: "Immigration Solution Services works with San Diego's refugee community, including:",
+          content: "SoCal Immigration Services works with San Diego's refugee community, including:",
           list: [
             "Arabic and English document preparation",
             "Translation services for refugee documents",

@@ -14,7 +14,7 @@ const AdvanceParoleGardenGrove = ({ language }) => {
       location: "Garden Grove",
       date: "December 28, 2025",
       readTime: "7 min read",
-      author: "Immigration Solution Services",
+      author: "SoCal Immigration Services",
       locationIntro: "If you've filed for adjustment of status in Garden Grove and need to travel internationally, advance parole is essential. This travel document allows you to leave and return to the U.S. without abandoning your pending application.",
 
       sections: [

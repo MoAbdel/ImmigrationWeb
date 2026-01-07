@@ -14,7 +14,7 @@ const ArabSeniorResourcesSantaClarita = ({ language }) => {
       location: "Santa Clarita",
       date: "January 1, 2026",
       readTime: "11 min read",
-      author: "Immigration Solution Services",
+      author: "SoCal Immigration Services",
       locationIntro: "Santa Clarita, the third-largest city in Los Angeles County, has a growing Arab-American community including many senior citizens who immigrated to be with their families. Elderly immigrants often face unique challenges navigating the immigration system, including language barriers, health limitations, and complex paperwork.",
 
       sections: [

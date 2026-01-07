@@ -14,7 +14,7 @@ const CitizenshipMarriageCorona = ({ language }) => {
       location: "Corona",
       date: "January 1, 2026",
       readTime: "10 min read",
-      author: "Immigration Solution Services",
+      author: "SoCal Immigration Services",
       locationIntro: "Spouses of U.S. citizens in Corona may qualify for a faster path to citizenship. Instead of waiting 5 years, you may be able to apply after just 3 years as a permanent resident. Our team helps Inland Empire families navigate this accelerated naturalization process.",
 
       sections: [

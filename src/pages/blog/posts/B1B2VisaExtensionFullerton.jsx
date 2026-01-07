@@ -14,8 +14,8 @@ const B1B2VisaExtensionFullerton = ({ language }) => {
       location: "Fullerton",
       date: "December 30, 2025",
       readTime: "9 min read",
-      author: "Immigration Solution Services",
-      locationIntro: "For visitors in Fullerton and North Orange County who need more time in the United States, extending your B1/B2 visa status is possible with proper planning. Immigration Solution Services helps visitors file timely extension requests to maintain legal status.",
+      author: "SoCal Immigration Services",
+      locationIntro: "For visitors in Fullerton and North Orange County who need more time in the United States, extending your B1/B2 visa status is possible with proper planning. SoCal Immigration Services helps visitors file timely extension requests to maintain legal status.",
 
       sections: [
         {
@@ -131,7 +131,7 @@ const B1B2VisaExtensionFullerton = ({ language }) => {
         },
         {
           heading: "Our B1/B2 Extension Services in Fullerton",
-          content: "Immigration Solution Services helps visitors in Fullerton with:",
+          content: "SoCal Immigration Services helps visitors in Fullerton with:",
           list: [
             "I-539 extension application preparation",
             "Compelling extension letter drafting",

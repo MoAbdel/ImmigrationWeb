@@ -14,7 +14,7 @@ const RefugeeTravelDocElCajon = ({ language }) => {
       location: "El Cajon",
       date: "December 28, 2025",
       readTime: "8 min read",
-      author: "Immigration Solution Services",
+      author: "SoCal Immigration Services",
       locationIntro: "El Cajon's large Iraqi refugee community often needs to travel internationally while maintaining their protected status. A refugee travel document allows you to leave and reenter the U.S. without abandoning your refugee status.",
 
       sections: [

@@ -14,8 +14,8 @@ const ParoleInPlaceCampPendleton = ({ language }) => {
       location: "Camp Pendleton",
       date: "January 6, 2026",
       readTime: "11 min read",
-      author: "Immigration Solution Services",
-      locationIntro: "Camp Pendleton, one of the largest Marine Corps bases in the country, is home to thousands of military families in northern San Diego County. Many service members have spouses, parents, or children who entered the United States without inspection and cannot adjust status through normal channels. Parole in Place (PIP) offers these military families a path to legal permanent residence. Immigration Solution Services is honored to help those who serve our country.",
+      author: "SoCal Immigration Services",
+      locationIntro: "Camp Pendleton, one of the largest Marine Corps bases in the country, is home to thousands of military families in northern San Diego County. Many service members have spouses, parents, or children who entered the United States without inspection and cannot adjust status through normal channels. Parole in Place (PIP) offers these military families a path to legal permanent residence. SoCal Immigration Services is honored to help those who serve our country.",
 
       sections: [
         {
@@ -122,7 +122,7 @@ const ParoleInPlaceCampPendleton = ({ language }) => {
           ]
         },
         {
-          heading: "Why Choose Immigration Solution Services?",
+          heading: "Why Choose SoCal Immigration Services?",
           content: "Serving military families near Camp Pendleton, we offer:",
           list: [
             "Experience with military family immigration cases",

@@ -14,7 +14,7 @@ const EmploymentVerificationI9Downey = ({ language }) => {
       location: "Downey",
       date: "January 1, 2026",
       readTime: "10 min read",
-      author: "Immigration Solution Services",
+      author: "SoCal Immigration Services",
       locationIntro: "Downey, a diverse city in southeast Los Angeles County, has a thriving business community and many immigrant workers. Form I-9, Employment Eligibility Verification, is required for every employee hired in the United States. Understanding this process helps both employers maintain compliance and employees prove their work authorization.",
 
       sections: [

@@ -14,8 +14,8 @@ const F1StudentVisaIrvine = ({ language }) => {
       location: "Irvine",
       date: "December 28, 2025",
       readTime: "9 min read",
-      author: "Immigration Solution Services",
-      locationIntro: "Irvine is home to UC Irvine and numerous colleges attracting international students from the Middle East and around the world. Immigration Solution Services helps F-1 students maintain legal status, extend their programs, and transition to work authorization while pursuing their American education dreams.",
+      author: "SoCal Immigration Services",
+      locationIntro: "Irvine is home to UC Irvine and numerous colleges attracting international students from the Middle East and around the world. SoCal Immigration Services helps F-1 students maintain legal status, extend their programs, and transition to work authorization while pursuing their American education dreams.",
 
       sections: [
         {

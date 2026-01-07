@@ -73,7 +73,7 @@ const BlogPage = ({ language }) => {
     "description": t.subtitle,
     "publisher": {
       "@type": "Organization",
-      "name": "Immigration Solution Services",
+      "name": "SoCal Immigration Services",
       "address": {
         "@type": "PostalAddress",
         "addressLocality": "Garden Grove",

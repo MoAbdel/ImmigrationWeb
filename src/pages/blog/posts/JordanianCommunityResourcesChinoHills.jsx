@@ -14,8 +14,8 @@ const JordanianCommunityResourcesChinoHills = ({ language }) => {
       location: "Chino Hills",
       date: "January 4, 2026",
       readTime: "10 min read",
-      author: "Immigration Solution Services",
-      locationIntro: "The Jordanian-American community in Chino Hills and the surrounding Inland Empire has grown significantly over the past decades. Whether you're a Jordanian citizen seeking to immigrate, a Jordanian-American wanting to bring family members, or a community member needing immigration services, Immigration Solution Services provides Arabic-speaking support tailored to your needs.",
+      author: "SoCal Immigration Services",
+      locationIntro: "The Jordanian-American community in Chino Hills and the surrounding Inland Empire has grown significantly over the past decades. Whether you're a Jordanian citizen seeking to immigrate, a Jordanian-American wanting to bring family members, or a community member needing immigration services, SoCal Immigration Services provides Arabic-speaking support tailored to your needs.",
 
       sections: [
         {
@@ -122,7 +122,7 @@ const JordanianCommunityResourcesChinoHills = ({ language }) => {
           ]
         },
         {
-          heading: "Why Choose Immigration Solution Services?",
+          heading: "Why Choose SoCal Immigration Services?",
           content: "We serve the Jordanian community with:",
           list: [
             "Native Arabic-speaking staff familiar with Jordanian culture",
@@ -164,7 +164,7 @@ const JordanianCommunityResourcesChinoHills = ({ language }) => {
 
       cta: {
         title: "Jordanian-American? We Can Help with Your Immigration Needs",
-        text: "Immigration Solution Services provides culturally sensitive immigration support for the Jordanian community in Chino Hills and the Inland Empire. Contact us today.",
+        text: "SoCal Immigration Services provides culturally sensitive immigration support for the Jordanian community in Chino Hills and the Inland Empire. Contact us today.",
         button: "Schedule Consultation"
       }
     },

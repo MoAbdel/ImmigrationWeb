@@ -14,8 +14,8 @@ const O1ArtistVisaGlendale = ({ language }) => {
       location: "Glendale",
       date: "January 4, 2026",
       readTime: "11 min read",
-      author: "Immigration Solution Services",
-      locationIntro: "Glendale, home to one of the largest Armenian-American communities and a thriving Arab population, is rich with artistic talent. Musicians, visual artists, dancers, and performers with extraordinary ability may qualify for the O-1 visa, allowing them to work in the United States. Immigration Solution Services helps talented artists in Glendale navigate this prestigious visa category.",
+      author: "SoCal Immigration Services",
+      locationIntro: "Glendale, home to one of the largest Armenian-American communities and a thriving Arab population, is rich with artistic talent. Musicians, visual artists, dancers, and performers with extraordinary ability may qualify for the O-1 visa, allowing them to work in the United States. SoCal Immigration Services helps talented artists in Glendale navigate this prestigious visa category.",
 
       sections: [
         {
@@ -116,7 +116,7 @@ const O1ArtistVisaGlendale = ({ language }) => {
           content: "Artists often face unique challenges:\n\n• Defining 'distinction' in emerging art forms\n\n• Documenting achievements in countries without extensive records\n\n• Translating non-English press coverage and reviews\n\n• Finding appropriate advisory opinion sources for traditional arts\n\n• Proving compensation comparisons in artistic fields\n\nOur team helps Glendale artists overcome these obstacles with proper documentation and presentation."
         },
         {
-          heading: "Why Choose Immigration Solution Services for O-1 Artist Visas?",
+          heading: "Why Choose SoCal Immigration Services for O-1 Artist Visas?",
           content: "We help Glendale artists with:",
           list: [
             "Armenian and Arabic-speaking staff who understand cultural contexts",

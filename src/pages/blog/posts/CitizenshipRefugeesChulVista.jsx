@@ -14,8 +14,8 @@ const CitizenshipRefugeesChulVista = ({ language }) => {
       location: "Chula Vista",
       date: "December 29, 2025",
       readTime: "10 min read",
-      author: "Immigration Solution Services",
-      locationIntro: "For refugees who have made Chula Vista and South Bay their home, becoming a U.S. citizen is the culmination of your immigration journey. Immigration Solution Services helps refugee families navigate the naturalization process with Arabic-speaking support.",
+      author: "SoCal Immigration Services",
+      locationIntro: "For refugees who have made Chula Vista and South Bay their home, becoming a U.S. citizen is the culmination of your immigration journey. SoCal Immigration Services helps refugee families navigate the naturalization process with Arabic-speaking support.",
 
       sections: [
         {
@@ -111,7 +111,7 @@ const CitizenshipRefugeesChulVista = ({ language }) => {
         },
         {
           heading: "Our Chula Vista Citizenship Services",
-          content: "Immigration Solution Services helps Chula Vista refugee families with naturalization:",
+          content: "SoCal Immigration Services helps Chula Vista refugee families with naturalization:",
           list: [
             "N-400 application preparation and review",
             "Document organization and checklists",

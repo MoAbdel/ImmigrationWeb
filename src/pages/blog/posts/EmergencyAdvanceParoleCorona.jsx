@@ -14,8 +14,8 @@ const EmergencyAdvanceParoleCorona = ({ language }) => {
       location: "Corona",
       date: "January 3, 2026",
       readTime: "9 min read",
-      author: "Immigration Solution Services",
-      locationIntro: "When a family emergency strikes and you need to travel internationally while your green card application is pending, every day counts. For Corona and Inland Empire families, Immigration Solution Services helps navigate the emergency advance parole process to get you the travel authorization you need quickly.",
+      author: "SoCal Immigration Services",
+      locationIntro: "When a family emergency strikes and you need to travel internationally while your green card application is pending, every day counts. For Corona and Inland Empire families, SoCal Immigration Services helps navigate the emergency advance parole process to get you the travel authorization you need quickly.",
 
       sections: [
         {
@@ -98,7 +98,7 @@ const EmergencyAdvanceParoleCorona = ({ language }) => {
           content: "If USCIS denies your emergency request:\n\n• You can resubmit with additional evidence\n• Your I-131 continues processing at the normal pace\n• Consider consulting with an immigration attorney for complex situations\n• Do NOT travel without advance parole - this will abandon your application\n\nWe help Corona families prepare the strongest possible expedite requests to maximize approval chances."
         },
         {
-          heading: "Why Choose Immigration Solution Services?",
+          heading: "Why Choose SoCal Immigration Services?",
           content: "Our team helps Corona families with emergency travel situations:",
           list: [
             "Urgent response to emergency situations",

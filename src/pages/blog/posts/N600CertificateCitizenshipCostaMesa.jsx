@@ -14,8 +14,8 @@ const N600CertificateCitizenshipCostaMesa = ({ language }) => {
       location: "Costa Mesa",
       date: "December 30, 2025",
       readTime: "10 min read",
-      author: "Immigration Solution Services",
-      locationIntro: "For families in Costa Mesa whose children may have automatically acquired U.S. citizenship through parents, the N-600 Certificate of Citizenship provides official proof. Immigration Solution Services helps families document their children's citizenship status.",
+      author: "SoCal Immigration Services",
+      locationIntro: "For families in Costa Mesa whose children may have automatically acquired U.S. citizenship through parents, the N-600 Certificate of Citizenship provides official proof. SoCal Immigration Services helps families document their children's citizenship status.",
 
       sections: [
         {
@@ -132,7 +132,7 @@ const N600CertificateCitizenshipCostaMesa = ({ language }) => {
         },
         {
           heading: "Our N-600 Services in Costa Mesa",
-          content: "Immigration Solution Services helps Costa Mesa families with:",
+          content: "SoCal Immigration Services helps Costa Mesa families with:",
           list: [
             "Eligibility determination and case analysis",
             "Document checklist and compilation",

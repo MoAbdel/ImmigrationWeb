@@ -14,7 +14,7 @@ const CivicsTestCorona = ({ language }) => {
       location: "Corona",
       date: "December 28, 2025",
       readTime: "6 min read",
-      author: "Immigration Solution Services",
+      author: "SoCal Immigration Services",
       locationIntro: "Corona's growing Arab senior population often faces unique challenges when preparing for the U.S. citizenship civics test. We provide patient, culturally-sensitive study support with Arabic materials.",
 
       sections: [

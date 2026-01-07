@@ -14,8 +14,8 @@ const PERMEmploymentGreenCardOntario = ({ language }) => {
       location: "Ontario",
       date: "December 29, 2025",
       readTime: "11 min read",
-      author: "Immigration Solution Services",
-      locationIntro: "For workers and employers in Ontario and the Inland Empire seeking employment-based green cards, the PERM labor certification is often the first step. Immigration Solution Services helps you understand this complex process with expert Arabic-speaking support.",
+      author: "SoCal Immigration Services",
+      locationIntro: "For workers and employers in Ontario and the Inland Empire seeking employment-based green cards, the PERM labor certification is often the first step. SoCal Immigration Services helps you understand this complex process with expert Arabic-speaking support.",
 
       sections: [
         {
@@ -134,7 +134,7 @@ const PERMEmploymentGreenCardOntario = ({ language }) => {
         },
         {
           heading: "Our Ontario PERM Support Services",
-          content: "Immigration Solution Services assists Ontario employers and employees with PERM preparation:",
+          content: "SoCal Immigration Services assists Ontario employers and employees with PERM preparation:",
           list: [
             "Help employees gather and organize documentation",
             "Prepare experience letters and credential evaluations",

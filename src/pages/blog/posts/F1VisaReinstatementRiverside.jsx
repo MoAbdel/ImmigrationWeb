@@ -14,8 +14,8 @@ const F1VisaReinstatementRiverside = ({ language }) => {
       location: "Riverside",
       date: "January 5, 2026",
       readTime: "10 min read",
-      author: "Immigration Solution Services",
-      locationIntro: "Riverside County, home to UC Riverside and numerous colleges, attracts international students from across the Middle East. When students fall out of F-1 status due to academic, employment, or administrative issues, reinstatement may offer a path back to lawful student status. Immigration Solution Services provides guidance to international students in the Inland Empire seeking to restore their legal standing.",
+      author: "SoCal Immigration Services",
+      locationIntro: "Riverside County, home to UC Riverside and numerous colleges, attracts international students from across the Middle East. When students fall out of F-1 status due to academic, employment, or administrative issues, reinstatement may offer a path back to lawful student status. SoCal Immigration Services provides guidance to international students in the Inland Empire seeking to restore their legal standing.",
 
       sections: [
         {
@@ -138,7 +138,7 @@ const F1VisaReinstatementRiverside = ({ language }) => {
           ]
         },
         {
-          heading: "Why Choose Immigration Solution Services?",
+          heading: "Why Choose SoCal Immigration Services?",
           content: "Serving UC Riverside students and the entire Inland Empire, we offer:",
           list: [
             "Experience with F-1 student immigration matters",

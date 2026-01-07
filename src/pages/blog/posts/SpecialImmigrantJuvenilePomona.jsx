@@ -14,8 +14,8 @@ const SpecialImmigrantJuvenilePomona = ({ language }) => {
       location: "Pomona",
       date: "January 6, 2026",
       readTime: "12 min read",
-      author: "Immigration Solution Services",
-      locationIntro: "Pomona, located in Los Angeles County's Pomona Valley, has a diverse immigrant community including many vulnerable youth who may qualify for Special Immigrant Juvenile Status (SIJS). This important protection offers a path to lawful permanent residence for children who have suffered abuse, neglect, or abandonment. Immigration Solution Services helps families and youth navigate this life-changing process.",
+      author: "SoCal Immigration Services",
+      locationIntro: "Pomona, located in Los Angeles County's Pomona Valley, has a diverse immigrant community including many vulnerable youth who may qualify for Special Immigrant Juvenile Status (SIJS). This important protection offers a path to lawful permanent residence for children who have suffered abuse, neglect, or abandonment. SoCal Immigration Services helps families and youth navigate this life-changing process.",
 
       sections: [
         {
@@ -119,7 +119,7 @@ const SpecialImmigrantJuvenilePomona = ({ language }) => {
           content: "Due to annual visa limits, there is currently a significant backlog for SIJS applicants from certain countries, particularly El Salvador, Guatemala, Honduras, and Mexico. This means:\n\n• Your I-360 may be approved, but you may wait years for a visa number\n• During the wait, you may be eligible for work authorization\n• It's important to file as early as possible to secure your place in line"
         },
         {
-          heading: "Why Choose Immigration Solution Services?",
+          heading: "Why Choose SoCal Immigration Services?",
           content: "Serving Pomona and all of Los Angeles County, we offer:",
           list: [
             "Compassionate assistance for vulnerable youth",

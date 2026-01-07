@@ -14,8 +14,8 @@ const I601AProvisionalWaiverVictorville = ({ language }) => {
       location: "Victorville",
       date: "January 6, 2026",
       readTime: "11 min read",
-      author: "Immigration Solution Services",
-      locationIntro: "Victorville, located in the High Desert region of San Bernardino County, is home to many immigrant families who face the difficult challenge of unlawful presence bars when trying to obtain green cards. The I-601A Provisional Unlawful Presence Waiver allows eligible individuals to apply for a waiver while still in the United States, reducing the risk and uncertainty of the consular process. Immigration Solution Services helps Victorville families navigate this important opportunity.",
+      author: "SoCal Immigration Services",
+      locationIntro: "Victorville, located in the High Desert region of San Bernardino County, is home to many immigrant families who face the difficult challenge of unlawful presence bars when trying to obtain green cards. The I-601A Provisional Unlawful Presence Waiver allows eligible individuals to apply for a waiver while still in the United States, reducing the risk and uncertainty of the consular process. SoCal Immigration Services helps Victorville families navigate this important opportunity.",
 
       sections: [
         {
@@ -117,7 +117,7 @@ const I601AProvisionalWaiverVictorville = ({ language }) => {
           content: "Once your I-601A is approved:\n\n1. You'll receive an approval notice from USCIS\n2. Notify the National Visa Center you're ready for your interview\n3. Complete consular processing forms (DS-260)\n4. Travel to your home country for the visa interview\n5. If the visa is approved, receive your immigrant visa and return to the U.S.\n6. Upon entry, you become a lawful permanent resident"
         },
         {
-          heading: "Why Choose Immigration Solution Services?",
+          heading: "Why Choose SoCal Immigration Services?",
           content: "Serving Victorville and the High Desert region, we offer:",
           list: [
             "Experience with complex waiver applications",

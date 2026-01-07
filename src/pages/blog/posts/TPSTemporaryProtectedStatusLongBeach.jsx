@@ -14,8 +14,8 @@ const TPSTemporaryProtectedStatusLongBeach = ({ language }) => {
       location: "Long Beach",
       date: "December 30, 2025",
       readTime: "10 min read",
-      author: "Immigration Solution Services",
-      locationIntro: "For nationals of designated countries living in Long Beach, Temporary Protected Status (TPS) provides crucial work authorization and protection from deportation. Immigration Solution Services helps TPS holders maintain their status and explore pathways to permanent residence.",
+      author: "SoCal Immigration Services",
+      locationIntro: "For nationals of designated countries living in Long Beach, Temporary Protected Status (TPS) provides crucial work authorization and protection from deportation. SoCal Immigration Services helps TPS holders maintain their status and explore pathways to permanent residence.",
 
       sections: [
         {
@@ -133,7 +133,7 @@ const TPSTemporaryProtectedStatusLongBeach = ({ language }) => {
         },
         {
           heading: "Our TPS Services in Long Beach",
-          content: "Immigration Solution Services helps TPS holders in Long Beach with:",
+          content: "SoCal Immigration Services helps TPS holders in Long Beach with:",
           list: [
             "Initial TPS registration applications",
             "Re-registration during extension periods",

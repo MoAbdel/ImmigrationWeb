@@ -14,7 +14,7 @@ const GreenCardRenewalLosAngeles = ({ language }) => {
       location: "Los Angeles",
       date: "December 28, 2025",
       readTime: "6 min read",
-      author: "Immigration Solution Services",
+      author: "SoCal Immigration Services",
       locationIntro: "Los Angeles County's large Arab-American population often needs green card renewal services. Whether your card is expiring or lost, we help you navigate the I-90 process efficiently.",
 
       sections: [

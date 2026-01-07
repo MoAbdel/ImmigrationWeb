@@ -32,7 +32,7 @@ const HomePage = ({ language, content }) => {
           <div className="fade-in-up">
             <img
               src="/logo.png"
-              alt="Immigration Solution Services"
+              alt="SoCal Immigration Services"
               className="w-[147px] h-[147px] sm:w-[196px] sm:h-[196px] md:w-[245px] md:h-[245px] mx-auto mb-6 sm:mb-8 -mt-4 sm:-mt-6 object-contain drop-shadow-2xl"
             />
             <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-serif font-bold mb-4 sm:mb-6 leading-tight text-shadow-lg">

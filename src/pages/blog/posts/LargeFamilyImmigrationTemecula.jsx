@@ -14,8 +14,8 @@ const LargeFamilyImmigrationTemecula = ({ language }) => {
       location: "Temecula",
       date: "December 29, 2025",
       readTime: "9 min read",
-      author: "Immigration Solution Services",
-      locationIntro: "For large families in Temecula and Southwest Riverside County, immigration processes involve unique considerations. Immigration Solution Services understands the needs of Arab families with multiple children and provides comprehensive support for the entire family.",
+      author: "SoCal Immigration Services",
+      locationIntro: "For large families in Temecula and Southwest Riverside County, immigration processes involve unique considerations. SoCal Immigration Services understands the needs of Arab families with multiple children and provides comprehensive support for the entire family.",
 
       sections: [
         {
@@ -120,7 +120,7 @@ const LargeFamilyImmigrationTemecula = ({ language }) => {
         },
         {
           heading: "Our Temecula Large Family Services",
-          content: "Immigration Solution Services supports Temecula's growing families:",
+          content: "SoCal Immigration Services supports Temecula's growing families:",
           list: [
             "Comprehensive document preparation for all family members",
             "Family tracking and organization systems",

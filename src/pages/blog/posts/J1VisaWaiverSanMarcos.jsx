@@ -14,8 +14,8 @@ const J1VisaWaiverSanMarcos = ({ language }) => {
       location: "San Marcos",
       date: "January 6, 2026",
       readTime: "10 min read",
-      author: "Immigration Solution Services",
-      locationIntro: "San Marcos, located in northern San Diego County, is home to California State University San Marcos and numerous healthcare facilities that sponsor J-1 exchange visitors. Many physicians, researchers, and scholars in the area face the challenge of the two-year home residency requirement when they want to remain in the U.S. Immigration Solution Services helps J-1 visa holders navigate the complex waiver process.",
+      author: "SoCal Immigration Services",
+      locationIntro: "San Marcos, located in northern San Diego County, is home to California State University San Marcos and numerous healthcare facilities that sponsor J-1 exchange visitors. Many physicians, researchers, and scholars in the area face the challenge of the two-year home residency requirement when they want to remain in the U.S. SoCal Immigration Services helps J-1 visa holders navigate the complex waiver process.",
 
       sections: [
         {
@@ -107,7 +107,7 @@ const J1VisaWaiverSanMarcos = ({ language }) => {
           ]
         },
         {
-          heading: "Why Choose Immigration Solution Services for Your J-1 Waiver?",
+          heading: "Why Choose SoCal Immigration Services for Your J-1 Waiver?",
           content: "Serving San Marcos and all of San Diego County, we offer:",
           list: [
             "Experience with all types of J-1 waiver applications",

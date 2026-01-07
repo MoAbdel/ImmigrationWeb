@@ -14,8 +14,8 @@ const BirthCertificateCorrectionGardenGrove = ({ language }) => {
       location: "Garden Grove",
       date: "January 4, 2026",
       readTime: "9 min read",
-      author: "Immigration Solution Services",
-      locationIntro: "Birth certificate discrepancies are one of the most common document issues facing Arab immigrants in Garden Grove. Whether it's a name spelled differently across documents, a birth date that doesn't match, or missing information, these problems can delay or complicate immigration applications. Immigration Solution Services specializes in helping resolve these issues for USCIS submissions.",
+      author: "SoCal Immigration Services",
+      locationIntro: "Birth certificate discrepancies are one of the most common document issues facing Arab immigrants in Garden Grove. Whether it's a name spelled differently across documents, a birth date that doesn't match, or missing information, these problems can delay or complicate immigration applications. SoCal Immigration Services specializes in helping resolve these issues for USCIS submissions.",
 
       sections: [
         {
@@ -113,7 +113,7 @@ const BirthCertificateCorrectionGardenGrove = ({ language }) => {
           ]
         },
         {
-          heading: "Why Choose Immigration Solution Services?",
+          heading: "Why Choose SoCal Immigration Services?",
           content: "We specialize in Middle Eastern document issues:",
           list: [
             "Native Arabic speakers who understand document nuances",

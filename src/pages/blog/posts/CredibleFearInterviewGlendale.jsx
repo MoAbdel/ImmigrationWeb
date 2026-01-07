@@ -14,8 +14,8 @@ const CredibleFearInterviewGlendale = ({ language }) => {
       location: "Glendale",
       date: "December 29, 2025",
       readTime: "12 min read",
-      author: "Immigration Solution Services",
-      locationIntro: "For asylum seekers in Glendale, including the large Armenian and Arab communities, the credible fear interview is a critical first step. Immigration Solution Services provides expert preparation to help you present your case effectively.",
+      author: "SoCal Immigration Services",
+      locationIntro: "For asylum seekers in Glendale, including the large Armenian and Arab communities, the credible fear interview is a critical first step. SoCal Immigration Services provides expert preparation to help you present your case effectively.",
 
       sections: [
         {
@@ -115,7 +115,7 @@ const CredibleFearInterviewGlendale = ({ language }) => {
         },
         {
           heading: "Our Glendale Credible Fear Services",
-          content: "Immigration Solution Services provides comprehensive preparation for Glendale asylum seekers:",
+          content: "SoCal Immigration Services provides comprehensive preparation for Glendale asylum seekers:",
           list: [
             "One-on-one interview preparation sessions",
             "Arabic and Armenian language support available",

@@ -14,8 +14,8 @@ const ImmigrationCourtHearingLosAngeles = ({ language }) => {
       location: "Los Angeles",
       date: "January 7, 2026",
       readTime: "15 min read",
-      author: "Immigration Solution Services",
-      locationIntro: "Facing immigration court can be one of the most stressful experiences for immigrants and their families. The Los Angeles Immigration Court is one of the busiest in the nation, handling thousands of removal proceedings each year. Immigration Solution Services provides guidance and support to help individuals and families prepare for their immigration court hearings.",
+      author: "SoCal Immigration Services",
+      locationIntro: "Facing immigration court can be one of the most stressful experiences for immigrants and their families. The Los Angeles Immigration Court is one of the busiest in the nation, handling thousands of removal proceedings each year. SoCal Immigration Services provides guidance and support to help individuals and families prepare for their immigration court hearings.",
 
       sections: [
         {

@@ -14,7 +14,7 @@ const EB1AExtraordinaryAbilityLaJolla = ({ language }) => {
       location: "La Jolla",
       date: "January 3, 2026",
       readTime: "11 min read",
-      author: "Immigration Solution Services",
+      author: "SoCal Immigration Services",
       locationIntro: "La Jolla is home to UC San Diego, the Scripps Research Institute, and dozens of biotech companies, making it a hub for exceptional scientists and researchers from around the world. For distinguished professionals seeking permanent residence, the EB-1A Extraordinary Ability visa offers a self-petition pathway that doesn't require employer sponsorship.",
 
       sections: [
@@ -95,7 +95,7 @@ const EB1AExtraordinaryAbilityLaJolla = ({ language }) => {
           content: "Current EB-1A processing information:\n\n• Standard Processing: 6-12 months for I-140 approval\n• Premium Processing: Available for $2,805, guarantees 15 business day response\n• No Visa Backlog: EB-1 category is typically current for most countries\n• Concurrent Filing: May file I-485 (adjustment of status) with I-140 if a visa is available\n\nFor La Jolla professionals, premium processing can provide certainty during job transitions or when planning career moves."
         },
         {
-          heading: "Why Choose Immigration Solution Services?",
+          heading: "Why Choose SoCal Immigration Services?",
           content: "Our team helps La Jolla researchers navigate the EB-1A process:",
           list: [
             "Experience with UCSD, Scripps, and biotech company researchers",

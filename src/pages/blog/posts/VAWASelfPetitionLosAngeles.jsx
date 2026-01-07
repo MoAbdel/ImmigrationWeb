@@ -14,8 +14,8 @@ const VAWASelfPetitionLosAngeles = ({ language }) => {
       location: "Los Angeles",
       date: "December 28, 2025",
       readTime: "10 min read",
-      author: "Immigration Solution Services",
-      locationIntro: "Los Angeles County is home to one of the largest Arab communities in California. Immigration Solution Services provides confidential VAWA self-petition assistance to abuse survivors seeking immigration relief without depending on their abuser. Your safety and privacy are our top priorities.",
+      author: "SoCal Immigration Services",
+      locationIntro: "Los Angeles County is home to one of the largest Arab communities in California. SoCal Immigration Services provides confidential VAWA self-petition assistance to abuse survivors seeking immigration relief without depending on their abuser. Your safety and privacy are our top priorities.",
 
       sections: [
         {
@@ -122,7 +122,7 @@ const VAWASelfPetitionLosAngeles = ({ language }) => {
           ]
         },
         {
-          heading: "Why Choose Immigration Solution Services?",
+          heading: "Why Choose SoCal Immigration Services?",
           content: "Our Los Angeles-area team provides compassionate, culturally sensitive VAWA assistance:",
           list: [
             "Arabic and English-speaking staff",

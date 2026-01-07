@@ -14,8 +14,8 @@ const ExpeditedNaturalizationVista = ({ language }) => {
       location: "Vista",
       date: "December 30, 2025",
       readTime: "10 min read",
-      author: "Immigration Solution Services",
-      locationIntro: "For eligible immigrants in Vista seeking faster pathways to U.S. citizenship, several expedited naturalization options exist. Immigration Solution Services helps qualifying applicants navigate these accelerated processes.",
+      author: "SoCal Immigration Services",
+      locationIntro: "For eligible immigrants in Vista seeking faster pathways to U.S. citizenship, several expedited naturalization options exist. SoCal Immigration Services helps qualifying applicants navigate these accelerated processes.",
 
       sections: [
         {
@@ -115,7 +115,7 @@ const ExpeditedNaturalizationVista = ({ language }) => {
         },
         {
           heading: "Our Expedited Naturalization Services in Vista",
-          content: "Immigration Solution Services helps Vista residents with:",
+          content: "SoCal Immigration Services helps Vista residents with:",
           list: [
             "Eligibility assessment for expedited naturalization",
             "N-400 application preparation",

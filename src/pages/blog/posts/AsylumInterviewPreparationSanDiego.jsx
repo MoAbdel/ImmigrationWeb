@@ -14,8 +14,8 @@ const AsylumInterviewPreparationSanDiego = ({ language }) => {
       location: "San Diego",
       date: "January 3, 2026",
       readTime: "12 min read",
-      author: "Immigration Solution Services",
-      locationIntro: "San Diego County is home to one of the largest refugee communities in California, with significant Iraqi, Syrian, and other Arab populations. If you've applied for affirmative asylum and received an interview notice, proper preparation is crucial. Immigration Solution Services helps Arab asylum seekers in San Diego prepare thoroughly for this life-changing interview.",
+      author: "SoCal Immigration Services",
+      locationIntro: "San Diego County is home to one of the largest refugee communities in California, with significant Iraqi, Syrian, and other Arab populations. If you've applied for affirmative asylum and received an interview notice, proper preparation is crucial. SoCal Immigration Services helps Arab asylum seekers in San Diego prepare thoroughly for this life-changing interview.",
 
       sections: [
         {

@@ -14,8 +14,8 @@ const I212PermissionReapplyOceanside = ({ language }) => {
       location: "Oceanside",
       date: "January 6, 2026",
       readTime: "11 min read",
-      author: "Immigration Solution Services",
-      locationIntro: "Oceanside, a coastal city in northern San Diego County near Camp Pendleton, is home to many immigrant families who have been affected by deportation and removal orders. For those who were previously removed from the United States and now wish to return, the I-212 Application for Permission to Reapply for Admission offers a path forward. Immigration Solution Services helps families navigate this complex process.",
+      author: "SoCal Immigration Services",
+      locationIntro: "Oceanside, a coastal city in northern San Diego County near Camp Pendleton, is home to many immigrant families who have been affected by deportation and removal orders. For those who were previously removed from the United States and now wish to return, the I-212 Application for Permission to Reapply for Admission offers a path forward. SoCal Immigration Services helps families navigate this complex process.",
 
       sections: [
         {
@@ -112,7 +112,7 @@ const I212PermissionReapplyOceanside = ({ language }) => {
           ]
         },
         {
-          heading: "Why Choose Immigration Solution Services?",
+          heading: "Why Choose SoCal Immigration Services?",
           content: "Serving Oceanside and all of San Diego County, we offer:",
           list: [
             "Experience with complex removal and deportation cases",

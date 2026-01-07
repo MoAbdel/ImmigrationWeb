@@ -14,7 +14,7 @@ const DeportationDefensePasadena = ({ language }) => {
       location: "Pasadena",
       date: "January 1, 2026",
       readTime: "13 min read",
-      author: "Immigration Solution Services",
+      author: "SoCal Immigration Services",
       locationIntro: "Pasadena, in Los Angeles County, is home to a diverse immigrant community including many Arab families. Facing deportation or removal proceedings is extremely stressful. Understanding your rights, the process, and available relief options is critical for anyone in immigration court.",
 
       sections: [

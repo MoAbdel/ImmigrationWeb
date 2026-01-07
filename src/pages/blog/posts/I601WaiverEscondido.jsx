@@ -14,8 +14,8 @@ const I601WaiverEscondido = ({ language }) => {
       location: "Escondido",
       date: "December 30, 2025",
       readTime: "11 min read",
-      author: "Immigration Solution Services",
-      locationIntro: "For immigrants in Escondido who face inadmissibility bars that could prevent them from obtaining a green card, the I-601 waiver may provide relief. Immigration Solution Services helps families understand their options and prepare compelling waiver applications.",
+      author: "SoCal Immigration Services",
+      locationIntro: "For immigrants in Escondido who face inadmissibility bars that could prevent them from obtaining a green card, the I-601 waiver may provide relief. SoCal Immigration Services helps families understand their options and prepare compelling waiver applications.",
 
       sections: [
         {
@@ -134,7 +134,7 @@ const I601WaiverEscondido = ({ language }) => {
         },
         {
           heading: "Our I-601 Waiver Services in Escondido",
-          content: "Immigration Solution Services helps Escondido families with:",
+          content: "SoCal Immigration Services helps Escondido families with:",
           list: [
             "Inadmissibility analysis and waiver eligibility assessment",
             "Extreme hardship documentation strategies",

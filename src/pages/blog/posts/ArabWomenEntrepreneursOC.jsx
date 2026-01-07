@@ -14,7 +14,7 @@ const ArabWomenEntrepreneursOC = ({ language }) => {
       location: "Orange County",
       date: "January 4, 2026",
       readTime: "12 min read",
-      author: "Immigration Solution Services",
+      author: "SoCal Immigration Services",
       locationIntro: "Orange County's vibrant economy and diverse business landscape offer tremendous opportunities for Arab women entrepreneurs. From the commercial centers of Little Arabia in Anaheim to the professional corridors of Irvine and the growing markets of the Inland Empire, Arab-American women are establishing successful businesses across industries. Understanding the immigration pathways that support business ownership is essential for building lasting enterprises.",
       sections: [
         {
@@ -70,7 +70,7 @@ const ArabWomenEntrepreneursOC = ({ language }) => {
           content: "While E-2 visas don't directly lead to green cards, several pathways exist. EB-5 investment through the business or separately can provide permanent residency. EB-1C for multinational executives if the business has qualifying foreign operations. EB-2 NIW if your business contributions rise to national interest level. Marriage to a U.S. citizen provides an independent path. Children born in the U.S. can sponsor parents after age 21, though this is a long-term strategy."
         },
         {
-          title: "How Immigration Solution Services Supports Arab Women Entrepreneurs",
+          title: "How SoCal Immigration Services Supports Arab Women Entrepreneurs",
           content: "Our team provides specialized support for Arab women building businesses in Orange County. We offer comprehensive visa strategy aligned with your business goals, Arabic and English consultation for clear communication, connections to business resources and professional networks, family immigration planning integrated with business strategy, and long-term green card pathway development. We understand the cultural considerations that affect business and immigration decisions, and we're committed to helping Arab women entrepreneurs succeed in Orange County."
         }
       ],

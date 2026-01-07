@@ -14,8 +14,8 @@ const I485ConcurrentFilingIrvine = ({ language }) => {
       location: "Irvine",
       date: "January 5, 2026",
       readTime: "10 min read",
-      author: "Immigration Solution Services",
-      locationIntro: "Irvine, home to numerous tech companies and a thriving professional Arab community, sees many families seeking efficient paths to permanent residence. Concurrent filing allows eligible applicants to submit their I-130 family petition and I-485 adjustment of status application at the same time, saving months of processing time. Immigration Solution Services guides Irvine families through this streamlined process.",
+      author: "SoCal Immigration Services",
+      locationIntro: "Irvine, home to numerous tech companies and a thriving professional Arab community, sees many families seeking efficient paths to permanent residence. Concurrent filing allows eligible applicants to submit their I-130 family petition and I-485 adjustment of status application at the same time, saving months of processing time. SoCal Immigration Services guides Irvine families through this streamlined process.",
 
       sections: [
         {
@@ -130,7 +130,7 @@ const I485ConcurrentFilingIrvine = ({ language }) => {
           }
         },
         {
-          heading: "Why Choose Immigration Solution Services?",
+          heading: "Why Choose SoCal Immigration Services?",
           content: "Serving Irvine and all of Orange County, we provide:",
           list: [
             "Deep expertise in concurrent filing procedures",

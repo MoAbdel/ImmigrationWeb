@@ -14,8 +14,8 @@ const GrandparentVisitorVisaMurrieta = ({ language }) => {
       location: "Murrieta",
       date: "January 4, 2026",
       readTime: "10 min read",
-      author: "Immigration Solution Services",
-      locationIntro: "For Arab-American families in Murrieta, bringing elderly parents and grandparents from the Middle East for a visit is a cherished tradition. Whether it's to meet new grandchildren, attend a wedding, or simply spend time together, the B-2 visitor visa makes these family reunions possible. Immigration Solution Services helps Murrieta families prepare strong visa applications for their loved ones.",
+      author: "SoCal Immigration Services",
+      locationIntro: "For Arab-American families in Murrieta, bringing elderly parents and grandparents from the Middle East for a visit is a cherished tradition. Whether it's to meet new grandchildren, attend a wedding, or simply spend time together, the B-2 visitor visa makes these family reunions possible. SoCal Immigration Services helps Murrieta families prepare strong visa applications for their loved ones.",
 
       sections: [
         {
@@ -122,7 +122,7 @@ const GrandparentVisitorVisaMurrieta = ({ language }) => {
           }
         },
         {
-          heading: "Why Choose Immigration Solution Services?",
+          heading: "Why Choose SoCal Immigration Services?",
           content: "We help Murrieta families with visitor visa preparation:",
           list: [
             "Arabic-speaking staff to communicate with elderly parents",

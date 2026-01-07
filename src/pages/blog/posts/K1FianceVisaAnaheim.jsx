@@ -14,8 +14,8 @@ const K1FianceVisaAnaheim = ({ language }) => {
       location: "Anaheim",
       date: "December 28, 2025",
       readTime: "11 min read",
-      author: "Immigration Solution Services",
-      locationIntro: "For Arab-Americans in Anaheim's Little Arabia seeking to bring their fiancé to the United States, the K-1 fiancé visa is the most common path. Immigration Solution Services provides Arabic-speaking assistance for every step of this important process.",
+      author: "SoCal Immigration Services",
+      locationIntro: "For Arab-Americans in Anaheim's Little Arabia seeking to bring their fiancé to the United States, the K-1 fiancé visa is the most common path. SoCal Immigration Services provides Arabic-speaking assistance for every step of this important process.",
 
       sections: [
         {
@@ -113,7 +113,7 @@ const K1FianceVisaAnaheim = ({ language }) => {
         },
         {
           heading: "Little Arabia K-1 Services",
-          content: "Immigration Solution Services provides specialized help for Anaheim's Arab community:",
+          content: "SoCal Immigration Services provides specialized help for Anaheim's Arab community:",
           list: [
             "Arabic and English speaking staff",
             "Understanding of Middle Eastern cultures and traditions",

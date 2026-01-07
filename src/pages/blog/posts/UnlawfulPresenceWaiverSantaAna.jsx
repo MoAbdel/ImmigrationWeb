@@ -14,8 +14,8 @@ const UnlawfulPresenceWaiverSantaAna = ({ language }) => {
       location: "Santa Ana",
       date: "January 7, 2026",
       readTime: "13 min read",
-      author: "Immigration Solution Services",
-      locationIntro: "Many immigrants in Santa Ana and Orange County face a common dilemma: they're eligible for a green card through a family member, but leaving the U.S. for consular processing would trigger unlawful presence bars. The I-601A Provisional Unlawful Presence Waiver offers hope for families in this situation. Immigration Solution Services helps families navigate this complex process.",
+      author: "SoCal Immigration Services",
+      locationIntro: "Many immigrants in Santa Ana and Orange County face a common dilemma: they're eligible for a green card through a family member, but leaving the U.S. for consular processing would trigger unlawful presence bars. The I-601A Provisional Unlawful Presence Waiver offers hope for families in this situation. SoCal Immigration Services helps families navigate this complex process.",
 
       sections: [
         {

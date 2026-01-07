@@ -14,7 +14,7 @@ const NaturalizationGardenGrove = ({ language }) => {
       location: "Garden Grove",
       date: "December 28, 2025",
       readTime: "10 min read",
-      author: "Immigration Solution Services",
+      author: "SoCal Immigration Services",
       locationIntro: "Garden Grove, home to our main office, serves as a central hub for Arab-Americans throughout Orange County seeking to become U.S. citizens. We provide comprehensive naturalization assistance with Arabic-speaking staff who understand your journey.",
 
       sections: [
