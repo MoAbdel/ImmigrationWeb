@@ -107,6 +107,16 @@ import BirthCertificateCorrectionGardenGrove from './pages/blog/posts/BirthCerti
 import F3MarriedChildrenLongBeach from './pages/blog/posts/F3MarriedChildrenLongBeach';
 import DualIntentVisaIrvine from './pages/blog/posts/DualIntentVisaIrvine';
 import ArabWomenEntrepreneursOC from './pages/blog/posts/ArabWomenEntrepreneursOC';
+import AfghanSIVElCajon from './pages/blog/posts/AfghanSIVElCajon';
+import BiometricsAppointmentAnaheim from './pages/blog/posts/BiometricsAppointmentAnaheim';
+import ImmigrationCourtHearingLosAngeles from './pages/blog/posts/ImmigrationCourtHearingLosAngeles';
+import DiversityVisaLotteryIrvine from './pages/blog/posts/DiversityVisaLotteryIrvine';
+import ComboCardEADSanDiego from './pages/blog/posts/ComboCardEADSanDiego';
+import USCISExpediteRequestRiverside from './pages/blog/posts/USCISExpediteRequestRiverside';
+import I20TransferFullerton from './pages/blog/posts/I20TransferFullerton';
+import VisaStampingUSConsulatesGlendale from './pages/blog/posts/VisaStampingUSConsulatesGlendale';
+import UnlawfulPresenceWaiverSantaAna from './pages/blog/posts/UnlawfulPresenceWaiverSantaAna';
+import ImmigrationBondHearingOrangeCounty from './pages/blog/posts/ImmigrationBondHearingOrangeCounty';
 
 const App = () => {
   const [language, setLanguage] = useState('en');
@@ -127,7 +137,7 @@ const App = () => {
       // Hero
       hero: {
         headline: "Your Path to the American Dream Starts Here",
-        subhead: "Professional Immigration, Translation, and Notary Services.",
+        subhead: "Immigration, Translation, and Notary Services.",
         cta: "Book a Consultation"
       },
 
@@ -600,6 +610,16 @@ const App = () => {
               <Route path="/blog/f3-married-children-long-beach" element={<F3MarriedChildrenLongBeach language={language} />} />
               <Route path="/blog/dual-intent-visa-issues-irvine" element={<DualIntentVisaIrvine language={language} />} />
               <Route path="/blog/arab-women-entrepreneurs-orange-county" element={<ArabWomenEntrepreneursOC language={language} />} />
+              <Route path="/blog/afghan-siv-application-el-cajon" element={<AfghanSIVElCajon language={language} />} />
+              <Route path="/blog/uscis-biometrics-appointment-anaheim" element={<BiometricsAppointmentAnaheim language={language} />} />
+              <Route path="/blog/immigration-court-hearing-los-angeles" element={<ImmigrationCourtHearingLosAngeles language={language} />} />
+              <Route path="/blog/diversity-visa-lottery-irvine" element={<DiversityVisaLotteryIrvine language={language} />} />
+              <Route path="/blog/combo-card-ead-advance-parole-san-diego" element={<ComboCardEADSanDiego language={language} />} />
+              <Route path="/blog/uscis-expedite-request-riverside" element={<USCISExpediteRequestRiverside language={language} />} />
+              <Route path="/blog/i20-transfer-f1-students-fullerton" element={<I20TransferFullerton language={language} />} />
+              <Route path="/blog/visa-stamping-us-consulates-glendale" element={<VisaStampingUSConsulatesGlendale language={language} />} />
+              <Route path="/blog/unlawful-presence-waiver-i601a-santa-ana" element={<UnlawfulPresenceWaiverSantaAna language={language} />} />
+              <Route path="/blog/immigration-bond-hearing-orange-county" element={<ImmigrationBondHearingOrangeCounty language={language} />} />
             </Routes>
           </main>
 

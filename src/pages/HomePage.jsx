@@ -17,7 +17,7 @@ const HomePage = ({ language, content }) => {
       {/* Hero Section - Enhanced with Gradient Overlay */}
       <section
         id="home"
-        className="relative min-h-[500px] sm:min-h-[600px] md:h-[700px] flex items-center justify-center text-white overflow-hidden"
+        className="relative min-h-[calc(100vh-72px)] md:min-h-[calc(100vh-86px)] flex items-center justify-center text-white overflow-hidden"
         style={{
           backgroundImage: 'linear-gradient(135deg, rgba(15, 23, 42, 0.85) 0%, rgba(30, 41, 59, 0.75) 100%), url(https://images.unsplash.com/photo-1564121211835-e88c852648ab?q=80&w=2000)',
           backgroundSize: 'cover',
@@ -28,8 +28,13 @@ const HomePage = ({ language, content }) => {
         {/* Animated gradient overlay */}
         <div className="absolute inset-0 bg-gradient-to-br from-slate-900/50 via-transparent to-amber-900/20"></div>
 
-        <div className="max-w-5xl mx-auto px-4 sm:px-6 text-center relative z-10 py-12 sm:py-16">
+        <div className="max-w-5xl mx-auto px-4 sm:px-6 text-center relative z-10 pt-0 pb-12 sm:pb-16">
           <div className="fade-in-up">
+            <img
+              src="/logo.png"
+              alt="Immigration Solution Services"
+              className="w-[147px] h-[147px] sm:w-[196px] sm:h-[196px] md:w-[245px] md:h-[245px] mx-auto mb-6 sm:mb-8 -mt-4 sm:-mt-6 object-contain drop-shadow-2xl"
+            />
             <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-serif font-bold mb-4 sm:mb-6 leading-tight text-shadow-lg">
               {t.hero.headline}
             </h1>
@@ -43,6 +48,15 @@ const HomePage = ({ language, content }) => {
             </a>
           </div>
         </div>
+
+        {/* Bouncing chevron arrow */}
+        <a
+          href="#services"
+          className="absolute bottom-8 left-1/2 -translate-x-1/2 z-20 animate-bounce"
+          aria-label="Scroll to services"
+        >
+          <ChevronDown className="w-10 h-10 sm:w-12 sm:h-12 text-amber-500 drop-shadow-lg" />
+        </a>
 
         {/* Decorative elements */}
         <div className="absolute bottom-0 left-0 right-0 h-24 sm:h-32 bg-gradient-to-t from-white to-transparent"></div>
@@ -75,19 +89,19 @@ const HomePage = ({ language, content }) => {
                 <Link
                   key={idx}
                   to={routes[idx]}
-                  className="group relative bg-white rounded-2xl p-6 sm:p-8 shadow-premium hover:shadow-premium-lg transition-all duration-500 border border-gray-100 hover:border-amber-400 transform hover:scale-105 overflow-hidden"
+                  className="group relative bg-white rounded-2xl p-6 sm:p-8 shadow-premium hover:shadow-premium-lg transition-all duration-500 border border-gray-100 hover:border-amber-400 transform hover:scale-105 overflow-hidden h-full flex flex-col"
                 >
                   {/* Gradient overlay on hover */}
                   <div className="absolute inset-0 bg-gradient-to-br from-amber-50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
 
-                  <div className="relative z-10">
-                    <div className="flex items-center justify-center w-16 h-16 sm:w-20 sm:h-20 gradient-premium rounded-2xl mb-4 sm:mb-6 mx-auto shadow-lg group-hover:shadow-xl transition-all duration-300 transform group-hover:rotate-6">
+                  <div className="relative z-10 flex flex-col h-full w-full">
+                    <div className="flex items-center justify-center w-16 h-16 sm:w-20 sm:h-20 gradient-premium rounded-2xl mb-4 sm:mb-6 mx-auto shadow-lg group-hover:shadow-xl transition-all duration-300 transform group-hover:rotate-6 shrink-0">
                       <IconComponent className="text-amber-400" size={32} />
                     </div>
-                    <h3 className="text-xl sm:text-2xl font-bold text-slate-900 mb-4 sm:mb-6 text-center font-serif group-hover:text-amber-700 transition-colors">
+                    <h3 className="text-xl sm:text-2xl font-bold text-slate-900 mb-4 sm:mb-6 text-center font-serif group-hover:text-amber-700 transition-colors shrink-0">
                       {category.title}
                     </h3>
-                    <ul className="space-y-2 sm:space-y-3 mb-4 sm:mb-6">
+                    <ul className="space-y-2 sm:space-y-3 mb-4 sm:mb-6 flex-grow">
                       {category.services.map((service, serviceIdx) => (
                         <li
                           key={serviceIdx}
@@ -98,7 +112,7 @@ const HomePage = ({ language, content }) => {
                         </li>
                       ))}
                     </ul>
-                    <div className="text-center mt-4 sm:mt-6 pt-4 sm:pt-6 border-t border-gray-200">
+                    <div className="text-center mt-auto pt-4 sm:pt-6 border-t border-gray-200 shrink-0">
                       <span className="text-sm sm:text-base text-amber-600 font-bold group-hover:text-amber-700 inline-flex items-center gap-2">
                         {language === 'en' ? 'Learn More' : 'اعرف المزيد'}
                         <span className="transform group-hover:translate-x-1 transition-transform">→</span>
@@ -272,16 +286,14 @@ const HomePage = ({ language, content }) => {
                     {faq.question}
                   </span>
                   <ChevronDown
-                    className={`text-amber-600 flex-shrink-0 transition-all duration-300 ${
-                      openFaqIndex === idx ? 'transform rotate-180' : ''
-                    }`}
+                    className={`text-amber-600 flex-shrink-0 transition-all duration-300 ${openFaqIndex === idx ? 'transform rotate-180' : ''
+                      }`}
                     size={24}
                   />
                 </button>
                 <div
-                  className={`px-4 sm:px-6 md:px-8 overflow-hidden transition-all duration-500 ${
-                    openFaqIndex === idx ? 'max-h-96 py-4 sm:py-5 md:py-6' : 'max-h-0'
-                  }`}
+                  className={`px-4 sm:px-6 md:px-8 overflow-hidden transition-all duration-500 ${openFaqIndex === idx ? 'max-h-96 py-4 sm:py-5 md:py-6' : 'max-h-0'
+                    }`}
                 >
                   <p className="text-gray-700 leading-relaxed text-sm sm:text-base md:text-lg border-t border-gray-100 pt-4 sm:pt-5 md:pt-6">
                     {faq.answer}
