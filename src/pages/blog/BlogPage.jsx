@@ -51,16 +51,18 @@ const BlogPage = ({ language }) => {
 
   // Filter posts
   const filteredPosts = useMemo(() => {
-    return blogPosts.filter(post => {
-      const matchesSearch = searchTerm === '' ||
-        post.title[language].toLowerCase().includes(searchTerm.toLowerCase()) ||
-        post.excerpt[language].toLowerCase().includes(searchTerm.toLowerCase());
+    return blogPosts
+      .filter(post => {
+        const matchesSearch = searchTerm === '' ||
+          post.title[language].toLowerCase().includes(searchTerm.toLowerCase()) ||
+          post.excerpt[language].toLowerCase().includes(searchTerm.toLowerCase());
 
-      const matchesCategory = selectedCategory === 'all' || post.category === selectedCategory;
-      const matchesLocation = selectedLocation === 'all' || post.location === selectedLocation;
+        const matchesCategory = selectedCategory === 'all' || post.category === selectedCategory;
+        const matchesLocation = selectedLocation === 'all' || post.location === selectedLocation;
 
-      return matchesSearch && matchesCategory && matchesLocation;
-    });
+        return matchesSearch && matchesCategory && matchesLocation;
+      })
+      .sort((a, b) => new Date(b.date) - new Date(a.date)); // Sort by most recent first
   }, [searchTerm, selectedCategory, selectedLocation, language]);
 
   // Schema for blog listing
@@ -91,7 +93,7 @@ const BlogPage = ({ language }) => {
       <Helmet>
         <title>{t.metaTitle}</title>
         <meta name="description" content={t.metaDescription} />
-        <link rel="canonical" href="https://immigrationsolutionservices.com/blog" />
+        <link rel="canonical" href="https://socalimmigrationservices.com/blog" />
         <script type="application/ld+json">{JSON.stringify(schemaData)}</script>
       </Helmet>
 
