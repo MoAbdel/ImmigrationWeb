@@ -4,7 +4,7 @@ User-agent: *
 Allow: /
 
 # Sitemap location
-Sitemap: https://socalimmigrationservices.com/sitemap.xml
+Sitemap: https://www.socalimmigrationservices.com/sitemap.xml
 
 # Disallow crawling of build artifacts and node_modules (shouldn't be public anyway)
 Disallow: /node_modules/

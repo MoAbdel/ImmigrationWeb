@@ -93,7 +93,7 @@ const BlogPage = ({ language }) => {
       <Helmet>
         <title>{t.metaTitle}</title>
         <meta name="description" content={t.metaDescription} />
-        <link rel="canonical" href="https://socalimmigrationservices.com/blog" />
+        <link rel="canonical" href="https://www.socalimmigrationservices.com/blog" />
         <script type="application/ld+json">{JSON.stringify(schemaData)}</script>
       </Helmet>
 

@@ -29,14 +29,14 @@ const BlogPostTemplate = ({ content, language }) => {
       "name": "Immigration Solution Services",
       "logo": {
         "@type": "ImageObject",
-        "url": "https://socalimmigrationservices.com/logo.png"
+        "url": "https://www.socalimmigrationservices.com/logo.png"
       }
     },
     "datePublished": t.date,
     "dateModified": t.date,
     "mainEntityOfPage": {
       "@type": "WebPage",
-      "@id": `https://socalimmigrationservices.com/blog/${t.slug}`
+      "@id": `https://www.socalimmigrationservices.com/blog/${t.slug}`
     },
     "about": {
       "@type": "Service",
@@ -65,7 +65,7 @@ const BlogPostTemplate = ({ content, language }) => {
         <title>{t.metaTitle}</title>
         <meta name="description" content={t.metaDescription} />
         <meta name="keywords" content={t.keywords} />
-        <link rel="canonical" href={`https://socalimmigrationservices.com/blog/${t.slug}`} />
+        <link rel="canonical" href={`https://www.socalimmigrationservices.com/blog/${t.slug}`} />
 
         {/* Open Graph */}
         <meta property="og:title" content={t.title} />

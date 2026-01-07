@@ -1,0 +1,8 @@
+{
+  "skills": {
+    "blog-generator": {
+      "path": ".claude/skills/blog-generator.md",
+      "description": "Generate SEO-optimized, bilingual blog posts for the immigration services website"
+    }
+  }
+}
