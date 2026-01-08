@@ -15,6 +15,8 @@ const GreenCardRegistryLosAngeles = ({ language }) => {
       date: "January 8, 2026",
       readTime: "8 min read",
       author: "SoCal Immigration Services",
+      summary: "Registry (INA Section 249) allows undocumented immigrants who entered the U.S. before January 1, 1972 to obtain a green card without a sponsor. Requirements: continuous residence since entry, good moral character, and no disqualifying criminal history. No employer or family sponsor needed. You can apply using Form I-485 even if you entered without inspection. Registry creates a direct path to citizenship after 5 years as a permanent resident.",
+      lastUpdated: "January 8, 2026",
       locationIntro: "Los Angeles County is home to one of the largest immigrant populations in the United States, including many who have lived here for decades. For undocumented immigrants who entered the U.S. before January 1, 1972, there is a little-known path to a green card called 'Registry' under INA Section 249. This guide explains who qualifies and how to apply.",
 
       sections: [
@@ -132,6 +134,8 @@ const GreenCardRegistryLosAngeles = ({ language }) => {
       date: "8 يناير 2026",
       readTime: "8 دقيقة قراءة",
       author: "خدمات حلول الهجرة",
+      summary: "التسجيل (قسم INA 249) يسمح للمهاجرين غير الموثقين الذين دخلوا الولايات المتحدة قبل 1 يناير 1972 بالحصول على البطاقة الخضراء بدون كفيل. المتطلبات: الإقامة المستمرة منذ الدخول، حسن السيرة الأخلاقية، وعدم وجود تاريخ جنائي يجعلك غير مؤهل. لا يلزم كفيل من صاحب عمل أو عائلة. يمكنك التقديم باستخدام نموذج I-485 حتى لو دخلت بدون تفتيش. التسجيل ينشئ مساراً مباشراً للمواطنة بعد 5 سنوات كمقيم دائم.",
+      lastUpdated: "8 يناير 2026",
       locationIntro: "مقاطعة لوس أنجلوس هي موطن لواحدة من أكبر السكان المهاجرين في الولايات المتحدة، بما في ذلك الكثيرون الذين عاشوا هنا لعقود. للمهاجرين غير الموثقين الذين دخلوا الولايات المتحدة قبل 1 يناير 1972، هناك مسار غير معروف للبطاقة الخضراء يسمى 'التسجيل' بموجب قسم INA 249. هذا الدليل يشرح من يتأهل وكيفية التقديم.",
 
       sections: [

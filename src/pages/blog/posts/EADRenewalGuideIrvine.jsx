@@ -15,6 +15,8 @@ const EADRenewalGuideIrvine = ({ language }) => {
       date: "January 8, 2026",
       readTime: "9 min read",
       author: "SoCal Immigration Services",
+      summary: "Renew your EAD (work permit) by filing Form I-765 up to 180 days before expiration. Many categories qualify for automatic 180-day extension while renewal is pending—you can work using your expired EAD plus I-797C receipt notice. Key categories with auto-extension include adjustment of status (c)(9), TPS, and H-4 EAD. File 120-150 days before expiration for optimal timing. The 2026 filing fee is $410 for most categories.",
+      lastUpdated: "January 8, 2026",
       locationIntro: "Irvine's thriving tech and business sectors employ thousands of immigrants who depend on valid Employment Authorization Documents (EADs) to work legally. Failing to renew your EAD on time can result in job loss and employment gaps. This guide explains exactly how to renew your work permit and take advantage of automatic extensions.",
 
       sections: [
@@ -136,6 +138,8 @@ const EADRenewalGuideIrvine = ({ language }) => {
       date: "8 يناير 2026",
       readTime: "9 دقيقة قراءة",
       author: "خدمات حلول الهجرة",
+      summary: "جدد EAD (تصريح العمل) بتقديم نموذج I-765 حتى 180 يوماً قبل انتهاء الصلاحية. العديد من الفئات تتأهل للتمديد التلقائي لمدة 180 يوماً أثناء انتظار التجديد—يمكنك العمل باستخدام EAD المنتهي الصلاحية بالإضافة إلى إشعار استلام I-797C. الفئات الرئيسية مع التمديد التلقائي تشمل تعديل الوضع (c)(9)، TPS، و H-4 EAD. قدم 120-150 يوماً قبل انتهاء الصلاحية للتوقيت الأمثل. رسوم التقديم 2026 هي $410 لمعظم الفئات.",
+      lastUpdated: "8 يناير 2026",
       locationIntro: "قطاعات التكنولوجيا والأعمال المزدهرة في إيرفين توظف آلاف المهاجرين الذين يعتمدون على وثائق تصريح العمل (EADs) الصالحة للعمل بشكل قانوني. الفشل في تجديد EAD في الوقت المحدد يمكن أن يؤدي إلى فقدان الوظيفة وفجوات في التوظيف. هذا الدليل يشرح بالضبط كيفية تجديد تصريح العمل والاستفادة من التمديدات التلقائية.",
 
       sections: [

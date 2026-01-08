@@ -15,6 +15,8 @@ const VAWASelfPetitionAnaheim = ({ language }) => {
       date: "January 8, 2026",
       readTime: "11 min read",
       author: "SoCal Immigration Services",
+      summary: "VAWA (Violence Against Women Act) allows abuse victims to self-petition for a green card without their abusive U.S. citizen or permanent resident spouse's knowledge. Key benefits: your abuser is never notified, no sponsor required, children can be included, and you can apply regardless of immigration status. Evidence can include your personal statement, medical records, and witness statements—police reports are helpful but not required.",
+      lastUpdated: "January 8, 2026",
       locationIntro: "Anaheim's diverse community, including Little Arabia, is home to many immigrant families. If you are experiencing domestic violence from a U.S. citizen or permanent resident spouse or parent, the Violence Against Women Act (VAWA) provides a confidential path to legal immigration status without your abuser's knowledge or cooperation.",
 
       sections: [
@@ -150,6 +152,8 @@ const VAWASelfPetitionAnaheim = ({ language }) => {
       date: "8 يناير 2026",
       readTime: "11 دقيقة قراءة",
       author: "خدمات حلول الهجرة",
+      summary: "قانون العنف ضد المرأة (VAWA) يسمح لضحايا الإساءة بالتقديم الذاتي للبطاقة الخضراء بدون علم زوجهم المسيء المواطن الأمريكي أو المقيم الدائم. الفوائد الرئيسية: لن يتم إخطار المسيء أبداً، لا كفيل مطلوب، يمكن إدراج الأطفال، ويمكنك التقديم بغض النظر عن وضع الهجرة. الأدلة يمكن أن تشمل بيانك الشخصي، السجلات الطبية، وشهادات الشهود—تقارير الشرطة مفيدة لكنها ليست مطلوبة.",
+      lastUpdated: "8 يناير 2026",
       locationIntro: "مجتمع أنهايم المتنوع، بما في ذلك ليتل أريبيا، هو موطن للعديد من العائلات المهاجرة. إذا كنت تعاني من العنف المنزلي من زوج أو والد مواطن أمريكي أو مقيم دائم، يوفر قانون العنف ضد المرأة (VAWA) مساراً سرياً للوضع القانوني للهجرة بدون علم أو تعاون المسيء.",
 
       sections: [

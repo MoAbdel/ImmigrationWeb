@@ -13,8 +13,10 @@ const WidowImmigrationRightsGardenGrove = ({ language }) => {
       category: "Family Immigration",
       location: "Garden Grove",
       date: "January 8, 2026",
+      lastUpdated: "January 8, 2026",
       readTime: "9 min read",
       author: "SoCal Immigration Services",
+      summary: "Widow(er)s of U.S. citizens can self-petition for a green card using Form I-360 within 2 years of their spouse's death. You must have been legally married, not separated, and cannot remarry before approval. Children under 21 can be included. If your spouse filed I-130 before death, that petition remains valid.",
       locationIntro: "Garden Grove's diverse community, including its significant Vietnamese and Arab populations, understands the importance of family. When a U.S. citizen spouse passes away, the surviving immigrant spouse may feel lost and worried about their immigration status. This guide explains the protections available to widows and widowers.",
 
       sections: [
@@ -125,8 +127,10 @@ const WidowImmigrationRightsGardenGrove = ({ language }) => {
       category: "هجرة الأسرة",
       location: "جاردن جروف",
       date: "8 يناير 2026",
+      lastUpdated: "8 يناير 2026",
       readTime: "9 دقيقة قراءة",
       author: "خدمات حلول الهجرة",
+      summary: "يمكن لأرامل المواطنين الأمريكيين التقديم الذاتي للبطاقة الخضراء باستخدام نموذج I-360 خلال سنتين من وفاة الزوج. يجب أن تكون متزوجاً قانونياً، غير منفصل، ولا يمكنك الزواج مرة أخرى قبل الموافقة. يمكن إدراج الأطفال تحت 21. إذا قدم زوجك I-130 قبل الوفاة، تبقى العريضة صالحة.",
       locationIntro: "مجتمع جاردن جروف المتنوع، بما في ذلك سكانها الفيتناميين والعرب الكبير، يفهم أهمية الأسرة. عندما يتوفى زوج مواطن أمريكي، قد يشعر الزوج المهاجر الباقي بالضياع والقلق بشأن وضع الهجرة. هذا الدليل يشرح الحماية المتاحة للأرامل.",
 
       sections: [

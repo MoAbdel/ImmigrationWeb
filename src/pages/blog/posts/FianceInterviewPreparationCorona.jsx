@@ -13,8 +13,10 @@ const FianceInterviewPreparationCorona = ({ language }) => {
       category: "Marriage & Fiancé",
       location: "Corona",
       date: "January 8, 2026",
+      lastUpdated: "January 8, 2026",
       readTime: "11 min read",
       author: "SoCal Immigration Services",
+      summary: "K-1 fiancé visa interviews occur at U.S. consulates abroad. Bring your passport, DS-160 confirmation, I-797 approval, medical exam results, and extensive relationship evidence (photos, messages, travel records). Expect questions about how you met, communication methods, and wedding plans. Interviews typically last 10-20 minutes.",
       locationIntro: "Corona residents sponsoring their fiancé for a K-1 visa know that after USCIS approval, the next critical step is the consular interview abroad. This interview determines whether your fiancé receives the visa to enter the United States and marry you within 90 days. Proper preparation is essential for success.",
 
       sections: [
@@ -154,8 +156,10 @@ const FianceInterviewPreparationCorona = ({ language }) => {
       category: "الزواج والخطوبة",
       location: "كورونا",
       date: "8 يناير 2026",
+      lastUpdated: "8 يناير 2026",
       readTime: "11 دقيقة قراءة",
       author: "خدمات حلول الهجرة",
+      summary: "تتم مقابلات تأشيرة الخطيب K-1 في القنصليات الأمريكية في الخارج. أحضر جواز سفرك، تأكيد DS-160، موافقة I-797، نتائج الفحص الطبي، وأدلة علاقة واسعة (صور، رسائل، سجلات سفر). توقع أسئلة حول كيف التقيتما، طرق التواصل، وخطط الزفاف. تستغرق المقابلات عادة 10-20 دقيقة.",
       locationIntro: "سكان كورونا الذين يكفلون خطيبهم لتأشيرة K-1 يعرفون أنه بعد موافقة USCIS، الخطوة الحاسمة التالية هي المقابلة القنصلية في الخارج. هذه المقابلة تحدد ما إذا كان خطيبك يتلقى التأشيرة لدخول الولايات المتحدة والزواج منك خلال 90 يوماً. التحضير المناسب ضروري للنجاح.",
 
       sections: [

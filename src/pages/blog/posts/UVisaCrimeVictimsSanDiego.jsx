@@ -15,6 +15,8 @@ const UVisaCrimeVictimsSanDiego = ({ language }) => {
       date: "January 8, 2026",
       readTime: "12 min read",
       author: "SoCal Immigration Services",
+      summary: "The U Visa provides legal status to undocumented crime victims who cooperate with law enforcement. You must have suffered substantial abuse from a qualifying crime (domestic violence, sexual assault, trafficking, etc.) and obtain law enforcement certification (Form I-918B). Benefits include 4-year legal status, work authorization, and a path to green card after 3 years. Current processing takes 5+ years due to the 10,000 annual cap, but qualified applicants receive deferred action while waiting.",
+      lastUpdated: "January 8, 2026",
       locationIntro: "San Diego, with its diverse immigrant communities and proximity to the border, has many residents who may have been victims of crimes. The U Visa provides a path to legal status for undocumented immigrants who have suffered abuse and are willing to assist law enforcement in the investigation or prosecution of criminal activity.",
 
       sections: [
@@ -131,6 +133,8 @@ const UVisaCrimeVictimsSanDiego = ({ language }) => {
       date: "8 يناير 2026",
       readTime: "12 دقيقة قراءة",
       author: "خدمات حلول الهجرة",
+      summary: "تأشيرة U توفر الوضع القانوني لضحايا الجرائم غير الموثقين الذين يتعاونون مع إنفاذ القانون. يجب أن تكون قد عانيت من إساءة كبيرة من جريمة مؤهلة (العنف المنزلي، الاعتداء الجنسي، الاتجار، إلخ) والحصول على شهادة إنفاذ القانون (نموذج I-918B). الفوائد تشمل وضع قانوني لمدة 4 سنوات، تصريح العمل، ومسار للبطاقة الخضراء بعد 3 سنوات. المعالجة الحالية تستغرق 5+ سنوات بسبب الحد السنوي 10,000، لكن المتقدمين المؤهلين يحصلون على إجراء مؤجل أثناء الانتظار.",
+      lastUpdated: "8 يناير 2026",
       locationIntro: "سان دييغو، مع مجتمعاتها المهاجرة المتنوعة وقربها من الحدود، لديها العديد من السكان الذين قد يكونون ضحايا جرائم. توفر تأشيرة U مساراً للوضع القانوني للمهاجرين غير الموثقين الذين عانوا من الإساءة ومستعدون للمساعدة في إنفاذ القانون في التحقيق أو ملاحقة النشاط الإجرامي.",
 
       sections: [

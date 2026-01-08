@@ -15,6 +15,8 @@ const TPSTemporaryProtectedStatusElCajon = ({ language }) => {
       date: "January 8, 2026",
       readTime: "10 min read",
       author: "SoCal Immigration Services",
+      summary: "TPS (Temporary Protected Status) allows nationals from Syria, Yemen, Sudan, and other designated countries to live and work legally in the U.S. when conditions in their home country are unsafe. TPS provides deportation protection, work authorization (EAD), and must be renewed during each re-registration period. It does not lead directly to a green card, but beneficiaries can pursue other immigration paths while maintaining TPS status.",
+      lastUpdated: "January 8, 2026",
       locationIntro: "El Cajon is home to one of the largest Iraqi and Middle Eastern refugee communities in the United States. Many Syrian, Yemeni, and Sudanese nationals in our community may qualify for Temporary Protected Status (TPS), which provides protection from deportation and work authorization during times when their home countries are unsafe.",
 
       sections: [
@@ -139,6 +141,8 @@ const TPSTemporaryProtectedStatusElCajon = ({ language }) => {
       date: "8 يناير 2026",
       readTime: "10 دقيقة قراءة",
       author: "خدمات حلول الهجرة",
+      summary: "الوضع المحمي المؤقت (TPS) يسمح لمواطني سوريا واليمن والسودان والبلدان المعينة الأخرى بالعيش والعمل بشكل قانوني في الولايات المتحدة عندما تكون الظروف في بلدهم الأصلي غير آمنة. يوفر TPS الحماية من الترحيل وتصريح العمل (EAD)، ويجب تجديده خلال كل فترة إعادة تسجيل. لا يؤدي مباشرة إلى البطاقة الخضراء، لكن المستفيدين يمكنهم متابعة مسارات هجرة أخرى مع الحفاظ على وضع TPS.",
+      lastUpdated: "8 يناير 2026",
       locationIntro: "إل كاجون هي موطن لواحدة من أكبر مجتمعات اللاجئين العراقيين والشرق أوسطيين في الولايات المتحدة. قد يكون العديد من المواطنين السوريين واليمنيين والسودانيين في مجتمعنا مؤهلين للوضع المحمي المؤقت (TPS)، الذي يوفر الحماية من الترحيل وتصريح العمل خلال الأوقات التي تكون فيها بلدانهم الأصلية غير آمنة.",
 
       sections: [

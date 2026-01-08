@@ -13,8 +13,10 @@ const CriminalRecordImmigrationSantaAna = ({ language }) => {
       category: "Immigration Defense",
       location: "Santa Ana",
       date: "January 8, 2026",
+      lastUpdated: "January 8, 2026",
       readTime: "12 min read",
       author: "SoCal Immigration Services",
+      summary: "Criminal convictions can make you inadmissible, deportable, or bar citizenship. Aggravated felonies have the harshest consequences including mandatory deportation. CIMTs (crimes involving moral turpitude) and drug offenses also trigger immigration penalties. Always consult immigration counsel before accepting any plea deal.",
       locationIntro: "Santa Ana serves as a major hub for Orange County's immigrant community. Unfortunately, even minor criminal matters can have severe immigration consequences. Understanding how different types of convictions affect your immigration status is crucial for protecting yourself and your family.",
 
       sections: [
@@ -150,8 +152,10 @@ const CriminalRecordImmigrationSantaAna = ({ language }) => {
       category: "دفاع الهجرة",
       location: "سانتا آنا",
       date: "8 يناير 2026",
+      lastUpdated: "8 يناير 2026",
       readTime: "12 دقيقة قراءة",
       author: "خدمات حلول الهجرة",
+      summary: "الإدانات الجنائية يمكن أن تجعلك غير مقبول، قابلاً للترحيل، أو تمنع المواطنة. الجنايات المشددة لها أشد العواقب بما في ذلك الترحيل الإلزامي. CIMTs (جرائم الانحطاط الأخلاقي) وجرائم المخدرات أيضاً تثير عقوبات الهجرة. استشر دائماً مستشار الهجرة قبل قبول أي صفقة اعتراف.",
       locationIntro: "تعمل سانتا آنا كمركز رئيسي لمجتمع المهاجرين في مقاطعة أورانج. لسوء الحظ، حتى المسائل الجنائية البسيطة يمكن أن يكون لها عواقب هجرة شديدة. فهم كيف تؤثر أنواع الإدانات المختلفة على وضع الهجرة أمر بالغ الأهمية لحماية نفسك وعائلتك.",
 
       sections: [

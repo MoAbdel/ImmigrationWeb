@@ -13,8 +13,10 @@ const AgingOutProtectionCSPARiverside = ({ language }) => {
       category: "Family Immigration",
       location: "Riverside",
       date: "January 8, 2026",
+      lastUpdated: "January 8, 2026",
       readTime: "10 min read",
       author: "SoCal Immigration Services",
+      summary: "CSPA (Child Status Protection Act) protects children from aging out of immigration benefits. Your child's CSPA age equals their age when a visa becomes available minus the petition's pending time. If CSPA age is under 21, they're protected. Children must seek to acquire status within 1 year and remain unmarried.",
       locationIntro: "Riverside and the Inland Empire are home to many immigrant families navigating the complex U.S. immigration system. One of the biggest challenges families face is the risk of children 'aging out' - turning 21 and losing eligibility for immigration benefits. The Child Status Protection Act (CSPA) provides critical protections, but calculating eligibility is complex.",
 
       sections: [
@@ -129,8 +131,10 @@ const AgingOutProtectionCSPARiverside = ({ language }) => {
       category: "هجرة الأسرة",
       location: "ريفرسايد",
       date: "8 يناير 2026",
+      lastUpdated: "8 يناير 2026",
       readTime: "10 دقيقة قراءة",
       author: "خدمات حلول الهجرة",
+      summary: "CSPA (قانون حماية وضع الطفل) يحمي الأطفال من تجاوز سن مزايا الهجرة. عمر CSPA لطفلك يساوي عمره عند توفر التأشيرة ناقص وقت انتظار العريضة. إذا كان عمر CSPA أقل من 21، فهم محميون. يجب على الأطفال السعي للحصول على الوضع خلال سنة والبقاء غير متزوجين.",
       locationIntro: "ريفرسايد ومنطقة إنلاند إمباير هي موطن للعديد من العائلات المهاجرة التي تتنقل في نظام الهجرة الأمريكي المعقد. أحد أكبر التحديات التي تواجهها العائلات هو خطر 'تجاوز السن' للأطفال - بلوغ 21 وفقدان الأهلية لمزايا الهجرة. يوفر قانون حماية وضع الطفل (CSPA) حماية حاسمة، لكن حساب الأهلية معقد.",
 
       sections: [

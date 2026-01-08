@@ -13,8 +13,10 @@ const I693MedicalExamGuideWestminster = ({ language }) => {
       category: "Document Services",
       location: "Westminster",
       date: "January 8, 2026",
+      lastUpdated: "January 8, 2026",
       readTime: "10 min read",
       author: "SoCal Immigration Services",
+      summary: "The I-693 immigration medical exam must be performed by a USCIS-designated civil surgeon. It includes physical exam, vaccination review (MMR, Hepatitis A/B, COVID-19, etc.), TB screening, and blood tests. The form is valid for 2 years. Costs typically range $200-600. Bring ID, vaccination records, and payment.",
       locationIntro: "Westminster residents applying for green cards must complete the immigration medical examination (Form I-693) as part of the adjustment of status process. This guide explains what to expect, how to prepare, and where to find USCIS-designated civil surgeons in the Westminster and Orange County area.",
 
       sections: [
@@ -151,8 +153,10 @@ const I693MedicalExamGuideWestminster = ({ language }) => {
       category: "خدمات الوثائق",
       location: "ويستمنستر",
       date: "8 يناير 2026",
+      lastUpdated: "8 يناير 2026",
       readTime: "10 دقيقة قراءة",
       author: "خدمات حلول الهجرة",
+      summary: "يجب إجراء الفحص الطبي للهجرة I-693 من قبل جراح مدني معين من USCIS. يشمل الفحص البدني، مراجعة التطعيمات (MMR، التهاب الكبد A/B، COVID-19، إلخ)، فحص السل، وفحوصات الدم. النموذج صالح لمدة سنتين. التكاليف عادة تتراوح بين $200-600. أحضر الهوية، سجلات التطعيم، والدفع.",
       locationIntro: "سكان ويستمنستر المتقدمين للبطاقات الخضراء يجب أن يكملوا الفحص الطبي للهجرة (نموذج I-693) كجزء من عملية تعديل الوضع. هذا الدليل يشرح ما يجب توقعه، كيفية التحضير، وأين تجد الجراحين المدنيين المعينين من USCIS في منطقة ويستمنستر وأورانج كاونتي.",
 
       sections: [
