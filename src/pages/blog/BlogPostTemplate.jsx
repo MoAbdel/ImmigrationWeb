@@ -37,13 +37,28 @@ const BlogPostTemplate = ({ content, language }) => {
   // Current date for "Last Updated"
   const lastUpdated = t.lastUpdated || t.date;
 
+  // Convert date strings to ISO 8601 format for schema
+  const parseDate = (dateStr) => {
+    if (!dateStr) return new Date().toISOString().split('T')[0];
+    // Handle "January 8, 2026" format
+    const parsed = new Date(dateStr);
+    if (!isNaN(parsed.getTime())) {
+      return parsed.toISOString().split('T')[0];
+    }
+    // Handle Arabic dates or fallback
+    return new Date().toISOString().split('T')[0];
+  };
+
+  const isoDatePublished = parseDate(t.date);
+  const isoDateModified = parseDate(lastUpdated);
+
   // Article Schema with enhanced markup
   const articleSchema = {
     "@context": "https://schema.org",
     "@type": "Article",
     "headline": t.title,
     "description": t.metaDescription,
-    "image": `https://www.socalimmigrationservices.com${t.image || '/images/blog/default.jpg'}`,
+    "image": t.image ? `https://www.socalimmigrationservices.com${t.image}` : "https://www.socalimmigrationservices.com/logo.png",
     "author": {
       "@type": "Organization",
       "name": "SoCal Immigration Services",
@@ -68,8 +83,8 @@ const BlogPostTemplate = ({ content, language }) => {
         "height": 60
       }
     },
-    "datePublished": t.date,
-    "dateModified": lastUpdated,
+    "datePublished": isoDatePublished,
+    "dateModified": isoDateModified,
     "mainEntityOfPage": {
       "@type": "WebPage",
       "@id": `https://www.socalimmigrationservices.com/blog/${t.slug}`
@@ -173,14 +188,17 @@ const BlogPostTemplate = ({ content, language }) => {
         <meta property="og:type" content="article" />
         <meta property="og:locale" content={language === 'ar' ? 'ar_SA' : 'en_US'} />
         <meta property="og:url" content={`https://www.socalimmigrationservices.com/blog/${t.slug}`} />
-        <meta property="article:published_time" content={t.date} />
-        <meta property="article:modified_time" content={lastUpdated} />
+        <meta property="article:published_time" content={isoDatePublished} />
+        <meta property="article:modified_time" content={isoDateModified} />
         <meta property="article:section" content={t.category} />
+
+        <meta property="og:image" content={t.image ? `https://www.socalimmigrationservices.com${t.image}` : "https://www.socalimmigrationservices.com/logo.png"} />
 
         {/* Twitter */}
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content={t.title} />
         <meta name="twitter:description" content={t.metaDescription} />
+        <meta name="twitter:image" content={t.image ? `https://www.socalimmigrationservices.com${t.image}` : "https://www.socalimmigrationservices.com/logo.png"} />
 
         {/* Schema Markup - Article, Service, FAQ, Breadcrumb */}
         <script type="application/ld+json">{JSON.stringify(articleSchema)}</script>
