@@ -3,6 +3,116 @@
 
 export const blogPosts = [
   {
+    id: 1009,
+    slug: "i693-medical-exam-guide-westminster",
+    title: { en: "I-693 Medical Exam Guide in Westminster: Immigration Physical Requirements 2026", ar: "دليل الفحص الطبي I-693 في ويستمنستر: متطلبات الفحص الطبي للهجرة 2026" },
+    excerpt: { en: "Complete guide to the immigration medical examination for green card applicants. Find civil surgeons, understand vaccination requirements.", ar: "دليل شامل لفحص الهجرة الطبي لمتقدمي البطاقة الخضراء. ابحث عن جراحين مدنيين، افهم متطلبات التطعيم." },
+    date: "January 8, 2026",
+    readTime: "10",
+    category: "documents",
+    location: "Westminster",
+    image: "/images/blog/medical.jpg"
+  },
+  {
+    id: 1008,
+    slug: "fiance-interview-preparation-corona",
+    title: { en: "Fiancé Visa Interview Preparation in Corona: K-1 Interview Success Guide", ar: "تحضير مقابلة تأشيرة الخطيب في كورونا: دليل نجاح مقابلة K-1" },
+    excerpt: { en: "Complete preparation guide for your K-1 visa interview at the U.S. consulate. Tips, questions, and document checklist.", ar: "دليل تحضير شامل لمقابلة تأشيرة K-1 في القنصلية الأمريكية. نصائح، أسئلة، وقائمة الوثائق." },
+    date: "January 8, 2026",
+    readTime: "11",
+    category: "family",
+    location: "Corona",
+    image: "/images/blog/interview.jpg"
+  },
+  {
+    id: 1007,
+    slug: "criminal-record-immigration-santa-ana",
+    title: { en: "Criminal Record and Immigration in Santa Ana: How Convictions Affect Your Status", ar: "السجل الجنائي والهجرة في سانتا آنا: كيف تؤثر الإدانات على وضعك" },
+    excerpt: { en: "Understanding the immigration consequences of criminal convictions. Aggravated felonies, CIMTs, and relief options.", ar: "فهم عواقب الهجرة للإدانات الجنائية. الجنايات المشددة، CIMTs، وخيارات الإعفاء." },
+    date: "January 8, 2026",
+    readTime: "12",
+    category: "defense",
+    location: "Santa Ana",
+    image: "/images/blog/criminal.jpg"
+  },
+  {
+    id: 1006,
+    slug: "aging-out-protection-cspa-riverside",
+    title: { en: "Aging Out Protection (CSPA) in Riverside: Protecting Children from Immigration Delays", ar: "حماية تجاوز السن (CSPA) في ريفرسايد: حماية الأطفال من تأخيرات الهجرة" },
+    excerpt: { en: "Understanding the Child Status Protection Act and how it prevents children from aging out of immigration benefits.", ar: "فهم قانون حماية وضع الطفل وكيف يمنع الأطفال من تجاوز سن مزايا الهجرة." },
+    date: "January 8, 2026",
+    readTime: "10",
+    category: "family",
+    location: "Riverside",
+    image: "/images/blog/family.jpg"
+  },
+  {
+    id: 1005,
+    slug: "widow-immigration-rights-garden-grove",
+    title: { en: "Widow(er) Immigration Rights in Garden Grove: Path to Green Card After Spouse's Death", ar: "حقوق هجرة الأرامل في جاردن جروف: مسار البطاقة الخضراء بعد وفاة الزوج" },
+    excerpt: { en: "Immigration options for those who lose their U.S. citizen or permanent resident spouse. I-360 widow petition guide.", ar: "خيارات الهجرة لأولئك الذين يفقدون زوجهم المواطن الأمريكي أو المقيم الدائم. دليل التماس الأرملة I-360." },
+    date: "January 8, 2026",
+    readTime: "9",
+    category: "family",
+    location: "Garden Grove",
+    image: "/images/blog/widow.jpg"
+  },
+  {
+    id: 1004,
+    slug: "green-card-registry-los-angeles",
+    title: { en: "Green Card Through Registry in Los Angeles: Path for Long-Term Residents", ar: "البطاقة الخضراء من خلال التسجيل في لوس أنجلوس: مسار للمقيمين طويلي الأمد" },
+    excerpt: { en: "Immigration relief for undocumented immigrants who have lived in the U.S. since before 1972. INA Section 249 explained.", ar: "إعفاء الهجرة للمهاجرين غير الموثقين الذين عاشوا في الولايات المتحدة منذ ما قبل 1972. شرح قسم INA 249." },
+    date: "January 8, 2026",
+    readTime: "8",
+    category: "greencard",
+    location: "Los Angeles",
+    image: "/images/blog/registry.jpg"
+  },
+  {
+    id: 1003,
+    slug: "ead-renewal-guide-irvine",
+    title: { en: "EAD Renewal Guide in Irvine: Employment Authorization Document Renewal 2026", ar: "دليل تجديد EAD في إيرفين: تجديد وثيقة تصريح العمل 2026" },
+    excerpt: { en: "Complete guide to renewing your work permit before it expires. Automatic extension rules and filing tips.", ar: "دليل شامل لتجديد تصريح العمل قبل انتهاء صلاحيته. قواعد التمديد التلقائي ونصائح التقديم." },
+    date: "January 8, 2026",
+    readTime: "9",
+    category: "employment",
+    location: "Irvine",
+    image: "/images/blog/ead.jpg"
+  },
+  {
+    id: 1002,
+    slug: "u-visa-crime-victims-san-diego",
+    title: { en: "U Visa for Crime Victims in San Diego: Immigration Relief Through Cooperation", ar: "تأشيرة U لضحايا الجرائم في سان دييغو: إعفاء الهجرة من خلال التعاون" },
+    excerpt: { en: "Path to legal status for undocumented crime victims who help law enforcement. U Visa requirements and process.", ar: "مسار للوضع القانوني لضحايا الجرائم غير الموثقين الذين يساعدون إنفاذ القانون. متطلبات وعملية تأشيرة U." },
+    date: "January 8, 2026",
+    readTime: "12",
+    category: "humanitarian",
+    location: "San Diego",
+    image: "/images/blog/uvisa.jpg"
+  },
+  {
+    id: 1001,
+    slug: "vawa-self-petition-anaheim",
+    title: { en: "VAWA Self-Petition in Anaheim: Immigration Relief for Abuse Survivors", ar: "التماس VAWA الذاتي في أنهايم: إعفاء الهجرة للناجين من الإساءة" },
+    excerpt: { en: "Confidential path to legal status for victims of domestic violence by U.S. citizens or permanent residents.", ar: "مسار سري للوضع القانوني لضحايا العنف المنزلي من المواطنين الأمريكيين أو المقيمين الدائمين." },
+    date: "January 8, 2026",
+    readTime: "11",
+    category: "humanitarian",
+    location: "Anaheim",
+    image: "/images/blog/vawa.jpg"
+  },
+  {
+    id: 1000,
+    slug: "tps-temporary-protected-status-el-cajon",
+    title: { en: "TPS Temporary Protected Status in El Cajon: Protection for Syrian, Yemeni & Sudanese Nationals", ar: "الوضع المحمي المؤقت TPS في إل كاجون: حماية للمواطنين السوريين واليمنيين والسودانيين" },
+    excerpt: { en: "Temporary immigration relief for nationals from designated countries facing unsafe conditions. Registration and renewal help.", ar: "إعفاء الهجرة المؤقت لمواطني البلدان المعينة التي تواجه ظروفاً غير آمنة. مساعدة التسجيل والتجديد." },
+    date: "January 8, 2026",
+    readTime: "10",
+    category: "humanitarian",
+    location: "El Cajon",
+    image: "/images/blog/tps.jpg"
+  },
+  {
     id: 999,
     slug: "eb2-niw-strategy-guide",
     title: { en: "The EB-2 NIW Strategy Guide: Green Card Without a Job Offer", ar: "دليل استراتيجية EB-2 NIW: الجرين كارد بدون عرض عمل" },
