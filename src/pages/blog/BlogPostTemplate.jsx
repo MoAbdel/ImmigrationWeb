@@ -148,6 +148,14 @@ const BlogPostTemplate = ({ content, language }) => {
                     {section.content}
                   </div>
                 )}
+
+                {/* Masterpiece Widget Injection */}
+                {section.component && (
+                  <div className="my-6">
+                    {section.component}
+                  </div>
+                )}
+
                 {section.list && (
                   <ul className="mt-4 space-y-2">
                     {section.list.map((item, i) => (

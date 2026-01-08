@@ -130,6 +130,14 @@ import VisaStampingUSConsulatesGlendale from './pages/blog/posts/VisaStampingUSC
 import UnlawfulPresenceWaiverSantaAna from './pages/blog/posts/UnlawfulPresenceWaiverSantaAna';
 import ImmigrationBondHearingOrangeCounty from './pages/blog/posts/ImmigrationBondHearingOrangeCounty';
 
+import EB2NIWStrategy from './pages/blog/posts/EB2NIWStrategy';
+import MarriageGreenCardTimeline from './pages/blog/posts/MarriageGreenCardTimeline';
+import H1BAlternatives from './pages/blog/posts/H1BAlternatives';
+import InvestmentVisas from './pages/blog/posts/InvestmentVisas';
+import DACAUpdates from './pages/blog/posts/DACAUpdates';
+import CitizenshipPrep from './pages/blog/posts/CitizenshipPrep';
+import K1vsCR1Comparison from './pages/blog/posts/K1vsCR1Comparison';
+
 const App = () => {
   const [language, setLanguage] = useState('en');
 
@@ -338,24 +346,24 @@ const App = () => {
 
       // Hero
       hero: {
-        headline: "طريقك نحو الحلم الأمريكي يبدأ هنا",
-        subhead: "خدمات الهجرة والترجمة والتوثيق المهنية",
+        headline: "طريقك إلى الحلم الأمريكي يبدأ هنا",
+        subhead: "خدمات الهجرة والترجمة والتوثيق.",
         cta: "احجز استشارة"
       },
 
       // Services
       servicesTitle: "خدماتنا",
-      servicesSubtitle: "حلول شاملة للهجرة مصممة خصيصًا لتلبية احتياجاتك",
+      servicesSubtitle: "حلول هجرة شاملة مصممة خصيصًا لتلبية احتياجاتك",
 
       categories: [
         {
           title: "التأشيرات والعائلة",
           icon: Users,
           services: [
-            "التقدم بطلبات الهجرة لأفراد العائلة",
-            "K1 فيزا الخطوبة",
-            "B1-B2 فيزا السياحة وتمديدها",
-            "فيزا العمل"
+            "الالتماسات العائلية",
+            "تأشيرة خطوبة K1",
+            "تأشيرات B1-B2 والتمديدات",
+            "تأشيرة عمل H-1B"
           ]
         },
         {
@@ -363,19 +371,19 @@ const App = () => {
           icon: Flag,
           services: [
             "الجنسية",
-            "تعديل وضع الإقامة",
-            "استبدال وتجديد الجرين كارد",
-            "اللجوء السياسي والإنساني"
+            "تعديل الوضع",
+            "تجديد/استبدال البطاقة الخضراء",
+            "اللجوء / اللاجئين"
           ]
         },
         {
           title: "الوثائق القانونية",
           icon: FileText,
           services: [
-            "الكفالات",
-            "تصاريح العمل",
-            "وثائق السفر",
-            "خدمات التأمين الاجتماعي"
+            "إفادة الدعم",
+            "تصريح العمل",
+            "وثيقة السفر",
+            "SSI/SSA/الإعاقة"
           ]
         },
         {
@@ -383,8 +391,8 @@ const App = () => {
           icon: ScrollText,
           services: [
             "الترجمة",
-            "تصديق",
-            "الطلاق"
+            "كاتب العدل",
+            "طلبات الطلاق"
           ]
         }
       ],
@@ -400,69 +408,69 @@ const App = () => {
         },
         {
           icon: Award,
-          title: "خدمة رحيمة",
-          description: "نحن نتفهم تحديات الهجرة ونقدم دعمًا شخصيًا ورعاية لكل عميل."
+          title: "خدمة متعاطفة",
+          description: "نتفهم تحديات الهجرة ونقدم دعمًا شخصيًا ومهتمًا لكل عميل."
         },
         {
           icon: Shield,
-          title: "معالجة الوثائق بخبرة",
+          title: "معالجة المستندات بخبرة",
           description: "اهتمام دقيق بالتفاصيل في إعداد ومعالجة جميع وثائق الهجرة الخاصة بك."
         }
       ],
 
       // How It Works
-      howItWorksTitle: "خطوات العمل",
+      howItWorksTitle: "عمليتنا البسيطة",
       howItWorksSubtitle: "البدء سهل - أربع خطوات بسيطة فقط",
       howItWorksSteps: [
-        { step: "١", title: "استشارة", description: "استشارة أولية مجانية لفهم احتياجاتك" },
-        { step: "٢", title: "إعداد الوثائق", description: "نقوم بإعداد جميع الوثائق اللازمة بدقة" },
-        { step: "٣", title: "المراجعة", description: "مراجعة شاملة للتأكد من أن كل شيء مثالي" },
-        { step: "٤", title: "التقديم", description: "نقدم طلبك ونتابع تقدمه" }
+        { step: "1", title: "استشارة", description: "استشارة أولية مجانية لفهم احتياجاتك" },
+        { step: "2", title: "إعداد المستندات", description: "نقوم بإعداد جميع المستندات اللازمة بدقة" },
+        { step: "3", title: "مراجعة", description: "مراجعة شاملة لضمان أن كل شيء مثالي" },
+        { step: "4", title: "التقديم", description: "نقوم بتقديم طلبك وتتبع تقدمه" }
       ],
 
       // Testimonials
-      testimonialsTitle: "قصص النجاح",
-      testimonialsSubtitle: "استمع من عملائنا الراضين",
+      testimonialsTitle: "قصص نجاح",
+      testimonialsSubtitle: "استمع إلى عملائنا الراضين",
       testimonials: [
         {
-          name: "Sarah Johnson",
+          name: "سارة جونسون",
           location: "لوس أنجلوس، كاليفورنيا",
-          text: "The team helped me with my citizenship application. They were professional, patient, and made the entire process stress-free. I'm now a proud U.S. citizen!",
+          text: "ساعدني الفريق في طلب الجنسية. كانوا محترفين وصبورين، وجعلوا العملية بأكملها خالية من التوتر. أنا الآن مواطنة أمريكية فخورة!",
           rating: 5
         },
         {
           name: "أحمد العلي",
-          location: "أورانج كاونتي، كاليفورنيا",
+          location: "مقاطعة أورانج، كاليفورنيا",
           text: "خدمة ممتازة! ساعدوني في لم شمل عائلتي. الفريق يتحدث العربية بطلاقة وكانوا متعاونين جداً في كل خطوة.",
           rating: 5
         },
         {
-          name: "Maria Garcia",
+          name: "ماريا غارسيا",
           location: "سان دييغو، كاليفورنيا",
-          text: "I needed translation and notary services for my green card renewal. Fast, accurate, and affordable. Highly recommend!",
+          text: "كنت بحاجة إلى خدمات ترجمة وتوثيق لتجديد بطاقتي الخضراء. سريعة ودقيقة وبأسعار معقولة. أوصي بشدة!",
           rating: 5
         }
       ],
 
       // FAQ
       faqTitle: "أسئلة شائعة",
-      faqSubtitle: "اعثر على إجابات للأسئلة المتداولة",
+      faqSubtitle: "ابحث عن إجابات للأسئلة المتداولة",
       faqs: [
         {
-          question: "كم من الوقت تستغرق عملية الهجرة؟",
-          answer: "تختلف أوقات المعالجة حسب نوع الطلب. يمكن أن تستغرق التماسات الهجرة العائلية من 6 أشهر إلى أكثر من 3 سنوات، بينما تستغرق طلبات الجنسية عادةً من 8 إلى 14 شهرًا. نحن نقدم جداول زمنية واقعية خلال استشارتك ونبقيك على اطلاع طوال العملية."
+          question: "كم تستغرق عملية الهجرة؟",
+          answer: "تختلف أوقات المعالجة حسب نوع الطلب. يمكن أن تستغرق الالتماسات العائلية من 6 أشهر إلى أكثر من 3 سنوات، بينما تستغرق طلبات الجنسية عادة من 8 إلى 14 شهرًا. نقدم جداول زمنية واقعية خلال استشارتك ونبقيك على اطلاع دائم طوال العملية."
         },
         {
           question: "هل ترجماتكم معتمدة من USCIS؟",
-          answer: "نعم! تتضمن جميع ترجماتنا شهادة دقة وتفي بمتطلبات USCIS. ترجماتنا المعتمدة مقبولة من قبل USCIS والسفارات والمحاكم والوكالات الرسمية الأخرى. يمكننا أيضًا تقديم ترجمات موثقة عند الحاجة."
+          answer: "نعم! جميع ترجماتنا تتضمن شهادة دقة وتلبي متطلبات USCIS. ترجماتنا المعتمدة مقبولة من قبل USCIS والسفارات والمحاكم والوكالات الرسمية الأخرى. يمكننا أيضًا تقديم ترجمات موثقة عند الحاجة."
         },
         {
           question: "ما هي رسومكم؟",
-          answer: "نحن نؤمن بالتسعير الشفاف. تبدأ خدمات الترجمة من 30 دولارًا للصفحة، وخدمات التوثيق من 15 دولارًا لكل توقيع، ويختلف إعداد وثائق الهجرة حسب تعقيد الحالة. اتصل بنا للحصول على عرض أسعار مفصل بناءً على احتياجاتك المحددة - لا توجد رسوم خفية أبدًا."
+          answer: "نحن نؤمن بالشفافية في التسعير. تبدأ خدمات الترجمة من 30 دولارًا للصفحة، وخدمات كاتب العدل من 15 دولارًا للتوقيع، وتختلف تكلفة إعداد وثائق الهجرة حسب تعقيد الحالة. اتصل بنا للحصول على عرض أسعار مفصل بناءً على احتياجاتك الخاصة - لا توجد رسوم خفية أبدًا."
         },
         {
-          question: "هل تقدمون مشورة قانونية؟",
-          answer: "نحن لسنا محامين ولا نقدم المشورة القانونية. نحن متخصصون في خدمات إعداد الوثائق لطلبات الهجرة. للمسائل القانونية المعقدة أو الحالات المتنازع عليها، يمكننا إحالتك إلى محامي هجرة مؤهلين في شبكتنا."
+          question: "هل تقدمون استشارات قانونية؟",
+          answer: "نحن لسنا محامين ولا نقدم استشارات قانونية. نحن متخصصون في خدمات إعداد الوثائق لطلبات الهجرة. للمسائل القانونية المعقدة أو القضايا المتنازع عليها، يمكننا إحالتك إلى محامين هجرة مؤهلين في شبكتنا."
         }
       ],
 
@@ -474,40 +482,40 @@ const App = () => {
       // Contact Form
       contactForm: {
         title: "ابدأ اليوم",
-        subtitle: "املأ النموذج أدناه وسنتواصل معك خلال 24 ساعة",
+        subtitle: "املأ النموذج أدناه وسنعاود الاتصال بك في غضون 24 ساعة",
         nameLabel: "الاسم الكامل *",
         namePlaceholder: "أدخل اسمك الكامل",
-        emailLabel: "البريد الإلكتروني *",
+        emailLabel: "عنوان البريد الإلكتروني *",
         emailPlaceholder: "your.email@example.com",
         phoneLabel: "رقم الهاتف *",
         phonePlaceholder: "(555) 123-4567",
         serviceLabel: "الخدمة المطلوبة *",
         servicePlaceholder: "اختر خدمة",
         serviceOptions: [
-          "التماسات العائلة (I-130)",
-          "K1 فيزا الخطوبة",
-          "الجنسية/التجنس",
+          "الالتماسات العائلية (I-130)",
+          "تأشيرة خطوبة K1",
+          "الجنسية/التجنيس",
           "تعديل الوضع",
           "تجديد البطاقة الخضراء",
           "تصريح العمل (EAD)",
-          "وثيقة السفر (الإفراج المسبق)",
+          "وثيقة السفر (Advance Parole)",
           "خدمات الترجمة",
-          "خدمات التوثيق",
+          "خدمات كاتب العدل",
           "أخرى"
         ],
-        messageLabel: "أخبرنا عن قضيتك *",
-        messagePlaceholder: "يرجى تقديم تفاصيل حول احتياجاتك في الهجرة...",
+        messageLabel: "أخبرنا عن حالتك *",
+        messagePlaceholder: "يرجى تقديم تفاصيل حول احتياجات الهجرة الخاصة بك...",
         submitButton: "إرسال الطلب",
-        successMessage: "شكراً لك! سنتواصل معك خلال 24 ساعة."
+        successMessage: "شكرًا لك! سنتصل بك في غضون 24 ساعة."
       },
 
       // Footer
       footer: {
-        description: "خدمات إعداد وثائق الهجرة الاحترافية تساعد العائلات والأفراد على التنقل في عملية الهجرة الأمريكية بثقة ودقة.",
-        services: "متخصصون في التماسات الأسرة، وطلبات التأشيرات، والمواطنة، وتصاريح العمل، والترجمة، وخدمات التوثيق.",
+        description: "خدمات إعداد وثائق الهجرة الاحترافية لمساعدة العائلات والأفراد على التنقل في عملية الهجرة الأمريكية بثقة ودقة.",
+        services: "متخصصون في الالتماسات العائلية، طلبات التأشيرات، الجنسية، تصاريح العمل، الترجمات، وخدمات كاتب العدل.",
         hours: "الاثنين - الجمعة: 9:00 صباحًا - 6:00 مساءً | السبت: 10:00 صباحًا - 3:00 مساءً",
         contact: "اتصل بنا",
-        address: "11088 شارع تراسك، جناح 200-ك، جاردن جروف، كاليفورنيا 92843",
+        address: "11088 Trask Ave. Suite 200-K, Garden Grove, CA 92843",
         phone: "(714) 421-8872",
         email: "imgso2005@yahoo.com",
         social: "تابعنا",
@@ -515,145 +523,144 @@ const App = () => {
       }
     }
   };
+              return (
+              <HelmetProvider>
+                <Router>
+                  <div className="min-h-screen flex flex-col">
+                    <Navbar language={language} setLanguage={setLanguage} content={content} />
 
-  return (
-    <HelmetProvider>
-      <Router>
-        <div className="min-h-screen flex flex-col">
-          <Navbar language={language} setLanguage={setLanguage} content={content} />
+                    <main className="flex-grow">
+                      <Routes>
+                        <Route path="/" element={<HomePage language={language} content={content} />} />
+                        <Route path="/services/visas-family" element={<VisasFamilyPage language={language} />} />
+                        <Route path="/services/status-citizenship" element={<StatusCitizenshipPage language={language} />} />
+                        <Route path="/services/legal-documents" element={<LegalDocumentsPage language={language} />} />
+                        <Route path="/services/professional-services" element={<ProfessionalServicesPage language={language} />} />
 
-          <main className="flex-grow">
-            <Routes>
-              <Route path="/" element={<HomePage language={language} content={content} />} />
-              <Route path="/services/visas-family" element={<VisasFamilyPage language={language} />} />
-              <Route path="/services/status-citizenship" element={<StatusCitizenshipPage language={language} />} />
-              <Route path="/services/legal-documents" element={<LegalDocumentsPage language={language} />} />
-              <Route path="/services/professional-services" element={<ProfessionalServicesPage language={language} />} />
+                        {/* Additional Service Landing Pages */}
+                        <Route path="/family-immigration" element={<FamilyImmigrationPage language={language} />} />
+                        <Route path="/asylum-services" element={<AsylumServicesPage language={language} />} />
+                        <Route path="/citizenship-naturalization" element={<CitizenshipPage language={language} />} />
+                        <Route path="/daca-services" element={<DACAServicesPage language={language} />} />
+                        <Route path="/green-card-services" element={<GreenCardServicesPage language={language} />} />
 
-              {/* Additional Service Landing Pages */}
-              <Route path="/family-immigration" element={<FamilyImmigrationPage language={language} />} />
-              <Route path="/asylum-services" element={<AsylumServicesPage language={language} />} />
-              <Route path="/citizenship-naturalization" element={<CitizenshipPage language={language} />} />
-              <Route path="/daca-services" element={<DACAServicesPage language={language} />} />
-              <Route path="/green-card-services" element={<GreenCardServicesPage language={language} />} />
+                        {/* City Landing Pages */}
+                        <Route path="/irvine" element={<IrvinePage language={language} />} />
+                        <Route path="/anaheim" element={<AnaheimPage language={language} />} />
+                        <Route path="/los-angeles" element={<LosAngelesPage language={language} />} />
+                        <Route path="/santa-ana" element={<SantaAnaPage language={language} />} />
 
-              {/* City Landing Pages */}
-              <Route path="/irvine" element={<IrvinePage language={language} />} />
-              <Route path="/anaheim" element={<AnaheimPage language={language} />} />
-              <Route path="/los-angeles" element={<LosAngelesPage language={language} />} />
-              <Route path="/santa-ana" element={<SantaAnaPage language={language} />} />
+                        {/* Blog Routes */}
+                        <Route path="/blog" element={<BlogPage language={language} />} />
+                        <Route path="/blog/family-petition-i130-el-cajon" element={<FamilyPetitionI130ElCajon language={language} />} />
+                        <Route path="/blog/bringing-parents-anaheim" element={<BringingParentsAnaheim language={language} />} />
+                        <Route path="/blog/sibling-immigration-riverside" element={<SiblingImmigrationRiverside language={language} />} />
+                        <Route path="/blog/asylum-application-el-cajon" element={<AsylumApplicationElCajon language={language} />} />
+                        <Route path="/blog/refugee-adjustment-san-diego" element={<RefugeeAdjustmentSanDiego language={language} />} />
+                        <Route path="/blog/k1-fiance-visa-anaheim" element={<K1FianceVisaAnaheim language={language} />} />
+                        <Route path="/blog/marriage-green-card-irvine" element={<MarriageGreenCardIrvine language={language} />} />
+                        <Route path="/blog/naturalization-garden-grove" element={<NaturalizationGardenGrove language={language} />} />
+                        <Route path="/blog/civics-test-corona" element={<CivicsTestCorona language={language} />} />
+                        <Route path="/blog/h1b-visa-irvine" element={<H1BVisaIrvine language={language} />} />
+                        <Route path="/blog/opt-to-h1b-san-diego" element={<OPTtoH1BSanDiego language={language} />} />
+                        <Route path="/blog/green-card-renewal-los-angeles" element={<GreenCardRenewalLosAngeles language={language} />} />
+                        <Route path="/blog/adjustment-of-status-riverside" element={<AdjustmentOfStatusRiverside language={language} />} />
+                        <Route path="/blog/advance-parole-garden-grove" element={<AdvanceParoleGardenGrove language={language} />} />
+                        <Route path="/blog/refugee-travel-doc-el-cajon" element={<RefugeeTravelDocElCajon language={language} />} />
+                        <Route path="/blog/uscis-translation-anaheim" element={<USCISTranslationAnaheim language={language} />} />
+                        <Route path="/blog/affidavit-of-support-san-diego" element={<AffidavitOfSupportSanDiego language={language} />} />
+                        <Route path="/blog/know-your-rights-los-angeles" element={<KnowYourRightsLosAngeles language={language} />} />
+                        <Route path="/blog/iraqi-chaldean-resources-el-cajon" element={<IraqiChaldeanResourcesElCajon language={language} />} />
+                        <Route path="/blog/i730-refugee-family-san-diego" element={<I730RefugeeFamilySanDiego language={language} />} />
+                        <Route path="/blog/vawa-self-petition-los-angeles" element={<VAWASelfPetitionLosAngeles language={language} />} />
+                        <Route path="/blog/f1-student-visa-extension-irvine" element={<F1StudentVisaIrvine language={language} />} />
+                        <Route path="/blog/l1a-intracompany-transfer-irvine" element={<L1AIntracompanyIrvine language={language} />} />
+                        <Route path="/blog/consular-processing-vs-adjustment-anaheim" element={<ConsularProcessingAnaheim language={language} />} />
+                        <Route path="/blog/daca-information-riverside" element={<DACAInformationRiverside language={language} />} />
+                        <Route path="/blog/eb5-investment-green-card-irvine" element={<EB5InvestmentIrvine language={language} />} />
+                        <Route path="/blog/divorce-immigration-impact-garden-grove" element={<DivorceImmigrationGardenGrove language={language} />} />
+                        <Route path="/blog/emergency-passport-services-el-cajon" element={<EmergencyPassportElCajon language={language} />} />
+                        <Route path="/blog/medical-exam-i693-san-diego" element={<MedicalExamI693SanDiego language={language} />} />
+                        <Route path="/blog/name-change-immigration-los-angeles" element={<NameChangeImmigrationLosAngeles language={language} />} />
+                        <Route path="/blog/credible-fear-interview-glendale" element={<CredibleFearInterviewGlendale language={language} />} />
+                        <Route path="/blog/work-authorization-ead-rancho-cucamonga" element={<WorkAuthorizationEADRanchoCucamonga language={language} />} />
+                        <Route path="/blog/perm-employment-green-card-ontario" element={<PERMEmploymentGreenCardOntario language={language} />} />
+                        <Route path="/blog/citizenship-refugees-chula-vista" element={<CitizenshipRefugeesChulVista language={language} />} />
+                        <Route path="/blog/military-spouse-immigration-oceanside" element={<MilitarySpouseImmigrationOceanside language={language} />} />
+                        <Route path="/blog/large-family-immigration-temecula" element={<LargeFamilyImmigrationTemecula language={language} />} />
+                        <Route path="/blog/reentry-permit-murrieta" element={<ReEntryPermitMurrieta language={language} />} />
+                        <Route path="/blog/i751-removing-conditions-corona" element={<I751RemovingConditionsCorona language={language} />} />
+                        <Route path="/blog/refugee-resettlement-glendale" element={<RefugeeResettlementGlendale language={language} />} />
+                        <Route path="/blog/green-card-interview-prep-rancho-cucamonga" element={<GreenCardInterviewPrepRanchoCucamonga language={language} />} />
+                        <Route path="/blog/u-visa-crime-victims-santa-ana" element={<UVisaCrimeVictimsSantaAna language={language} />} />
+                        <Route path="/blog/tps-temporary-protected-status-long-beach" element={<TPSTemporaryProtectedStatusLongBeach language={language} />} />
+                        <Route path="/blog/b1-b2-visa-extension-fullerton" element={<B1B2VisaExtensionFullerton language={language} />} />
+                        <Route path="/blog/n600-certificate-citizenship-costa-mesa" element={<N600CertificateCitizenshipCostaMesa language={language} />} />
+                        <Route path="/blog/i-601-waiver-escondido" element={<I601WaiverEscondido language={language} />} />
+                        <Route path="/blog/humanitarian-parole-fontana" element={<HumanitarianParoleFontana language={language} />} />
+                        <Route path="/blog/public-charge-rule-pomona" element={<PublicChargeRulePomona language={language} />} />
+                        <Route path="/blog/i-864a-joint-sponsor-torrance" element={<I864AJointSponsorTorrance language={language} />} />
+                        <Route path="/blog/tn-visa-san-bernardino" element={<TNVisaSanBernardino language={language} />} />
+                        <Route path="/blog/expedited-naturalization-vista" element={<ExpeditedNaturalizationVista language={language} />} />
+                        <Route path="/blog/e2-treaty-investor-visa-anaheim" element={<E2TreatyInvestorAnaheim language={language} />} />
+                        <Route path="/blog/yemeni-refugee-support-el-cajon" element={<YemeniRefugeeSupportElCajon language={language} />} />
+                        <Route path="/blog/marriage-fraud-investigation-defense-garden-grove" element={<MarriageFraudDefenseGardenGrove language={language} />} />
+                        <Route path="/blog/n648-medical-disability-waiver-san-diego" element={<N648MedicalWaiverSanDiego language={language} />} />
+                        <Route path="/blog/uscis-case-status-inquiry-los-angeles" element={<USCISCaseStatusLosAngeles language={language} />} />
+                        <Route path="/blog/i130-unmarried-adult-children-riverside" element={<I130UnmarriedChildrenRiverside language={language} />} />
+                        <Route path="/blog/citizenship-through-marriage-corona" element={<CitizenshipMarriageCorona language={language} />} />
+                        <Route path="/blog/iraqi-siv-special-immigrant-visa-el-cajon" element={<IraqiSIVElCajon language={language} />} />
+                        <Route path="/blog/k3-spouse-visa-ontario" element={<K3SpouseVisaOntario language={language} />} />
+                        <Route path="/blog/avoiding-immigration-scams-anaheim" element={<AvoidingImmigrationScamsAnaheim language={language} />} />
+                        <Route path="/blog/eb2-niw-national-interest-waiver-westminster" element={<EB2NIWWestminster language={language} />} />
+                        <Route path="/blog/h4-ead-work-permit-buena-park" element={<H4EADWorkPermitBuenaPark language={language} />} />
+                        <Route path="/blog/deportation-defense-help-pasadena" element={<DeportationDefensePasadena language={language} />} />
+                        <Route path="/blog/palestinian-asylum-support-chula-vista" element={<PalestinianAsylumChulaVista language={language} />} />
+                        <Route path="/blog/child-status-protection-act-huntington-beach" element={<ChildStatusProtectionActHuntingtonBeach language={language} />} />
+                        <Route path="/blog/i-290b-motion-reopen-reconsider-lake-forest" element={<I290BMotionReopenLakeForest language={language} />} />
+                        <Route path="/blog/deferred-inspection-mission-viejo" element={<DeferredInspectionMissionViejo language={language} />} />
+                        <Route path="/blog/adoption-immigration-whittier" element={<AdoptionImmigrationWhittier language={language} />} />
+                        <Route path="/blog/employment-verification-i9-downey" element={<EmploymentVerificationI9Downey language={language} />} />
+                        <Route path="/blog/arab-senior-citizens-immigration-resources-santa-clarita" element={<ArabSeniorResourcesSantaClarita language={language} />} />
+                        <Route path="/blog/widow-widower-immigration-benefits-riverside" element={<WidowWidowerImmigrationRiverside language={language} />} />
+                        <Route path="/blog/naturalization-fee-waiver-el-cajon" element={<NaturalizationFeeWaiverElCajon language={language} />} />
+                        <Route path="/blog/eb1a-extraordinary-ability-visa-la-jolla" element={<EB1AExtraordinaryAbilityLaJolla language={language} />} />
+                        <Route path="/blog/lebanese-community-immigration-resources-orange-county" element={<LebaneseCommunityResourcesOrangeCounty language={language} />} />
+                        <Route path="/blog/emergency-advance-parole-corona" element={<EmergencyAdvanceParoleCorona language={language} />} />
+                        <Route path="/blog/marriage-certificate-authentication-temecula" element={<MarriageCertificateAuthenticationTemecula language={language} />} />
+                        <Route path="/blog/asylum-interview-preparation-san-diego" element={<AsylumInterviewPreparationSanDiego language={language} />} />
+                        <Route path="/blog/religious-worker-r1-visa-glendale" element={<ReligiousWorkerR1VisaGlendale language={language} />} />
+                        <Route path="/blog/i751-waiver-divorced-couples-ontario" element={<I751WaiverDivorcedCouplesOntario language={language} />} />
+                        <Route path="/blog/egyptian-community-immigration-resources-anaheim" element={<EgyptianCommunityResourcesAnaheim language={language} />} />
+                        <Route path="/blog/o1-extraordinary-artist-visa-glendale" element={<O1ArtistVisaGlendale language={language} />} />
+                        <Route path="/blog/i140-priority-date-santa-ana" element={<I140PriorityDateSantaAna language={language} />} />
+                        <Route path="/blog/grandparent-visitor-visa-murrieta" element={<GrandparentVisitorVisaMurrieta language={language} />} />
+                        <Route path="/blog/jordanian-community-resources-chino-hills" element={<JordanianCommunityResourcesChinoHills language={language} />} />
+                        <Route path="/blog/cat-protection-el-cajon" element={<CATProtectionElCajon language={language} />} />
+                        <Route path="/blog/eb3-unskilled-worker-ontario" element={<EB3UnskilledWorkerOntario language={language} />} />
+                        <Route path="/blog/birth-certificate-correction-garden-grove" element={<BirthCertificateCorrectionGardenGrove language={language} />} />
+                        <Route path="/blog/f3-married-children-long-beach" element={<F3MarriedChildrenLongBeach language={language} />} />
+                        <Route path="/blog/dual-intent-visa-issues-irvine" element={<DualIntentVisaIrvine language={language} />} />
+                        <Route path="/blog/arab-women-entrepreneurs-orange-county" element={<ArabWomenEntrepreneursOC language={language} />} />
+                        <Route path="/blog/afghan-siv-application-el-cajon" element={<AfghanSIVElCajon language={language} />} />
+                        <Route path="/blog/uscis-biometrics-appointment-anaheim" element={<BiometricsAppointmentAnaheim language={language} />} />
+                        <Route path="/blog/immigration-court-hearing-los-angeles" element={<ImmigrationCourtHearingLosAngeles language={language} />} />
+                        <Route path="/blog/diversity-visa-lottery-irvine" element={<DiversityVisaLotteryIrvine language={language} />} />
+                        <Route path="/blog/combo-card-ead-advance-parole-san-diego" element={<ComboCardEADSanDiego language={language} />} />
+                        <Route path="/blog/uscis-expedite-request-riverside" element={<USCISExpediteRequestRiverside language={language} />} />
+                        <Route path="/blog/i20-transfer-f1-students-fullerton" element={<I20TransferFullerton language={language} />} />
+                        <Route path="/blog/visa-stamping-us-consulates-glendale" element={<VisaStampingUSConsulatesGlendale language={language} />} />
+                        <Route path="/blog/unlawful-presence-waiver-i601a-santa-ana" element={<UnlawfulPresenceWaiverSantaAna language={language} />} />
+                        <Route path="/blog/immigration-bond-hearing-orange-county" element={<ImmigrationBondHearingOrangeCounty language={language} />} />
+                      </Routes>
+                    </main>
 
-              {/* Blog Routes */}
-              <Route path="/blog" element={<BlogPage language={language} />} />
-              <Route path="/blog/family-petition-i130-el-cajon" element={<FamilyPetitionI130ElCajon language={language} />} />
-              <Route path="/blog/bringing-parents-anaheim" element={<BringingParentsAnaheim language={language} />} />
-              <Route path="/blog/sibling-immigration-riverside" element={<SiblingImmigrationRiverside language={language} />} />
-              <Route path="/blog/asylum-application-el-cajon" element={<AsylumApplicationElCajon language={language} />} />
-              <Route path="/blog/refugee-adjustment-san-diego" element={<RefugeeAdjustmentSanDiego language={language} />} />
-              <Route path="/blog/k1-fiance-visa-anaheim" element={<K1FianceVisaAnaheim language={language} />} />
-              <Route path="/blog/marriage-green-card-irvine" element={<MarriageGreenCardIrvine language={language} />} />
-              <Route path="/blog/naturalization-garden-grove" element={<NaturalizationGardenGrove language={language} />} />
-              <Route path="/blog/civics-test-corona" element={<CivicsTestCorona language={language} />} />
-              <Route path="/blog/h1b-visa-irvine" element={<H1BVisaIrvine language={language} />} />
-              <Route path="/blog/opt-to-h1b-san-diego" element={<OPTtoH1BSanDiego language={language} />} />
-              <Route path="/blog/green-card-renewal-los-angeles" element={<GreenCardRenewalLosAngeles language={language} />} />
-              <Route path="/blog/adjustment-of-status-riverside" element={<AdjustmentOfStatusRiverside language={language} />} />
-              <Route path="/blog/advance-parole-garden-grove" element={<AdvanceParoleGardenGrove language={language} />} />
-              <Route path="/blog/refugee-travel-doc-el-cajon" element={<RefugeeTravelDocElCajon language={language} />} />
-              <Route path="/blog/uscis-translation-anaheim" element={<USCISTranslationAnaheim language={language} />} />
-              <Route path="/blog/affidavit-of-support-san-diego" element={<AffidavitOfSupportSanDiego language={language} />} />
-              <Route path="/blog/know-your-rights-los-angeles" element={<KnowYourRightsLosAngeles language={language} />} />
-              <Route path="/blog/iraqi-chaldean-resources-el-cajon" element={<IraqiChaldeanResourcesElCajon language={language} />} />
-              <Route path="/blog/i730-refugee-family-san-diego" element={<I730RefugeeFamilySanDiego language={language} />} />
-              <Route path="/blog/vawa-self-petition-los-angeles" element={<VAWASelfPetitionLosAngeles language={language} />} />
-              <Route path="/blog/f1-student-visa-extension-irvine" element={<F1StudentVisaIrvine language={language} />} />
-              <Route path="/blog/l1a-intracompany-transfer-irvine" element={<L1AIntracompanyIrvine language={language} />} />
-              <Route path="/blog/consular-processing-vs-adjustment-anaheim" element={<ConsularProcessingAnaheim language={language} />} />
-              <Route path="/blog/daca-information-riverside" element={<DACAInformationRiverside language={language} />} />
-              <Route path="/blog/eb5-investment-green-card-irvine" element={<EB5InvestmentIrvine language={language} />} />
-              <Route path="/blog/divorce-immigration-impact-garden-grove" element={<DivorceImmigrationGardenGrove language={language} />} />
-              <Route path="/blog/emergency-passport-services-el-cajon" element={<EmergencyPassportElCajon language={language} />} />
-              <Route path="/blog/medical-exam-i693-san-diego" element={<MedicalExamI693SanDiego language={language} />} />
-              <Route path="/blog/name-change-immigration-los-angeles" element={<NameChangeImmigrationLosAngeles language={language} />} />
-              <Route path="/blog/credible-fear-interview-glendale" element={<CredibleFearInterviewGlendale language={language} />} />
-              <Route path="/blog/work-authorization-ead-rancho-cucamonga" element={<WorkAuthorizationEADRanchoCucamonga language={language} />} />
-              <Route path="/blog/perm-employment-green-card-ontario" element={<PERMEmploymentGreenCardOntario language={language} />} />
-              <Route path="/blog/citizenship-refugees-chula-vista" element={<CitizenshipRefugeesChulVista language={language} />} />
-              <Route path="/blog/military-spouse-immigration-oceanside" element={<MilitarySpouseImmigrationOceanside language={language} />} />
-              <Route path="/blog/large-family-immigration-temecula" element={<LargeFamilyImmigrationTemecula language={language} />} />
-              <Route path="/blog/reentry-permit-murrieta" element={<ReEntryPermitMurrieta language={language} />} />
-              <Route path="/blog/i751-removing-conditions-corona" element={<I751RemovingConditionsCorona language={language} />} />
-              <Route path="/blog/refugee-resettlement-glendale" element={<RefugeeResettlementGlendale language={language} />} />
-              <Route path="/blog/green-card-interview-prep-rancho-cucamonga" element={<GreenCardInterviewPrepRanchoCucamonga language={language} />} />
-              <Route path="/blog/u-visa-crime-victims-santa-ana" element={<UVisaCrimeVictimsSantaAna language={language} />} />
-              <Route path="/blog/tps-temporary-protected-status-long-beach" element={<TPSTemporaryProtectedStatusLongBeach language={language} />} />
-              <Route path="/blog/b1-b2-visa-extension-fullerton" element={<B1B2VisaExtensionFullerton language={language} />} />
-              <Route path="/blog/n600-certificate-citizenship-costa-mesa" element={<N600CertificateCitizenshipCostaMesa language={language} />} />
-              <Route path="/blog/i-601-waiver-escondido" element={<I601WaiverEscondido language={language} />} />
-              <Route path="/blog/humanitarian-parole-fontana" element={<HumanitarianParoleFontana language={language} />} />
-              <Route path="/blog/public-charge-rule-pomona" element={<PublicChargeRulePomona language={language} />} />
-              <Route path="/blog/i-864a-joint-sponsor-torrance" element={<I864AJointSponsorTorrance language={language} />} />
-              <Route path="/blog/tn-visa-san-bernardino" element={<TNVisaSanBernardino language={language} />} />
-              <Route path="/blog/expedited-naturalization-vista" element={<ExpeditedNaturalizationVista language={language} />} />
-              <Route path="/blog/e2-treaty-investor-visa-anaheim" element={<E2TreatyInvestorAnaheim language={language} />} />
-              <Route path="/blog/yemeni-refugee-support-el-cajon" element={<YemeniRefugeeSupportElCajon language={language} />} />
-              <Route path="/blog/marriage-fraud-investigation-defense-garden-grove" element={<MarriageFraudDefenseGardenGrove language={language} />} />
-              <Route path="/blog/n648-medical-disability-waiver-san-diego" element={<N648MedicalWaiverSanDiego language={language} />} />
-              <Route path="/blog/uscis-case-status-inquiry-los-angeles" element={<USCISCaseStatusLosAngeles language={language} />} />
-              <Route path="/blog/i130-unmarried-adult-children-riverside" element={<I130UnmarriedChildrenRiverside language={language} />} />
-              <Route path="/blog/citizenship-through-marriage-corona" element={<CitizenshipMarriageCorona language={language} />} />
-              <Route path="/blog/iraqi-siv-special-immigrant-visa-el-cajon" element={<IraqiSIVElCajon language={language} />} />
-              <Route path="/blog/k3-spouse-visa-ontario" element={<K3SpouseVisaOntario language={language} />} />
-              <Route path="/blog/avoiding-immigration-scams-anaheim" element={<AvoidingImmigrationScamsAnaheim language={language} />} />
-              <Route path="/blog/eb2-niw-national-interest-waiver-westminster" element={<EB2NIWWestminster language={language} />} />
-              <Route path="/blog/h4-ead-work-permit-buena-park" element={<H4EADWorkPermitBuenaPark language={language} />} />
-              <Route path="/blog/deportation-defense-help-pasadena" element={<DeportationDefensePasadena language={language} />} />
-              <Route path="/blog/palestinian-asylum-support-chula-vista" element={<PalestinianAsylumChulaVista language={language} />} />
-              <Route path="/blog/child-status-protection-act-huntington-beach" element={<ChildStatusProtectionActHuntingtonBeach language={language} />} />
-              <Route path="/blog/i-290b-motion-reopen-reconsider-lake-forest" element={<I290BMotionReopenLakeForest language={language} />} />
-              <Route path="/blog/deferred-inspection-mission-viejo" element={<DeferredInspectionMissionViejo language={language} />} />
-              <Route path="/blog/adoption-immigration-whittier" element={<AdoptionImmigrationWhittier language={language} />} />
-              <Route path="/blog/employment-verification-i9-downey" element={<EmploymentVerificationI9Downey language={language} />} />
-              <Route path="/blog/arab-senior-citizens-immigration-resources-santa-clarita" element={<ArabSeniorResourcesSantaClarita language={language} />} />
-              <Route path="/blog/widow-widower-immigration-benefits-riverside" element={<WidowWidowerImmigrationRiverside language={language} />} />
-              <Route path="/blog/naturalization-fee-waiver-el-cajon" element={<NaturalizationFeeWaiverElCajon language={language} />} />
-              <Route path="/blog/eb1a-extraordinary-ability-visa-la-jolla" element={<EB1AExtraordinaryAbilityLaJolla language={language} />} />
-              <Route path="/blog/lebanese-community-immigration-resources-orange-county" element={<LebaneseCommunityResourcesOrangeCounty language={language} />} />
-              <Route path="/blog/emergency-advance-parole-corona" element={<EmergencyAdvanceParoleCorona language={language} />} />
-              <Route path="/blog/marriage-certificate-authentication-temecula" element={<MarriageCertificateAuthenticationTemecula language={language} />} />
-              <Route path="/blog/asylum-interview-preparation-san-diego" element={<AsylumInterviewPreparationSanDiego language={language} />} />
-              <Route path="/blog/religious-worker-r1-visa-glendale" element={<ReligiousWorkerR1VisaGlendale language={language} />} />
-              <Route path="/blog/i751-waiver-divorced-couples-ontario" element={<I751WaiverDivorcedCouplesOntario language={language} />} />
-              <Route path="/blog/egyptian-community-immigration-resources-anaheim" element={<EgyptianCommunityResourcesAnaheim language={language} />} />
-              <Route path="/blog/o1-extraordinary-artist-visa-glendale" element={<O1ArtistVisaGlendale language={language} />} />
-              <Route path="/blog/i140-priority-date-santa-ana" element={<I140PriorityDateSantaAna language={language} />} />
-              <Route path="/blog/grandparent-visitor-visa-murrieta" element={<GrandparentVisitorVisaMurrieta language={language} />} />
-              <Route path="/blog/jordanian-community-resources-chino-hills" element={<JordanianCommunityResourcesChinoHills language={language} />} />
-              <Route path="/blog/cat-protection-el-cajon" element={<CATProtectionElCajon language={language} />} />
-              <Route path="/blog/eb3-unskilled-worker-ontario" element={<EB3UnskilledWorkerOntario language={language} />} />
-              <Route path="/blog/birth-certificate-correction-garden-grove" element={<BirthCertificateCorrectionGardenGrove language={language} />} />
-              <Route path="/blog/f3-married-children-long-beach" element={<F3MarriedChildrenLongBeach language={language} />} />
-              <Route path="/blog/dual-intent-visa-issues-irvine" element={<DualIntentVisaIrvine language={language} />} />
-              <Route path="/blog/arab-women-entrepreneurs-orange-county" element={<ArabWomenEntrepreneursOC language={language} />} />
-              <Route path="/blog/afghan-siv-application-el-cajon" element={<AfghanSIVElCajon language={language} />} />
-              <Route path="/blog/uscis-biometrics-appointment-anaheim" element={<BiometricsAppointmentAnaheim language={language} />} />
-              <Route path="/blog/immigration-court-hearing-los-angeles" element={<ImmigrationCourtHearingLosAngeles language={language} />} />
-              <Route path="/blog/diversity-visa-lottery-irvine" element={<DiversityVisaLotteryIrvine language={language} />} />
-              <Route path="/blog/combo-card-ead-advance-parole-san-diego" element={<ComboCardEADSanDiego language={language} />} />
-              <Route path="/blog/uscis-expedite-request-riverside" element={<USCISExpediteRequestRiverside language={language} />} />
-              <Route path="/blog/i20-transfer-f1-students-fullerton" element={<I20TransferFullerton language={language} />} />
-              <Route path="/blog/visa-stamping-us-consulates-glendale" element={<VisaStampingUSConsulatesGlendale language={language} />} />
-              <Route path="/blog/unlawful-presence-waiver-i601a-santa-ana" element={<UnlawfulPresenceWaiverSantaAna language={language} />} />
-              <Route path="/blog/immigration-bond-hearing-orange-county" element={<ImmigrationBondHearingOrangeCounty language={language} />} />
-            </Routes>
-          </main>
-
-          <Footer language={language} content={content} />
-          <SupportBubble language={language} content={content} />
-        </div>
-      </Router>
-    </HelmetProvider>
-  );
+                    <Footer language={language} content={content} />
+                    <SupportBubble language={language} content={content} />
+                  </div>
+                </Router>
+              </HelmetProvider>
+              );
 };
 
-export default App;
+              export default App;

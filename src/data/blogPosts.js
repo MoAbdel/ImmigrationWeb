@@ -3,6 +3,83 @@
 
 export const blogPosts = [
   {
+    id: 999,
+    slug: "eb2-niw-strategy-guide",
+    title: { en: "The EB-2 NIW Strategy Guide: Green Card Without a Job Offer", ar: "دليل استراتيجية EB-2 NIW: الجرين كارد بدون عرض عمل" },
+    excerpt: { en: "Learn how professionals can bypass the labor certification process in 2026 using the National Interest Waiver. Includes interactive eligibility quiz.", ar: "تعرف على كيفية تجاوز المهنيين لعملية شهادة العمل في 2026 باستخدام الإعفاء من المصلحة الوطنية. يتضمن اختبار أهلية تفاعلي." },
+    date: "January 6, 2026",
+    readTime: "12",
+    category: "employment",
+    location: "Westminster",
+    image: "/images/blog/niw.jpg"
+  },
+  {
+    id: 998,
+    slug: "marriage-green-card-timeline-2026",
+    title: { en: "Marriage Green Card Timeline 2026: Month-by-Month Guide", ar: "الجدول الزمني للبطاقة الخضراء عبر الزواج 2026: دليل شهر بشهر" },
+    excerpt: { en: "Realistic expectations for spousal visas in the current year. Visualize each step from I-130 petition to interview with our interactive timeline.", ar: "توقعات واقعية لتأشيرات الزوج/الزوجة في العام الحالي. تصور كل خطوة من عريضة I-130 إلى المقابلة مع جدولنا الزمني التفاعلي." },
+    date: "January 7, 2026",
+    readTime: "10",
+    category: "family",
+    location: "Irvine",
+    image: "/images/blog/marriage.jpg"
+  },
+  {
+    id: 997,
+    slug: "h1b-alternatives-2026",
+    title: { en: "H-1B Alternatives for Tech Talent in 2026", ar: "بدائل H-1B للمواهب التقنية في 2026" },
+    excerpt: { en: "Why rely on a lottery? Explore O-1, TN, and L-1 visas. Compare your options with our interactive Venn diagram.", ar: "لماذا تعتمد على اليانصيب؟ استكشف تأشيرات O-1 و TN و L-1. قارن خياراتك مع مخطط Venn التفاعلي الخاص بنا." },
+    date: "January 5, 2026",
+    readTime: "9",
+    category: "employment",
+    location: "Irvine",
+    image: "/images/blog/tech.jpg"
+  },
+  {
+    id: 996,
+    slug: "investor-visa-usa-comparison",
+    title: { en: "Investment Visas: E-2 vs. EB-5", ar: "تأشيرات الاستثمار: E-2 مقابل EB-5" },
+    excerpt: { en: "Navigating the path for investors and entrepreneurs. Compare key requirements like investment amounts and green card paths side-by-side.", ar: "التنقل في المسار للمستثمرين ورواد الأعمال. قارن المتطلبات الرئيسية مثل مبالغ الاستثمار ومسارات الجرين كارد جنباً إلى جنب." },
+    date: "January 4, 2026",
+    readTime: "11",
+    category: "investment",
+    location: "Anaheim",
+    image: "/images/blog/invest.jpg"
+  },
+  {
+    id: 995,
+    slug: "daca-renewal-news-2026",
+    title: { en: "DACA Status & Updates 2026", ar: "وضع وتحديثات DACA لعام 2026" },
+    excerpt: { en: "Stay informed on Deferred Action for Childhood Arrivals. Check our live news ticker for the latest court rulings and fee updates.", ar: "ابق على اطلاع بشأن الإجراء المؤجل للقادمين في مرحلة الطفولة. تحقق من شريط الأخبار المباشر الخاص بنا للحصول على أحدث الأحكام القضائية وتحديثات الرسوم." },
+    date: "January 3, 2026",
+    readTime: "6",
+    category: "humanitarian",
+    location: "Riverside",
+    image: "/images/blog/daca.jpg"
+  },
+  {
+    id: 994,
+    slug: "naturalization-interview-questions",
+    title: { en: "The Citizenship Interview Prep Hub", ar: "مركز التحضير لمقابلة الجنسية" },
+    excerpt: { en: "Master the Civics Test with our practice tools. Test your knowledge with interactive flashcards covering common interview questions.", ar: "أتقن اختبار التربية المدنية باستخدام أدوات التدريب لدينا. اختبر معلوماتك ببطاقات تعليمية تفاعلية تغطي أسئلة المقابلة الشائعة." },
+    date: "January 2, 2026",
+    readTime: "15",
+    category: "citizenship",
+    location: "San Diego",
+    image: "/images/blog/civics.jpg"
+  },
+  {
+    id: 993,
+    slug: "k1-vs-cr1-visa-pros-and-cons",
+    title: { en: "Fiancé (K-1) vs. Spouse (CR-1) Visa: The Ultimate Battle", ar: "فيزا الخطيب (K-1) مقابل فيزا الزوج (CR-1): المعركة النهائية" },
+    excerpt: { en: "Unsure whether to marry now or later? Use our decision tool to weigh speed vs. cost for your relationship.", ar: "غير متأكد ما إذا كنت تتزوج الآن أم لاحقاً؟ استخدم أداة القرار الخاصة بنا لموازنة السرعة مقابل التكلفة لعلاقتك." },
+    date: "January 1, 2026",
+    readTime: "8",
+    category: "family",
+    location: "Los Angeles",
+    image: "/images/blog/love.jpg"
+  },
+  {
     id: 1,
     slug: "family-petition-i130-el-cajon",
     pillar: "family",
