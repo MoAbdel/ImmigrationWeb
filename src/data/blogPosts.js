@@ -3,6 +3,116 @@
 
 export const blogPosts = [
   {
+    id: 1019,
+    slug: "employment-green-card-priority-date-laguna-hills",
+    title: { en: "Employment Green Card Priority Date in Laguna Hills: Understanding EB Wait Times", ar: "تاريخ أولوية الجرين كارد الوظيفي في لاجونا هيلز: فهم أوقات انتظار EB" },
+    excerpt: { en: "Navigate employment-based green card priority dates. EB-1, EB-2, EB-3 wait times, visa bulletin tracking for professionals.", ar: "تنقل في تواريخ أولوية الجرين كارد القائمة على التوظيف. أوقات انتظار EB-1، EB-2، EB-3، تتبع نشرة التأشيرة للمهنيين." },
+    date: "January 9, 2026",
+    readTime: "12",
+    category: "employment",
+    location: "Laguna Hills",
+    image: "/images/blog/employment.jpg"
+  },
+  {
+    id: 1018,
+    slug: "sudanese-tps-national-city",
+    title: { en: "Sudanese TPS in National City: Temporary Protected Status for Sudan Nationals", ar: "TPS السوداني في ناشونال سيتي: الوضع المحمي المؤقت للمواطنين السودانيين" },
+    excerpt: { en: "TPS registration and renewal for Sudanese nationals. Work authorization, travel permits, and protection from deportation.", ar: "تسجيل وتجديد TPS للمواطنين السودانيين. تصريح العمل، تصاريح السفر، والحماية من الترحيل." },
+    date: "January 9, 2026",
+    readTime: "11",
+    category: "humanitarian",
+    location: "National City",
+    image: "/images/blog/tps.jpg"
+  },
+  {
+    id: 1017,
+    slug: "i864-income-requirements-upland",
+    title: { en: "I-864 Income Requirements in Upland: Affidavit of Support Income Guide 2026", ar: "متطلبات الدخل I-864 في أبلاند: دليل دخل إفادة الدعم 2026" },
+    excerpt: { en: "Complete I-864 income requirements guide. Federal poverty guidelines, household size calculation, joint sponsor options.", ar: "دليل شامل لمتطلبات الدخل I-864. إرشادات الفقر الفيدرالية، حساب حجم الأسرة، خيارات الكفيل المشترك." },
+    date: "January 9, 2026",
+    readTime: "10",
+    category: "documents",
+    location: "Upland",
+    image: "/images/blog/support.jpg"
+  },
+  {
+    id: 1016,
+    slug: "sb1-returning-resident-visa-moreno-valley",
+    title: { en: "SB-1 Returning Resident Visa in Moreno Valley: Reclaim Your Green Card Status", ar: "تأشيرة المقيم العائد SB-1 في مورينو فالي: استعادة وضع الجرين كارد" },
+    excerpt: { en: "Stuck abroad with expired green card? SB-1 returning resident visa help to regain permanent residence status.", ar: "عالق في الخارج مع جرين كارد منتهي الصلاحية؟ مساعدة تأشيرة المقيم العائد SB-1 لاستعادة وضع الإقامة الدائمة." },
+    date: "January 9, 2026",
+    readTime: "10",
+    category: "travel",
+    location: "Moreno Valley",
+    image: "/images/blog/travel.jpg"
+  },
+  {
+    id: 1015,
+    slug: "naturalization-criminal-record-redlands",
+    title: { en: "Naturalization with Criminal Record in Redlands: Citizenship Despite Past Mistakes", ar: "التجنس مع سجل جنائي في ريدلاندز: الجنسية رغم الأخطاء السابقة" },
+    excerpt: { en: "Can you become a citizen with a criminal record? Good moral character analysis and rehabilitation evidence guide.", ar: "هل يمكنك أن تصبح مواطناً مع سجل جنائي؟ تحليل الأخلاق الحميدة ودليل أدلة إعادة التأهيل." },
+    date: "January 9, 2026",
+    readTime: "14",
+    category: "citizenship",
+    location: "Redlands",
+    image: "/images/blog/citizenship.jpg"
+  },
+  {
+    id: 1014,
+    slug: "i130-priority-date-waiting-tustin",
+    title: { en: "I-130 Priority Date Waiting in Tustin: Managing Family Immigration Wait Times", ar: "انتظار تاريخ الأولوية I-130 في تستن: إدارة أوقات انتظار هجرة العائلة" },
+    excerpt: { en: "Understanding I-130 priority dates and wait times. Check visa bulletin, maintain eligibility during multi-year waits.", ar: "فهم تواريخ أولوية I-130 وأوقات الانتظار. تحقق من نشرة التأشيرة، حافظ على الأهلية خلال الانتظار متعدد السنوات." },
+    date: "January 9, 2026",
+    readTime: "11",
+    category: "family",
+    location: "Tustin",
+    image: "/images/blog/family.jpg"
+  },
+  {
+    id: 1013,
+    slug: "stokes-interview-preparation-brea",
+    title: { en: "Stokes Interview Preparation in Brea: Marriage Fraud Interview Guide", ar: "التحضير لمقابلة ستوكس في بريا: دليل مقابلة الاحتيال الزوجي" },
+    excerpt: { en: "Expert Stokes interview preparation for couples facing marriage fraud investigations. Separate interview tips and documentation.", ar: "تحضير خبير لمقابلة ستوكس للأزواج الذين يواجهون تحقيقات الاحتيال الزوجي. نصائح المقابلة المنفصلة والتوثيق." },
+    date: "January 9, 2026",
+    readTime: "13",
+    category: "family",
+    location: "Brea",
+    image: "/images/blog/interview.jpg"
+  },
+  {
+    id: 1012,
+    slug: "ssa-benefits-immigrants-norwalk",
+    title: { en: "SSA Benefits for Immigrants in Norwalk: Social Security Guide for Green Card Holders", ar: "مزايا SSA للمهاجرين في نورووك: دليل الضمان الاجتماعي لحاملي الجرين كارد" },
+    excerpt: { en: "Complete guide to Social Security benefits for immigrants. SSI, retirement, disability benefits eligibility and application.", ar: "دليل شامل لمزايا الضمان الاجتماعي للمهاجرين. أهلية SSI، التقاعد، مزايا الإعاقة والتقديم." },
+    date: "January 9, 2026",
+    readTime: "12",
+    category: "benefits",
+    location: "Norwalk",
+    image: "/images/blog/benefits.jpg"
+  },
+  {
+    id: 1011,
+    slug: "f1-visa-reinstatement-claremont",
+    title: { en: "F-1 Visa Reinstatement in Claremont: Student Status Recovery Guide", ar: "استعادة تأشيرة F-1 في كليرمونت: دليل استعادة وضع الطالب" },
+    excerpt: { en: "Expert F-1 visa reinstatement help for international students who fell out of status. 5-month rule and documentation guide.", ar: "مساعدة خبراء استعادة تأشيرة F-1 للطلاب الدوليين الذين فقدوا وضعهم. قاعدة الـ 5 أشهر ودليل التوثيق." },
+    date: "January 9, 2026",
+    readTime: "10",
+    category: "student",
+    location: "Claremont",
+    image: "/images/blog/student.jpg"
+  },
+  {
+    id: 1010,
+    slug: "withholding-of-removal-hemet",
+    title: { en: "Withholding of Removal in Hemet: Protection from Deportation for Arab Immigrants", ar: "وقف الترحيل في هيميت: الحماية من الترحيل للمهاجرين العرب" },
+    excerpt: { en: "Expert withholding of removal assistance for immigrants facing deportation. Alternative protection when asylum is not available.", ar: "مساعدة خبراء وقف الترحيل للمهاجرين الذين يواجهون الترحيل. حماية بديلة عندما لا يتوفر اللجوء." },
+    date: "January 9, 2026",
+    readTime: "11",
+    category: "asylum",
+    location: "Hemet",
+    image: "/images/blog/protection.jpg"
+  },
+  {
     id: 1009,
     slug: "i693-medical-exam-guide-westminster",
     title: { en: "I-693 Medical Exam Guide in Westminster: Immigration Physical Requirements 2026", ar: "دليل الفحص الطبي I-693 في ويستمنستر: متطلبات الفحص الطبي للهجرة 2026" },

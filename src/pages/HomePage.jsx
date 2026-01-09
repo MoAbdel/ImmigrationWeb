@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Users, Flag, FileText, ScrollText, Heart, Award, Shield, Phone, CheckCircle, Send, Star, ChevronDown } from 'lucide-react';
 import { Link } from 'react-router-dom';
+import { Helmet } from 'react-helmet-async';
 import ContactForm from '../components/ContactForm';
 
 const HomePage = ({ language, content }) => {
@@ -13,7 +14,13 @@ const HomePage = ({ language, content }) => {
   };
 
   return (
-    <div className={`min-h-screen bg-gray-50 ${isRTL ? 'rtl' : 'ltr'}`} dir={isRTL ? 'rtl' : 'ltr'}>
+    <>
+      <Helmet>
+        <title>SoCal Immigration Services | Immigration Document Preparation in Southern California</title>
+        <meta name="description" content="Professional immigration document preparation, translation, and notary services in Southern California. Serving Garden Grove, Orange County, and Los Angeles." />
+        <link rel="canonical" href="https://www.socalimmigrationservices.com/" />
+      </Helmet>
+      <div className={`min-h-screen bg-gray-50 ${isRTL ? 'rtl' : 'ltr'}`} dir={isRTL ? 'rtl' : 'ltr'}>
       {/* Hero Section - Enhanced with Gradient Overlay */}
       <section
         id="home"
@@ -307,7 +314,8 @@ const HomePage = ({ language, content }) => {
 
       {/* Contact Form */}
       <ContactForm language={language} content={content} />
-    </div>
+      </div>
+    </>
   );
 };
 

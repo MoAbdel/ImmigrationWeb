@@ -129,6 +129,17 @@ import I20TransferFullerton from './pages/blog/posts/I20TransferFullerton';
 import VisaStampingUSConsulatesGlendale from './pages/blog/posts/VisaStampingUSConsulatesGlendale';
 import UnlawfulPresenceWaiverSantaAna from './pages/blog/posts/UnlawfulPresenceWaiverSantaAna';
 import ImmigrationBondHearingOrangeCounty from './pages/blog/posts/ImmigrationBondHearingOrangeCounty';
+import WithholdingOfRemovalHemet from './pages/blog/posts/WithholdingOfRemovalHemet';
+import F1VisaReinstatementClaremont from './pages/blog/posts/F1VisaReinstatementClaremont';
+import SSABenefitsImmigrantsNorwalk from './pages/blog/posts/SSABenefitsImmigrantsNorwalk';
+import StokesInterviewPrepBrea from './pages/blog/posts/StokesInterviewPrepBrea';
+import I130PriorityDateWaitTustin from './pages/blog/posts/I130PriorityDateWaitTustin';
+import NaturalizationCriminalRecordRedlands from './pages/blog/posts/NaturalizationCriminalRecordRedlands';
+import SB1ReturningResidentMorenoValley from './pages/blog/posts/SB1ReturningResidentMorenoValley';
+import I864IncomeRequirementsUpland from './pages/blog/posts/I864IncomeRequirementsUpland';
+import SudaneseTpsNationalCity from './pages/blog/posts/SudaneseTpsNationalCity';
+import EmploymentGreenCardPriorityLagunaHills from './pages/blog/posts/EmploymentGreenCardPriorityLagunaHills';
+import ConsularInterviewPrepSanClemente from './pages/blog/posts/ConsularInterviewPrepSanClemente';
 
 import EB2NIWStrategy from './pages/blog/posts/EB2NIWStrategy';
 import MarriageGreenCardTimeline from './pages/blog/posts/MarriageGreenCardTimeline';
@@ -652,6 +663,17 @@ const App = () => {
                         <Route path="/blog/visa-stamping-us-consulates-glendale" element={<VisaStampingUSConsulatesGlendale language={language} />} />
                         <Route path="/blog/unlawful-presence-waiver-i601a-santa-ana" element={<UnlawfulPresenceWaiverSantaAna language={language} />} />
                         <Route path="/blog/immigration-bond-hearing-orange-county" element={<ImmigrationBondHearingOrangeCounty language={language} />} />
+                        <Route path="/blog/withholding-of-removal-hemet" element={<WithholdingOfRemovalHemet language={language} />} />
+                        <Route path="/blog/f1-visa-reinstatement-claremont" element={<F1VisaReinstatementClaremont language={language} />} />
+                        <Route path="/blog/ssa-benefits-immigrants-norwalk" element={<SSABenefitsImmigrantsNorwalk language={language} />} />
+                        <Route path="/blog/stokes-interview-preparation-brea" element={<StokesInterviewPrepBrea language={language} />} />
+                        <Route path="/blog/i130-priority-date-waiting-tustin" element={<I130PriorityDateWaitTustin language={language} />} />
+                        <Route path="/blog/naturalization-criminal-record-redlands" element={<NaturalizationCriminalRecordRedlands language={language} />} />
+                        <Route path="/blog/sb1-returning-resident-visa-moreno-valley" element={<SB1ReturningResidentMorenoValley language={language} />} />
+                        <Route path="/blog/i864-income-requirements-upland" element={<I864IncomeRequirementsUpland language={language} />} />
+                        <Route path="/blog/sudanese-tps-national-city" element={<SudaneseTpsNationalCity language={language} />} />
+                        <Route path="/blog/employment-green-card-priority-date-laguna-hills" element={<EmploymentGreenCardPriorityLagunaHills language={language} />} />
+                        <Route path="/blog/consular-interview-preparation-san-clemente" element={<ConsularInterviewPrepSanClemente language={language} />} />
                       </Routes>
                     </main>
 
