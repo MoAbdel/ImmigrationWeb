@@ -126,16 +126,16 @@ const BlogPostTemplate = ({ content, language }) => {
     "availableLanguage": ["English", "Arabic", "Spanish"]
   };
 
-  // FAQ Schema if FAQs exist
+  // FAQ Schema if FAQs exist (handles both q/a and question/answer formats)
   const faqSchema = t.faqs ? {
     "@context": "https://schema.org",
     "@type": "FAQPage",
     "mainEntity": t.faqs.map(faq => ({
       "@type": "Question",
-      "name": faq.q,
+      "name": faq.q || faq.question,
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": faq.a
+        "text": faq.a || faq.answer
       }
     }))
   } : null;
@@ -467,10 +467,10 @@ const BlogPostTemplate = ({ content, language }) => {
                       <div key={idx} className="border-b border-gray-200 pb-6 last:border-0 last:pb-0">
                         <h3 className="text-lg font-semibold text-slate-900 mb-2 flex items-start gap-2">
                           <span className="text-amber-600 font-bold">Q:</span>
-                          {faq.q}
+                          {faq.q || faq.question}
                         </h3>
                         <p className="text-gray-700 pl-6">
-                          <span className="text-green-600 font-bold">A:</span> {faq.a}
+                          <span className="text-green-600 font-bold">A:</span> {faq.a || faq.answer}
                         </p>
                       </div>
                     ))}
