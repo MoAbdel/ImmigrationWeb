@@ -140,6 +140,19 @@ import I864IncomeRequirementsUpland from './pages/blog/posts/I864IncomeRequireme
 import SudaneseTpsNationalCity from './pages/blog/posts/SudaneseTpsNationalCity';
 import EmploymentGreenCardPriorityLagunaHills from './pages/blog/posts/EmploymentGreenCardPriorityLagunaHills';
 import ConsularInterviewPrepSanClemente from './pages/blog/posts/ConsularInterviewPrepSanClemente';
+import O1VisaExtraordinaryAbilityPasadena from './pages/blog/posts/O1VisaExtraordinaryAbilityPasadena';
+import J1VisaWaiverFullerton from './pages/blog/posts/J1VisaWaiverFullerton';
+import TNVisaProfessionalsChulaVista from './pages/blog/posts/TNVisaProfessionalsChulaVista';
+import RemovalProceedingsDefenseLongBeach from './pages/blog/posts/RemovalProceedingsDefenseLongBeach';
+import I601InadmissibilityWaiverSanBernardino from './pages/blog/posts/I601InadmissibilityWaiverSanBernardino';
+import I212PermissionReapplyFontana from './pages/blog/posts/I212PermissionReapplyFontana';
+import SpecialImmigrantJuvenileStatusPomona from './pages/blog/posts/SpecialImmigrantJuvenileStatusPomona';
+import CATProtectionEscondido from './pages/blog/posts/CATProtectionEscondido';
+import PublicChargeRanchoCucamonga from './pages/blog/posts/PublicChargeRanchoCucamonga';
+import B1B2VisaExtensionNewportBeach from './pages/blog/posts/B1B2VisaExtensionNewportBeach';
+import H4EADMissionViejo from './pages/blog/posts/H4EADMissionViejo';
+import DACARenevwalSantaAna from './pages/blog/posts/DACARenevwalSantaAna';
+import EB5RegionalCenterBeverlyHills from './pages/blog/posts/EB5RegionalCenterBeverlyHills';
 
 import EB2NIWStrategy from './pages/blog/posts/EB2NIWStrategy';
 import MarriageGreenCardTimeline from './pages/blog/posts/MarriageGreenCardTimeline';
@@ -674,6 +687,19 @@ const App = () => {
                         <Route path="/blog/sudanese-tps-national-city" element={<SudaneseTpsNationalCity language={language} />} />
                         <Route path="/blog/employment-green-card-priority-date-laguna-hills" element={<EmploymentGreenCardPriorityLagunaHills language={language} />} />
                         <Route path="/blog/consular-interview-preparation-san-clemente" element={<ConsularInterviewPrepSanClemente language={language} />} />
+                        <Route path="/blog/o1-visa-extraordinary-ability-pasadena" element={<O1VisaExtraordinaryAbilityPasadena language={language} />} />
+                        <Route path="/blog/j1-visa-waiver-fullerton" element={<J1VisaWaiverFullerton language={language} />} />
+                        <Route path="/blog/tn-visa-professionals-chula-vista" element={<TNVisaProfessionalsChulaVista language={language} />} />
+                        <Route path="/blog/removal-proceedings-defense-long-beach" element={<RemovalProceedingsDefenseLongBeach language={language} />} />
+                        <Route path="/blog/i-601-inadmissibility-waiver-san-bernardino" element={<I601InadmissibilityWaiverSanBernardino language={language} />} />
+                        <Route path="/blog/i-212-permission-reapply-fontana" element={<I212PermissionReapplyFontana language={language} />} />
+                        <Route path="/blog/special-immigrant-juvenile-status-pomona" element={<SpecialImmigrantJuvenileStatusPomona language={language} />} />
+                        <Route path="/blog/cat-protection-escondido" element={<CATProtectionEscondido language={language} />} />
+                        <Route path="/blog/public-charge-rule-rancho-cucamonga" element={<PublicChargeRanchoCucamonga language={language} />} />
+                        <Route path="/blog/b1-b2-visitor-visa-extension-newport-beach" element={<B1B2VisaExtensionNewportBeach language={language} />} />
+                        <Route path="/blog/h4-ead-mission-viejo" element={<H4EADMissionViejo language={language} />} />
+                        <Route path="/blog/daca-renewal-santa-ana" element={<DACARenevwalSantaAna language={language} />} />
+                        <Route path="/blog/eb5-regional-center-investment-beverly-hills" element={<EB5RegionalCenterBeverlyHills language={language} />} />
                       </Routes>
                     </main>
 
