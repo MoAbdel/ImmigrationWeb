@@ -3,6 +3,149 @@
 
 export const blogPosts = [
   {
+    id: 1032,
+    slug: "eb5-regional-center-investment-beverly-hills",
+    title: { en: "EB-5 Regional Center Investment Visa: Your Path to a Green Card Through Investment in Beverly Hills", ar: "تأشيرة EB-5 للاستثمار في المركز الإقليمي: طريقك للحصول على البطاقة الخضراء من خلال الاستثمار في بيفرلي هيلز" },
+    excerpt: { en: "Expert EB-5 Regional Center visa guidance. $800,000 minimum investment for immigrant investors seeking permanent residency.", ar: "توجيه خبير لتأشيرة EB-5 للمركز الإقليمي. الحد الأدنى للاستثمار 800,000 دولار للمستثمرين المهاجرين الذين يسعون للإقامة الدائمة." },
+    date: "January 10, 2026",
+    readTime: "14",
+    category: "investment",
+    location: "Beverly Hills",
+    image: "/images/blog/investment.jpg"
+  },
+  {
+    id: 1031,
+    slug: "daca-renewal-santa-ana",
+    title: { en: "DACA Renewal in Santa Ana: Complete Deferred Action Renewal Guide 2026", ar: "تجديد DACA في سانتا آنا: دليل تجديد الإجراء المؤجل الكامل 2026" },
+    excerpt: { en: "Complete DACA renewal guide for Santa Ana Dreamers. Filing timelines, required documents, and work permit extension process.", ar: "دليل تجديد DACA الشامل لحالمي سانتا آنا. المواعيد النهائية للتقديم، الوثائق المطلوبة، وعملية تمديد تصريح العمل." },
+    date: "January 10, 2026",
+    readTime: "11",
+    category: "daca",
+    location: "Santa Ana",
+    image: "/images/blog/daca.jpg"
+  },
+  {
+    id: 1030,
+    slug: "h4-ead-mission-viejo",
+    title: { en: "H-4 EAD in Mission Viejo: Work Authorization for H-1B Dependent Spouses", ar: "H-4 EAD في ميشن فيجو: تصريح العمل لأزواج المعالين H-1B" },
+    excerpt: { en: "H-4 EAD work permit for H-1B dependent spouses. Eligibility requirements, application process, and renewal timelines.", ar: "تصريح عمل H-4 EAD لأزواج المعالين H-1B. متطلبات الأهلية، عملية التقديم، ومواعيد التجديد." },
+    date: "January 10, 2026",
+    readTime: "11",
+    category: "employment",
+    location: "Mission Viejo",
+    image: "/images/blog/employment.jpg"
+  },
+  {
+    id: 1029,
+    slug: "b1-b2-visitor-visa-extension-newport-beach",
+    title: { en: "B-1/B-2 Visitor Visa Extension in Newport Beach: Extend Your Stay Legally", ar: "تمديد تأشيرة الزائر B-1/B-2 في نيوبورت بيتش: مد إقامتك بشكل قانوني" },
+    excerpt: { en: "B-1/B-2 visitor visa extension guide for Newport Beach visitors. Application timing, required documents, and approval strategies.", ar: "دليل تمديد تأشيرة الزائر B-1/B-2 لزوار نيوبورت بيتش. توقيت التقديم، الوثائق المطلوبة، واستراتيجيات الموافقة." },
+    date: "January 10, 2026",
+    readTime: "10",
+    category: "travel",
+    location: "Newport Beach",
+    image: "/images/blog/travel.jpg"
+  },
+  {
+    id: 1028,
+    slug: "public-charge-rule-rancho-cucamonga",
+    title: { en: "Public Charge Rule in Rancho Cucamonga: Understanding Benefits and Immigration Impact", ar: "قاعدة العبء العام في رانشو كوكامونغا: فهم المزايا وتأثير الهجرة" },
+    excerpt: { en: "Navigate public charge rule concerns in Rancho Cucamonga. Which benefits affect immigration status and how to protect your case.", ar: "تنقل في مخاوف قاعدة العبء العام في رانشو كوكامونغا. أي المزايا تؤثر على وضع الهجرة وكيفية حماية قضيتك." },
+    date: "January 10, 2026",
+    readTime: "12",
+    category: "benefits",
+    location: "Rancho Cucamonga",
+    image: "/images/blog/benefits.jpg"
+  },
+  {
+    id: 1027,
+    slug: "cat-protection-escondido",
+    title: { en: "CAT Protection in Escondido: Convention Against Torture Relief from Deportation", ar: "حماية CAT في إسكونديدو: اتفاقية مناهضة التعذيب للإعفاء من الترحيل" },
+    excerpt: { en: "Convention Against Torture protection for Escondido residents facing deportation to countries with torture risk.", ar: "حماية اتفاقية مناهضة التعذيب لسكان إسكونديدو الذين يواجهون الترحيل إلى بلدان ذات خطر التعذيب." },
+    date: "January 10, 2026",
+    readTime: "13",
+    category: "humanitarian",
+    location: "Escondido",
+    image: "/images/blog/humanitarian.jpg"
+  },
+  {
+    id: 1026,
+    slug: "special-immigrant-juvenile-status-pomona",
+    title: { en: "Special Immigrant Juvenile Status in Pomona: SIJS Green Card for Abused Youth", ar: "وضع الأحداث المهاجرين الخاص في بومونا: البطاقة الخضراء SIJS للشباب المعتدى عليهم" },
+    excerpt: { en: "SIJS protection for abused, neglected, or abandoned immigrant youth in Pomona. State court findings and green card process.", ar: "حماية SIJS للشباب المهاجرين المعتدى عليهم أو المهملين أو المتروكين في بومونا. نتائج محكمة الولاية وعملية البطاقة الخضراء." },
+    date: "January 10, 2026",
+    readTime: "13",
+    category: "humanitarian",
+    location: "Pomona",
+    image: "/images/blog/humanitarian.jpg"
+  },
+  {
+    id: 1025,
+    slug: "i-212-permission-reapply-fontana",
+    title: { en: "I-212 Permission to Reapply in Fontana: Returning After Deportation or Removal", ar: "إذن I-212 لإعادة التقديم في فونتانا: العودة بعد الترحيل أو الإبعاد" },
+    excerpt: { en: "I-212 waiver for individuals seeking to return to the U.S. after deportation or removal. Eligibility and application process.", ar: "إعفاء I-212 للأفراد الذين يسعون للعودة إلى الولايات المتحدة بعد الترحيل أو الإبعاد. الأهلية وعملية التقديم." },
+    date: "January 10, 2026",
+    readTime: "12",
+    category: "waivers",
+    location: "Fontana",
+    image: "/images/blog/waivers.jpg"
+  },
+  {
+    id: 1024,
+    slug: "i-601-inadmissibility-waiver-san-bernardino",
+    title: { en: "I-601 Inadmissibility Waiver in San Bernardino: Overcome Immigration Bars", ar: "إعفاء عدم القبول I-601 في سان برناردينو: التغلب على حواجز الهجرة" },
+    excerpt: { en: "I-601 waiver solutions for unlawful presence, fraud, and other inadmissibility grounds. Extreme hardship evidence strategies.", ar: "حلول إعفاء I-601 للوجود غير القانوني والاحتيال وأسباب عدم القبول الأخرى. استراتيجيات إثبات المشقة الشديدة." },
+    date: "January 10, 2026",
+    readTime: "14",
+    category: "waivers",
+    location: "San Bernardino",
+    image: "/images/blog/waivers.jpg"
+  },
+  {
+    id: 1023,
+    slug: "removal-proceedings-defense-long-beach",
+    title: { en: "Removal Proceedings Defense in Long Beach: Immigration Court Representation", ar: "الدفاع في إجراءات الإبعاد في لونغ بيتش: التمثيل في محكمة الهجرة" },
+    excerpt: { en: "Expert deportation defense in Long Beach immigration court. Cancellation of removal, asylum, and relief options explained.", ar: "دفاع خبير ضد الترحيل في محكمة الهجرة في لونغ بيتش. إلغاء الإبعاد واللجوء وخيارات الإعفاء موضحة." },
+    date: "January 10, 2026",
+    readTime: "15",
+    category: "deportation",
+    location: "Long Beach",
+    image: "/images/blog/deportation.jpg"
+  },
+  {
+    id: 1022,
+    slug: "tn-visa-professionals-chula-vista",
+    title: { en: "TN Visa for Professionals in Chula Vista: USMCA Work Authorization for Canadians and Mexicans", ar: "تأشيرة TN للمهنيين في تشولا فيستا: تصريح عمل USMCA للكنديين والمكسيكيين" },
+    excerpt: { en: "TN visa for Canadian and Mexican professionals in Chula Vista. USMCA eligible occupations and application procedures.", ar: "تأشيرة TN للمهنيين الكنديين والمكسيكيين في تشولا فيستا. المهن المؤهلة لـ USMCA وإجراءات التقديم." },
+    date: "January 10, 2026",
+    readTime: "11",
+    category: "employment",
+    location: "Chula Vista",
+    image: "/images/blog/employment.jpg"
+  },
+  {
+    id: 1021,
+    slug: "j1-visa-waiver-fullerton",
+    title: { en: "J-1 Visa Waiver in Fullerton: Overcoming the Two-Year Home Residency Requirement", ar: "إعفاء تأشيرة J-1 في فولرتون: التغلب على شرط الإقامة في الوطن لمدة عامين" },
+    excerpt: { en: "J-1 waiver solutions for exchange visitors subject to two-year home residency requirement. No objection, hardship, and persecution waivers.", ar: "حلول إعفاء J-1 للزوار المتبادلين الخاضعين لشرط الإقامة في الوطن لمدة عامين. إعفاءات عدم الاعتراض والمشقة والاضطهاد." },
+    date: "January 10, 2026",
+    readTime: "12",
+    category: "waivers",
+    location: "Fullerton",
+    image: "/images/blog/waivers.jpg"
+  },
+  {
+    id: 1020,
+    slug: "o1-visa-extraordinary-ability-pasadena",
+    title: { en: "O-1 Visa for Extraordinary Ability in Pasadena: Visas for Exceptional Talent", ar: "تأشيرة O-1 للقدرة الاستثنائية في باسادينا: تأشيرات للمواهب الاستثنائية" },
+    excerpt: { en: "O-1 visa for individuals with extraordinary ability in sciences, arts, business, or athletics in Pasadena.", ar: "تأشيرة O-1 للأفراد ذوي القدرة الاستثنائية في العلوم أو الفنون أو الأعمال أو الرياضة في باسادينا." },
+    date: "January 10, 2026",
+    readTime: "13",
+    category: "employment",
+    location: "Pasadena",
+    image: "/images/blog/employment.jpg"
+  },
+  {
     id: 1019,
     slug: "employment-green-card-priority-date-laguna-hills",
     title: { en: "Employment Green Card Priority Date in Laguna Hills: Understanding EB Wait Times", ar: "تاريخ أولوية الجرين كارد الوظيفي في لاجونا هيلز: فهم أوقات انتظار EB" },
