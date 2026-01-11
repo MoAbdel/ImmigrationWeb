@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { Phone, Mail, MapPin, ArrowUp } from 'lucide-react';
 
 const Footer = ({ language, content }) => {
@@ -17,7 +18,7 @@ const Footer = ({ language, content }) => {
       </div>
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 sm:gap-10 md:gap-12 mb-8 sm:mb-10 md:mb-12">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 sm:gap-10 md:gap-12 mb-8 sm:mb-10 md:mb-12">
           {/* About */}
           <div>
             <h3 className="text-xl sm:text-2xl font-serif font-bold text-white mb-4 sm:mb-6">
@@ -26,12 +27,73 @@ const Footer = ({ language, content }) => {
             <p className="text-sm sm:text-base text-gray-300 leading-relaxed mb-3 sm:mb-4">
               {t.footer.description}
             </p>
-            <p className="text-sm sm:text-base text-gray-300 leading-relaxed mb-3 sm:mb-4">
-              {t.footer.services}
-            </p>
             <p className="text-xs sm:text-sm text-amber-400 font-semibold">
               {t.footer.hours}
             </p>
+          </div>
+
+          {/* Our Services */}
+          <div>
+            <h4 className="text-xl sm:text-2xl font-bold mb-4 sm:mb-6 font-serif">{language === 'en' ? 'Our Services' : 'خدماتنا'}</h4>
+            <ul className="space-y-2 sm:space-y-3">
+              <li>
+                <Link to="/family-immigration" className="text-sm sm:text-base text-gray-300 hover:text-amber-400 transition-colors">
+                  {language === 'en' ? 'Family Immigration' : 'هجرة الأسرة'}
+                </Link>
+              </li>
+              <li>
+                <Link to="/citizenship-naturalization" className="text-sm sm:text-base text-gray-300 hover:text-amber-400 transition-colors">
+                  {language === 'en' ? 'Citizenship & Naturalization' : 'الجنسية والتجنس'}
+                </Link>
+              </li>
+              <li>
+                <Link to="/green-card-services" className="text-sm sm:text-base text-gray-300 hover:text-amber-400 transition-colors">
+                  {language === 'en' ? 'Green Card Services' : 'خدمات البطاقة الخضراء'}
+                </Link>
+              </li>
+              <li>
+                <Link to="/daca-services" className="text-sm sm:text-base text-gray-300 hover:text-amber-400 transition-colors">
+                  {language === 'en' ? 'DACA Services' : 'خدمات داكا'}
+                </Link>
+              </li>
+              <li>
+                <Link to="/asylum-services" className="text-sm sm:text-base text-gray-300 hover:text-amber-400 transition-colors">
+                  {language === 'en' ? 'Asylum Services' : 'خدمات اللجوء'}
+                </Link>
+              </li>
+            </ul>
+          </div>
+
+          {/* Areas We Serve */}
+          <div>
+            <h4 className="text-xl sm:text-2xl font-bold mb-4 sm:mb-6 font-serif">{language === 'en' ? 'Areas We Serve' : 'المناطق التي نخدمها'}</h4>
+            <ul className="space-y-2 sm:space-y-3">
+              <li>
+                <Link to="/irvine" className="text-sm sm:text-base text-gray-300 hover:text-amber-400 transition-colors">
+                  Irvine, CA
+                </Link>
+              </li>
+              <li>
+                <Link to="/anaheim" className="text-sm sm:text-base text-gray-300 hover:text-amber-400 transition-colors">
+                  Anaheim, CA
+                </Link>
+              </li>
+              <li>
+                <Link to="/santa-ana" className="text-sm sm:text-base text-gray-300 hover:text-amber-400 transition-colors">
+                  Santa Ana, CA
+                </Link>
+              </li>
+              <li>
+                <Link to="/los-angeles" className="text-sm sm:text-base text-gray-300 hover:text-amber-400 transition-colors">
+                  Los Angeles, CA
+                </Link>
+              </li>
+              <li>
+                <Link to="/blog" className="text-sm sm:text-base text-gray-300 hover:text-amber-400 transition-colors">
+                  {language === 'en' ? 'Immigration Blog' : 'مدونة الهجرة'}
+                </Link>
+              </li>
+            </ul>
           </div>
 
           {/* Contact */}

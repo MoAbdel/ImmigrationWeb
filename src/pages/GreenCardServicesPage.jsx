@@ -165,7 +165,7 @@ const GreenCardServicesPage = ({ language }) => {
       <Helmet>
         <title>{t.meta.title}</title>
         <meta name="description" content={t.meta.description} />
-        <link rel="canonical" href="https://www.socalimmigrationservices.com/green-card-services" />
+        <link rel="canonical" href="https://www.socalimmigrationservices.com/green-card-services/" />
       </Helmet>
 
       <div className={`min-h-screen bg-gray-50 ${isRTL ? 'rtl' : 'ltr'}`} dir={isRTL ? 'rtl' : 'ltr'}>

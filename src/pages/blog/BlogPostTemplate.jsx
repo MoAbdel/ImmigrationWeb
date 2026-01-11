@@ -87,7 +87,7 @@ const BlogPostTemplate = ({ content, language }) => {
     "dateModified": isoDateModified,
     "mainEntityOfPage": {
       "@type": "WebPage",
-      "@id": `https://www.socalimmigrationservices.com/blog/${t.slug}`
+      "@id": `https://www.socalimmigrationservices.com/blog/${t.slug}/`
     },
     "articleSection": t.category,
     "wordCount": t.wordCount || 2000,
@@ -149,19 +149,19 @@ const BlogPostTemplate = ({ content, language }) => {
         "@type": "ListItem",
         "position": 1,
         "name": "Home",
-        "item": "https://www.socalimmigrationservices.com"
+        "item": "https://www.socalimmigrationservices.com/"
       },
       {
         "@type": "ListItem",
         "position": 2,
         "name": "Blog",
-        "item": "https://www.socalimmigrationservices.com/blog"
+        "item": "https://www.socalimmigrationservices.com/blog/"
       },
       {
         "@type": "ListItem",
         "position": 3,
         "name": t.title,
-        "item": `https://www.socalimmigrationservices.com/blog/${t.slug}`
+        "item": `https://www.socalimmigrationservices.com/blog/${t.slug}/`
       }
     ]
   };
@@ -180,14 +180,14 @@ const BlogPostTemplate = ({ content, language }) => {
         <title>{t.metaTitle}</title>
         <meta name="description" content={t.metaDescription} />
         <meta name="keywords" content={t.keywords} />
-        <link rel="canonical" href={`https://www.socalimmigrationservices.com/blog/${t.slug}`} />
+        <link rel="canonical" href={`https://www.socalimmigrationservices.com/blog/${t.slug}/`} />
 
         {/* Open Graph */}
         <meta property="og:title" content={t.title} />
         <meta property="og:description" content={t.metaDescription} />
         <meta property="og:type" content="article" />
         <meta property="og:locale" content={language === 'ar' ? 'ar_SA' : 'en_US'} />
-        <meta property="og:url" content={`https://www.socalimmigrationservices.com/blog/${t.slug}`} />
+        <meta property="og:url" content={`https://www.socalimmigrationservices.com/blog/${t.slug}/`} />
         <meta property="article:published_time" content={isoDatePublished} />
         <meta property="article:modified_time" content={isoDateModified} />
         <meta property="article:section" content={t.category} />

@@ -98,7 +98,7 @@ const SantaAnaPage = ({ language }) => {
       <Helmet>
         <title>{t.meta.title}</title>
         <meta name="description" content={t.meta.description} />
-        <link rel="canonical" href="https://www.socalimmigrationservices.com/santa-ana" />
+        <link rel="canonical" href="https://www.socalimmigrationservices.com/santa-ana/" />
         <script type="application/ld+json">{JSON.stringify(schemaData)}</script>
       </Helmet>
 

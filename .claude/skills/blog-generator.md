@@ -2862,5 +2862,108 @@ A: {Direct answer with recommendation}
 
 ---
 
+## 🔄 POST-GENERATION: 2025 Blog Refresh Workflow (MANDATORY)
+
+**After completing blog generation, ALWAYS execute this refresh workflow to keep existing 2025 content fresh and SEO-optimized.**
+
+### Purpose
+- Refresh older 2025 blog posts with new FAQ content
+- Update publication dates to signal freshness to search engines
+- Improve topical authority by expanding existing immigration content
+
+### Workflow Steps
+
+#### Step 1: Find 2025 Blog Posts
+```bash
+# Find all blog posts created in 2025
+find src/app/blog -name "page.tsx" -newer "2025-01-01" ! -newer "2025-12-31" -type f
+# OR check datePublished in schema for 2025 dates
+grep -r "datePublished.*2025" src/app/blog/*/page.tsx
+```
+
+#### Step 2: Select 10 Random Posts
+```bash
+# Randomly select 10 posts from the 2025 list
+find src/app/blog -name "page.tsx" -type f | shuf -n 10
+```
+
+**Selection Criteria:**
+- Prefer posts older than 60 days since last update
+- Prioritize posts with declining traffic (check GSC data)
+- Avoid posts updated within the last 30 days
+- Balance across pillars (Family, K-1/Marriage, Asylum, Citizenship, Work Visas)
+- Mix different Southern California locations
+
+#### Step 3: Add 3 New FAQs to Each Post
+
+For each of the 10 selected posts:
+
+1. **Read the existing post** and identify the primary keyword and target location
+2. **Fetch fresh PAA questions** from Google for immigration-related queries
+3. **Select 3 NEW questions** not already in the FAQ section
+4. **Generate answers** following these requirements:
+   - 40-80 words per answer in BOTH English and Arabic
+   - Include the primary keyword and SoCal city naturally
+   - Reference USCIS guidelines when relevant
+   - Add data-speakable attribute for voice search
+   - Use schema.org FAQPage format
+
+**FAQ Addition Template:**
+```tsx
+// Add to existing FAQPage schema
+{
+  "@type": "Question",
+  "name": "[New PAA question about immigration in SoCal]",
+  "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "[40-80 word answer with primary keyword, city, and immigration specifics]"
+  }
+}
+```
+
+#### Step 4: Update Post Dates to Current Date
+
+For each updated post:
+
+1. **Update dateModified** in Article schema:
+   ```tsx
+   "dateModified": "YYYY-MM-DD" // Use current date
+   ```
+
+2. **Update visible date** in the blog post UI:
+   ```tsx
+   date: "YYYY-MM-DD" // Use current date in blogData
+   ```
+
+3. **Keep datePublished unchanged** (preserve original publication date)
+
+### Refresh Summary Output
+
+After completing the refresh, output a summary:
+
+```
+📅 2025 Blog Refresh Complete - SoCal Immigration
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Posts Refreshed: 10
+New FAQs Added: 30 (3 per post)
+Date Updated To: [Current Date]
+
+Updated Posts:
+1. /blog/[service]-[city] - Added FAQs: [Q1], [Q2], [Q3]
+2. /blog/[service]-[city] - Added FAQs: [Q1], [Q2], [Q3]
+... (continue for all 10)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+```
+
+### Automation Option
+
+Add to CI/CD or cron for automatic weekly refresh:
+```bash
+# Weekly refresh script (runs every Monday)
+0 3 * * 1 /path/to/scripts/refresh-2025-blogs.sh
+```
+
+---
+
 **Version**: 3.0.0 (Universal Enhancements Edition)
-**Last Updated**: 2026-01-08
+**Last Updated**: 2026-01-10

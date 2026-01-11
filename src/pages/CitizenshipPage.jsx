@@ -183,7 +183,7 @@ const CitizenshipPage = ({ language }) => {
       <Helmet>
         <title>{t.meta.title}</title>
         <meta name="description" content={t.meta.description} />
-        <link rel="canonical" href="https://www.socalimmigrationservices.com/citizenship-naturalization" />
+        <link rel="canonical" href="https://www.socalimmigrationservices.com/citizenship-naturalization/" />
       </Helmet>
 
       <div className={`min-h-screen bg-gray-50 ${isRTL ? 'rtl' : 'ltr'}`} dir={isRTL ? 'rtl' : 'ltr'}>

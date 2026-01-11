@@ -1,14 +1,26 @@
 {
+  "trailingSlash": true,
   "redirects": [
     {
-      "source": "/:path*",
+      "source": "/:path+",
       "has": [
         {
           "type": "host",
           "value": "socalimmigrationservices.com"
         }
       ],
-      "destination": "https://www.socalimmigrationservices.com/:path*",
+      "destination": "https://www.socalimmigrationservices.com/:path+/",
+      "permanent": true
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "host",
+          "value": "socalimmigrationservices.com"
+        }
+      ],
+      "destination": "https://www.socalimmigrationservices.com/",
       "permanent": true
     }
   ],
