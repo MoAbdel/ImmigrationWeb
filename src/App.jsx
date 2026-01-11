@@ -153,6 +153,19 @@ import B1B2VisaExtensionNewportBeach from './pages/blog/posts/B1B2VisaExtensionN
 import H4EADMissionViejo from './pages/blog/posts/H4EADMissionViejo';
 import DACARenevwalSantaAna from './pages/blog/posts/DACARenevwalSantaAna';
 import EB5RegionalCenterBeverlyHills from './pages/blog/posts/EB5RegionalCenterBeverlyHills';
+import I140PremiumProcessingLagunaNiguel from './pages/blog/posts/I140PremiumProcessingLagunaNiguel';
+import SyrianTPSExtensionVista from './pages/blog/posts/SyrianTPSExtensionVista';
+import WidowWidowerGreenCardDowney from './pages/blog/posts/WidowWidowerGreenCardDowney';
+import R1ReligiousWorkerVisaGlendale from './pages/blog/posts/R1ReligiousWorkerVisaGlendale';
+import K2FianceChildVisaGardenGrove from './pages/blog/posts/K2FianceChildVisaGardenGrove';
+import UVisaWorkAuthorizationPomona from './pages/blog/posts/UVisaWorkAuthorizationPomona';
+import AdjustmentInterviewTustin from './pages/blog/posts/AdjustmentInterviewTustin';
+import I131TravelAuthorizationMurrieta from './pages/blog/posts/I131TravelAuthorizationMurrieta';
+import LebaneseAsylumOceanside from './pages/blog/posts/LebaneseAsylumOceanside';
+import EB4SpecialImmigrantLaMirada from './pages/blog/posts/EB4SpecialImmigrantLaMirada';
+import DeferredActionRequestTorrance from './pages/blog/posts/DeferredActionRequestTorrance';
+import EgyptianFamilyPetitionAnaheim from './pages/blog/posts/EgyptianFamilyPetitionAnaheim';
+import I765WorkPermitRenewalSantaClarita from './pages/blog/posts/I765WorkPermitRenewalSantaClarita';
 
 import EB2NIWStrategy from './pages/blog/posts/EB2NIWStrategy';
 import MarriageGreenCardTimeline from './pages/blog/posts/MarriageGreenCardTimeline';
@@ -700,6 +713,19 @@ const App = () => {
                         <Route path="/blog/h4-ead-mission-viejo" element={<H4EADMissionViejo language={language} />} />
                         <Route path="/blog/daca-renewal-santa-ana" element={<DACARenevwalSantaAna language={language} />} />
                         <Route path="/blog/eb5-regional-center-investment-beverly-hills" element={<EB5RegionalCenterBeverlyHills language={language} />} />
+                        <Route path="/blog/i140-premium-processing-laguna-niguel" element={<I140PremiumProcessingLagunaNiguel language={language} />} />
+                        <Route path="/blog/syrian-tps-extension-vista" element={<SyrianTPSExtensionVista language={language} />} />
+                        <Route path="/blog/widow-widower-green-card-downey" element={<WidowWidowerGreenCardDowney language={language} />} />
+                        <Route path="/blog/r1-religious-worker-visa-glendale" element={<R1ReligiousWorkerVisaGlendale language={language} />} />
+                        <Route path="/blog/k2-fiance-child-visa-garden-grove" element={<K2FianceChildVisaGardenGrove language={language} />} />
+                        <Route path="/blog/u-visa-work-authorization-pomona" element={<UVisaWorkAuthorizationPomona language={language} />} />
+                        <Route path="/blog/adjustment-of-status-interview-tustin" element={<AdjustmentInterviewTustin language={language} />} />
+                        <Route path="/blog/i131-travel-authorization-murrieta" element={<I131TravelAuthorizationMurrieta language={language} />} />
+                        <Route path="/blog/lebanese-asylum-oceanside" element={<LebaneseAsylumOceanside language={language} />} />
+                        <Route path="/blog/eb4-special-immigrant-la-mirada" element={<EB4SpecialImmigrantLaMirada language={language} />} />
+                        <Route path="/blog/deferred-action-request-torrance" element={<DeferredActionRequestTorrance language={language} />} />
+                        <Route path="/blog/egyptian-family-petition-anaheim" element={<EgyptianFamilyPetitionAnaheim language={language} />} />
+                        <Route path="/blog/i765-work-permit-renewal-santa-clarita" element={<I765WorkPermitRenewalSantaClarita language={language} />} />
                       </Routes>
                     </main>
 

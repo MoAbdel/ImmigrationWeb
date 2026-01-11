@@ -3,6 +3,149 @@
 
 export const blogPosts = [
   {
+    id: 1045,
+    slug: "i765-work-permit-renewal-santa-clarita",
+    title: { en: "I-765 Work Permit Renewal in Santa Clarita: EAD Renewal and Extension Guide", ar: "تجديد تصريح العمل I-765 في سانتا كلاريتا: دليل تجديد وتمديد EAD" },
+    excerpt: { en: "I-765 work permit renewal guide. EAD extension, automatic extensions, renewal timeline for continuous work authorization.", ar: "دليل تجديد تصريح العمل I-765. تمديد EAD، التمديدات التلقائية، جدول التجديد لاستمرار تصريح العمل." },
+    date: "January 11, 2026",
+    readTime: "10",
+    category: "employment",
+    location: "Santa Clarita",
+    image: "/images/blog/employment.jpg"
+  },
+  {
+    id: 1044,
+    slug: "egyptian-family-petition-anaheim",
+    title: { en: "Egyptian Family Petition in Anaheim: Bringing Your Egyptian Relatives to America", ar: "طلب لم شمل العائلة المصرية في أنهايم: إحضار أقاربك المصريين إلى أمريكا" },
+    excerpt: { en: "Egyptian family petition help in Little Arabia. Bring parents, siblings, children from Egypt with I-130 filing.", ar: "مساعدة طلب العائلة المصرية في ليتل أريبيا. أحضر الوالدين، الأشقاء، الأطفال من مصر مع تقديم I-130." },
+    date: "January 11, 2026",
+    readTime: "12",
+    category: "family",
+    location: "Anaheim",
+    image: "/images/blog/family.jpg"
+  },
+  {
+    id: 1043,
+    slug: "deferred-action-request-torrance",
+    title: { en: "Deferred Action Request in Torrance: Temporary Protection from Deportation", ar: "طلب الإجراء المؤجل في تورانس: الحماية المؤقتة من الترحيل" },
+    excerpt: { en: "Deferred action immigration help. Temporary protection from deportation, prosecutorial discretion, work permit eligibility.", ar: "مساعدة الهجرة للإجراء المؤجل. الحماية المؤقتة من الترحيل، السلطة التقديرية للملاحقة، أهلية تصريح العمل." },
+    date: "January 11, 2026",
+    readTime: "11",
+    category: "humanitarian",
+    location: "Torrance",
+    image: "/images/blog/humanitarian.jpg"
+  },
+  {
+    id: 1042,
+    slug: "eb4-special-immigrant-la-mirada",
+    title: { en: "EB-4 Special Immigrant Visa in La Mirada: Green Cards for Religious Workers and Special Categories", ar: "تأشيرة المهاجر الخاص EB-4 في لا ميرادا: البطاقات الخضراء للعمال الدينيين والفئات الخاصة" },
+    excerpt: { en: "EB-4 special immigrant visa guide. Religious workers, Iraqi/Afghan translators, green card without labor certification.", ar: "دليل تأشيرة المهاجر الخاص EB-4. العمال الدينيون، المترجمون العراقيون/الأفغان، البطاقة الخضراء بدون شهادة العمل." },
+    date: "January 11, 2026",
+    readTime: "12",
+    category: "employment",
+    location: "La Mirada",
+    image: "/images/blog/employment.jpg"
+  },
+  {
+    id: 1041,
+    slug: "lebanese-asylum-oceanside",
+    title: { en: "Lebanese Asylum in Oceanside: Protection for Lebanese Nationals Fleeing Crisis", ar: "اللجوء اللبناني في أوشنسايد: الحماية للمواطنين اللبنانيين الفارين من الأزمة" },
+    excerpt: { en: "Lebanese asylum help. Protection for Christians, LGBTQ+, political activists fleeing Lebanon crisis.", ar: "مساعدة اللجوء اللبناني. الحماية للمسيحيين، LGBTQ+، الناشطين السياسيين الفارين من أزمة لبنان." },
+    date: "January 11, 2026",
+    readTime: "13",
+    category: "asylum",
+    location: "Oceanside",
+    image: "/images/blog/asylum.jpg"
+  },
+  {
+    id: 1040,
+    slug: "i131-travel-authorization-murrieta",
+    title: { en: "I-131 Travel Authorization in Murrieta: Advance Parole and Travel Documents", ar: "تصريح السفر I-131 في موريتا: الإفراج المشروط المسبق ووثائق السفر" },
+    excerpt: { en: "I-131 travel document help. Advance parole, re-entry permit, refugee travel document for international travel.", ar: "مساعدة وثيقة السفر I-131. الإفراج المشروط المسبق، تصريح إعادة الدخول، وثيقة سفر اللاجئين للسفر الدولي." },
+    date: "January 11, 2026",
+    readTime: "11",
+    category: "travel",
+    location: "Murrieta",
+    image: "/images/blog/travel.jpg"
+  },
+  {
+    id: 1039,
+    slug: "adjustment-of-status-interview-tustin",
+    title: { en: "Adjustment of Status Interview in Tustin: Green Card Interview Preparation Guide", ar: "مقابلة تعديل الوضع في تستن: دليل التحضير لمقابلة البطاقة الخضراء" },
+    excerpt: { en: "Green card interview preparation guide. I-485 interview tips, common questions, required documents for USCIS interview.", ar: "دليل التحضير لمقابلة البطاقة الخضراء. نصائح مقابلة I-485، الأسئلة الشائعة، الوثائق المطلوبة لمقابلة USCIS." },
+    date: "January 11, 2026",
+    readTime: "12",
+    category: "green-card",
+    location: "Tustin",
+    image: "/images/blog/interview.jpg"
+  },
+  {
+    id: 1038,
+    slug: "u-visa-work-authorization-pomona",
+    title: { en: "U Visa Work Authorization in Pomona: Employment Rights for Crime Victims", ar: "تصريح العمل لتأشيرة U في بومونا: حقوق العمل لضحايا الجرائم" },
+    excerpt: { en: "U visa work authorization guide. Crime victims can work legally while U visa pending through bona fide determination.", ar: "دليل تصريح العمل لتأشيرة U. يمكن لضحايا الجرائم العمل بشكل قانوني أثناء انتظار تأشيرة U من خلال التحديد الحقيقي." },
+    date: "January 11, 2026",
+    readTime: "10",
+    category: "humanitarian",
+    location: "Pomona",
+    image: "/images/blog/humanitarian.jpg"
+  },
+  {
+    id: 1037,
+    slug: "k2-fiance-child-visa-garden-grove",
+    title: { en: "K-2 Fiancé Child Visa in Garden Grove: Bringing Your Fiancé's Children to America", ar: "تأشيرة K-2 لأطفال الخطيب في غاردن غروف: إحضار أطفال خطيبتك إلى أمريكا" },
+    excerpt: { en: "K-2 visa for fiancé's children. Include stepchildren in K-1 process, requirements, and documentation.", ar: "تأشيرة K-2 لأطفال الخطيب. أدرج أطفال الزوج في عملية K-1، المتطلبات، والتوثيق." },
+    date: "January 11, 2026",
+    readTime: "10",
+    category: "family",
+    location: "Garden Grove",
+    image: "/images/blog/family.jpg"
+  },
+  {
+    id: 1036,
+    slug: "r1-religious-worker-visa-glendale",
+    title: { en: "R-1 Religious Worker Visa in Glendale: Immigration for Ministers and Religious Workers", ar: "تأشيرة العامل الديني R-1 في غليندال: الهجرة للوزراء والعمال الدينيين" },
+    excerpt: { en: "R-1 religious worker visa help. Immigration for ministers, religious instructors, and religious organization workers.", ar: "مساعدة تأشيرة العامل الديني R-1. الهجرة للوزراء والمدرسين الدينيين وعمال المنظمات الدينية." },
+    date: "January 11, 2026",
+    readTime: "11",
+    category: "employment",
+    location: "Glendale",
+    image: "/images/blog/employment.jpg"
+  },
+  {
+    id: 1035,
+    slug: "widow-widower-green-card-downey",
+    title: { en: "Widow/Widower Green Card in Downey: Self-Petition After Spouse's Death", ar: "البطاقة الخضراء للأرامل في داوني: التقديم الذاتي بعد وفاة الزوج" },
+    excerpt: { en: "Widow/widower green card self-petition guide. Continue immigration after spouse's death with I-360 filing.", ar: "دليل التقديم الذاتي للأرامل للبطاقة الخضراء. استمر في الهجرة بعد وفاة الزوج مع تقديم I-360." },
+    date: "January 11, 2026",
+    readTime: "10",
+    category: "family",
+    location: "Downey",
+    image: "/images/blog/family.jpg"
+  },
+  {
+    id: 1034,
+    slug: "syrian-tps-extension-vista",
+    title: { en: "Syrian TPS Extension in Vista: Temporary Protected Status Renewal Guide 2026", ar: "تمديد TPS السوري في فيستا: دليل تجديد الوضع المحمي المؤقت 2026" },
+    excerpt: { en: "Syrian TPS extension help. Renew Temporary Protected Status, work permits, and travel authorization.", ar: "مساعدة تمديد TPS السوري. تجديد الوضع المحمي المؤقت، تصاريح العمل، وتصريح السفر." },
+    date: "January 11, 2026",
+    readTime: "11",
+    category: "humanitarian",
+    location: "Vista",
+    image: "/images/blog/tps.jpg"
+  },
+  {
+    id: 1033,
+    slug: "i140-premium-processing-laguna-niguel",
+    title: { en: "I-140 Premium Processing in Laguna Niguel: Fast-Track Your Employment Green Card", ar: "المعالجة المميزة I-140 في لاجونا نيغيل: تسريع البطاقة الخضراء للتوظيف" },
+    excerpt: { en: "I-140 premium processing service. 45-day USCIS processing for EB-1, EB-2, EB-3 employment green cards.", ar: "خدمة المعالجة المميزة I-140. معالجة USCIS في 45 يوماً للبطاقات الخضراء EB-1، EB-2، EB-3." },
+    date: "January 11, 2026",
+    readTime: "12",
+    category: "employment",
+    location: "Laguna Niguel",
+    image: "/images/blog/employment.jpg"
+  },
+  {
     id: 1032,
     slug: "eb5-regional-center-investment-beverly-hills",
     title: { en: "EB-5 Regional Center Investment Visa: Your Path to a Green Card Through Investment in Beverly Hills", ar: "تأشيرة EB-5 للاستثمار في المركز الإقليمي: طريقك للحصول على البطاقة الخضراء من خلال الاستثمار في بيفرلي هيلز" },
