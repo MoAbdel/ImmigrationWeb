@@ -2674,6 +2674,253 @@ export const blogPosts = [
     category: "status",
     date: "2026-01-06",
     readTime: 11
+  },
+  {
+    id: 111,
+    slug: "i94-arrival-departure-record-arcadia",
+    pillar: "documents",
+    title: {
+      en: "I-94 Arrival/Departure Record in Arcadia: Complete Guide for Arab Immigrants",
+      ar: "سجل الوصول/المغادرة I-94 في أركاديا: دليل شامل للمهاجرين العرب"
+    },
+    excerpt: {
+      en: "Expert I-94 help in Arcadia. Retrieve, correct, and understand your arrival/departure record with Arabic-speaking assistance.",
+      ar: "مساعدة متخصصة في I-94 في أركاديا. استرجاع وتصحيح وفهم سجل الوصول/المغادرة مع مساعدة ناطقة بالعربية."
+    },
+    location: "Arcadia",
+    county: "Los Angeles County",
+    targetDemographic: ["Visitor", "Status", "Arab"],
+    category: "documents",
+    date: "2026-01-12",
+    readTime: 9
+  },
+  {
+    id: 112,
+    slug: "f1-stem-opt-extension-fountain-valley",
+    pillar: "work",
+    title: {
+      en: "F-1 STEM OPT Extension in Fountain Valley: 24-Month Work Authorization Guide",
+      ar: "تمديد STEM OPT F-1 في فاونتن فالي: دليل تصريح العمل لمدة 24 شهراً"
+    },
+    excerpt: {
+      en: "STEM OPT extension help in Fountain Valley for Arab graduates. 24-month work authorization for science, technology, engineering, math fields.",
+      ar: "مساعدة تمديد STEM OPT في فاونتن فالي للخريجين العرب. تصريح عمل 24 شهراً لمجالات العلوم والتكنولوجيا والهندسة والرياضيات."
+    },
+    location: "Fountain Valley",
+    county: "Orange County",
+    targetDemographic: ["Student", "STEM", "Arab"],
+    category: "work",
+    date: "2026-01-12",
+    readTime: 12
+  },
+  {
+    id: 113,
+    slug: "vawa-self-petition-aliso-viejo",
+    pillar: "asylum",
+    title: {
+      en: "VAWA Self-Petition in Aliso Viejo: Immigration Relief for Abuse Survivors",
+      ar: "الالتماس الذاتي VAWA في أليسو فيجو: إعفاء الهجرة للناجين من الإساءة"
+    },
+    excerpt: {
+      en: "Confidential VAWA help in Aliso Viejo. Get green card without abuser's cooperation. Arabic-speaking support for abuse survivors.",
+      ar: "مساعدة VAWA سرية في أليسو فيجو. احصل على البطاقة الخضراء بدون تعاون المسيء. دعم بالعربية للناجين من الإساءة."
+    },
+    location: "Aliso Viejo",
+    county: "Orange County",
+    targetDemographic: ["VAWA", "Abuse Survivor", "Arab"],
+    category: "asylum",
+    date: "2026-01-12",
+    readTime: 14
+  },
+  {
+    id: 114,
+    slug: "citizenship-oath-ceremony-yorba-linda",
+    pillar: "citizenship",
+    title: {
+      en: "Citizenship Oath Ceremony in Yorba Linda: Your Complete Naturalization Guide",
+      ar: "حفل قسم الجنسية في يوربا ليندا: دليلك الشامل للتجنس"
+    },
+    excerpt: {
+      en: "Complete citizenship oath ceremony guide for Yorba Linda. Know what to expect at your naturalization ceremony.",
+      ar: "دليل شامل لحفل قسم الجنسية في يوربا ليندا. اعرف ما تتوقعه في حفل التجنس."
+    },
+    location: "Yorba Linda",
+    county: "Orange County",
+    targetDemographic: ["Citizenship", "Naturalization", "Arab"],
+    category: "citizenship",
+    date: "2026-01-12",
+    readTime: 10
+  },
+  {
+    id: 115,
+    slug: "h2b-seasonal-worker-visa-oxnard",
+    pillar: "work",
+    title: {
+      en: "H-2B Seasonal Worker Visa in Oxnard: Temporary Work Authorization Guide",
+      ar: "تأشيرة العامل الموسمي H-2B في أوكسنارد: دليل تصريح العمل المؤقت"
+    },
+    excerpt: {
+      en: "H-2B seasonal worker visa help in Oxnard. Non-agricultural temporary work permits for hospitality, landscaping, and more.",
+      ar: "مساعدة تأشيرة العامل الموسمي H-2B في أوكسنارد. تصاريح العمل المؤقتة غير الزراعية للضيافة وتنسيق الحدائق والمزيد."
+    },
+    location: "Oxnard",
+    county: "Ventura County",
+    targetDemographic: ["Worker", "Seasonal", "Employer"],
+    category: "work",
+    date: "2026-01-12",
+    readTime: 11
+  },
+  {
+    id: 116,
+    slug: "visa-overstay-help-hesperia",
+    pillar: "status",
+    title: {
+      en: "Visa Overstay Help in Hesperia: Options When You've Stayed Past Your I-94",
+      ar: "مساعدة تجاوز التأشيرة في هسبيريا: الخيارات عندما تبقى بعد I-94"
+    },
+    excerpt: {
+      en: "Visa overstay assistance in Hesperia. Understand consequences and find relief options for those who stayed past I-94 date.",
+      ar: "مساعدة تجاوز التأشيرة في هسبيريا. فهم العواقب وإيجاد خيارات الإعفاء لمن بقوا بعد تاريخ I-94."
+    },
+    location: "Hesperia",
+    county: "San Bernardino County",
+    targetDemographic: ["Overstay", "Status", "Arab"],
+    category: "status",
+    date: "2026-01-12",
+    readTime: 13
+  },
+  {
+    id: 117,
+    slug: "family-relationship-evidence-cerritos",
+    pillar: "family",
+    title: {
+      en: "Family Relationship Evidence in Cerritos: Building Strong Immigration Cases",
+      ar: "أدلة العلاقة الأسرية في سيريتوس: بناء قضايا هجرة قوية"
+    },
+    excerpt: {
+      en: "Family relationship evidence help in Cerritos. Prove genuine family ties for I-130, K-1, and green card applications.",
+      ar: "مساعدة أدلة العلاقة الأسرية في سيريتوس. أثبت الروابط الأسرية الحقيقية لطلبات I-130 و K-1 والبطاقة الخضراء."
+    },
+    location: "Cerritos",
+    county: "Los Angeles County",
+    targetDemographic: ["Family", "Evidence", "Arab"],
+    category: "family",
+    date: "2026-01-12",
+    readTime: 11
+  },
+  {
+    id: 118,
+    slug: "eb1b-outstanding-researcher-calabasas",
+    pillar: "work",
+    title: {
+      en: "EB-1B Outstanding Researcher Visa in Calabasas: Green Card for Academic Excellence",
+      ar: "تأشيرة الباحث المتميز EB-1B في كالاباساس: البطاقة الخضراء للتميز الأكاديمي"
+    },
+    excerpt: {
+      en: "EB-1B outstanding researcher green card help in Calabasas. Immigration for professors and researchers of international acclaim.",
+      ar: "مساعدة البطاقة الخضراء للباحث المتميز EB-1B في كالاباساس. الهجرة للأساتذة والباحثين ذوي الشهرة الدولية."
+    },
+    location: "Calabasas",
+    county: "Los Angeles County",
+    targetDemographic: ["Academic", "Researcher", "Professional"],
+    category: "work",
+    date: "2026-01-12",
+    readTime: 12
+  },
+  {
+    id: 119,
+    slug: "n470-travel-naturalization-thousand-oaks",
+    pillar: "citizenship",
+    title: {
+      en: "N-470 Travel for Naturalization in Thousand Oaks: Preserve Residence During Absences",
+      ar: "N-470 السفر للتجنس في ثاوزند أوكس: الحفاظ على الإقامة أثناء الغياب"
+    },
+    excerpt: {
+      en: "N-470 application help in Thousand Oaks. Preserve continuous residence for citizenship while working abroad.",
+      ar: "مساعدة طلب N-470 في ثاوزند أوكس. الحفاظ على الإقامة المستمرة للجنسية أثناء العمل بالخارج."
+    },
+    location: "Thousand Oaks",
+    county: "Ventura County",
+    targetDemographic: ["Citizenship", "Travel", "Professional"],
+    category: "citizenship",
+    date: "2026-01-12",
+    readTime: 10
+  },
+  {
+    id: 120,
+    slug: "immigration-health-insurance-lakewood",
+    pillar: "community",
+    title: {
+      en: "Immigration and Health Insurance in Lakewood: Understanding Your Coverage Options",
+      ar: "الهجرة والتأمين الصحي في ليكوود: فهم خيارات التغطية الخاصة بك"
+    },
+    excerpt: {
+      en: "Health insurance options for immigrants in Lakewood. Understand coverage without affecting immigration status or public charge.",
+      ar: "خيارات التأمين الصحي للمهاجرين في ليكوود. فهم التغطية دون التأثير على وضع الهجرة أو العبء العام."
+    },
+    location: "Lakewood",
+    county: "Los Angeles County",
+    targetDemographic: ["Health", "Insurance", "Arab"],
+    category: "community",
+    date: "2026-01-12",
+    readTime: 11
+  },
+  {
+    id: 121,
+    slug: "iraqi-asylee-adjustment-lancaster",
+    pillar: "asylum",
+    title: {
+      en: "Iraqi Asylee Adjustment of Status in Lancaster: Path to Green Card After Asylum",
+      ar: "تعديل وضع اللاجئ العراقي في لانكاستر: الطريق إلى البطاقة الخضراء بعد اللجوء"
+    },
+    excerpt: {
+      en: "Iraqi asylee adjustment help in Lancaster. Get green card one year after asylum approval with Arabic-speaking support.",
+      ar: "مساعدة تعديل وضع اللاجئ العراقي في لانكاستر. احصل على البطاقة الخضراء بعد سنة من الموافقة على اللجوء."
+    },
+    location: "Lancaster",
+    county: "Los Angeles County",
+    targetDemographic: ["Iraqi", "Asylee", "Refugee"],
+    category: "asylum",
+    date: "2026-01-12",
+    readTime: 12
+  },
+  {
+    id: 122,
+    slug: "yemeni-family-petition-san-marcos",
+    pillar: "family",
+    title: {
+      en: "Yemeni Family Petition in San Marcos: Reuniting Families from Yemen",
+      ar: "طلب العائلة اليمنية في سان ماركوس: لم شمل العائلات من اليمن"
+    },
+    excerpt: {
+      en: "Yemeni family petition help in San Marcos. I-130 family reunification for Yemeni families with Arabic-speaking support.",
+      ar: "مساعدة طلب العائلة اليمنية في سان ماركوس. لم شمل العائلة I-130 للعائلات اليمنية مع دعم بالعربية."
+    },
+    location: "San Marcos",
+    county: "San Diego County",
+    targetDemographic: ["Yemeni", "Family", "Arab"],
+    category: "family",
+    date: "2026-01-12",
+    readTime: 11
+  },
+  {
+    id: 123,
+    slug: "green-card-photo-service-lake-elsinore",
+    pillar: "documents",
+    title: {
+      en: "Green Card Photo Service in Lake Elsinore: USCIS Compliant Photos",
+      ar: "خدمة صور البطاقة الخضراء في ليك إلسينور: صور متوافقة مع USCIS"
+    },
+    excerpt: {
+      en: "USCIS compliant green card photos in Lake Elsinore. Professional immigration photos for all applications with same-day service.",
+      ar: "صور البطاقة الخضراء المتوافقة مع USCIS في ليك إلسينور. صور هجرة احترافية لجميع الطلبات مع خدمة في نفس اليوم."
+    },
+    location: "Lake Elsinore",
+    county: "Riverside County",
+    targetDemographic: ["Photo", "Document", "Arab"],
+    category: "documents",
+    date: "2026-01-12",
+    readTime: 8
   }
 ];
 

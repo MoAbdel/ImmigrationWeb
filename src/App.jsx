@@ -166,6 +166,19 @@ import EB4SpecialImmigrantLaMirada from './pages/blog/posts/EB4SpecialImmigrantL
 import DeferredActionRequestTorrance from './pages/blog/posts/DeferredActionRequestTorrance';
 import EgyptianFamilyPetitionAnaheim from './pages/blog/posts/EgyptianFamilyPetitionAnaheim';
 import I765WorkPermitRenewalSantaClarita from './pages/blog/posts/I765WorkPermitRenewalSantaClarita';
+import I94ArrivalDepartureArcadia from './pages/blog/posts/I94ArrivalDepartureArcadia';
+import F1STEMOPTFountainValley from './pages/blog/posts/F1STEMOPTFountainValley';
+import VAWASelfPetitionAlisoViejo from './pages/blog/posts/VAWASelfPetitionAlisoViejo';
+import CitizenshipOathCeremonyYorbaLinda from './pages/blog/posts/CitizenshipOathCeremonyYorbaLinda';
+import H2BSeasonalWorkerOxnard from './pages/blog/posts/H2BSeasonalWorkerOxnard';
+import VisaOverstayHelpHesperia from './pages/blog/posts/VisaOverstayHelpHesperia';
+import FamilyRelationshipEvidenceCerritos from './pages/blog/posts/FamilyRelationshipEvidenceCerritos';
+import EB1BOutstandingResearcherCalabasas from './pages/blog/posts/EB1BOutstandingResearcherCalabasas';
+import N470TravelNaturalizationThousandOaks from './pages/blog/posts/N470TravelNaturalizationThousandOaks';
+import ImmigrationHealthInsuranceLakewood from './pages/blog/posts/ImmigrationHealthInsuranceLakewood';
+import IraqiAsyleeAdjustmentLancaster from './pages/blog/posts/IraqiAsyleeAdjustmentLancaster';
+import YemeniFamilyPetitionSanMarcos from './pages/blog/posts/YemeniFamilyPetitionSanMarcos';
+import GreenCardPhotoServiceLakeElsinore from './pages/blog/posts/GreenCardPhotoServiceLakeElsinore';
 
 import EB2NIWStrategy from './pages/blog/posts/EB2NIWStrategy';
 import MarriageGreenCardTimeline from './pages/blog/posts/MarriageGreenCardTimeline';
@@ -726,6 +739,19 @@ const App = () => {
                         <Route path="/blog/deferred-action-request-torrance" element={<DeferredActionRequestTorrance language={language} />} />
                         <Route path="/blog/egyptian-family-petition-anaheim" element={<EgyptianFamilyPetitionAnaheim language={language} />} />
                         <Route path="/blog/i765-work-permit-renewal-santa-clarita" element={<I765WorkPermitRenewalSantaClarita language={language} />} />
+                        <Route path="/blog/i94-arrival-departure-record-arcadia" element={<I94ArrivalDepartureArcadia language={language} />} />
+                        <Route path="/blog/f1-stem-opt-extension-fountain-valley" element={<F1STEMOPTFountainValley language={language} />} />
+                        <Route path="/blog/vawa-self-petition-aliso-viejo" element={<VAWASelfPetitionAlisoViejo language={language} />} />
+                        <Route path="/blog/citizenship-oath-ceremony-yorba-linda" element={<CitizenshipOathCeremonyYorbaLinda language={language} />} />
+                        <Route path="/blog/h2b-seasonal-worker-visa-oxnard" element={<H2BSeasonalWorkerOxnard language={language} />} />
+                        <Route path="/blog/visa-overstay-help-hesperia" element={<VisaOverstayHelpHesperia language={language} />} />
+                        <Route path="/blog/family-relationship-evidence-cerritos" element={<FamilyRelationshipEvidenceCerritos language={language} />} />
+                        <Route path="/blog/eb1b-outstanding-researcher-calabasas" element={<EB1BOutstandingResearcherCalabasas language={language} />} />
+                        <Route path="/blog/n470-travel-naturalization-thousand-oaks" element={<N470TravelNaturalizationThousandOaks language={language} />} />
+                        <Route path="/blog/immigration-health-insurance-lakewood" element={<ImmigrationHealthInsuranceLakewood language={language} />} />
+                        <Route path="/blog/iraqi-asylee-adjustment-lancaster" element={<IraqiAsyleeAdjustmentLancaster language={language} />} />
+                        <Route path="/blog/yemeni-family-petition-san-marcos" element={<YemeniFamilyPetitionSanMarcos language={language} />} />
+                        <Route path="/blog/green-card-photo-service-lake-elsinore" element={<GreenCardPhotoServiceLakeElsinore language={language} />} />
                       </Routes>
                     </main>
 
