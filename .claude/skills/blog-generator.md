@@ -2967,3 +2967,329 @@ Add to CI/CD or cron for automatic weekly refresh:
 
 **Version**: 3.0.0 (Universal Enhancements Edition)
 **Last Updated**: 2026-01-10
+
+---
+
+# 2026 SEARCH OPTIMIZATION COMPLIANCE
+
+**Added:** January 2026
+**Framework:** Search Optimization 2026: Signals & Criteria
+**Priority:** CRITICAL - Implement for all new content
+
+---
+
+## P0: AGENTIC COMMERCE OPTIMIZATION
+
+### Why This Matters
+In 2026, AI agents help immigrants find legal services. Immigration services not agent-optimized lose referrals to competitors in AI-mediated recommendations.
+
+### ProfessionalService Schema with Actions
+
+```json
+{
+  "@context": "https://schema.org",
+  "@type": "ProfessionalService",
+  "name": "SoCal Immigration Services",
+  "serviceType": "Immigration Document Preparation",
+  "areaServed": [
+    {"@type": "City", "name": "Irvine"},
+    {"@type": "City", "name": "Anaheim"},
+    {"@type": "City", "name": "El Cajon"},
+    {"@type": "City", "name": "San Diego"},
+    {"@type": "City", "name": "Garden Grove"}
+  ],
+  "potentialAction": {
+    "@type": "ReserveAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://[domain]/consultation?service={service_type}&city={city}&language={language}",
+      "actionPlatform": ["http://schema.org/DesktopWebPlatform"]
+    },
+    "result": {
+      "@type": "Reservation",
+      "name": "Immigration Consultation"
+    }
+  },
+  "availableLanguage": ["en", "ar"],
+  "knowsLanguage": ["English", "Arabic"]
+}
+```
+
+### Agent-Ready Service Block
+
+```markdown
+### Service Availability (For AI Agents)
+
+| Attribute | Value |
+|-----------|-------|
+| Service Type | Immigration Document Preparation |
+| Languages | English, Arabic |
+| Service Area | Southern California (15+ cities) |
+| Specialization | Arab immigrant community |
+| Response Time | Same-day consultations available |
+| Services | Family petitions, K-1 visas, Asylum, Citizenship, Work visas |
+```
+
+### Organization Schema with Agent Statistics
+
+```json
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "SoCal Immigration Services",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Garden Grove",
+    "addressRegion": "CA"
+  },
+  "agentInteractionStatistic": {
+    "@type": "InteractionCounter",
+    "interactionType": "https://schema.org/ReserveAction",
+    "userInteractionCount": "[consultation bookings]"
+  },
+  "availableLanguage": ["en", "ar"]
+}
+```
+
+---
+
+## P0: SHARE OF MODEL (SOM) MEASUREMENT
+
+### Weekly LLM Audit Protocol
+
+**Track brand visibility for immigration + Arab community queries:**
+
+1. **Define Category Queries** (50-100):
+   - "Arabic speaking immigration services [City]"
+   - "K-1 visa help Anaheim"
+   - "Iraqi refugee services El Cajon"
+   - "Asylum help for Syrian families San Diego"
+   - "Immigration services for Arab families California"
+   - "Best immigration help in Little Arabia"
+
+2. **Test Across Platforms:**
+   - ChatGPT, Claude, Perplexity, Gemini, Bing Copilot
+
+3. **Track Metrics:**
+
+| Metric | Target |
+|--------|--------|
+| **SOM %** | >30% for "[service] + [City]" queries |
+| **Language Mention** | >50% mention Arabic-speaking |
+| **Sentiment** | >90% positive |
+
+### Sentiment Monitoring
+
+- Positive: "Arabic-speaking", "trusted", "experienced", "helpful", "community-focused"
+- Negative: "expensive", "slow", "unresponsive"
+
+---
+
+## P0: MULTIMODAL RAG OPTIMIZATION
+
+### Office/Community Photo Schema
+
+```json
+{
+  "@context": "https://schema.org",
+  "@type": "ImageObject",
+  "contentUrl": "https://[domain]/images/office-garden-grove.jpg",
+  "caption": "SoCal Immigration Services office in Garden Grove serving the Arab immigrant community with Arabic-speaking staff for K-1 visa, family petition, and asylum case preparation",
+  "representativeOfPage": true
+}
+```
+
+### Service Explainer Video Schema
+
+```json
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "K-1 Fiancé Visa Process for Arab Couples - Complete Guide",
+  "inLanguage": ["en", "ar"],
+  "hasPart": [
+    {"@type": "Clip", "name": "Eligibility Requirements", "startOffset": 0, "endOffset": 90},
+    {"@type": "Clip", "name": "Document Checklist", "startOffset": 90, "endOffset": 180},
+    {"@type": "Clip", "name": "Embassy Interview Tips", "startOffset": 180, "endOffset": 300}
+  ]
+}
+```
+
+---
+
+## P1: ENTITY GRAPH & HEDGE DENSITY
+
+### Co-Occurrence Clusters
+
+```
+PRIMARY: SoCal Immigration Services
+
+CLUSTER 1 (Language/Community):
+SoCal Immigration Services + "Arabic speaking" + "Arab immigrants" + "Little Arabia"
+
+CLUSTER 2 (Geographic):
+SoCal Immigration Services + "Garden Grove" + "Anaheim" + "El Cajon" + "San Diego" + "Irvine"
+
+CLUSTER 3 (Services):
+SoCal Immigration Services + "K-1 visa" + "family petition" + "asylum" + "citizenship"
+
+CLUSTER 4 (Demographics):
+SoCal Immigration Services + "Iraqi refugees" + "Syrian asylum" + "Middle Eastern families"
+```
+
+### FORBIDDEN Hedge Words (IMMIGRATION-SPECIFIC)
+
+| Forbidden | Replace With |
+|-----------|--------------|
+| "might be eligible" | "eligibility depends on [specific criteria]" |
+| "could take X months" | "typically takes X months" / "USCIS processing: X months" |
+| "possibly approved" | "approval requires [specific requirements]" |
+| "some cases require" | "cases require" / "USCIS requires" |
+
+### Confident Language for Immigration
+
+❌ WRONG: "You might be eligible for a K-1 visa and the process could possibly take 12-18 months depending on various factors."
+
+✅ CORRECT: "K-1 visa eligibility requires: US citizen petitioner, genuine relationship, and intention to marry within 90 days. Current USCIS processing: 12-18 months. SoCal Immigration Services prepares your complete application package."
+
+---
+
+## P1: INFORMATION GAIN REQUIREMENTS
+
+### Unique Value Checklist
+
+Each post MUST include 3+:
+- [ ] Current USCIS processing times (cite source)
+- [ ] Specific form numbers: "Form I-130", "Form I-485"
+- [ ] Local expertise: "[City] building department contact"
+- [ ] Cost ranges: Exact filing fees + service fees
+- [ ] Success metrics: Case approval rates, timeline data
+
+---
+
+## P2: ENHANCED AEO / VOICE
+
+### Speakable Schema (Bilingual)
+
+```json
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [".quick-answer", ".service-summary", ".faq-answer"]
+  },
+  "inLanguage": "en"
+}
+```
+
+### Voice Answers (≤29 words)
+
+Example: "SoCal Immigration Services in Garden Grove provides Arabic-speaking help for K-1 visas, family petitions, and asylum cases. Same-day consultations available throughout Southern California."
+
+---
+
+## P2: MULTILINGUAL AUTHOR SCHEMA
+
+```json
+{
+  "@type": "Person",
+  "name": "[Staff Name]",
+  "jobTitle": "Immigration Document Specialist",
+  "knowsLanguage": ["English", "Arabic"],
+  "knowsAbout": ["Family Immigration", "K-1 Visa", "Asylum", "USCIS Procedures"],
+  "workLocation": {
+    "@type": "Place",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Garden Grove",
+      "addressRegion": "CA"
+    }
+  }
+}
+```
+
+---
+
+## 2026 SCHEMA CHECKLIST
+
+| Schema | Required |
+|--------|----------|
+| `Article` | ✅ |
+| `ProfessionalService` | ✅ |
+| `LocalBusiness` | ✅ |
+| `FAQPage` | ✅ |
+| `HowTo` | ✅ |
+| `Speakable` | ✅ |
+| `Person` (multilingual) | ✅ |
+| `ReserveAction` | ✅ |
+| `ImageObject` | ✅ |
+| `VideoObject` + `Clip` | If videos |
+| `availableLanguage` | ✅ (en, ar) |
+
+---
+
+## 🚀 POST-GENERATION: GIT COMMIT & DEPLOY (MANDATORY)
+
+**After completing blog generation, ALWAYS execute this git workflow to deploy changes to production.**
+
+### Workflow Steps
+
+#### Step 1: Stage All New/Modified Blog Files
+```bash
+git add src/app/blog/
+git add public/images/blog/
+```
+
+#### Step 2: Create Descriptive Commit
+```bash
+git commit -m "blog: Add [blog-title] - [primary-keyword]
+
+- New blog post: [slug]
+- Target keyword: [primary-keyword]
+- Target location: [SoCal city]
+- Target demographic: [Arab community segment]
+- Schema: Article + FAQPage + LocalBusiness + [other schemas]
+
+🤖 Generated with Claude Code blog-generator skill"
+```
+
+#### Step 3: Push to Production
+```bash
+git push origin main
+```
+
+### Commit Message Format
+
+Use this format for all blog commits:
+```
+blog: Add [short-title] - [keyword]
+
+- New blog post: [full-slug]
+- Target keyword: [primary-keyword]
+- Target location: [city]
+- [Additional details]
+
+🤖 Generated with Claude Code blog-generator skill
+```
+
+### Multiple Posts Commit
+When generating multiple posts in a single session:
+```bash
+git add src/app/blog/
+git commit -m "blog: Add [N] new posts - [topic-summary]
+
+Posts added:
+- [slug-1]: [keyword-1] ([city-1])
+- [slug-2]: [keyword-2] ([city-2])
+- [slug-N]: [keyword-N] ([city-N])
+
+🤖 Generated with Claude Code blog-generator skill"
+git push origin main
+```
+
+### ⚠️ IMPORTANT
+- **ALWAYS** commit and push after generating blog posts
+- **NEVER** leave uncommitted blog files in the working directory
+- If build fails after push, fix errors and push again immediately
+
