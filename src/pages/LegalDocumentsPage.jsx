@@ -1,6 +1,7 @@
 import React from 'react';
 import { FileText, CheckCircle, Phone } from 'lucide-react';
 import { Link } from 'react-router-dom';
+import { Helmet } from 'react-helmet-async';
 
 const LegalDocumentsPage = ({ language }) => {
   const content = {
@@ -270,12 +271,18 @@ const LegalDocumentsPage = ({ language }) => {
   const isRTL = language === 'ar';
 
   return (
-    <div className={`min-h-screen bg-gray-50 ${isRTL ? 'rtl' : 'ltr'}`} dir={isRTL ? 'rtl' : 'ltr'}>
-      {/* Hero Section */}
-      <section
-        className="relative h-[400px] flex items-center justify-center text-white"
-        style={{
-          backgroundImage: 'linear-gradient(rgba(15, 23, 42, 0.8), rgba(15, 23, 42, 0.8)), url(https://images.unsplash.com/photo-1450101499163-c8848c66ca85?q=80&w=2000)',
+    <>
+      <Helmet>
+        <title>{language === 'en' ? 'Legal Documents Services | SoCal Immigration' : 'خدمات الوثائق القانونية | خدمات الهجرة في جنوب كاليفورنيا'}</title>
+        <meta name="description" content={language === 'en' ? 'Immigration legal document preparation in Southern California. Affidavit of support, work authorization, travel documents. Arabic-speaking support. Call (714) 421-8872.' : 'إعداد الوثائق القانونية للهجرة في جنوب كاليفورنيا. إقرار الدعم، تصريح العمل، وثائق السفر.'} />
+        <link rel="canonical" href="https://www.socalimmigrationservices.com/services/legal-documents/" />
+      </Helmet>
+      <div className={`min-h-screen bg-gray-50 ${isRTL ? 'rtl' : 'ltr'}`} dir={isRTL ? 'rtl' : 'ltr'}>
+        {/* Hero Section */}
+        <section
+          className="relative h-[400px] flex items-center justify-center text-white"
+          style={{
+            backgroundImage: 'linear-gradient(rgba(15, 23, 42, 0.8), rgba(15, 23, 42, 0.8)), url(https://images.unsplash.com/photo-1450101499163-c8848c66ca85?q=80&w=2000)',
           backgroundSize: 'cover',
           backgroundPosition: 'center'
         }}
@@ -422,7 +429,8 @@ const LegalDocumentsPage = ({ language }) => {
           </div>
         </div>
       </section>
-    </div>
+      </div>
+    </>
   );
 };
 

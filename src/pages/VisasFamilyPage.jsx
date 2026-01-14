@@ -1,6 +1,7 @@
 import React from 'react';
 import { Users, Heart, CheckCircle, Phone } from 'lucide-react';
 import { Link } from 'react-router-dom';
+import { Helmet } from 'react-helmet-async';
 
 const VisasFamilyPage = ({ language }) => {
   const content = {
@@ -214,8 +215,14 @@ const VisasFamilyPage = ({ language }) => {
   const isRTL = language === 'ar';
 
   return (
-    <div className={`min-h-screen bg-gray-50 ${isRTL ? 'rtl' : 'ltr'}`} dir={isRTL ? 'rtl' : 'ltr'}>
-      {/* Hero Section */}
+    <>
+      <Helmet>
+        <title>{language === 'en' ? 'Visas & Family Immigration Services | SoCal Immigration' : 'خدمات التأشيرات والعائلة | خدمات الهجرة في جنوب كاليفورنيا'}</title>
+        <meta name="description" content={language === 'en' ? 'Family-based immigration services in Southern California. Family petitions, K-1 fiancé visas, B1-B2 extensions, work visas. Arabic-speaking support. Call (714) 421-8872.' : 'خدمات الهجرة العائلية في جنوب كاليفورنيا. طلبات العائلة، تأشيرات K-1، تمديدات B1-B2، تأشيرات العمل.'} />
+        <link rel="canonical" href="https://www.socalimmigrationservices.com/services/visas-family/" />
+      </Helmet>
+      <div className={`min-h-screen bg-gray-50 ${isRTL ? 'rtl' : 'ltr'}`} dir={isRTL ? 'rtl' : 'ltr'}>
+        {/* Hero Section */}
       <section
         className="relative h-[400px] flex items-center justify-center text-white"
         style={{
@@ -343,7 +350,8 @@ const VisasFamilyPage = ({ language }) => {
           </div>
         </div>
       </section>
-    </div>
+      </div>
+    </>
   );
 };
 

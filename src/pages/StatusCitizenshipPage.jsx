@@ -1,6 +1,7 @@
 import React from 'react';
 import { Flag, Shield, CheckCircle, Phone } from 'lucide-react';
 import { Link } from 'react-router-dom';
+import { Helmet } from 'react-helmet-async';
 
 const StatusCitizenshipPage = ({ language }) => {
   const content = {
@@ -220,12 +221,18 @@ const StatusCitizenshipPage = ({ language }) => {
   const isRTL = language === 'ar';
 
   return (
-    <div className={`min-h-screen bg-gray-50 ${isRTL ? 'rtl' : 'ltr'}`} dir={isRTL ? 'rtl' : 'ltr'}>
-      {/* Hero Section */}
-      <section
-        className="relative h-[400px] flex items-center justify-center text-white"
-        style={{
-          backgroundImage: 'linear-gradient(rgba(15, 23, 42, 0.8), rgba(15, 23, 42, 0.8)), url(https://images.unsplash.com/photo-1589829545856-d10d557cf95f?q=80&w=2000)',
+    <>
+      <Helmet>
+        <title>{language === 'en' ? 'Status & Citizenship Services | SoCal Immigration' : 'خدمات الوضع والمواطنة | خدمات الهجرة في جنوب كاليفورنيا'}</title>
+        <meta name="description" content={language === 'en' ? 'Citizenship and immigration status services in Southern California. Naturalization, adjustment of status, green card services. Arabic support. Call (714) 421-8872.' : 'خدمات المواطنة ووضع الهجرة في جنوب كاليفورنيا. التجنس، تعديل الوضع، خدمات البطاقة الخضراء.'} />
+        <link rel="canonical" href="https://www.socalimmigrationservices.com/services/status-citizenship/" />
+      </Helmet>
+      <div className={`min-h-screen bg-gray-50 ${isRTL ? 'rtl' : 'ltr'}`} dir={isRTL ? 'rtl' : 'ltr'}>
+        {/* Hero Section */}
+        <section
+          className="relative h-[400px] flex items-center justify-center text-white"
+          style={{
+            backgroundImage: 'linear-gradient(rgba(15, 23, 42, 0.8), rgba(15, 23, 42, 0.8)), url(https://images.unsplash.com/photo-1589829545856-d10d557cf95f?q=80&w=2000)',
           backgroundSize: 'cover',
           backgroundPosition: 'center'
         }}
@@ -349,7 +356,8 @@ const StatusCitizenshipPage = ({ language }) => {
           </div>
         </div>
       </section>
-    </div>
+      </div>
+    </>
   );
 };
 
