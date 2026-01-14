@@ -1,13 +1,44 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useMemo } from 'react';
 import { Calendar, Clock, ArrowLeft, User, MapPin, Phone, ChevronRight, CheckCircle, List, RefreshCw } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import { Helmet } from 'react-helmet-async';
+import { blogPosts } from '../../data/blogPosts';
 
 const BlogPostTemplate = ({ content, language }) => {
   const t = content[language];
   const isRTL = language === 'ar';
   const [activeSection, setActiveSection] = useState('');
   const [showToc, setShowToc] = useState(true);
+
+  // Auto-generate related posts based on category and exclude current post
+  const autoRelatedPosts = useMemo(() => {
+    const currentSlug = t.slug;
+    const currentCategory = t.category?.toLowerCase();
+
+    // Find posts in same category first, then other posts
+    const sameCategoryPosts = blogPosts.filter(post =>
+      post.slug !== currentSlug &&
+      post.category?.toLowerCase() === currentCategory
+    );
+
+    // Get posts from different categories as fallback
+    const otherPosts = blogPosts.filter(post =>
+      post.slug !== currentSlug &&
+      post.category?.toLowerCase() !== currentCategory
+    );
+
+    // Combine and shuffle, prioritizing same category
+    const combined = [...sameCategoryPosts.slice(0, 3), ...otherPosts.slice(0, 2)];
+
+    // Return 4 related posts
+    return combined.slice(0, 4).map(post => ({
+      slug: post.slug,
+      title: post.title[language] || post.title.en,
+      excerpt: post.excerpt[language] || post.excerpt.en,
+      category: post.category,
+      location: post.location
+    }));
+  }, [t.slug, t.category, language]);
 
   // Generate section IDs for Table of Contents
   const sectionIds = t.sections?.map((section, idx) => ({
@@ -523,22 +554,33 @@ const BlogPostTemplate = ({ content, language }) => {
                 </div>
               </div>
 
-              {/* Related Posts */}
-              {t.relatedPosts && (
+              {/* Related Posts - Always show, use auto-generated if no manual posts */}
+              {(t.relatedPosts || autoRelatedPosts.length > 0) && (
                 <section className="mt-12">
                   <h2 className="text-2xl font-serif font-bold text-slate-900 mb-6">
                     {language === 'en' ? 'Related Articles' : 'مقالات ذات صلة'}
                   </h2>
                   <div className="grid md:grid-cols-2 gap-6">
-                    {t.relatedPosts.map((post, idx) => (
+                    {(t.relatedPosts || autoRelatedPosts).map((post, idx) => (
                       <Link
                         key={idx}
-                        to={`/blog/${post.slug}`}
-                        className="bg-white rounded-lg p-6 shadow-sm hover:shadow-md transition-shadow"
+                        to={`/blog/${post.slug}/`}
+                        className="bg-white rounded-lg p-6 shadow-sm hover:shadow-md transition-shadow border border-gray-100"
                       >
-                        <span className="text-xs text-amber-600 font-semibold">{post.category}</span>
-                        <h3 className="text-lg font-semibold text-slate-900 mt-2">{post.title}</h3>
-                        <p className="text-gray-600 text-sm mt-2">{post.excerpt}</p>
+                        <div className="flex items-center gap-2 mb-2">
+                          <span className="text-xs text-amber-600 font-semibold uppercase">{post.category}</span>
+                          {post.location && (
+                            <>
+                              <span className="text-gray-300">•</span>
+                              <span className="text-xs text-gray-500 flex items-center gap-1">
+                                <MapPin size={10} />
+                                {post.location}
+                              </span>
+                            </>
+                          )}
+                        </div>
+                        <h3 className="text-lg font-semibold text-slate-900 hover:text-amber-700 transition-colors line-clamp-2">{post.title}</h3>
+                        <p className="text-gray-600 text-sm mt-2 line-clamp-2">{post.excerpt}</p>
                       </Link>
                     ))}
                   </div>
