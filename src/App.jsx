@@ -179,6 +179,19 @@ import ImmigrationHealthInsuranceLakewood from './pages/blog/posts/ImmigrationHe
 import IraqiAsyleeAdjustmentLancaster from './pages/blog/posts/IraqiAsyleeAdjustmentLancaster';
 import YemeniFamilyPetitionSanMarcos from './pages/blog/posts/YemeniFamilyPetitionSanMarcos';
 import GreenCardPhotoServiceLakeElsinore from './pages/blog/posts/GreenCardPhotoServiceLakeElsinore';
+import I797NoticeActionBellflower from './pages/blog/posts/I797NoticeActionBellflower';
+import AsylumClockWorkAuthorizationPerris from './pages/blog/posts/AsylumClockWorkAuthorizationPerris';
+import IraqiChaldeanFamilyNationalCity from './pages/blog/posts/IraqiChaldeanFamilyNationalCity';
+import MarriageVisaTimelineDiamondBar from './pages/blog/posts/MarriageVisaTimelineDiamondBar';
+import F2DependentVisaPlacentia from './pages/blog/posts/F2DependentVisaPlacentia';
+import CitizenshipTestAccommodationsAppleValley from './pages/blog/posts/CitizenshipTestAccommodationsAppleValley';
+import ImmigrationAttorneyVsPreparerCypress from './pages/blog/posts/ImmigrationAttorneyVsPreparerCypress';
+import SyrianRefugeeGreenCardEncinitas from './pages/blog/posts/SyrianRefugeeGreenCardEncinitas';
+import ImmigrationConsequencesCrimesGlendora from './pages/blog/posts/ImmigrationConsequencesCrimesGlendora';
+import I864PovertyGuidelinesPicoRivera from './pages/blog/posts/I864PovertyGuidelinesPicoRivera';
+import GreenCardRegistryBaldwinPark from './pages/blog/posts/GreenCardRegistryBaldwinPark';
+import ExpeditedPassportImmigrationPalmdale from './pages/blog/posts/ExpeditedPassportImmigrationPalmdale';
+import H1BCapSeasonStrategyAzusa from './pages/blog/posts/H1BCapSeasonStrategyAzusa';
 
 import EB2NIWStrategy from './pages/blog/posts/EB2NIWStrategy';
 import MarriageGreenCardTimeline from './pages/blog/posts/MarriageGreenCardTimeline';
@@ -752,6 +765,19 @@ const App = () => {
                         <Route path="/blog/iraqi-asylee-adjustment-lancaster" element={<IraqiAsyleeAdjustmentLancaster language={language} />} />
                         <Route path="/blog/yemeni-family-petition-san-marcos" element={<YemeniFamilyPetitionSanMarcos language={language} />} />
                         <Route path="/blog/green-card-photo-service-lake-elsinore" element={<GreenCardPhotoServiceLakeElsinore language={language} />} />
+                        <Route path="/blog/i797-notice-of-action-bellflower" element={<I797NoticeActionBellflower language={language} />} />
+                        <Route path="/blog/asylum-clock-work-authorization-perris" element={<AsylumClockWorkAuthorizationPerris language={language} />} />
+                        <Route path="/blog/iraqi-chaldean-family-reunification-national-city" element={<IraqiChaldeanFamilyNationalCity language={language} />} />
+                        <Route path="/blog/marriage-visa-timeline-diamond-bar" element={<MarriageVisaTimelineDiamondBar language={language} />} />
+                        <Route path="/blog/f2-dependent-visa-placentia" element={<F2DependentVisaPlacentia language={language} />} />
+                        <Route path="/blog/citizenship-test-accommodations-apple-valley" element={<CitizenshipTestAccommodationsAppleValley language={language} />} />
+                        <Route path="/blog/immigration-attorney-vs-preparer-cypress" element={<ImmigrationAttorneyVsPreparerCypress language={language} />} />
+                        <Route path="/blog/syrian-refugee-green-card-encinitas" element={<SyrianRefugeeGreenCardEncinitas language={language} />} />
+                        <Route path="/blog/immigration-consequences-crimes-glendora" element={<ImmigrationConsequencesCrimesGlendora language={language} />} />
+                        <Route path="/blog/i864-poverty-guidelines-2026-pico-rivera" element={<I864PovertyGuidelinesPicoRivera language={language} />} />
+                        <Route path="/blog/green-card-registry-baldwin-park" element={<GreenCardRegistryBaldwinPark language={language} />} />
+                        <Route path="/blog/expedited-passport-immigration-palmdale" element={<ExpeditedPassportImmigrationPalmdale language={language} />} />
+                        <Route path="/blog/h1b-cap-season-strategy-azusa" element={<H1BCapSeasonStrategyAzusa language={language} />} />
                       </Routes>
                     </main>
 

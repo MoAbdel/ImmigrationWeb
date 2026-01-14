@@ -3,6 +3,149 @@
 
 export const blogPosts = [
   {
+    id: 1058,
+    slug: "h1b-cap-season-strategy-azusa",
+    title: { en: "H-1B Cap Season Strategy in Azusa: Maximizing Your Lottery Chances", ar: "استراتيجية موسم H-1B في أزوسا: تعظيم فرصك في القرعة" },
+    excerpt: { en: "H-1B lottery strategy guide. Multiple registrations, advanced degree exemption, cap-exempt employers, and backup plans.", ar: "دليل استراتيجية قرعة H-1B. التسجيلات المتعددة، إعفاء الدرجة المتقدمة، أصحاب العمل المعفيين، والخطط البديلة." },
+    date: "January 14, 2026",
+    readTime: "13",
+    category: "employment",
+    location: "Azusa",
+    image: "/images/blog/employment.jpg"
+  },
+  {
+    id: 1057,
+    slug: "expedited-passport-immigration-palmdale",
+    title: { en: "Expedited Passport for Immigration in Palmdale: Fast-Track Travel Documents", ar: "جواز السفر المعجل للهجرة في بالمديل: وثائق السفر السريعة" },
+    excerpt: { en: "Expedited passport services for immigration emergencies. Same-day appointments, life-or-death emergencies, USCIS interview travel.", ar: "خدمات جواز السفر المعجل لحالات الهجرة الطارئة. المواعيد في نفس اليوم، حالات الطوارئ الحياتية، سفر مقابلات USCIS." },
+    date: "January 14, 2026",
+    readTime: "10",
+    category: "travel",
+    location: "Palmdale",
+    image: "/images/blog/travel.jpg"
+  },
+  {
+    id: 1056,
+    slug: "green-card-registry-baldwin-park",
+    title: { en: "Green Card Through Registry in Baldwin Park: INA Section 249 for Long-Term Residents", ar: "البطاقة الخضراء عبر السجل في بالدوين بارك: القسم 249 للمقيمين طويلي الأمد" },
+    excerpt: { en: "Registry provision green card guide. INA Section 249 for continuous US residence since 1972, requirements and application process.", ar: "دليل البطاقة الخضراء عبر السجل. القسم 249 للإقامة المستمرة في أمريكا منذ 1972، المتطلبات وعملية التقديم." },
+    date: "January 14, 2026",
+    readTime: "11",
+    category: "green-card",
+    location: "Baldwin Park",
+    image: "/images/blog/green-card.jpg"
+  },
+  {
+    id: 1055,
+    slug: "i864-poverty-guidelines-2026-pico-rivera",
+    title: { en: "I-864 Poverty Guidelines 2026 in Pico Rivera: Updated Income Requirements for Sponsors", ar: "إرشادات الفقر I-864 لعام 2026 في بيكو ريفيرا: متطلبات الدخل المحدثة للكفلاء" },
+    excerpt: { en: "2026 poverty guidelines for I-864 sponsors. Updated income thresholds, household size calculations, joint sponsor requirements.", ar: "إرشادات الفقر 2026 لكفلاء I-864. عتبات الدخل المحدثة، حسابات حجم الأسرة، متطلبات الكفيل المشترك." },
+    date: "January 14, 2026",
+    readTime: "10",
+    category: "family",
+    location: "Pico Rivera",
+    image: "/images/blog/family.jpg"
+  },
+  {
+    id: 1054,
+    slug: "immigration-consequences-crimes-glendora",
+    title: { en: "Immigration Consequences of Crimes in Glendora: Criminal Record Impact on Status", ar: "عواقب الهجرة للجرائم في غليندورا: تأثير السجل الجنائي على الوضع" },
+    excerpt: { en: "Criminal immigration consequences guide. Deportable offenses, inadmissibility bars, relief options for immigrants with criminal records.", ar: "دليل عواقب الهجرة الجنائية. الجرائم الموجبة للترحيل، حواجز عدم القبول، خيارات الإعفاء للمهاجرين ذوي السجلات الجنائية." },
+    date: "January 14, 2026",
+    readTime: "14",
+    category: "legal",
+    location: "Glendora",
+    image: "/images/blog/legal.jpg"
+  },
+  {
+    id: 1053,
+    slug: "syrian-refugee-green-card-encinitas",
+    title: { en: "Syrian Refugee Green Card in Encinitas: Adjustment of Status for Syrian Refugees", ar: "البطاقة الخضراء للاجئين السوريين في إنسينيتاس: تعديل الوضع للاجئين السوريين" },
+    excerpt: { en: "Syrian refugee adjustment of status guide. One-year timeline, I-485 filing, employment authorization, family reunification.", ar: "دليل تعديل وضع اللاجئين السوريين. الجدول الزمني لسنة واحدة، تقديم I-485، تصريح العمل، لم شمل الأسرة." },
+    date: "January 14, 2026",
+    readTime: "12",
+    category: "asylum",
+    location: "Encinitas",
+    image: "/images/blog/asylum.jpg"
+  },
+  {
+    id: 1052,
+    slug: "immigration-attorney-vs-preparer-cypress",
+    title: { en: "Immigration Attorney vs Document Preparer in Cypress: Choosing the Right Help", ar: "محامي الهجرة مقابل معد الوثائق في سايبرس: اختيار المساعدة المناسبة" },
+    excerpt: { en: "Compare immigration attorneys and document preparers. When to hire a lawyer, notario fraud warning, authorized representatives.", ar: "قارن بين محامي الهجرة ومعدي الوثائق. متى توظف محامياً، تحذير احتيال النوتاريو، الممثلون المرخصون." },
+    date: "January 14, 2026",
+    readTime: "11",
+    category: "resources",
+    location: "Cypress",
+    image: "/images/blog/resources.jpg"
+  },
+  {
+    id: 1051,
+    slug: "citizenship-test-accommodations-apple-valley",
+    title: { en: "Citizenship Test Accommodations in Apple Valley: N-648 Disability Waiver Guide", ar: "تسهيلات اختبار المواطنة في أبل فالي: دليل إعفاء الإعاقة N-648" },
+    excerpt: { en: "N-648 disability waiver for citizenship test. Medical conditions qualifying for accommodations, doctor certification requirements.", ar: "إعفاء الإعاقة N-648 لاختبار المواطنة. الحالات الطبية المؤهلة للتسهيلات، متطلبات شهادة الطبيب." },
+    date: "January 14, 2026",
+    readTime: "11",
+    category: "citizenship",
+    location: "Apple Valley",
+    image: "/images/blog/citizenship.jpg"
+  },
+  {
+    id: 1050,
+    slug: "f2-dependent-visa-placentia",
+    title: { en: "F-2 Dependent Visa in Placentia: Rights and Limitations for Student Spouses", ar: "تأشيرة F-2 للمعالين في بلاسنتيا: حقوق وقيود أزواج الطلاب" },
+    excerpt: { en: "F-2 dependent visa guide. Student spouse and child status, work restrictions, study limitations, status maintenance requirements.", ar: "دليل تأشيرة F-2 للمعالين. وضع زوج وطفل الطالب، قيود العمل، قيود الدراسة، متطلبات الحفاظ على الوضع." },
+    date: "January 14, 2026",
+    readTime: "10",
+    category: "student",
+    location: "Placentia",
+    image: "/images/blog/student.jpg"
+  },
+  {
+    id: 1049,
+    slug: "marriage-visa-timeline-diamond-bar",
+    title: { en: "Marriage Visa Timeline in Diamond Bar: How Long for Spouse Green Card?", ar: "الجدول الزمني لتأشيرة الزواج في دايموند بار: كم تستغرق البطاقة الخضراء للزوج؟" },
+    excerpt: { en: "Spouse green card processing times. Immediate relative vs preference categories, current wait times, expedite options.", ar: "أوقات معالجة البطاقة الخضراء للزوج. الأقارب المباشرون مقابل فئات الأفضلية، أوقات الانتظار الحالية، خيارات التسريع." },
+    date: "January 14, 2026",
+    readTime: "10",
+    category: "family",
+    location: "Diamond Bar",
+    image: "/images/blog/family.jpg"
+  },
+  {
+    id: 1048,
+    slug: "iraqi-chaldean-family-reunification-national-city",
+    title: { en: "Iraqi Chaldean Family Reunification in National City: Bringing Your Family to America", ar: "لم شمل العائلة الكلدانية العراقية في ناشيونال سيتي: إحضار عائلتك إلى أمريكا" },
+    excerpt: { en: "Iraqi Chaldean family immigration guide. I-130 family petitions, SIV derivative benefits, refugee follow-to-join for Iraqi families.", ar: "دليل هجرة العائلة الكلدانية العراقية. طلبات العائلة I-130، فوائد SIV المشتقة، لحاق اللاجئين للعائلات العراقية." },
+    date: "January 14, 2026",
+    readTime: "13",
+    category: "family",
+    location: "National City",
+    image: "/images/blog/family.jpg"
+  },
+  {
+    id: 1047,
+    slug: "asylum-clock-work-authorization-perris",
+    title: { en: "Asylum Clock and Work Authorization in Perris: When Can Asylum Seekers Work?", ar: "ساعة اللجوء وتصريح العمل في بيريس: متى يمكن لطالبي اللجوء العمل؟" },
+    excerpt: { en: "Asylum EAD clock explained. 180-day wait period, clock stops and restarts, I-765 filing for asylum work authorization.", ar: "شرح ساعة EAD للجوء. فترة الانتظار 180 يوماً، توقف الساعة وإعادة تشغيلها، تقديم I-765 لتصريح عمل اللجوء." },
+    date: "January 14, 2026",
+    readTime: "11",
+    category: "asylum",
+    location: "Perris",
+    image: "/images/blog/asylum.jpg"
+  },
+  {
+    id: 1046,
+    slug: "i797-notice-of-action-bellflower",
+    title: { en: "I-797 Notice of Action in Bellflower: Understanding Your USCIS Notices", ar: "إشعار الإجراء I-797 في بيلفلاور: فهم إشعارات USCIS الخاصة بك" },
+    excerpt: { en: "I-797 notice types explained. Receipt notices, approval notices, RFE responses, and what each USCIS notice means for your case.", ar: "شرح أنواع إشعارات I-797. إشعارات الاستلام، إشعارات الموافقة، ردود RFE، وما يعنيه كل إشعار USCIS لقضيتك." },
+    date: "January 14, 2026",
+    readTime: "9",
+    category: "documents",
+    location: "Bellflower",
+    image: "/images/blog/documents.jpg"
+  },
+  {
     id: 1045,
     slug: "i765-work-permit-renewal-santa-clarita",
     title: { en: "I-765 Work Permit Renewal in Santa Clarita: EAD Renewal and Extension Guide", ar: "تجديد تصريح العمل I-765 في سانتا كلاريتا: دليل تجديد وتمديد EAD" },
