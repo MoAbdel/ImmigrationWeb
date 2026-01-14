@@ -3094,9 +3094,24 @@ export const categories = {
     ar: "تأشيرات العمل",
     icon: "Briefcase"
   },
+  employment: {
+    en: "Employment",
+    ar: "التوظيف",
+    icon: "Briefcase"
+  },
   status: {
     en: "Green Card & Status",
     ar: "البطاقة الخضراء والوضع",
+    icon: "CreditCard"
+  },
+  "green-card": {
+    en: "Green Card",
+    ar: "البطاقة الخضراء",
+    icon: "CreditCard"
+  },
+  greencard: {
+    en: "Green Card",
+    ar: "البطاقة الخضراء",
     icon: "CreditCard"
   },
   travel: {
@@ -3113,6 +3128,56 @@ export const categories = {
     en: "Community Resources",
     ar: "موارد المجتمع",
     icon: "Users"
+  },
+  student: {
+    en: "Student Visas",
+    ar: "تأشيرات الطلاب",
+    icon: "GraduationCap"
+  },
+  humanitarian: {
+    en: "Humanitarian",
+    ar: "الإنسانية",
+    icon: "Heart"
+  },
+  waivers: {
+    en: "Waivers",
+    ar: "الإعفاءات",
+    icon: "FileCheck"
+  },
+  investment: {
+    en: "Investment Visas",
+    ar: "تأشيرات الاستثمار",
+    icon: "DollarSign"
+  },
+  benefits: {
+    en: "Benefits",
+    ar: "المنافع",
+    icon: "Gift"
+  },
+  legal: {
+    en: "Legal Help",
+    ar: "المساعدة القانونية",
+    icon: "Scale"
+  },
+  defense: {
+    en: "Immigration Defense",
+    ar: "الدفاع عن الهجرة",
+    icon: "Shield"
+  },
+  deportation: {
+    en: "Deportation Defense",
+    ar: "الدفاع ضد الترحيل",
+    icon: "Shield"
+  },
+  daca: {
+    en: "DACA",
+    ar: "داكا",
+    icon: "FileText"
+  },
+  resources: {
+    en: "Resources",
+    ar: "الموارد",
+    icon: "Book"
   }
 };
 
