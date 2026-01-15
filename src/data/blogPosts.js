@@ -3,6 +3,149 @@
 
 export const blogPosts = [
   {
+    id: 1071,
+    slug: "u-visa-crime-victims-santa-ana",
+    title: { en: "U Visa for Crime Victims in Santa Ana: Protection for Immigrant Victims", ar: "تأشيرة U لضحايا الجريمة في سانتا آنا: حماية للضحايا المهاجرين" },
+    excerpt: { en: "U visa help for crime victims. Law enforcement certification, qualifying crimes, path to green card for immigrant victims.", ar: "مساعدة تأشيرة U لضحايا الجريمة. شهادة إنفاذ القانون، الجرائم المؤهلة، المسار للبطاقة الخضراء للضحايا المهاجرين." },
+    date: "January 15, 2026",
+    readTime: "12",
+    category: "humanitarian",
+    location: "Santa Ana",
+    image: "/images/blog/legal.jpg"
+  },
+  {
+    id: 1070,
+    slug: "i693-medical-exam-los-angeles",
+    title: { en: "I-693 Medical Exam in Los Angeles: Immigration Physical Requirements", ar: "الفحص الطبي I-693 في لوس أنجلوس: متطلبات الفحص الطبي للهجرة" },
+    excerpt: { en: "Complete guide to immigration medical examination. Civil surgeon locations, required vaccinations, what to expect.", ar: "دليل شامل للفحص الطبي للهجرة. مواقع الجراحين المدنيين، التطعيمات المطلوبة، ما تتوقعه." },
+    date: "January 15, 2026",
+    readTime: "9",
+    category: "documents",
+    location: "Los Angeles",
+    image: "/images/blog/documents.jpg"
+  },
+  {
+    id: 1069,
+    slug: "student-reinstatement-irvine",
+    title: { en: "F-1 Student Reinstatement in Irvine: Restoring Your Student Status", ar: "إعادة وضع الطالب F-1 في إرفاين: استعادة وضعك الطلابي" },
+    excerpt: { en: "How to regain F-1 status after falling out of status. Status violations, I-539 filing, SEVIS restoration.", ar: "كيفية استعادة وضع F-1 بعد فقدان الوضع. انتهاكات الوضع، تقديم I-539، استعادة SEVIS." },
+    date: "January 15, 2026",
+    readTime: "10",
+    category: "student",
+    location: "Irvine",
+    image: "/images/blog/student.jpg"
+  },
+  {
+    id: 1068,
+    slug: "iraqi-siv-derivative-san-diego",
+    title: { en: "Iraqi SIV Derivative Benefits in San Diego: Family Reunification for SIV Holders", ar: "مزايا المشتقين من SIV العراقي في سان دييغو: لم شمل العائلة لحاملي SIV" },
+    excerpt: { en: "How Iraqi SIV holders can bring family members. Follow-to-join, I-730 filing, family reunification.", ar: "كيف يمكن لحاملي SIV العراقيين إحضار أفراد العائلة. اللحاق بالانضمام، تقديم I-730، لم شمل العائلة." },
+    date: "January 15, 2026",
+    readTime: "11",
+    category: "asylum",
+    location: "San Diego",
+    image: "/images/blog/asylum.jpg"
+  },
+  {
+    id: 1067,
+    slug: "eb-backlog-strategy-rancho-cucamonga",
+    title: { en: "EB Green Card Backlog Strategy in Rancho Cucamonga: Navigating Long Wait Times", ar: "استراتيجية تراكم البطاقة الخضراء EB في رانشو كوكامونجا: التنقل في أوقات الانتظار الطويلة" },
+    excerpt: { en: "How to manage employment-based green card case during extended processing. Priority date management, status maintenance.", ar: "كيفية إدارة قضية البطاقة الخضراء القائمة على العمل أثناء المعالجة الممتدة. إدارة تاريخ الأولوية، الحفاظ على الوضع." },
+    date: "January 15, 2026",
+    readTime: "13",
+    category: "employment",
+    location: "Rancho Cucamonga",
+    image: "/images/blog/employment.jpg"
+  },
+  {
+    id: 1066,
+    slug: "consular-interview-prep-corona",
+    title: { en: "Consular Interview Preparation in Corona: Embassy Interview Success Guide", ar: "التحضير لمقابلة القنصلية في كورونا: دليل نجاح مقابلة السفارة" },
+    excerpt: { en: "How to prepare for immigrant visa interview at U.S. Embassy. Document checklist, common questions, what to expect.", ar: "كيف تستعد لمقابلة تأشيرة الهجرة في السفارة الأمريكية. قائمة الوثائق، الأسئلة الشائعة، ما تتوقعه." },
+    date: "January 15, 2026",
+    readTime: "12",
+    category: "family",
+    location: "Corona",
+    image: "/images/blog/family.jpg"
+  },
+  {
+    id: 1065,
+    slug: "work-authorization-gap-irvine",
+    title: { en: "Work Authorization Gap Solutions in Irvine: Avoiding Employment Interruptions", ar: "حلول فجوة تصريح العمل في إرفاين: تجنب انقطاعات التوظيف" },
+    excerpt: { en: "Strategies for tech professionals to maintain continuous work authorization. EAD renewal timing, 180-day extension, cap-gap.", ar: "استراتيجيات لمحترفي التقنية للحفاظ على تصريح عمل مستمر. توقيت تجديد EAD، تمديد 180 يوم، cap-gap." },
+    date: "January 15, 2026",
+    readTime: "11",
+    category: "employment",
+    location: "Irvine",
+    image: "/images/blog/employment.jpg"
+  },
+  {
+    id: 1064,
+    slug: "f2a-spouse-green-card-riverside",
+    title: { en: "F-2A Spouse Green Card in Riverside: When Your Sponsor is a Green Card Holder", ar: "البطاقة الخضراء للزوج F-2A في ريفرسايد: عندما يكون كفيلك حامل بطاقة خضراء" },
+    excerpt: { en: "Understanding wait times and process for spouses of permanent residents. Priority dates, adjustment of status.", ar: "فهم أوقات الانتظار والعملية لأزواج المقيمين الدائمين. تواريخ الأولوية، تعديل الوضع." },
+    date: "January 15, 2026",
+    readTime: "11",
+    category: "family",
+    location: "Riverside",
+    image: "/images/blog/family.jpg"
+  },
+  {
+    id: 1063,
+    slug: "i131-emergency-travel-anaheim",
+    title: { en: "I-131 Emergency Travel Document in Anaheim: Urgent Advance Parole Guide", ar: "وثيقة السفر الطارئ I-131 في أنهايم: دليل Advance Parole العاجل" },
+    excerpt: { en: "How to get emergency travel authorization for family emergencies. Expedited I-131 processing, humanitarian situations.", ar: "كيف تحصل على تصريح السفر الطارئ لحالات الطوارئ العائلية. معالجة I-131 المعجلة، المواقف الإنسانية." },
+    date: "January 15, 2026",
+    readTime: "10",
+    category: "travel",
+    location: "Anaheim",
+    image: "/images/blog/travel.jpg"
+  },
+  {
+    id: 1062,
+    slug: "n400-senior-citizenship-garden-grove",
+    title: { en: "N-400 Senior Citizenship in Garden Grove: Naturalization for Elderly Applicants", ar: "مواطنة N-400 لكبار السن في جاردن غروف: التجنس للمتقدمين المسنين" },
+    excerpt: { en: "Special accommodations and exemptions for older immigrants seeking citizenship. English test exemptions, civics accommodations.", ar: "التسهيلات والإعفاءات الخاصة للمهاجرين الأكبر سناً الساعين للمواطنة. إعفاءات اختبار الإنجليزية، تسهيلات التربية المدنية." },
+    date: "January 15, 2026",
+    readTime: "10",
+    category: "citizenship",
+    location: "Garden Grove",
+    image: "/images/blog/citizenship.jpg"
+  },
+  {
+    id: 1061,
+    slug: "vawa-self-petition-glendale",
+    title: { en: "VAWA Self-Petition in Glendale: Protection for Abuse Survivors", ar: "التماس VAWA الذاتي في غلينديل: حماية للناجين من الإساءة" },
+    excerpt: { en: "How victims of domestic violence can obtain legal status independently. Confidential green card process for abuse victims.", ar: "كيف يمكن لضحايا العنف المنزلي الحصول على وضع قانوني بشكل مستقل. عملية البطاقة الخضراء السرية لضحايا الإساءة." },
+    date: "January 15, 2026",
+    readTime: "13",
+    category: "humanitarian",
+    location: "Glendale",
+    image: "/images/blog/legal.jpg"
+  },
+  {
+    id: 1060,
+    slug: "o1-visa-scientists-san-diego",
+    title: { en: "O-1 Visa for Scientists in San Diego: Extraordinary Ability Immigration", ar: "تأشيرة O-1 للعلماء في سان دييغو: هجرة القدرة الاستثنائية" },
+    excerpt: { en: "How researchers and scientists can qualify for O-1A visa in San Diego's biotech hub. Publications, awards, peer review evidence.", ar: "كيف يمكن للباحثين والعلماء التأهل لتأشيرة O-1A في مركز التقنية الحيوية في سان دييغو. المنشورات، الجوائز، أدلة مراجعة الأقران." },
+    date: "January 15, 2026",
+    readTime: "12",
+    category: "work",
+    location: "San Diego",
+    image: "/images/blog/work.jpg"
+  },
+  {
+    id: 1059,
+    slug: "tps-extension-yemen-el-cajon",
+    title: { en: "TPS Extension for Yemen in El Cajon: Protecting Yemeni Families in America", ar: "تمديد TPS لليمن في الكاجون: حماية العائلات اليمنية في أمريكا" },
+    excerpt: { en: "Complete guide to Temporary Protected Status renewal for Yemeni nationals. Re-registration deadlines, work permit renewal.", ar: "دليل شامل لتجديد الحماية المؤقتة للمواطنين اليمنيين. مواعيد إعادة التسجيل، تجديد تصريح العمل." },
+    date: "January 15, 2026",
+    readTime: "11",
+    category: "humanitarian",
+    location: "El Cajon",
+    image: "/images/blog/asylum.jpg"
+  },
+  {
     id: 1058,
     slug: "h1b-cap-season-strategy-azusa",
     title: { en: "H-1B Cap Season Strategy in Azusa: Maximizing Your Lottery Chances", ar: "استراتيجية موسم H-1B في أزوسا: تعظيم فرصك في القرعة" },
