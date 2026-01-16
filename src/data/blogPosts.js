@@ -3,6 +3,116 @@
 
 export const blogPosts = [
   {
+    id: 1081,
+    slug: "moroccan-community-resources-lakewood",
+    title: { en: "Moroccan Community Immigration Resources in Lakewood: Support for Moroccan Families", ar: "موارد مجتمع مغربي للهجرة في ليكوود: دعم للعائلات المغربية" },
+    excerpt: { en: "Immigration resources for Moroccan families. Visa help, citizenship, family petitions, Arabic and French speaking staff.", ar: "موارد الهجرة للعائلات المغربية. مساعدة التأشيرة، المواطنة، التماسات العائلة، فريق يتحدث العربية والفرنسية." },
+    date: "January 16, 2026",
+    readTime: "11",
+    category: "community",
+    location: "Lakewood",
+    image: "/images/blog/community.jpg"
+  },
+  {
+    id: 1080,
+    slug: "i94-arrival-record-issues-brea",
+    title: { en: "I-94 Arrival Record Issues in Brea: Fixing Entry Date and Status Problems", ar: "مشاكل سجل الوصول I-94 في بريا: إصلاح مشاكل تاريخ الدخول والوضع" },
+    excerpt: { en: "Help with I-94 arrival record issues. Wrong dates, missing records, status corrections, overstay problems.", ar: "مساعدة في مشاكل سجل الوصول I-94. تواريخ خاطئة، سجلات مفقودة، تصحيحات الوضع، مشاكل تجاوز الإقامة." },
+    date: "January 16, 2026",
+    readTime: "10",
+    category: "documents",
+    location: "Brea",
+    image: "/images/blog/documents.jpg"
+  },
+  {
+    id: 1079,
+    slug: "naturalization-after-marriage-green-card-menifee",
+    title: { en: "Naturalization After Marriage Green Card in Menifee: 3-Year vs 5-Year Path to Citizenship", ar: "التجنس بعد البطاقة الخضراء الزواجية في مينيفي: مسار 3 سنوات مقابل 5 سنوات للمواطنة" },
+    excerpt: { en: "Understanding when you can apply for citizenship after marriage-based green card. 3-year rule, eligibility requirements.", ar: "فهم متى يمكنك التقدم للمواطنة بعد البطاقة الخضراء الزواجية. قاعدة 3 سنوات، متطلبات الأهلية." },
+    date: "January 16, 2026",
+    readTime: "11",
+    category: "citizenship",
+    location: "Menifee",
+    image: "/images/blog/citizenship.jpg"
+  },
+  {
+    id: 1078,
+    slug: "healthcare-worker-visas-west-covina",
+    title: { en: "Healthcare Worker Visas in West Covina: Immigration for Nurses and Medical Professionals", ar: "تأشيرات عمال الرعاية الصحية في ويست كوفينا: الهجرة للممرضين والمهنيين الطبيين" },
+    excerpt: { en: "Visa options for foreign nurses, doctors, and healthcare workers. EB-3, H-1B, and Conrad 30 pathways.", ar: "خيارات التأشيرة للممرضين والأطباء وعمال الرعاية الصحية الأجانب. مسارات EB-3، H-1B، و Conrad 30." },
+    date: "January 16, 2026",
+    readTime: "12",
+    category: "employment",
+    location: "West Covina",
+    image: "/images/blog/employment.jpg"
+  },
+  {
+    id: 1077,
+    slug: "f2-dependent-visa-claremont",
+    title: { en: "F-2 Dependent Visa in Claremont: Guide for F-1 Student Family Members", ar: "تأشيرة F-2 للمُعالين في كليرمونت: دليل لأفراد عائلة طلاب F-1" },
+    excerpt: { en: "Help for spouses and children of international students. Study and work restrictions, status maintenance.", ar: "مساعدة لأزواج وأطفال الطلاب الدوليين. قيود الدراسة والعمل، الحفاظ على الوضع." },
+    date: "January 16, 2026",
+    readTime: "10",
+    category: "student",
+    location: "Claremont",
+    image: "/images/blog/student.jpg"
+  },
+  {
+    id: 1076,
+    slug: "joint-sponsor-requirements-yorba-linda",
+    title: { en: "Joint Sponsor Requirements in Yorba Linda: When You Need a Co-Sponsor for Immigration", ar: "متطلبات الكفيل المشترك في يوربا ليندا: متى تحتاج شريك كفالة للهجرة" },
+    excerpt: { en: "Understanding I-864A joint sponsor income requirements for family immigration. Finding co-sponsors.", ar: "فهم متطلبات دخل الكفيل المشترك I-864A للهجرة العائلية. إيجاد شركاء الكفالة." },
+    date: "January 16, 2026",
+    readTime: "11",
+    category: "family",
+    location: "Yorba Linda",
+    image: "/images/blog/family.jpg"
+  },
+  {
+    id: 1075,
+    slug: "syrian-siv-el-monte",
+    title: { en: "Syrian SIV Resources in El Monte: Special Immigrant Visa for Syrian Workers", ar: "موارد SIV السورية في إل مونتي: تأشيرة المهاجر الخاص للعمال السوريين" },
+    excerpt: { en: "Immigration support for Syrians who worked with U.S. government or organizations. SIV and asylum options.", ar: "دعم الهجرة للسوريين الذين عملوا مع الحكومة أو المنظمات الأمريكية. خيارات SIV واللجوء." },
+    date: "January 16, 2026",
+    readTime: "13",
+    category: "asylum",
+    location: "El Monte",
+    image: "/images/blog/asylum.jpg"
+  },
+  {
+    id: 1074,
+    slug: "i485-processing-delays-san-bernardino",
+    title: { en: "I-485 Processing Delays in San Bernardino: What to Do When Your Green Card Takes Too Long", ar: "تأخيرات معالجة I-485 في سان برناردينو: ماذا تفعل عندما تستغرق بطاقتك الخضراء وقتاً طويلاً" },
+    excerpt: { en: "Solutions for adjustment of status cases stuck in processing. Service requests, expedite options, case inquiries.", ar: "حلول لحالات تعديل الوضع العالقة في المعالجة. طلبات الخدمة، خيارات التعجيل، استفسارات القضية." },
+    date: "January 16, 2026",
+    readTime: "12",
+    category: "green-card",
+    location: "San Bernardino",
+    image: "/images/blog/green-card.jpg"
+  },
+  {
+    id: 1073,
+    slug: "military-naturalization-camp-pendleton",
+    title: { en: "Military Naturalization at Camp Pendleton: Citizenship for Service Members", ar: "التجنس العسكري في كامب بندلتون: المواطنة لأفراد الخدمة" },
+    excerpt: { en: "Expedited citizenship path for U.S. military members and their families. INA 328 and 329 naturalization.", ar: "مسار المواطنة المعجل لأفراد الجيش الأمريكي وعائلاتهم. التجنس INA 328 و 329." },
+    date: "January 16, 2026",
+    readTime: "11",
+    category: "citizenship",
+    location: "Camp Pendleton",
+    image: "/images/blog/citizenship.jpg"
+  },
+  {
+    id: 1072,
+    slug: "l2-dependent-work-authorization-newport-beach",
+    title: { en: "L-2 Dependent Work Authorization in Newport Beach: EAD for L-1 Spouses", ar: "تصريح عمل L-2 للمُعالين في نيوبورت بيتش: EAD لأزواج L-1" },
+    excerpt: { en: "Help for spouses of L-1 intracompany transferees to obtain work permits. L-2 EAD application process.", ar: "مساعدة لأزواج حاملي تأشيرة L-1 للحصول على تصاريح العمل. عملية طلب EAD L-2." },
+    date: "January 16, 2026",
+    readTime: "10",
+    category: "employment",
+    location: "Newport Beach",
+    image: "/images/blog/employment.jpg"
+  },
+  {
     id: 1071,
     slug: "u-visa-crime-victims-santa-ana",
     title: { en: "U Visa for Crime Victims in Santa Ana: Protection for Immigrant Victims", ar: "تأشيرة U لضحايا الجريمة في سانتا آنا: حماية للضحايا المهاجرين" },

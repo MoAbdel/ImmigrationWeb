@@ -192,6 +192,16 @@ import I864PovertyGuidelinesPicoRivera from './pages/blog/posts/I864PovertyGuide
 import GreenCardRegistryBaldwinPark from './pages/blog/posts/GreenCardRegistryBaldwinPark';
 import ExpeditedPassportImmigrationPalmdale from './pages/blog/posts/ExpeditedPassportImmigrationPalmdale';
 import H1BCapSeasonStrategyAzusa from './pages/blog/posts/H1BCapSeasonStrategyAzusa';
+import L2DependentWorkAuthorizationNewportBeach from './pages/blog/posts/L2DependentWorkAuthorizationNewportBeach';
+import MilitaryNaturalizationCampPendleton from './pages/blog/posts/MilitaryNaturalizationCampPendleton';
+import I485ProcessingDelaysSanBernardino from './pages/blog/posts/I485ProcessingDelaysSanBernardino';
+import SyrianSIVElMonte from './pages/blog/posts/SyrianSIVElMonte';
+import JointSponsorRequirementsYorbaLinda from './pages/blog/posts/JointSponsorRequirementsYorbaLinda';
+import F2DependentVisaClaremont from './pages/blog/posts/F2DependentVisaClaremont';
+import HealthcareWorkerVisasWestCovina from './pages/blog/posts/HealthcareWorkerVisasWestCovina';
+import NaturalizationAfterMarriageGreenCardMenifee from './pages/blog/posts/NaturalizationAfterMarriageGreenCardMenifee';
+import I94ArrivalRecordIssuesBrea from './pages/blog/posts/I94ArrivalRecordIssuesBrea';
+import MoroccanCommunityResourcesLakewood from './pages/blog/posts/MoroccanCommunityResourcesLakewood';
 
 import EB2NIWStrategy from './pages/blog/posts/EB2NIWStrategy';
 import MarriageGreenCardTimeline from './pages/blog/posts/MarriageGreenCardTimeline';
@@ -778,6 +788,16 @@ const App = () => {
                         <Route path="/blog/green-card-registry-baldwin-park" element={<GreenCardRegistryBaldwinPark language={language} />} />
                         <Route path="/blog/expedited-passport-immigration-palmdale" element={<ExpeditedPassportImmigrationPalmdale language={language} />} />
                         <Route path="/blog/h1b-cap-season-strategy-azusa" element={<H1BCapSeasonStrategyAzusa language={language} />} />
+                        <Route path="/blog/l2-dependent-work-authorization-newport-beach" element={<L2DependentWorkAuthorizationNewportBeach language={language} />} />
+                        <Route path="/blog/military-naturalization-camp-pendleton" element={<MilitaryNaturalizationCampPendleton language={language} />} />
+                        <Route path="/blog/i485-processing-delays-san-bernardino" element={<I485ProcessingDelaysSanBernardino language={language} />} />
+                        <Route path="/blog/syrian-siv-el-monte" element={<SyrianSIVElMonte language={language} />} />
+                        <Route path="/blog/joint-sponsor-requirements-yorba-linda" element={<JointSponsorRequirementsYorbaLinda language={language} />} />
+                        <Route path="/blog/f2-dependent-visa-claremont" element={<F2DependentVisaClaremont language={language} />} />
+                        <Route path="/blog/healthcare-worker-visas-west-covina" element={<HealthcareWorkerVisasWestCovina language={language} />} />
+                        <Route path="/blog/naturalization-after-marriage-green-card-menifee" element={<NaturalizationAfterMarriageGreenCardMenifee language={language} />} />
+                        <Route path="/blog/i94-arrival-record-issues-brea" element={<I94ArrivalRecordIssuesBrea language={language} />} />
+                        <Route path="/blog/moroccan-community-resources-lakewood" element={<MoroccanCommunityResourcesLakewood language={language} />} />
                       </Routes>
                     </main>
 
