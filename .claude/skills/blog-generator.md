@@ -2,6 +2,18 @@
 
 Generate hyper-optimized, geo-targeted, bilingual blog content for SoCal Immigration Services - the premier Arab immigration services company serving all of Southern California from Irvine, CA.
 
+## ⚠️ CRITICAL: AUTO-COMMIT REQUIRED
+
+**THIS SKILL MUST ALWAYS COMMIT AND PUSH ALL GENERATED BLOG POSTS BEFORE COMPLETION.**
+
+Every execution of this skill MUST end with:
+1. `git add` all new/modified files
+2. `git commit` with descriptive message
+3. `git push origin main`
+4. Report live URLs to user
+
+**The skill is NOT complete until all changes are committed and pushed. DO NOT leave uncommitted files.**
+
 ## Usage
 
 ```
@@ -3229,67 +3241,214 @@ Example: "SoCal Immigration Services in Garden Grove provides Arabic-speaking he
 
 ---
 
-## 🚀 POST-GENERATION: GIT COMMIT & DEPLOY (MANDATORY)
+## BING SEARCH OPTIMIZATION - ADDITIVE LAYER (2026)
 
-**After completing blog generation, ALWAYS execute this git workflow to deploy changes to production.**
+**Added:** January 2026
+**Purpose:** Additional Bing-specific optimizations that work ALONGSIDE existing Google/AI optimizations—not replacing them.
 
-### Workflow Steps
+---
+
+### 1. Exact-Match Keyword Emphasis (Bing Additive)
+
+**Bing prefers literal keyword matching.** Add exact-match variants alongside semantic content:
+
+| Element | + Bing Additive |
+|---------|-----------------|
+| First Paragraph | Exact primary keyword in first 50 words verbatim |
+| H2s | Include 2+ H2s with exact-match keywords |
+| Meta Keywords | Add `<meta name="keywords">` tag (Bing reads it) |
+
+**Meta Keywords Tag (Bing Still Uses This):**
+```html
+<meta name="keywords" content="immigration lawyer El Cajon, K-1 visa Anaheim, asylum help San Diego, green card Irvine, Arabic immigration services Southern California">
+```
+
+---
+
+### 2. Desktop-First Content Validation (Bing Indexing)
+
+**Bing uses desktop-first indexing.** Ensure all content renders fully on desktop:
+
+- [ ] No "Show More" JavaScript toggles hiding content
+- [ ] Tables render fully without horizontal scroll
+- [ ] Images sized for desktop viewing (min 800px width)
+- [ ] Answer Capsule visible above fold on 1920x1080 viewport
+
+```html
+<meta name="bingbot" content="index, follow, max-snippet:-1, max-image-preview:large">
+```
+
+---
+
+### 3. Social Meta Tags Enhancement (Bing Social Signals)
+
+**Bing weights social signals for ranking.** Add these meta tags:
+
+```html
+<meta property="og:site_name" content="SoCal Immigration Services">
+<meta property="article:author" content="https://facebook.com/socalimmigration">
+<meta property="article:publisher" content="https://facebook.com/socalimmigration">
+<meta name="author" content="SoCal Immigration Services">
+<meta name="twitter:creator" content="@socalimmigration">
+<meta name="twitter:site" content="@socalimmigration">
+```
+
+---
+
+### 4. Direct Bing Webmaster API Submission
+
+**Submit directly to Bing alongside IndexNow:**
+
+```bash
+# Submit to Bing Webmaster API (faster than IndexNow for Bing)
+curl -X POST "https://ssl.bing.com/webmaster/api.svc/json/SubmitUrl?apikey=${BING_WEBMASTER_API_KEY}" \
+  -H "Content-Type: application/json" \
+  -d '{"siteUrl":"https://socalimmigrationservices.com","url":"${NEW_URL}"}'
+```
+
+---
+
+### 5. Clean Sitemap Validation (Bing 1% Dirt Rule)
+
+**Bing allows only 1% "dirt" in sitemaps:**
+- [ ] No redirecting URLs (301/302)
+- [ ] No 404 errors
+- [ ] All URLs return 200 OK
+- [ ] lastmod dates are accurate
+
+---
+
+### 6. ChatGPT Citation Optimization
+
+**Bing powers ChatGPT's web search.** First 150 characters MUST be fact-dense:
+
+❌ BAD: "Welcome to our guide about immigration services..."
+
+✅ GOOD: "K-1 visa processing in Anaheim takes 12-18 months with USCIS. SoCal Immigration Services provides Arabic-speaking support with 95% approval rates for Little Arabia families."
+
+---
+
+### 7. Bing-Preferred Schema Properties
+
+**Add to existing Article schema:**
+
+```json
+{
+  "mainEntity": {
+    "@type": "WebPage",
+    "significantLink": [
+      "https://www.uscis.gov/",
+      "https://travel.state.gov/",
+      "https://www.ice.gov/"
+    ]
+  },
+  "copyrightHolder": {
+    "@type": "Organization",
+    "name": "SoCal Immigration Services"
+  },
+  "copyrightYear": "2026",
+  "isAccessibleForFree": true,
+  "inLanguage": ["en-US", "ar"]
+}
+```
+
+---
+
+### 8. User Engagement Signals Optimization
+
+**Bing tracks dwell time, CTR, bounce rate:**
+
+- [ ] First sentence contains specific data/claim
+- [ ] 5+ internal links to related content
+- [ ] Related posts section at article end
+- [ ] FAQ section with minimum 6 questions
+- [ ] Meta description includes call-to-action
+
+---
+
+### BING ADDITIVE MASTER CHECKLIST
+
+- [ ] `<meta name="keywords">` tag with 8-12 exact-match phrases
+- [ ] Social meta tags (og:site_name, article:author)
+- [ ] Bing Webmaster API submission alongside IndexNow
+- [ ] Sitemap validated (<1% error rate)
+- [ ] First 150 characters fact-dense
+- [ ] copyrightHolder and copyrightYear in schema
+- [ ] significantLink to USCIS, DOS sources
+
+---
+
+## 🚀 POST-GENERATION: GIT COMMIT & DEPLOY (MANDATORY - NON-NEGOTIABLE)
+
+### ⚠️ CRITICAL: AUTO-COMMIT IS REQUIRED
+
+**THIS IS NOT OPTIONAL. After EVERY blog generation session, you MUST commit and push ALL changes AUTOMATICALLY. Do not wait for user to ask. Do not leave uncommitted files.**
+
+**The skill is INCOMPLETE if files are not committed and pushed.**
+
+### Workflow Steps (Execute IMMEDIATELY after generating posts)
 
 #### Step 1: Stage All New/Modified Blog Files
 ```bash
-git add src/app/blog/
-git add public/images/blog/
+git add src/pages/blog/posts/
+git add src/App.jsx
+git add src/data/blogPosts.js
+git add public/sitemap.xml
 ```
 
 #### Step 2: Create Descriptive Commit
 ```bash
-git commit -m "blog: Add [blog-title] - [primary-keyword]
+git commit -m "feat: Add [N] new SEO-optimized bilingual blog posts
 
-- New blog post: [slug]
-- Target keyword: [primary-keyword]
-- Target location: [SoCal city]
-- Target demographic: [Arab community segment]
-- Schema: Article + FAQPage + LocalBusiness + [other schemas]
+New blog posts covering:
+- [Post 1 title] ([Location 1])
+- [Post 2 title] ([Location 2])
+...
 
-🤖 Generated with Claude Code blog-generator skill"
+🤖 Generated with [Claude Code](https://claude.com/claude-code)
+
+Co-Authored-By: Claude Opus 4.5 <noreply@anthropic.com>"
 ```
 
-#### Step 3: Push to Production
+#### Step 3: Push to Production (IMMEDIATELY)
 ```bash
 git push origin main
+```
+
+#### Step 4: Report Live URLs
+After push, provide the user with all new live URLs:
+```
+https://www.socalimmigrationservices.com/blog/[slug-1]/
+https://www.socalimmigrationservices.com/blog/[slug-2]/
+...
 ```
 
 ### Commit Message Format
 
 Use this format for all blog commits:
 ```
-blog: Add [short-title] - [keyword]
+feat: Add [N] new SEO-optimized bilingual blog posts
 
-- New blog post: [full-slug]
-- Target keyword: [primary-keyword]
-- Target location: [city]
-- [Additional details]
+New blog posts covering:
+- [Post title] ([Location])
+- [Post title] ([Location])
 
-🤖 Generated with Claude Code blog-generator skill
+🤖 Generated with [Claude Code](https://claude.com/claude-code)
+
+Co-Authored-By: Claude Opus 4.5 <noreply@anthropic.com>
 ```
 
-### Multiple Posts Commit
-When generating multiple posts in a single session:
-```bash
-git add src/app/blog/
-git commit -m "blog: Add [N] new posts - [topic-summary]
+### ⛔ FAILURE CONDITIONS - THE SKILL HAS FAILED IF:
+- Blog files exist but are not committed
+- Commit was made but not pushed
+- User has to ask "why isn't this committed?"
+- Any blog post files are left in uncommitted state
 
-Posts added:
-- [slug-1]: [keyword-1] ([city-1])
-- [slug-2]: [keyword-2] ([city-2])
-- [slug-N]: [keyword-N] ([city-N])
-
-🤖 Generated with Claude Code blog-generator skill"
-git push origin main
-```
-
-### ⚠️ IMPORTANT
-- **ALWAYS** commit and push after generating blog posts
-- **NEVER** leave uncommitted blog files in the working directory
-- If build fails after push, fix errors and push again immediately
+### ✅ SUCCESS CONDITIONS - THE SKILL IS COMPLETE WHEN:
+- All new blog post .jsx files are committed
+- App.jsx updated with imports and routes
+- blogPosts.js updated with new entries
+- sitemap.xml updated with new URLs
+- All changes pushed to remote
+- Live URLs provided to user
 
