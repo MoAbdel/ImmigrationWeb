@@ -3,6 +3,182 @@
 
 export const blogPosts = [
   {
+    id: 1097,
+    slug: "iraqi-chaldean-community-spring-valley",
+    title: { en: "Iraqi Chaldean Community Resources in Spring Valley: Immigration Help for Iraqi Families", ar: "موارد المجتمع العراقي الكلداني في سبرينج فالي: مساعدة الهجرة للعائلات العراقية" },
+    excerpt: { en: "Dedicated immigration support for Iraqi Christians and Chaldean families in San Diego County. I-730 family reunification, asylum, citizenship, Arabic-speaking staff.", ar: "دعم هجرة مخصص للمسيحيين العراقيين والعائلات الكلدانية في مقاطعة سان دييغو. لم شمل العائلة I-730، اللجوء، المواطنة، فريق يتحدث العربية." },
+    date: "January 20, 2026",
+    readTime: "11",
+    category: "community",
+    location: "Spring Valley",
+    image: "/images/blog/community.jpg"
+  },
+  {
+    id: 1096,
+    slug: "dv-2027-lottery-results-whittier",
+    title: { en: "DV-2027 Lottery Results in Whittier: Green Card Lottery Winners Guide", ar: "نتائج قرعة DV-2027 في ويتير: دليل الفائزين بقرعة البطاقة الخضراء" },
+    excerpt: { en: "Selected in DV-2027 lottery? Complete guide for green card lottery winners. DS-260 filing, interview prep, document requirements, deadlines.", ar: "تم اختيارك في قرعة DV-2027؟ دليل كامل للفائزين بقرعة البطاقة الخضراء. تقديم DS-260، التحضير للمقابلة، متطلبات المستندات، المواعيد النهائية." },
+    date: "January 20, 2026",
+    readTime: "12",
+    category: "news",
+    location: "Whittier",
+    image: "/images/blog/news.jpg"
+  },
+  {
+    id: 1095,
+    slug: "i912-fee-waiver-barstow",
+    title: { en: "I-912 Fee Waiver in Barstow: Reduce Immigration Costs for Low-Income Families", ar: "إعفاء الرسوم I-912 في بارستو: تقليل تكاليف الهجرة للعائلات ذات الدخل المحدود" },
+    excerpt: { en: "Learn how to request USCIS fee waivers for citizenship, green card renewal, and more. Income-based eligibility, required documents, application process.", ar: "تعلم كيفية طلب إعفاءات رسوم USCIS للمواطنة، تجديد البطاقة الخضراء، والمزيد. الأهلية القائمة على الدخل، الوثائق المطلوبة، عملية التقديم." },
+    date: "January 20, 2026",
+    readTime: "11",
+    category: "documents",
+    location: "Barstow",
+    image: "/images/blog/documents.jpg"
+  },
+  {
+    id: 1094,
+    slug: "visa-bulletin-explained-chino",
+    title: { en: "Visa Bulletin Explained in Chino: Understanding Priority Dates for Arab Immigrants", ar: "شرح نشرة التأشيرات في تشينو: فهم تواريخ الأولوية للمهاجرين العرب" },
+    excerpt: { en: "Learn how to read the monthly Visa Bulletin and track your green card wait time. Priority dates, cut-off dates, family and employment categories.", ar: "تعلم كيفية قراءة نشرة التأشيرات الشهرية وتتبع وقت انتظار البطاقة الخضراء. تواريخ الأولوية، تواريخ القطع، فئات العائلة والتوظيف." },
+    date: "January 20, 2026",
+    readTime: "14",
+    category: "news",
+    location: "Chino",
+    image: "/images/blog/news.jpg"
+  },
+  {
+    id: 1093,
+    slug: "e1-treaty-trader-laguna-hills",
+    title: { en: "E-1 Treaty Trader Visa in Laguna Hills: Business Immigration for Arab Entrepreneurs", ar: "تأشيرة E-1 للتاجر المعاهد في لاجونا هيلز: هجرة الأعمال لرجال الأعمال العرب" },
+    excerpt: { en: "E-1 treaty trader visa for Arab entrepreneurs from Egypt, Jordan, Morocco. Start import/export business in Southern California with expert assistance.", ar: "تأشيرة E-1 للتاجر المعاهد لرجال الأعمال العرب من مصر، الأردن، المغرب. ابدأ أعمال الاستيراد/التصدير في جنوب كاليفورنيا مع مساعدة متخصصة." },
+    date: "January 20, 2026",
+    readTime: "13",
+    category: "employment",
+    location: "Laguna Hills",
+    image: "/images/blog/employment.jpg"
+  },
+  {
+    id: 1092,
+    slug: "daca-renewal-i821d-hemet",
+    title: { en: "DACA Renewal I-821D in Hemet: Complete Guide for Dreamers in Inland Empire", ar: "تجديد DACA نموذج I-821D في هيميت: دليل شامل للحالمين في إنلاند إمباير" },
+    excerpt: { en: "Complete DACA renewal guide for Hemet Dreamers. Form I-821D filing, timelines, fees, biometrics, and work authorization. Arabic-speaking immigration help.", ar: "دليل تجديد DACA الشامل لحالمي هيميت. تقديم نموذج I-821D، الجداول الزمنية، الرسوم، البصمات، وتصريح العمل. مساعدة هجرة بالعربية." },
+    date: "January 20, 2026",
+    readTime: "12",
+    category: "status",
+    location: "Hemet",
+    image: "/images/blog/status.jpg"
+  },
+  {
+    id: 1091,
+    slug: "eb2-advanced-degree-culver-city",
+    title: { en: "EB-2 Advanced Degree Professional in Culver City: Green Card for Master's Degree Holders", ar: "محترف الدرجة المتقدمة EB-2 في كالفر سيتي: البطاقة الخضراء لحاملي الماجستير" },
+    excerpt: { en: "Employment-based green card for professionals with master's degrees. PERM process, EB-2 eligibility, Arabic support.", ar: "بطاقة خضراء قائمة على العمل للمحترفين الحاصلين على الماجستير. عملية PERM، أهلية EB-2، دعم عربي." },
+    date: "January 19, 2026",
+    readTime: "11",
+    category: "employment",
+    location: "Culver City",
+    image: "/images/blog/employment.jpg"
+  },
+  {
+    id: 1090,
+    slug: "asylum-affirmative-defensive-montebello",
+    title: { en: "Asylum Affirmative vs Defensive Process in Montebello: Understanding Your Options", ar: "اللجوء الإيجابي مقابل الدفاعي في مونتيبيلو: فهم خياراتك" },
+    excerpt: { en: "Learn the difference between affirmative and defensive asylum. One-year deadline, asylum interviews, immigration court.", ar: "تعلم الفرق بين اللجوء الإيجابي والدفاعي. موعد السنة الواحدة، مقابلات اللجوء، محكمة الهجرة." },
+    date: "January 19, 2026",
+    readTime: "12",
+    category: "asylum",
+    location: "Montebello",
+    image: "/images/blog/asylum.jpg"
+  },
+  {
+    id: 1089,
+    slug: "i864-poverty-guidelines-2026-yucaipa",
+    title: { en: "I-864 Poverty Guidelines 2026 in Yucaipa: Income Requirements for Immigration Sponsorship", ar: "إرشادات الفقر I-864 لعام 2026 في يوكايبا: متطلبات الدخل لكفالة الهجرة" },
+    excerpt: { en: "2026 poverty guidelines for I-864 affidavit of support. Learn income requirements to sponsor family immigration.", ar: "إرشادات الفقر لعام 2026 لإفادة الكفالة I-864. تعلم متطلبات الدخل لكفالة هجرة العائلة." },
+    date: "January 19, 2026",
+    readTime: "9",
+    category: "family",
+    location: "Yucaipa",
+    image: "/images/blog/family.jpg"
+  },
+  {
+    id: 1088,
+    slug: "egyptian-community-resources-hesperia",
+    title: { en: "Egyptian Community Immigration Resources in Hesperia: Support for Egyptian Families", ar: "موارد الهجرة للمجتمع المصري في هيسبيريا: دعم للعائلات المصرية" },
+    excerpt: { en: "Immigration resources for Egyptian families in Hesperia. Family petitions, citizenship, visa help, Arabic-speaking staff.", ar: "موارد الهجرة للعائلات المصرية في هيسبيريا. التماسات العائلة، المواطنة، مساعدة التأشيرة، فريق يتحدث العربية." },
+    date: "January 19, 2026",
+    readTime: "10",
+    category: "community",
+    location: "Hesperia",
+    image: "/images/blog/community.jpg"
+  },
+  {
+    id: 1087,
+    slug: "i360-religious-worker-colton",
+    title: { en: "I-360 Special Immigrant Religious Worker in Colton: Visa Guide for Ministers and Religious Staff", ar: "العامل الديني المهاجر الخاص I-360 في كولتون: دليل التأشيرة للوزراء والموظفين الدينيين" },
+    excerpt: { en: "I-360 religious worker visa for ministers and imams. Direct path to green card, Arabic support available.", ar: "تأشيرة العامل الديني I-360 للوزراء والأئمة. مسار مباشر للبطاقة الخضراء، دعم عربي متاح." },
+    date: "January 19, 2026",
+    readTime: "11",
+    category: "employment",
+    location: "Colton",
+    image: "/images/blog/employment.jpg"
+  },
+  {
+    id: 1086,
+    slug: "k2-children-visa-la-quinta",
+    title: { en: "K-2 Children's Visa in La Quinta: Bringing Your Fiancé's Children to America", ar: "تأشيرة K-2 للأطفال في لا كينتا: إحضار أطفال خطيبك إلى أمريكا" },
+    excerpt: { en: "K-2 derivative visa for children of K-1 fiancé visa holders. Include children in family reunification.", ar: "تأشيرة K-2 المشتقة لأطفال حاملي تأشيرة الخطوبة K-1. ضم الأطفال في لم شمل العائلة." },
+    date: "January 19, 2026",
+    readTime: "10",
+    category: "marriage",
+    location: "La Quinta",
+    image: "/images/blog/marriage.jpg"
+  },
+  {
+    id: 1085,
+    slug: "citizenship-through-parents-indio",
+    title: { en: "Citizenship Through Parents in Indio: Acquiring U.S. Citizenship at Birth", ar: "المواطنة عبر الوالدين في إنديو: الحصول على الجنسية الأمريكية عند الولادة" },
+    excerpt: { en: "Learn about citizenship through parents. Acquired vs derived citizenship, N-600 certificate of citizenship.", ar: "تعلم عن المواطنة عبر الوالدين. المواطنة المكتسبة مقابل المشتقة، شهادة المواطنة N-600." },
+    date: "January 19, 2026",
+    readTime: "12",
+    category: "citizenship",
+    location: "Indio",
+    image: "/images/blog/citizenship.jpg"
+  },
+  {
+    id: 1084,
+    slug: "l1-blanket-petition-chino-hills",
+    title: { en: "L-1 Blanket Petition in Chino Hills: Faster Employee Transfers for Companies", ar: "التماس L-1 الشامل في تشينو هيلز: نقل أسرع للموظفين للشركات" },
+    excerpt: { en: "L-1 blanket petition for multinational companies. Streamlined intracompany transfers for executives and managers.", ar: "التماس L-1 الشامل للشركات متعددة الجنسيات. نقل مبسط داخل الشركة للمدراء التنفيذيين." },
+    date: "January 19, 2026",
+    readTime: "12",
+    category: "employment",
+    location: "Chino Hills",
+    image: "/images/blog/employment.jpg"
+  },
+  {
+    id: 1083,
+    slug: "refugee-travel-document-rialto",
+    title: { en: "Refugee Travel Document in Rialto: I-131 Application Guide for Asylees", ar: "وثيقة سفر اللاجئ في ريالتو: دليل طلب I-131 لطالبي اللجوء" },
+    excerpt: { en: "Refugee travel document for asylees and refugees. I-131 application, travel safely while protecting your status.", ar: "وثيقة سفر اللاجئ لطالبي اللجوء واللاجئين. طلب I-131، السفر بأمان مع حماية وضعك." },
+    date: "January 19, 2026",
+    readTime: "11",
+    category: "travel",
+    location: "Rialto",
+    image: "/images/blog/travel.jpg"
+  },
+  {
+    id: 1082,
+    slug: "vawa-self-petition-beaumont",
+    title: { en: "VAWA Self-Petition in Beaumont: Immigration Relief for Abused Spouses", ar: "التماس VAWA الذاتي في بومونت: إغاثة الهجرة للأزواج المعتدى عليهم" },
+    excerpt: { en: "VAWA self-petition help for abused immigrant spouses. Confidential assistance, path to green card.", ar: "مساعدة التماس VAWA الذاتي للأزواج المهاجرين المعتدى عليهم. مساعدة سرية، مسار للبطاقة الخضراء." },
+    date: "January 19, 2026",
+    readTime: "13",
+    category: "humanitarian",
+    location: "Beaumont",
+    image: "/images/blog/humanitarian.jpg"
+  },
+  {
     id: 1081,
     slug: "moroccan-community-resources-lakewood",
     title: { en: "Moroccan Community Immigration Resources in Lakewood: Support for Moroccan Families", ar: "موارد مجتمع مغربي للهجرة في ليكوود: دعم للعائلات المغربية" },

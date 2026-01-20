@@ -54,6 +54,7 @@ import F1StudentVisaIrvine from './pages/blog/posts/F1StudentVisaIrvine';
 import L1AIntracompanyIrvine from './pages/blog/posts/L1AIntracompanyIrvine';
 import ConsularProcessingAnaheim from './pages/blog/posts/ConsularProcessingAnaheim';
 import DACAInformationRiverside from './pages/blog/posts/DACAInformationRiverside';
+import DACAReviewalI821DHemet from './pages/blog/posts/DACAReviewalI821DHemet';
 import EB5InvestmentIrvine from './pages/blog/posts/EB5InvestmentIrvine';
 import DivorceImmigrationGardenGrove from './pages/blog/posts/DivorceImmigrationGardenGrove';
 import EmergencyPassportElCajon from './pages/blog/posts/EmergencyPassportElCajon';
@@ -202,6 +203,21 @@ import HealthcareWorkerVisasWestCovina from './pages/blog/posts/HealthcareWorker
 import NaturalizationAfterMarriageGreenCardMenifee from './pages/blog/posts/NaturalizationAfterMarriageGreenCardMenifee';
 import I94ArrivalRecordIssuesBrea from './pages/blog/posts/I94ArrivalRecordIssuesBrea';
 import MoroccanCommunityResourcesLakewood from './pages/blog/posts/MoroccanCommunityResourcesLakewood';
+import VAWASelfPetitionBeaumont from './pages/blog/posts/VAWASelfPetitionBeaumont';
+import RefugeeTravelDocumentRialto from './pages/blog/posts/RefugeeTravelDocumentRialto';
+import L1BlanketPetitionChinoHills from './pages/blog/posts/L1BlanketPetitionChinoHills';
+import CitizenshipThroughParentsIndio from './pages/blog/posts/CitizenshipThroughParentsIndio';
+import K2ChildrenVisaLaQuinta from './pages/blog/posts/K2ChildrenVisaLaQuinta';
+import I360ReligiousWorkerColton from './pages/blog/posts/I360ReligiousWorkerColton';
+import EgyptianCommunityResourcesHesperia from './pages/blog/posts/EgyptianCommunityResourcesHesperia';
+import I864PovertyGuidelines2026Yucaipa from './pages/blog/posts/I864PovertyGuidelines2026Yucaipa';
+import AsylumAffirmativeDefensiveMontebello from './pages/blog/posts/AsylumAffirmativeDefensiveMontebello';
+import EB2AdvancedDegreeCulverCity from './pages/blog/posts/EB2AdvancedDegreeCulverCity';
+import E1TreatyTraderLagunaHills from './pages/blog/posts/E1TreatyTraderLagunaHills';
+import VisaBulletinExplainedChino from './pages/blog/posts/VisaBulletinExplainedChino';
+import I912FeeWaiverBarstow from './pages/blog/posts/I912FeeWaiverBarstow';
+import DV2027LotteryResultsWhittier from './pages/blog/posts/DV2027LotteryResultsWhittier';
+import IraqiChaldeanSpringValley from './pages/blog/posts/IraqiChaldeanSpringValley';
 
 import EB2NIWStrategy from './pages/blog/posts/EB2NIWStrategy';
 import MarriageGreenCardTimeline from './pages/blog/posts/MarriageGreenCardTimeline';
@@ -650,6 +666,7 @@ const App = () => {
                         <Route path="/blog/l1a-intracompany-transfer-irvine" element={<L1AIntracompanyIrvine language={language} />} />
                         <Route path="/blog/consular-processing-vs-adjustment-anaheim" element={<ConsularProcessingAnaheim language={language} />} />
                         <Route path="/blog/daca-information-riverside" element={<DACAInformationRiverside language={language} />} />
+                        <Route path="/blog/daca-renewal-i821d-hemet" element={<DACAReviewalI821DHemet language={language} />} />
                         <Route path="/blog/eb5-investment-green-card-irvine" element={<EB5InvestmentIrvine language={language} />} />
                         <Route path="/blog/divorce-immigration-impact-garden-grove" element={<DivorceImmigrationGardenGrove language={language} />} />
                         <Route path="/blog/emergency-passport-services-el-cajon" element={<EmergencyPassportElCajon language={language} />} />
@@ -798,6 +815,21 @@ const App = () => {
                         <Route path="/blog/naturalization-after-marriage-green-card-menifee" element={<NaturalizationAfterMarriageGreenCardMenifee language={language} />} />
                         <Route path="/blog/i94-arrival-record-issues-brea" element={<I94ArrivalRecordIssuesBrea language={language} />} />
                         <Route path="/blog/moroccan-community-resources-lakewood" element={<MoroccanCommunityResourcesLakewood language={language} />} />
+                        <Route path="/blog/vawa-self-petition-beaumont" element={<VAWASelfPetitionBeaumont language={language} />} />
+                        <Route path="/blog/refugee-travel-document-rialto" element={<RefugeeTravelDocumentRialto language={language} />} />
+                        <Route path="/blog/l1-blanket-petition-chino-hills" element={<L1BlanketPetitionChinoHills language={language} />} />
+                        <Route path="/blog/citizenship-through-parents-indio" element={<CitizenshipThroughParentsIndio language={language} />} />
+                        <Route path="/blog/k2-children-visa-la-quinta" element={<K2ChildrenVisaLaQuinta language={language} />} />
+                        <Route path="/blog/i360-religious-worker-colton" element={<I360ReligiousWorkerColton language={language} />} />
+                        <Route path="/blog/egyptian-community-resources-hesperia" element={<EgyptianCommunityResourcesHesperia language={language} />} />
+                        <Route path="/blog/i864-poverty-guidelines-2026-yucaipa" element={<I864PovertyGuidelines2026Yucaipa language={language} />} />
+                        <Route path="/blog/asylum-affirmative-defensive-montebello" element={<AsylumAffirmativeDefensiveMontebello language={language} />} />
+                        <Route path="/blog/eb2-advanced-degree-culver-city" element={<EB2AdvancedDegreeCulverCity language={language} />} />
+                        <Route path="/blog/e1-treaty-trader-laguna-hills" element={<E1TreatyTraderLagunaHills language={language} />} />
+                        <Route path="/blog/visa-bulletin-explained-chino" element={<VisaBulletinExplainedChino language={language} />} />
+                        <Route path="/blog/i912-fee-waiver-barstow" element={<I912FeeWaiverBarstow language={language} />} />
+                        <Route path="/blog/dv-2027-lottery-results-whittier" element={<DV2027LotteryResultsWhittier language={language} />} />
+                        <Route path="/blog/iraqi-chaldean-community-spring-valley" element={<IraqiChaldeanSpringValley language={language} />} />
                       </Routes>
                     </main>
 
