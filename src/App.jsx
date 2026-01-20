@@ -7,6 +7,7 @@ import { Users, Flag, FileText, ScrollText, Heart, Award, Shield } from 'lucide-
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import SupportBubble from './components/SupportBubble';
+import ExitIntentModal from './components/ExitIntentModal';
 
 // Pages
 import HomePage from './pages/HomePage';
@@ -851,6 +852,7 @@ const App = () => {
 
                     <Footer language={language} content={content} />
                     <SupportBubble language={language} content={content} />
+                    <ExitIntentModal language={language} content={content} />
                   </div>
                 </Router>
               </HelmetProvider>

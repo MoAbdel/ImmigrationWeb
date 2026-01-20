@@ -1,5 +1,5 @@
 import React from 'react';
-import BlogPostTemplate from '../../../components/BlogPostTemplate';
+import BlogPostTemplate from '../BlogPostTemplate';
 
 const HumanitarianParoleExtensionFontana = () => {
   const defined = {
