@@ -1,382 +1,233 @@
 import React from 'react';
 import BlogPostTemplate from '../BlogPostTemplate';
 
-const HumanitarianParoleExtensionFontana = () => {
-  const defined = {
-    defined: {
-      title: "Humanitarian Parole Expiring? Options for Extension and Status Adjustment in Fontana",
-      titleArabic: "هل تنتهي صلاحية الإفراج الإنساني؟ خيارات التمديد وتعديل الوضع في فونتانا",
-      date: "January 20, 2026",
-      author: "SoCal Immigration Services",
+const HumanitarianParoleExtensionFontana = ({ language }) => {
+  const content = {
+    en: {
+      slug: "humanitarian-parole-extension-fontana",
+      title: "Humanitarian Parole Expiring in Fontana? Options for Extension and Status Adjustment",
+      subtitle: "Understanding your options when humanitarian parole nears expiration",
+      metaTitle: "Humanitarian Parole Extension Fontana | Parole Expiring Options Inland Empire",
+      metaDescription: "Humanitarian parole expiring in Fontana? Learn about extension options, adjustment of status, and pathways to legal permanent residence. Arabic-speaking immigration help. Call (714) 421-8872.",
+      keywords: "humanitarian parole extension Fontana, parole expiring, adjustment of status, re-parole application, Afghan parole, Ukrainian parole",
       category: "Status",
-      categoryArabic: "الوضع القانوني",
-      readTime: "12 min read",
-      readTimeArabic: "12 دقيقة للقراءة",
       location: "Fontana",
-      locationArabic: "فونتانا"
-    },
-    seo: {
-      pageTitle: "Humanitarian Parole Extension Options Fontana | SoCal Immigration Services",
-      metaDescription: "Humanitarian parole expiring in Fontana? Learn about extension options, adjustment of status, and pathways to legal permanent residence. Arabic-speaking immigration help.",
-      canonicalUrl: "https://www.socalimmigrationservices.com/blog/humanitarian-parole-extension-fontana/",
-      keywords: ["humanitarian parole extension", "parole expiring", "adjustment of status", "Fontana immigration", "re-parole application", "Afghan parole", "Ukrainian parole", "immigration lawyer Fontana"]
-    }
-  };
+      date: "January 20, 2026",
+      readTime: "12 min read",
+      author: "SoCal Immigration Services",
+      locationIntro: "Humanitarian parole provides critical temporary protection for individuals fleeing dangerous situations, but this status comes with an expiration date. For Fontana residents whose humanitarian parole is nearing expiration, understanding your options is essential. SoCal Immigration Services provides Arabic-speaking assistance for parolees exploring their next steps.",
 
-  const defined2 = {
-    defined: {
-      intro: `Humanitarian parole provides critical temporary protection for individuals fleeing dangerous situations, but this status comes with an expiration date. For Fontana residents whose humanitarian parole is nearing expiration, understanding your options is essential for maintaining legal status in the United States. Whether you arrived through Afghan Operation Allies Welcome, Uniting for Ukraine, or other humanitarian programs, planning ahead is crucial for your continued safety and stability.`,
-      introArabic: `يوفر الإفراج الإنساني حماية مؤقتة حيوية للأفراد الفارين من المواقف الخطرة، لكن هذا الوضع يأتي بتاريخ انتهاء. بالنسبة لسكان فونتانا الذين يقترب موعد انتهاء إفراجهم الإنساني، فإن فهم خياراتكم أمر ضروري للحفاظ على الوضع القانوني في الولايات المتحدة. سواء وصلتم من خلال عملية الترحيب بالحلفاء الأفغان أو توحيد لأوكرانيا أو برامج إنسانية أخرى، فإن التخطيط المسبق أمر بالغ الأهمية لاستمرار سلامتكم واستقراركم.`
-    }
-  };
-
-  const defined3 = {
-    defined: {
       sections: [
         {
-          title: "Understanding Humanitarian Parole Duration",
-          titleArabic: "فهم مدة الإفراج الإنساني",
-          content: `Humanitarian parole is granted for a specific period, typically ranging from one to two years depending on the program. Unlike other immigration statuses, parole does not automatically lead to permanent residence and must be actively managed before expiration.
-
-Key points about parole duration:
-• **Initial Period**: Most humanitarian parole grants last 1-2 years
-• **No Automatic Extension**: Parole does not renew automatically
-• **Grace Period**: There is no grace period after expiration
-• **Status Implications**: Overstaying parole can affect future immigration options
-
-Your I-94 arrival/departure record shows your parole expiration date. We strongly recommend beginning the process of exploring your options at least 6 months before this date.`,
-          contentArabic: `يُمنح الإفراج الإنساني لفترة محددة، تتراوح عادة بين سنة إلى سنتين حسب البرنامج. على عكس أوضاع الهجرة الأخرى، لا يؤدي الإفراج تلقائيًا إلى الإقامة الدائمة ويجب إدارته بنشاط قبل انتهاء الصلاحية.
-
-نقاط رئيسية حول مدة الإفراج:
-• **الفترة الأولية**: معظم منح الإفراج الإنساني تستمر 1-2 سنة
-• **لا تمديد تلقائي**: الإفراج لا يتجدد تلقائيًا
-• **فترة السماح**: لا توجد فترة سماح بعد انتهاء الصلاحية
-• **آثار الوضع**: تجاوز مدة الإفراج يمكن أن يؤثر على خيارات الهجرة المستقبلية
-
-يُظهر سجل الوصول/المغادرة I-94 الخاص بك تاريخ انتهاء الإفراج. نوصي بشدة ببدء عملية استكشاف خياراتك قبل 6 أشهر على الأقل من هذا التاريخ.`
+          heading: "Understanding Humanitarian Parole Duration",
+          content: "Humanitarian parole is granted for a specific period, typically 1-2 years. Key points:\n\n• Initial parole period varies by program\n• No automatic extension or renewal\n• No grace period after expiration\n• Overstaying can affect future options\n\nCheck your I-94 for your parole expiration date. Begin exploring options at least 6 months before expiration."
         },
         {
-          title: "Re-Parole Application Process",
-          titleArabic: "عملية طلب إعادة الإفراج",
-          content: `If no other immigration pathway is available, you may apply for re-parole to extend your authorized stay. The process involves demonstrating continued urgent humanitarian reasons or significant public benefit for remaining in the United States.
-
-Re-parole application requirements:
-• **Form I-131**: Application for Travel Document (check box 1.e)
-• **Supporting Evidence**: Documentation of ongoing humanitarian need
-• **Filing Fee**: Currently $575 (fee waiver may be available with Form I-912)
-• **Biometrics**: Appointment will be scheduled after filing
-• **Processing Time**: Typically 6-12 months
-
-Important considerations for Fontana residents:
-- File well before your current parole expires
-- You may work while re-parole is pending if you have valid EAD
-- Re-parole is discretionary and not guaranteed
-- Include country conditions evidence if relevant`,
-          contentArabic: `إذا لم يكن هناك مسار هجرة آخر متاح، يمكنك التقدم بطلب إعادة الإفراج لتمديد إقامتك المصرح بها. تتضمن العملية إثبات استمرار الأسباب الإنسانية العاجلة أو المنفعة العامة الكبيرة للبقاء في الولايات المتحدة.
-
-متطلبات طلب إعادة الإفراج:
-• **نموذج I-131**: طلب وثيقة السفر (ضع علامة على المربع 1.e)
-• **الأدلة الداعمة**: توثيق الحاجة الإنسانية المستمرة
-• **رسوم التقديم**: حاليًا 575 دولار (قد يتوفر إعفاء من الرسوم مع نموذج I-912)
-• **القياسات الحيوية**: سيتم تحديد موعد بعد التقديم
-• **وقت المعالجة**: عادة 6-12 شهرًا
-
-اعتبارات مهمة لسكان فونتانا:
-- قدم قبل وقت كافٍ من انتهاء إفراجك الحالي
-- يمكنك العمل أثناء انتظار إعادة الإفراج إذا كان لديك تصريح عمل ساري
-- إعادة الإفراج تقديرية وغير مضمونة
-- قم بتضمين أدلة ظروف البلد إذا كانت ذات صلة`
+          heading: "Re-Parole Application Process",
+          content: "If no other pathway is available, you may apply for re-parole:",
+          list: [
+            "File Form I-131 (Application for Travel Document)",
+            "Check box 1.e for re-parole",
+            "Provide evidence of continued humanitarian need",
+            "Pay $575 filing fee (fee waiver available with I-912)",
+            "Attend biometrics appointment",
+            "Processing time: 6-12 months"
+          ]
         },
         {
-          title: "Adjustment of Status Through Family",
-          titleArabic: "تعديل الوضع من خلال العائلة",
-          content: `One of the most common pathways for parolees to obtain permanent residence is through family-based immigration. If you have a qualifying family relationship, you may be eligible to adjust status without leaving the United States.
-
-Eligible family relationships:
-• **Immediate Relatives of U.S. Citizens**:
-  - Spouse of U.S. citizen
-  - Parent of U.S. citizen (if citizen is 21+)
-  - Unmarried child under 21 of U.S. citizen
-
-• **Family Preference Categories**:
-  - F1: Unmarried adult children of U.S. citizens
-  - F2A: Spouse and minor children of permanent residents
-  - F2B: Unmarried adult children of permanent residents
-  - F3: Married adult children of U.S. citizens
-  - F4: Siblings of adult U.S. citizens
-
-Advantages of family-based adjustment:
-- Can adjust status while in the U.S. (no need to return home)
-- Work authorization available while pending
-- Travel authorization possible with Advance Parole
-- Path to citizenship after 3-5 years as permanent resident`,
-          contentArabic: `أحد أكثر المسارات شيوعًا للمفرج عنهم للحصول على الإقامة الدائمة هو من خلال الهجرة القائمة على العائلة. إذا كانت لديك علاقة عائلية مؤهلة، فقد تكون مؤهلاً لتعديل وضعك دون مغادرة الولايات المتحدة.
-
-العلاقات العائلية المؤهلة:
-• **الأقارب المباشرون لمواطني الولايات المتحدة**:
-  - زوج/زوجة مواطن أمريكي
-  - والد مواطن أمريكي (إذا كان المواطن 21+)
-  - طفل غير متزوج أقل من 21 سنة لمواطن أمريكي
-
-• **فئات الأفضلية العائلية**:
-  - F1: الأبناء البالغون غير المتزوجين لمواطني الولايات المتحدة
-  - F2A: الزوج والأطفال القصر للمقيمين الدائمين
-  - F2B: الأبناء البالغون غير المتزوجين للمقيمين الدائمين
-  - F3: الأبناء البالغون المتزوجون لمواطني الولايات المتحدة
-  - F4: أشقاء المواطنين الأمريكيين البالغين
-
-مزايا التعديل القائم على العائلة:
-- يمكن تعديل الوضع أثناء التواجد في الولايات المتحدة (لا حاجة للعودة للوطن)
-- تصريح العمل متاح أثناء الانتظار
-- تصريح السفر ممكن مع الإفراج المسبق
-- مسار للمواطنة بعد 3-5 سنوات كمقيم دائم`
+          heading: "Adjustment of Status Through Family",
+          content: "If you have qualifying family relationships, you may adjust status without leaving:\n\nImmediate Relatives of U.S. Citizens:\n• Spouse of U.S. citizen\n• Parent of adult U.S. citizen\n• Unmarried child under 21\n\nFamily Preference Categories:\n• F2A: Spouse/children of green card holders\n• Other preference categories with longer waits\n\nParolees are generally eligible to adjust status if otherwise qualified."
         },
         {
-          title: "Employment-Based Options",
-          titleArabic: "الخيارات القائمة على التوظيف",
-          content: `For skilled workers, professionals, and those with job offers, employment-based immigration may provide a path to permanent residence. Parolees can pursue these options if they meet the qualifications.
-
-Employment-based categories:
-• **EB-1**: Priority workers (extraordinary ability, outstanding researchers, multinational managers)
-• **EB-2**: Advanced degree professionals or exceptional ability
-• **EB-3**: Skilled workers, professionals, and other workers
-• **EB-4**: Special immigrants (religious workers, certain government employees)
-• **EB-5**: Immigrant investors
-
-Process overview:
-1. **Labor Certification (PERM)**: Required for most EB-2 and EB-3 cases
-2. **I-140 Petition**: Employer files immigrant petition
-3. **I-485 Adjustment**: File when priority date is current
-4. **Green Card Approval**: Become permanent resident
-
-Timeline considerations:
-- PERM processing: 8-18 months
-- I-140 processing: 6-12 months (premium processing available)
-- Adjustment wait times vary by country of birth`,
-          contentArabic: `بالنسبة للعمال المهرة والمهنيين وأولئك الذين لديهم عروض عمل، قد توفر الهجرة القائمة على التوظيف مسارًا للإقامة الدائمة. يمكن للمفرج عنهم متابعة هذه الخيارات إذا استوفوا المؤهلات.
-
-فئات التوظيف:
-• **EB-1**: العمال ذوو الأولوية (القدرة الاستثنائية، الباحثون المتميزون، المديرون متعددو الجنسيات)
-• **EB-2**: المهنيون الحاصلون على درجات متقدمة أو ذوو القدرة الاستثنائية
-• **EB-3**: العمال المهرة والمهنيون وغيرهم
-• **EB-4**: المهاجرون الخاصون (العاملون الدينيون، موظفون حكوميون معينون)
-• **EB-5**: المستثمرون المهاجرون
-
-نظرة عامة على العملية:
-1. **شهادة العمل (PERM)**: مطلوبة لمعظم حالات EB-2 و EB-3
-2. **عريضة I-140**: يقدم صاحب العمل عريضة المهاجر
-3. **تعديل I-485**: قدم عندما يكون تاريخ الأولوية حاليًا
-4. **الموافقة على البطاقة الخضراء**: تصبح مقيمًا دائمًا
-
-اعتبارات الجدول الزمني:
-- معالجة PERM: 8-18 شهرًا
-- معالجة I-140: 6-12 شهرًا (المعالجة المميزة متاحة)
-- أوقات انتظار التعديل تختلف حسب بلد الميلاد`
+          heading: "Employment-Based Options",
+          content: "For skilled workers with job offers:",
+          table: {
+            headers: ["Category", "Requirements", "Timeline"],
+            rows: [
+              ["EB-1", "Extraordinary ability, outstanding researchers", "Fastest"],
+              ["EB-2", "Advanced degree or exceptional ability", "Moderate"],
+              ["EB-3", "Skilled workers, professionals", "Longer wait"],
+              ["EB-4", "Special immigrants (religious workers)", "Varies"]
+            ]
+          }
         },
         {
-          title: "Asylum as an Alternative Pathway",
-          titleArabic: "اللجوء كمسار بديل",
-          content: `If you fear persecution in your home country based on race, religion, nationality, political opinion, or membership in a particular social group, asylum may be an option. Parolees can apply for asylum within one year of their most recent U.S. entry.
-
-Asylum eligibility requirements:
-• **Persecution Fear**: Must demonstrate past persecution or well-founded fear of future persecution
-• **Protected Ground**: Persecution must be based on one of five protected grounds
-• **One-Year Deadline**: Must file within one year of entry (exceptions exist)
-• **No Safe Third Country**: Cannot have firmly resettled elsewhere
-
-Process for Fontana residents:
-1. **File Form I-589**: Application for Asylum and Withholding of Removal
-2. **Biometrics Appointment**: Scheduled after filing
-3. **Interview**: Conducted at Los Angeles Asylum Office
-4. **Decision**: Approval, denial, or referral to immigration court
-
-Benefits of asylum approval:
-- Permanent protection from deportation
-- Work authorization
-- Path to green card after one year
-- Ability to petition for spouse and unmarried children under 21`,
-          contentArabic: `إذا كنت تخشى الاضطهاد في بلدك الأصلي على أساس العرق أو الدين أو الجنسية أو الرأي السياسي أو العضوية في مجموعة اجتماعية معينة، فقد يكون اللجوء خيارًا. يمكن للمفرج عنهم التقدم بطلب اللجوء خلال سنة واحدة من آخر دخول لهم إلى الولايات المتحدة.
-
-متطلبات أهلية اللجوء:
-• **الخوف من الاضطهاد**: يجب إثبات اضطهاد سابق أو خوف مبرر من اضطهاد مستقبلي
-• **الأساس المحمي**: يجب أن يكون الاضطهاد على أحد الأسس الخمسة المحمية
-• **الموعد النهائي لسنة واحدة**: يجب التقديم خلال سنة من الدخول (توجد استثناءات)
-• **لا بلد ثالث آمن**: لا يمكن أن تكون قد استقررت بشكل دائم في مكان آخر
-
-العملية لسكان فونتانا:
-1. **قدم نموذج I-589**: طلب اللجوء وحجب الترحيل
-2. **موعد القياسات الحيوية**: يُحدد بعد التقديم
-3. **المقابلة**: تُجرى في مكتب اللجوء في لوس أنجلوس
-4. **القرار**: موافقة أو رفض أو إحالة لمحكمة الهجرة
-
-فوائد الموافقة على اللجوء:
-- حماية دائمة من الترحيل
-- تصريح العمل
-- مسار للبطاقة الخضراء بعد سنة
-- القدرة على تقديم التماس للزوج والأطفال غير المتزوجين دون 21 سنة`
+          heading: "Asylum as an Alternative",
+          content: "If you fear persecution in your home country:\n\n• Must file within 1 year of most recent entry\n• Based on race, religion, nationality, political opinion, or social group\n• Provides path to green card after 1 year\n• Work authorization available while pending\n\nMany humanitarian parolees qualify for asylum based on the same conditions that led to their parole."
         },
         {
-          title: "Special Programs for Afghan and Ukrainian Parolees",
-          titleArabic: "برامج خاصة للمفرج عنهم الأفغان والأوكرانيين",
-          content: `Congress has created specific pathways for certain humanitarian parolee populations. If you arrived through specific programs, you may have unique options available.
-
-**Afghan Adjustment Act**:
-Afghan nationals who were paroled between July 31, 2021, and September 30, 2023, may be eligible to adjust status under the Afghan Adjustment Act. This includes:
-- Operation Allies Welcome parolees
-- Certain SIV applicants
-- Immediate family members
-- Application through Form I-485 with Afghan Adjustment Act-specific requirements
-
-**Ukrainian Parolees**:
-Ukrainians who arrived through Uniting for Ukraine may explore:
-- Re-parole applications
-- Asylum (if eligible and within one-year deadline)
-- Family-based petitions if qualifying relationships exist
-- TPS (Temporary Protected Status) if designated
-
-**Cuban, Haitian, Nicaraguan, Venezuelan (CHNV) Parolees**:
-Those who arrived through CHNV parole programs should monitor for:
-- Program-specific guidance from USCIS
-- Potential legislative solutions
-- TPS availability for their nationality`,
-          contentArabic: `أنشأ الكونغرس مسارات محددة لبعض السكان المفرج عنهم لأسباب إنسانية. إذا وصلت من خلال برامج محددة، فقد تتوفر لديك خيارات فريدة.
-
-**قانون التعديل الأفغاني**:
-قد يكون المواطنون الأفغان الذين تم الإفراج عنهم بين 31 يوليو 2021 و30 سبتمبر 2023 مؤهلين لتعديل وضعهم بموجب قانون التعديل الأفغاني. يشمل هذا:
-- المفرج عنهم من عملية الترحيب بالحلفاء
-- بعض متقدمي تأشيرة المهاجر الخاص
-- أفراد الأسرة المباشرون
-- التقديم من خلال نموذج I-485 مع متطلبات قانون التعديل الأفغاني الخاصة
-
-**المفرج عنهم الأوكرانيون**:
-يمكن للأوكرانيين الذين وصلوا من خلال توحيد لأوكرانيا استكشاف:
-- طلبات إعادة الإفراج
-- اللجوء (إذا كانوا مؤهلين وضمن الموعد النهائي لسنة واحدة)
-- الالتماسات العائلية إذا وجدت علاقات مؤهلة
-- TPS (الوضع المحمي المؤقت) إذا تم تعيينه
-
-**المفرج عنهم الكوبيون والهايتيون والنيكاراغويون والفنزويليون (CHNV)**:
-يجب على أولئك الذين وصلوا من خلال برامج إفراج CHNV مراقبة:
-- التوجيهات الخاصة بالبرنامج من USCIS
-- الحلول التشريعية المحتملة
-- توفر TPS لجنسيتهم`
+          heading: "Special Programs for Afghan and Ukrainian Parolees",
+          content: "Congress has created specific pathways:\n\nAfghan Adjustment Act:\n• For parolees arriving July 2021 - September 2023\n• Allows adjustment to permanent residence\n• Includes Operation Allies Welcome participants\n\nUkrainian Parolees (Uniting for Ukraine):\n• May apply for re-parole\n• Asylum option if within 1-year deadline\n• TPS if designated for Ukraine"
         },
         {
-          title: "Maintaining Work Authorization",
-          titleArabic: "الحفاظ على تصريح العمل",
-          content: `While exploring long-term options, maintaining your ability to work legally is crucial for supporting yourself and your family in Fontana. Understanding the Employment Authorization Document (EAD) process is essential.
-
-EAD categories for parolees:
-• **(c)(11)**: Parolee category - available to all humanitarian parolees
-• **(a)(5)**: Asylum applicant - if you file for asylum
-• **(c)(9)**: Adjustment applicant - if you file Form I-485
-
-Renewal timing:
-- File Form I-765 at least 180 days before expiration
-- Include proper category code
-- Pay $410 fee (or file fee waiver I-912)
-- Automatic 540-day extension may apply for timely renewals in same category
-
-Tips for uninterrupted work authorization:
-- Track your EAD expiration date carefully
-- File renewal early to avoid gaps
-- Keep copies of all EAD cards
-- Notify employer of any changes`,
-          contentArabic: `أثناء استكشاف الخيارات طويلة المدى، فإن الحفاظ على قدرتك على العمل بشكل قانوني أمر بالغ الأهمية لدعم نفسك وعائلتك في فونتانا. فهم عملية وثيقة تصريح العمل (EAD) أمر ضروري.
-
-فئات EAD للمفرج عنهم:
-• **(c)(11)**: فئة المفرج عنهم - متاحة لجميع المفرج عنهم لأسباب إنسانية
-• **(a)(5)**: طالب لجوء - إذا تقدمت بطلب لجوء
-• **(c)(9)**: طالب تعديل - إذا قدمت نموذج I-485
-
-توقيت التجديد:
-- قدم نموذج I-765 قبل 180 يومًا على الأقل من انتهاء الصلاحية
-- قم بتضمين رمز الفئة الصحيح
-- ادفع رسوم 410 دولار (أو قدم إعفاء من الرسوم I-912)
-- قد ينطبق تمديد تلقائي لمدة 540 يومًا للتجديدات في الوقت المناسب في نفس الفئة
-
-نصائح لتصريح عمل متواصل:
-- تتبع تاريخ انتهاء صلاحية EAD الخاص بك بعناية
-- قدم التجديد مبكرًا لتجنب الفجوات
-- احتفظ بنسخ من جميع بطاقات EAD
-- أبلغ صاحب العمل بأي تغييرات`
+          heading: "Maintaining Work Authorization",
+          content: "Keep your EAD valid while exploring options:",
+          list: [
+            "File Form I-765 renewal 180 days before expiration",
+            "Category (c)(11) for parolees",
+            "Category (a)(5) if asylum applicant",
+            "Category (c)(9) if adjustment pending",
+            "Automatic 540-day extension may apply for timely renewals"
+          ]
         },
         {
-          title: "How SoCal Immigration Services Can Help",
-          titleArabic: "كيف يمكن لخدمات الهجرة في جنوب كاليفورنيا المساعدة",
-          content: `Navigating the transition from humanitarian parole to a more permanent status requires careful planning and expert guidance. Our experienced team serves the Fontana community with compassionate, knowledgeable immigration assistance.
-
-Our services include:
-• **Status Assessment**: Complete review of your immigration history and options
-• **Re-Parole Applications**: Help with Form I-131 and supporting documentation
-• **Family Petition Filing**: I-130 petitions for qualifying relatives
-• **Adjustment of Status**: I-485 applications for eligible parolees
-• **Asylum Applications**: I-589 preparation and interview coaching
-• **EAD Renewals**: Timely filing to maintain work authorization
-• **Case Monitoring**: Track processing times and respond to USCIS requests
-
-We understand the unique challenges facing humanitarian parolees:
-- Uncertainty about future immigration status
-- Family members still abroad
-- Navigating complex bureaucratic processes
-- Language barriers and cultural differences
-
-Our bilingual staff provides culturally sensitive services in English and Arabic, ensuring you understand every step of your case. Contact us today for a consultation at our offices serving the Fontana and Inland Empire area.`,
-          contentArabic: `يتطلب الانتقال من الإفراج الإنساني إلى وضع أكثر دوامًا تخطيطًا دقيقًا وتوجيهًا خبيرًا. يخدم فريقنا ذو الخبرة مجتمع فونتانا بمساعدة هجرة رحيمة وواسعة المعرفة.
-
-خدماتنا تشمل:
-• **تقييم الوضع**: مراجعة كاملة لتاريخ هجرتك وخياراتك
-• **طلبات إعادة الإفراج**: المساعدة في نموذج I-131 والوثائق الداعمة
-• **تقديم الالتماسات العائلية**: التماسات I-130 للأقارب المؤهلين
-• **تعديل الوضع**: طلبات I-485 للمفرج عنهم المؤهلين
-• **طلبات اللجوء**: إعداد I-589 والتدريب على المقابلة
-• **تجديد EAD**: التقديم في الوقت المناسب للحفاظ على تصريح العمل
-• **متابعة القضية**: تتبع أوقات المعالجة والرد على طلبات USCIS
-
-نحن نفهم التحديات الفريدة التي تواجه المفرج عنهم لأسباب إنسانية:
-- عدم اليقين بشأن وضع الهجرة المستقبلي
-- أفراد الأسرة لا يزالون في الخارج
-- التنقل في العمليات البيروقراطية المعقدة
-- الحواجز اللغوية والاختلافات الثقافية
-
-يقدم موظفونا ثنائيو اللغة خدمات حساسة ثقافيًا باللغتين الإنجليزية والعربية، مما يضمن فهمك لكل خطوة في قضيتك. اتصل بنا اليوم للحصول على استشارة في مكاتبنا التي تخدم منطقة فونتانا وإمباير الداخلية.`
+          heading: "Fontana Humanitarian Parole Services",
+          content: "SoCal Immigration Services helps Fontana parolees with:",
+          list: [
+            "Arabic and English speaking staff",
+            "Status assessment and option evaluation",
+            "Re-parole application preparation",
+            "Family petition filing assistance",
+            "Asylum application support",
+            "EAD renewal filing",
+            "Case monitoring and updates"
+          ]
         }
-      ]
+      ],
+
+      faqs: [
+        {
+          q: "How long before my parole expires should I take action?",
+          a: "Begin exploring options at least 6 months before expiration. This allows time to gather documents, file applications, and address any complications."
+        },
+        {
+          q: "Can I travel outside the U.S. while on humanitarian parole?",
+          a: "Travel is risky. You may need advance parole to return, and leaving could affect pending applications. Always consult before international travel."
+        },
+        {
+          q: "What happens if my parole expires before my application is decided?",
+          a: "If you have a pending I-485 adjustment application, you generally remain in authorized status while it's pending, even if parole expires."
+        },
+        {
+          q: "Is there a fee waiver for re-parole applications?",
+          a: "Yes, you may apply for fee waiver using Form I-912 based on household income, means-tested benefits, or financial hardship."
+        },
+        {
+          q: "Can I get a green card directly from humanitarian parole?",
+          a: "Parole itself doesn't lead directly to a green card. You need a separate pathway like family sponsorship, employment sponsorship, asylum, or a special program like the Afghan Adjustment Act."
+        }
+      ],
+
+      cta: {
+        title: "Humanitarian Parole Expiring in Fontana?",
+        text: "Don't wait until the last minute. Our Arabic-speaking team can evaluate your options and help you maintain legal status.",
+        button: "Schedule Free Consultation"
+      }
+    },
+    ar: {
+      slug: "humanitarian-parole-extension-fontana",
+      title: "هل ينتهي الإفراج الإنساني في فونتانا؟ خيارات التمديد وتعديل الوضع",
+      subtitle: "فهم خياراتك عندما يقترب انتهاء الإفراج الإنساني",
+      metaTitle: "تمديد الإفراج الإنساني فونتانا | خيارات انتهاء الإفراج إنلاند إمباير",
+      metaDescription: "هل ينتهي إفراجك الإنساني في فونتانا؟ تعرف على خيارات التمديد وتعديل الوضع ومسارات الإقامة الدائمة. مساعدة هجرة بالعربية. اتصل (714) 421-8872.",
+      keywords: "تمديد الإفراج الإنساني فونتانا، انتهاء الإفراج، تعديل الوضع، طلب إعادة الإفراج، الإفراج الأفغاني، الإفراج الأوكراني",
+      category: "الوضع القانوني",
+      location: "فونتانا",
+      date: "20 يناير 2026",
+      readTime: "12 دقيقة قراءة",
+      author: "خدمات الهجرة سوكال",
+      locationIntro: "يوفر الإفراج الإنساني حماية مؤقتة حيوية للأفراد الفارين من المواقف الخطرة، لكن هذا الوضع يأتي بتاريخ انتهاء. لسكان فونتانا الذين يقترب انتهاء إفراجهم الإنساني، فهم خياراتكم أمر ضروري. توفر خدمات الهجرة سوكال مساعدة بالعربية للمفرج عنهم الذين يستكشفون خطواتهم التالية.",
+
+      sections: [
+        {
+          heading: "فهم مدة الإفراج الإنساني",
+          content: "يُمنح الإفراج الإنساني لفترة محددة، عادة 1-2 سنة. نقاط رئيسية:\n\n• فترة الإفراج الأولية تختلف حسب البرنامج\n• لا تمديد أو تجديد تلقائي\n• لا فترة سماح بعد الانتهاء\n• تجاوز المدة يمكن أن يؤثر على الخيارات المستقبلية\n\nتحقق من I-94 الخاص بك لتاريخ انتهاء الإفراج. ابدأ استكشاف الخيارات قبل 6 أشهر على الأقل من الانتهاء."
+        },
+        {
+          heading: "عملية طلب إعادة الإفراج",
+          content: "إذا لم يتوفر مسار آخر، يمكنك التقدم لإعادة الإفراج:",
+          list: [
+            "قدم نموذج I-131 (طلب وثيقة السفر)",
+            "ضع علامة على المربع 1.e لإعادة الإفراج",
+            "قدم دليل على استمرار الحاجة الإنسانية",
+            "ادفع رسوم 575 دولار (إعفاء متاح مع I-912)",
+            "احضر موعد البصمات",
+            "وقت المعالجة: 6-12 شهراً"
+          ]
+        },
+        {
+          heading: "تعديل الوضع من خلال العائلة",
+          content: "إذا كانت لديك علاقات عائلية مؤهلة، يمكنك تعديل وضعك دون المغادرة:\n\nالأقارب المباشرون لمواطني الولايات المتحدة:\n• زوج/زوجة مواطن أمريكي\n• والد مواطن أمريكي بالغ\n• طفل غير متزوج أقل من 21 سنة\n\nفئات الأفضلية العائلية:\n• F2A: زوج/أطفال حاملي البطاقة الخضراء\n• فئات أفضلية أخرى بانتظار أطول\n\nالمفرج عنهم مؤهلون عموماً لتعديل الوضع إذا كانوا مؤهلين بخلاف ذلك."
+        },
+        {
+          heading: "الخيارات القائمة على التوظيف",
+          content: "للعمال المهرة الذين لديهم عروض عمل:",
+          table: {
+            headers: ["الفئة", "المتطلبات", "الجدول الزمني"],
+            rows: [
+              ["EB-1", "قدرة استثنائية، باحثون متميزون", "الأسرع"],
+              ["EB-2", "درجة متقدمة أو قدرة استثنائية", "متوسط"],
+              ["EB-3", "عمال مهرة، مهنيون", "انتظار أطول"],
+              ["EB-4", "مهاجرون خاصون (عمال دينيون)", "يختلف"]
+            ]
+          }
+        },
+        {
+          heading: "اللجوء كبديل",
+          content: "إذا كنت تخشى الاضطهاد في بلدك:\n\n• يجب التقديم خلال سنة واحدة من آخر دخول\n• بناءً على العرق أو الدين أو الجنسية أو الرأي السياسي أو المجموعة الاجتماعية\n• يوفر مساراً للبطاقة الخضراء بعد سنة\n• تصريح العمل متاح أثناء الانتظار\n\nالعديد من المفرج عنهم لأسباب إنسانية مؤهلون للجوء بناءً على نفس الظروف التي أدت لإفراجهم."
+        },
+        {
+          heading: "برامج خاصة للمفرج عنهم الأفغان والأوكرانيين",
+          content: "أنشأ الكونغرس مسارات محددة:\n\nقانون التعديل الأفغاني:\n• للمفرج عنهم الواصلين يوليو 2021 - سبتمبر 2023\n• يسمح بالتعديل للإقامة الدائمة\n• يشمل المشاركين في عملية الترحيب بالحلفاء\n\nالمفرج عنهم الأوكرانيون (توحيد لأوكرانيا):\n• يمكنهم التقدم لإعادة الإفراج\n• خيار اللجوء إذا ضمن الموعد النهائي لسنة واحدة\n• TPS إذا تم تعيينه لأوكرانيا"
+        },
+        {
+          heading: "الحفاظ على تصريح العمل",
+          content: "حافظ على صلاحية EAD أثناء استكشاف الخيارات:",
+          list: [
+            "قدم تجديد نموذج I-765 قبل 180 يوماً من الانتهاء",
+            "الفئة (c)(11) للمفرج عنهم",
+            "الفئة (a)(5) إذا كنت طالب لجوء",
+            "الفئة (c)(9) إذا كان التعديل معلقاً",
+            "قد ينطبق تمديد تلقائي 540 يوماً للتجديدات في الوقت المناسب"
+          ]
+        },
+        {
+          heading: "خدمات الإفراج الإنساني في فونتانا",
+          content: "تساعد خدمات الهجرة سوكال المفرج عنهم في فونتانا في:",
+          list: [
+            "فريق يتحدث العربية والإنجليزية",
+            "تقييم الوضع وتقييم الخيارات",
+            "إعداد طلب إعادة الإفراج",
+            "مساعدة تقديم الالتماسات العائلية",
+            "دعم طلب اللجوء",
+            "تقديم تجديد EAD",
+            "متابعة القضية والتحديثات"
+          ]
+        }
+      ],
+
+      faqs: [
+        {
+          q: "كم من الوقت قبل انتهاء إفراجي يجب أن أتخذ إجراءً؟",
+          a: "ابدأ استكشاف الخيارات قبل 6 أشهر على الأقل من الانتهاء. هذا يتيح وقتاً لجمع المستندات وتقديم الطلبات ومعالجة أي تعقيدات."
+        },
+        {
+          q: "هل يمكنني السفر خارج الولايات المتحدة أثناء الإفراج الإنساني؟",
+          a: "السفر محفوف بالمخاطر. قد تحتاج إفراجاً مسبقاً للعودة، والمغادرة قد تؤثر على الطلبات المعلقة. استشر دائماً قبل السفر الدولي."
+        },
+        {
+          q: "ماذا يحدث إذا انتهى إفراجي قبل البت في طلبي؟",
+          a: "إذا كان لديك طلب تعديل I-485 معلق، تبقى عموماً في وضع مصرح به أثناء انتظاره، حتى لو انتهى الإفراج."
+        },
+        {
+          q: "هل يوجد إعفاء من الرسوم لطلبات إعادة الإفراج؟",
+          a: "نعم، يمكنك التقدم لإعفاء من الرسوم باستخدام نموذج I-912 بناءً على دخل الأسرة أو المزايا القائمة على الاحتياجات أو الضائقة المالية."
+        },
+        {
+          q: "هل يمكنني الحصول على بطاقة خضراء مباشرة من الإفراج الإنساني؟",
+          a: "الإفراج بحد ذاته لا يؤدي مباشرة لبطاقة خضراء. تحتاج مساراً منفصلاً مثل كفالة العائلة أو كفالة التوظيف أو اللجوء أو برنامج خاص مثل قانون التعديل الأفغاني."
+        }
+      ],
+
+      cta: {
+        title: "هل ينتهي الإفراج الإنساني في فونتانا؟",
+        text: "لا تنتظر حتى اللحظة الأخيرة. يمكن لفريقنا الذي يتحدث العربية تقييم خياراتك ومساعدتك في الحفاظ على الوضع القانوني.",
+        button: "جدولة استشارة مجانية"
+      }
     }
   };
 
-  const defined4 = {
-    defined: {
-      faq: [
-        {
-          question: "How long before my parole expires should I take action?",
-          questionArabic: "كم من الوقت قبل انتهاء إفراجي يجب أن أتخذ إجراءً؟",
-          answer: "We recommend beginning to explore your options at least 6 months before your parole expiration date. This allows time to gather documentation, file applications, and address any complications that arise.",
-          answerArabic: "نوصي بالبدء في استكشاف خياراتك قبل 6 أشهر على الأقل من تاريخ انتهاء إفراجك. هذا يتيح الوقت لجمع الوثائق وتقديم الطلبات ومعالجة أي تعقيدات تنشأ."
-        },
-        {
-          question: "Can I travel outside the U.S. while on humanitarian parole?",
-          questionArabic: "هل يمكنني السفر خارج الولايات المتحدة أثناء الإفراج الإنساني؟",
-          answer: "Traveling outside the U.S. while on parole can be risky. You may need advance parole to return, and leaving could affect pending applications. Always consult with an immigration professional before traveling internationally.",
-          answerArabic: "السفر خارج الولايات المتحدة أثناء الإفراج قد يكون محفوفًا بالمخاطر. قد تحتاج إلى إفراج مسبق للعودة، وقد تؤثر المغادرة على الطلبات المعلقة. استشر دائمًا متخصصًا في الهجرة قبل السفر دوليًا."
-        },
-        {
-          question: "What happens if my parole expires before my application is decided?",
-          questionArabic: "ماذا يحدث إذا انتهى إفراجي قبل البت في طلبي؟",
-          answer: "If you have a pending adjustment of status application (I-485), you generally remain in authorized status while it's pending, even if your parole expires. However, you should maintain valid work authorization and avoid leaving the country without advance parole.",
-          answerArabic: "إذا كان لديك طلب تعديل وضع معلق (I-485)، فأنت تبقى عمومًا في وضع مصرح به أثناء انتظار البت فيه، حتى لو انتهى إفراجك. ومع ذلك، يجب أن تحافظ على تصريح عمل ساري وتتجنب مغادرة البلاد بدون إفراج مسبق."
-        },
-        {
-          question: "Is there a fee waiver available for re-parole applications?",
-          questionArabic: "هل يتوفر إعفاء من الرسوم لطلبات إعادة الإفراج؟",
-          answer: "Yes, you may apply for a fee waiver using Form I-912 if you meet the income requirements. You'll need to demonstrate financial hardship based on household income, receipt of means-tested benefits, or extreme financial hardship.",
-          answerArabic: "نعم، يمكنك التقدم بطلب إعفاء من الرسوم باستخدام نموذج I-912 إذا استوفيت متطلبات الدخل. ستحتاج إلى إثبات الضائقة المالية بناءً على دخل الأسرة أو الحصول على مزايا قائمة على الاحتياجات أو ضائقة مالية شديدة."
-        }
-      ]
-    }
-  };
-
-  return <BlogPostTemplate defined={defined} defined2={defined2} defined3={defined3} defined4={defined4} />;
+  return <BlogPostTemplate content={content} language={language} />;
 };
 
 export default HumanitarianParoleExtensionFontana;
