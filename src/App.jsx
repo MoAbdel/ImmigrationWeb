@@ -218,6 +218,14 @@ import VisaBulletinExplainedChino from './pages/blog/posts/VisaBulletinExplained
 import I912FeeWaiverBarstow from './pages/blog/posts/I912FeeWaiverBarstow';
 import DV2027LotteryResultsWhittier from './pages/blog/posts/DV2027LotteryResultsWhittier';
 import IraqiChaldeanSpringValley from './pages/blog/posts/IraqiChaldeanSpringValley';
+import I129FProcessingDelaysSanJuan from './pages/blog/posts/I129FProcessingDelaysSanJuan';
+import GreenCardLotteryEligibilityNorco from './pages/blog/posts/GreenCardLotteryEligibilityNorco';
+import SponsorIncomeCalculatorUpland from './pages/blog/posts/SponsorIncomeCalculatorUpland';
+import USCISAccountSetupAltadena from './pages/blog/posts/USCISAccountSetupAltadena';
+import PalestinianRefugeeStatusDaly from './pages/blog/posts/PalestinianRefugeeStatusDaly';
+import BirthTourismDefenseRanchoPV from './pages/blog/posts/BirthTourismDefenseRanchoPV';
+import YemeniTPSRenewalElCentro from './pages/blog/posts/YemeniTPSRenewalElCentro';
+import HumanitarianParoleExtensionFontana from './pages/blog/posts/HumanitarianParoleExtensionFontana';
 
 import EB2NIWStrategy from './pages/blog/posts/EB2NIWStrategy';
 import MarriageGreenCardTimeline from './pages/blog/posts/MarriageGreenCardTimeline';
@@ -830,6 +838,14 @@ const App = () => {
                         <Route path="/blog/i912-fee-waiver-barstow" element={<I912FeeWaiverBarstow language={language} />} />
                         <Route path="/blog/dv-2027-lottery-results-whittier" element={<DV2027LotteryResultsWhittier language={language} />} />
                         <Route path="/blog/iraqi-chaldean-community-spring-valley" element={<IraqiChaldeanSpringValley language={language} />} />
+                        <Route path="/blog/i-129f-processing-delays-san-juan-capistrano" element={<I129FProcessingDelaysSanJuan language={language} />} />
+                        <Route path="/blog/green-card-lottery-eligibility-norco" element={<GreenCardLotteryEligibilityNorco language={language} />} />
+                        <Route path="/blog/sponsor-income-calculator-upland" element={<SponsorIncomeCalculatorUpland language={language} />} />
+                        <Route path="/blog/uscis-account-setup-altadena" element={<USCISAccountSetupAltadena language={language} />} />
+                        <Route path="/blog/palestinian-refugee-status-daly-city" element={<PalestinianRefugeeStatusDaly language={language} />} />
+                        <Route path="/blog/birth-tourism-defense-rancho-palos-verdes" element={<BirthTourismDefenseRanchoPV language={language} />} />
+                        <Route path="/blog/yemeni-tps-renewal-el-centro" element={<YemeniTPSRenewalElCentro language={language} />} />
+                        <Route path="/blog/humanitarian-parole-extension-fontana" element={<HumanitarianParoleExtensionFontana language={language} />} />
                       </Routes>
                     </main>
 

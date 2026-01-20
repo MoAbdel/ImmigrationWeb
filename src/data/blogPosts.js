@@ -3,6 +3,94 @@
 
 export const blogPosts = [
   {
+    id: 1105,
+    slug: "humanitarian-parole-extension-fontana",
+    title: { en: "Humanitarian Parole Expiring? Options for Extension and Status Adjustment in Fontana", ar: "هل تنتهي صلاحية الإفراج الإنساني؟ خيارات التمديد وتعديل الوضع في فونتانا" },
+    excerpt: { en: "Humanitarian parole expiring in Fontana? Learn about extension options, adjustment of status, and pathways to legal permanent residence. Arabic-speaking immigration help.", ar: "هل ينتهي إفراجك الإنساني في فونتانا؟ تعرف على خيارات التمديد وتعديل الوضع ومسارات الإقامة الدائمة القانونية. مساعدة هجرة بالعربية." },
+    date: "January 20, 2026",
+    readTime: "12",
+    category: "status",
+    location: "Fontana",
+    image: "/images/blog/status.jpg"
+  },
+  {
+    id: 1104,
+    slug: "yemeni-tps-renewal-el-centro",
+    title: { en: "Yemeni TPS Renewal 2026 in El Centro: Complete Guide to Temporary Protected Status Extension", ar: "تجديد TPS اليمني 2026 في إل سنترو: دليل شامل لتمديد الوضع المحمي المؤقت" },
+    excerpt: { en: "Yemen TPS extension deadline approaching. Complete renewal guide for Yemeni nationals in El Centro and Imperial Valley. I-821 filing, EAD renewal, documentation.", ar: "يقترب موعد تمديد TPS اليمني. دليل تجديد شامل للمواطنين اليمنيين في إل سنترو ووادي إمبريال. تقديم I-821، تجديد EAD، التوثيق." },
+    date: "January 20, 2026",
+    readTime: "11",
+    category: "status",
+    location: "El Centro",
+    image: "/images/blog/status.jpg"
+  },
+  {
+    id: 1103,
+    slug: "birth-tourism-defense-rancho-palos-verdes",
+    title: { en: "Birth Tourism Allegations Defense in Rancho Palos Verdes: Protecting Your Immigration Status", ar: "الدفاع عن اتهامات سياحة الولادة في رانشو بالوس فيردس: حماية وضعك الهجري" },
+    excerpt: { en: "Facing birth tourism allegations at port of entry? Learn how to defend against accusations, protect visa status, and understand your rights. Expert guidance.", ar: "تواجه اتهامات سياحة الولادة عند نقطة الدخول؟ تعلم كيفية الدفاع ضد الاتهامات وحماية وضع التأشيرة وفهم حقوقك. إرشاد متخصص." },
+    date: "January 20, 2026",
+    readTime: "13",
+    category: "travel",
+    location: "Rancho Palos Verdes",
+    image: "/images/blog/travel.jpg"
+  },
+  {
+    id: 1102,
+    slug: "palestinian-refugee-status-daly-city",
+    title: { en: "Palestinian Refugee Immigration Options in Daly City: Asylum, TPS, and Family Reunification", ar: "خيارات هجرة اللاجئين الفلسطينيين في دالي سيتي: اللجوء، TPS، ولم شمل العائلة" },
+    excerpt: { en: "Immigration pathways for Palestinian refugees in Bay Area. Asylum applications, humanitarian parole, family petitions, and community resources.", ar: "مسارات الهجرة للاجئين الفلسطينيين في منطقة الخليج. طلبات اللجوء، الإفراج الإنساني، التماسات العائلة، وموارد المجتمع." },
+    date: "January 20, 2026",
+    readTime: "14",
+    category: "asylum",
+    location: "Daly City",
+    image: "/images/blog/asylum.jpg"
+  },
+  {
+    id: 1101,
+    slug: "uscis-account-setup-altadena",
+    title: { en: "USCIS Online Account Setup Guide in Altadena: Managing Your Immigration Case Online", ar: "دليل إعداد حساب USCIS عبر الإنترنت في ألتادينا: إدارة قضية الهجرة الخاصة بك عبر الإنترنت" },
+    excerpt: { en: "Step-by-step guide to creating and using your myUSCIS account. Track cases, respond to RFEs, upload documents, and schedule appointments online.", ar: "دليل خطوة بخطوة لإنشاء واستخدام حساب myUSCIS الخاص بك. تتبع القضايا، الرد على طلبات الأدلة، تحميل المستندات، وجدولة المواعيد عبر الإنترنت." },
+    date: "January 20, 2026",
+    readTime: "10",
+    category: "documents",
+    location: "Altadena",
+    image: "/images/blog/documents.jpg"
+  },
+  {
+    id: 1100,
+    slug: "sponsor-income-calculator-upland",
+    title: { en: "I-864 Sponsor Income Calculator for Upland: Meeting Financial Requirements for Family Immigration", ar: "حاسبة دخل الكفيل I-864 لأبلاند: تلبية المتطلبات المالية للهجرة العائلية" },
+    excerpt: { en: "Calculate if you meet I-864 income requirements to sponsor family immigration. 2026 poverty guidelines, household size, assets, joint sponsors.", ar: "احسب إذا كنت تستوفي متطلبات دخل I-864 لكفالة هجرة العائلة. إرشادات الفقر 2026، حجم الأسرة، الأصول، الكفلاء المشتركون." },
+    date: "January 20, 2026",
+    readTime: "11",
+    category: "family",
+    location: "Upland",
+    image: "/images/blog/family.jpg"
+  },
+  {
+    id: 1099,
+    slug: "green-card-lottery-eligibility-norco",
+    title: { en: "Green Card Lottery Eligibility Requirements in Norco: DV-2028 Complete Guide", ar: "متطلبات أهلية قرعة البطاقة الخضراء في نوركو: دليل DV-2028 الشامل" },
+    excerpt: { en: "Check your eligibility for the Diversity Visa lottery. Country requirements, education/work experience, photo specifications, registration process.", ar: "تحقق من أهليتك لقرعة تأشيرة التنوع. متطلبات البلد، التعليم/الخبرة العملية، مواصفات الصورة، عملية التسجيل." },
+    date: "January 20, 2026",
+    readTime: "12",
+    category: "news",
+    location: "Norco",
+    image: "/images/blog/news.jpg"
+  },
+  {
+    id: 1098,
+    slug: "i-129f-processing-delays-san-juan-capistrano",
+    title: { en: "I-129F K-1 Visa Processing Delays in San Juan Capistrano: What Fiancés Need to Know", ar: "تأخيرات معالجة تأشيرة I-129F K-1 في سان خوان كابيسترانو: ما يحتاج الخطيبون معرفته" },
+    excerpt: { en: "K-1 fiancé visa taking longer than expected? Understanding current processing times, expedite options, and what to do while waiting.", ar: "هل تستغرق تأشيرة الخطوبة K-1 وقتًا أطول من المتوقع؟ فهم أوقات المعالجة الحالية وخيارات التعجيل وماذا تفعل أثناء الانتظار." },
+    date: "January 20, 2026",
+    readTime: "11",
+    category: "marriage",
+    location: "San Juan Capistrano",
+    image: "/images/blog/marriage.jpg"
+  },
+  {
     id: 1097,
     slug: "iraqi-chaldean-community-spring-valley",
     title: { en: "Iraqi Chaldean Community Resources in Spring Valley: Immigration Help for Iraqi Families", ar: "موارد المجتمع العراقي الكلداني في سبرينج فالي: مساعدة الهجرة للعائلات العراقية" },
