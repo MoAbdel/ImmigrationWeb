@@ -246,12 +246,12 @@ const BlogPostTemplate = ({ content, language }) => {
             <nav className="flex items-center gap-2 text-sm text-gray-400 mb-6" aria-label="Breadcrumb">
               <Link to="/" className="hover:text-amber-400">{language === 'en' ? 'Home' : 'الرئيسية'}</Link>
               <ChevronRight size={14} />
-              <Link to="/blog" className="hover:text-amber-400">{language === 'en' ? 'Blog' : 'المدونة'}</Link>
+              <Link to="/blog/" className="hover:text-amber-400">{language === 'en' ? 'Blog' : 'المدونة'}</Link>
               <ChevronRight size={14} />
               <span className="text-amber-400">{t.category}</span>
             </nav>
 
-            <Link to="/blog" className="inline-flex items-center gap-2 text-amber-400 hover:text-amber-300 mb-6 transition-colors">
+            <Link to="/blog/" className="inline-flex items-center gap-2 text-amber-400 hover:text-amber-300 mb-6 transition-colors">
               <ArrowLeft size={20} className={isRTL ? 'rotate-180' : ''} />
               {language === 'en' ? 'Back to Blog' : 'العودة إلى المدونة'}
             </Link>

@@ -22,12 +22,12 @@ const IrvinePage = ({ language }) => {
       services: {
         title: "Services Available in Irvine",
         list: [
-          { title: "Family Immigration", desc: "I-130 petitions, spouse visas, parent petitions", link: "/family-immigration" },
-          { title: "Green Card Services", desc: "Renewals, replacements, adjustment of status", link: "/green-card-services" },
-          { title: "Citizenship", desc: "N-400 naturalization applications, civics test prep", link: "/citizenship-naturalization" },
-          { title: "Work Visas", desc: "H-1B, L-1, employment authorization documents", link: "/services/visas-family" },
-          { title: "Document Services", desc: "Translation, notary, document authentication", link: "/services/legal-documents" },
-          { title: "Asylum Support", desc: "Asylum application document preparation", link: "/asylum-services" }
+          { title: "Family Immigration", desc: "I-130 petitions, spouse visas, parent petitions", link: "/family-immigration/" },
+          { title: "Green Card Services", desc: "Renewals, replacements, adjustment of status", link: "/green-card-services/" },
+          { title: "Citizenship", desc: "N-400 naturalization applications, civics test prep", link: "/citizenship-naturalization/" },
+          { title: "Work Visas", desc: "H-1B, L-1, employment authorization documents", link: "/services/visas-family/" },
+          { title: "Document Services", desc: "Translation, notary, document authentication", link: "/services/legal-documents/" },
+          { title: "Asylum Support", desc: "Asylum application document preparation", link: "/asylum-services/" }
         ]
       },
       whyIrvine: {
@@ -69,12 +69,12 @@ const IrvinePage = ({ language }) => {
       services: {
         title: "الخدمات المتاحة في إرفاين",
         list: [
-          { title: "هجرة العائلة", desc: "التماسات I-130، تأشيرات الزوج، التماسات الوالدين", link: "/family-immigration" },
-          { title: "خدمات البطاقة الخضراء", desc: "التجديدات، الاستبدالات، تعديل الوضع", link: "/green-card-services" },
-          { title: "الجنسية", desc: "طلبات التجنس N-400، التحضير لاختبار التربية المدنية", link: "/citizenship-naturalization" },
-          { title: "تأشيرات العمل", desc: "H-1B، L-1، وثائق تصريح العمل", link: "/services/visas-family" },
-          { title: "خدمات الوثائق", desc: "الترجمة، التوثيق، مصادقة الوثائق", link: "/services/legal-documents" },
-          { title: "دعم اللجوء", desc: "إعداد وثائق طلب اللجوء", link: "/asylum-services" }
+          { title: "هجرة العائلة", desc: "التماسات I-130، تأشيرات الزوج، التماسات الوالدين", link: "/family-immigration/" },
+          { title: "خدمات البطاقة الخضراء", desc: "التجديدات، الاستبدالات، تعديل الوضع", link: "/green-card-services/" },
+          { title: "الجنسية", desc: "طلبات التجنس N-400، التحضير لاختبار التربية المدنية", link: "/citizenship-naturalization/" },
+          { title: "تأشيرات العمل", desc: "H-1B، L-1، وثائق تصريح العمل", link: "/services/visas-family/" },
+          { title: "خدمات الوثائق", desc: "الترجمة، التوثيق، مصادقة الوثائق", link: "/services/legal-documents/" },
+          { title: "دعم اللجوء", desc: "إعداد وثائق طلب اللجوء", link: "/asylum-services/" }
         ]
       },
       whyIrvine: {

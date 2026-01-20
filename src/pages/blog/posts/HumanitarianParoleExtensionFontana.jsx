@@ -18,7 +18,7 @@ const HumanitarianParoleExtensionFontana = () => {
     seo: {
       pageTitle: "Humanitarian Parole Extension Options Fontana | SoCal Immigration Services",
       metaDescription: "Humanitarian parole expiring in Fontana? Learn about extension options, adjustment of status, and pathways to legal permanent residence. Arabic-speaking immigration help.",
-      canonicalUrl: "https://socalimmigrationservices.com/blog/humanitarian-parole-extension-fontana",
+      canonicalUrl: "https://www.socalimmigrationservices.com/blog/humanitarian-parole-extension-fontana/",
       keywords: ["humanitarian parole extension", "parole expiring", "adjustment of status", "Fontana immigration", "re-parole application", "Afghan parole", "Ukrainian parole", "immigration lawyer Fontana"]
     }
   };

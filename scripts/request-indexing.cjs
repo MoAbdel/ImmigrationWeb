@@ -11,48 +11,35 @@
 
 const https = require('https');
 const http = require('http');
+const path = require('path');
+const { pathToFileURL } = require('url');
 
 // Configuration
 const SITE_URL = 'https://www.socalimmigrationservices.com';
 const INDEXNOW_KEY = process.env.INDEXNOW_KEY || 'aa592b132c124198839632770dd57912';
+const MAX_URLS = 200;
 
-// URLs that are "Crawled - currently not indexed" from GSC
-const affectedUrls = [
-  '/blog/eb1a-extraordinary-ability-la-jolla/',
-  '/blog/asylum-application-el-cajon-syrian/',
-  '/blog/citizenship-oath-ceremony-yorba-linda/',
-  '/blog/b1-b2-visa-extension-fullerton/',
-  '/blog/k1-vs-cr1-visa-pros-and-cons/',
-  '/blog/u-visa-crime-victims-san-diego/',
-  '/blog/sb1-returning-resident-visa-moreno-valley/',
-  '/blog/withholding-of-removal-glendale/',
-  '/blog/civics-test-study-corona/',
-  '/blog/green-card-photo-service-lake-elsinore/',
-  '/blog/immigration-bond-hearing-san-bernardino/',
-  '/blog/stokes-interview-preparation-brea/',
-  '/blog/tps-temporary-protected-status-el-cajon/',
-  '/blog/removal-proceedings-defense-long-beach/',
-  '/blog/f1-stem-opt-extension-fountain-valley/',
-  '/blog/visa-bulletin-guide-orange-county/',
-  '/blog/cat-protection-escondido/',
-  '/blog/lebanese-community-resources-orange-county/',
-  '/blog/daca-renewal-santa-ana/',
-  '/blog/daca-renewal-news-2026/',
-  '/blog/cancellation-of-removal-pomona/',
-  '/blog/adjustment-of-status-interview-tustin/',
-  '/blog/eb2-niw-strategy-guide/',
-  '/blog/bia-immigration-appeals-santa-ana/',
-  '/blog/widow-widower-immigration-riverside/',
-  '/blog/sudanese-tps-national-city/'
-];
+const parseDate = (dateStr) => {
+  const parsed = new Date(dateStr);
+  return Number.isNaN(parsed.getTime()) ? new Date(0) : parsed;
+};
 
-// Convert to full URLs
-const fullUrls = affectedUrls.map(path => `${SITE_URL}${path}`);
+async function getRecentUrls() {
+  const blogPostsPath = path.resolve(__dirname, '..', 'src', 'data', 'blogPosts.js');
+  const { blogPosts } = await import(pathToFileURL(blogPostsPath).href);
+
+  return blogPosts
+    .slice()
+    .sort((a, b) => parseDate(b.date) - parseDate(a.date))
+    .map((post) => `${SITE_URL}/blog/${post.slug}/`)
+    .filter((url, index, list) => list.indexOf(url) === index)
+    .slice(0, MAX_URLS);
+}
 
 /**
  * Submit URLs to IndexNow API
  */
-async function submitToIndexNow() {
+async function submitToIndexNow(fullUrls) {
   console.log('\n📤 Submitting to IndexNow (Bing, Yandex, Seznam)...\n');
 
   const data = JSON.stringify({
@@ -126,7 +113,7 @@ async function pingGoogleSitemap() {
 /**
  * Output URLs for manual GSC submission
  */
-function outputManualInstructions() {
+function outputManualInstructions(fullUrls) {
   console.log('\n📋 Manual Google Search Console Instructions:\n');
   console.log('1. Go to https://search.google.com/search-console');
   console.log('2. Select your property: www.socalimmigrationservices.com');
@@ -152,16 +139,18 @@ async function main() {
   console.log('  🔍 URL Indexing Request Tool');
   console.log('  Requesting indexing for "Crawled - not indexed" pages');
   console.log('═'.repeat(60));
+  const fullUrls = await getRecentUrls();
+
   console.log(`\n📊 Total URLs to process: ${fullUrls.length}\n`);
 
   // Submit to IndexNow
-  await submitToIndexNow();
+  await submitToIndexNow(fullUrls);
 
   // Ping Google Sitemap
   await pingGoogleSitemap();
 
   // Output manual instructions
-  outputManualInstructions();
+  outputManualInstructions(fullUrls);
 
   console.log('═'.repeat(60));
   console.log('  ✅ Indexing requests completed!');

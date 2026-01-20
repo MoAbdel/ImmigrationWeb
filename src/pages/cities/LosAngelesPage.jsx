@@ -21,12 +21,12 @@ const LosAngelesPage = ({ language }) => {
       services: {
         title: "Services for Los Angeles Residents",
         list: [
-          { title: "Family Immigration", desc: "I-130 petitions, spouse visas, family reunification", link: "/family-immigration" },
-          { title: "Green Card Services", desc: "Applications, renewals, and replacements", link: "/green-card-services" },
-          { title: "Citizenship", desc: "N-400 naturalization applications", link: "/citizenship-naturalization" },
-          { title: "Asylum Support", desc: "Document preparation for asylum seekers", link: "/asylum-services" },
-          { title: "DACA Services", desc: "Renewal and application document preparation", link: "/daca-services" },
-          { title: "Translation Services", desc: "Arabic to English certified translations", link: "/services/legal-documents" }
+          { title: "Family Immigration", desc: "I-130 petitions, spouse visas, family reunification", link: "/family-immigration/" },
+          { title: "Green Card Services", desc: "Applications, renewals, and replacements", link: "/green-card-services/" },
+          { title: "Citizenship", desc: "N-400 naturalization applications", link: "/citizenship-naturalization/" },
+          { title: "Asylum Support", desc: "Document preparation for asylum seekers", link: "/asylum-services/" },
+          { title: "DACA Services", desc: "Renewal and application document preparation", link: "/daca-services/" },
+          { title: "Translation Services", desc: "Arabic to English certified translations", link: "/services/legal-documents/" }
         ]
       },
       areas: {
@@ -55,12 +55,12 @@ const LosAngelesPage = ({ language }) => {
       services: {
         title: "خدمات لسكان لوس أنجلوس",
         list: [
-          { title: "هجرة العائلة", desc: "التماسات I-130، تأشيرات الزوج، لم شمل العائلة", link: "/family-immigration" },
-          { title: "خدمات البطاقة الخضراء", desc: "الطلبات والتجديدات والاستبدالات", link: "/green-card-services" },
-          { title: "الجنسية", desc: "طلبات التجنس N-400", link: "/citizenship-naturalization" },
-          { title: "دعم اللجوء", desc: "إعداد الوثائق لطالبي اللجوء", link: "/asylum-services" },
-          { title: "خدمات داكا", desc: "إعداد وثائق التجديد والطلبات", link: "/daca-services" },
-          { title: "خدمات الترجمة", desc: "ترجمات معتمدة من العربية إلى الإنجليزية", link: "/services/legal-documents" }
+          { title: "هجرة العائلة", desc: "التماسات I-130، تأشيرات الزوج، لم شمل العائلة", link: "/family-immigration/" },
+          { title: "خدمات البطاقة الخضراء", desc: "الطلبات والتجديدات والاستبدالات", link: "/green-card-services/" },
+          { title: "الجنسية", desc: "طلبات التجنس N-400", link: "/citizenship-naturalization/" },
+          { title: "دعم اللجوء", desc: "إعداد الوثائق لطالبي اللجوء", link: "/asylum-services/" },
+          { title: "خدمات داكا", desc: "إعداد وثائق التجديد والطلبات", link: "/daca-services/" },
+          { title: "خدمات الترجمة", desc: "ترجمات معتمدة من العربية إلى الإنجليزية", link: "/services/legal-documents/" }
         ]
       },
       areas: {

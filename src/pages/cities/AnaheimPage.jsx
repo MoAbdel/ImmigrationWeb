@@ -22,12 +22,12 @@ const AnaheimPage = ({ language }) => {
       services: {
         title: "Services for the Anaheim Community",
         list: [
-          { title: "Family Immigration", desc: "Reunite with family through I-130 petitions", link: "/family-immigration" },
-          { title: "K-1 Fiancé Visas", desc: "Bring your fiancé to the United States", link: "/services/visas-family" },
-          { title: "Citizenship", desc: "Become a U.S. citizen through naturalization", link: "/citizenship-naturalization" },
-          { title: "Green Card Services", desc: "Renewals, replacements, and adjustments", link: "/green-card-services" },
-          { title: "Arabic Translation", desc: "USCIS-certified document translation", link: "/services/legal-documents" },
-          { title: "Asylum Support", desc: "Document preparation for asylum seekers", link: "/asylum-services" }
+          { title: "Family Immigration", desc: "Reunite with family through I-130 petitions", link: "/family-immigration/" },
+          { title: "K-1 Fiancé Visas", desc: "Bring your fiancé to the United States", link: "/services/visas-family/" },
+          { title: "Citizenship", desc: "Become a U.S. citizen through naturalization", link: "/citizenship-naturalization/" },
+          { title: "Green Card Services", desc: "Renewals, replacements, and adjustments", link: "/green-card-services/" },
+          { title: "Arabic Translation", desc: "USCIS-certified document translation", link: "/services/legal-documents/" },
+          { title: "Asylum Support", desc: "Document preparation for asylum seekers", link: "/asylum-services/" }
         ]
       },
       community: {
@@ -61,12 +61,12 @@ const AnaheimPage = ({ language }) => {
       services: {
         title: "خدمات لمجتمع أنهايم",
         list: [
-          { title: "هجرة العائلة", desc: "لم شمل العائلة من خلال التماسات I-130", link: "/family-immigration" },
-          { title: "تأشيرات K-1 للخطيب", desc: "أحضر خطيبك/خطيبتك إلى الولايات المتحدة", link: "/services/visas-family" },
-          { title: "الجنسية", desc: "كن مواطناً أمريكياً من خلال التجنس", link: "/citizenship-naturalization" },
-          { title: "خدمات البطاقة الخضراء", desc: "التجديدات والاستبدالات والتعديلات", link: "/green-card-services" },
-          { title: "الترجمة العربية", desc: "ترجمة معتمدة من USCIS", link: "/services/legal-documents" },
-          { title: "دعم اللجوء", desc: "إعداد الوثائق لطالبي اللجوء", link: "/asylum-services" }
+          { title: "هجرة العائلة", desc: "لم شمل العائلة من خلال التماسات I-130", link: "/family-immigration/" },
+          { title: "تأشيرات K-1 للخطيب", desc: "أحضر خطيبك/خطيبتك إلى الولايات المتحدة", link: "/services/visas-family/" },
+          { title: "الجنسية", desc: "كن مواطناً أمريكياً من خلال التجنس", link: "/citizenship-naturalization/" },
+          { title: "خدمات البطاقة الخضراء", desc: "التجديدات والاستبدالات والتعديلات", link: "/green-card-services/" },
+          { title: "الترجمة العربية", desc: "ترجمة معتمدة من USCIS", link: "/services/legal-documents/" },
+          { title: "دعم اللجوء", desc: "إعداد الوثائق لطالبي اللجوء", link: "/asylum-services/" }
         ]
       },
       community: {

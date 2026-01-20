@@ -37,27 +37,27 @@ const Footer = ({ language, content }) => {
             <h4 className="text-xl sm:text-2xl font-bold mb-4 sm:mb-6 font-serif">{language === 'en' ? 'Our Services' : 'خدماتنا'}</h4>
             <ul className="space-y-2 sm:space-y-3">
               <li>
-                <Link to="/family-immigration" className="text-sm sm:text-base text-gray-300 hover:text-amber-400 transition-colors">
+                <Link to="/family-immigration/" className="text-sm sm:text-base text-gray-300 hover:text-amber-400 transition-colors">
                   {language === 'en' ? 'Family Immigration' : 'هجرة الأسرة'}
                 </Link>
               </li>
               <li>
-                <Link to="/citizenship-naturalization" className="text-sm sm:text-base text-gray-300 hover:text-amber-400 transition-colors">
+                <Link to="/citizenship-naturalization/" className="text-sm sm:text-base text-gray-300 hover:text-amber-400 transition-colors">
                   {language === 'en' ? 'Citizenship & Naturalization' : 'الجنسية والتجنس'}
                 </Link>
               </li>
               <li>
-                <Link to="/green-card-services" className="text-sm sm:text-base text-gray-300 hover:text-amber-400 transition-colors">
+                <Link to="/green-card-services/" className="text-sm sm:text-base text-gray-300 hover:text-amber-400 transition-colors">
                   {language === 'en' ? 'Green Card Services' : 'خدمات البطاقة الخضراء'}
                 </Link>
               </li>
               <li>
-                <Link to="/daca-services" className="text-sm sm:text-base text-gray-300 hover:text-amber-400 transition-colors">
+                <Link to="/daca-services/" className="text-sm sm:text-base text-gray-300 hover:text-amber-400 transition-colors">
                   {language === 'en' ? 'DACA Services' : 'خدمات داكا'}
                 </Link>
               </li>
               <li>
-                <Link to="/asylum-services" className="text-sm sm:text-base text-gray-300 hover:text-amber-400 transition-colors">
+                <Link to="/asylum-services/" className="text-sm sm:text-base text-gray-300 hover:text-amber-400 transition-colors">
                   {language === 'en' ? 'Asylum Services' : 'خدمات اللجوء'}
                 </Link>
               </li>
@@ -69,27 +69,27 @@ const Footer = ({ language, content }) => {
             <h4 className="text-xl sm:text-2xl font-bold mb-4 sm:mb-6 font-serif">{language === 'en' ? 'Areas We Serve' : 'المناطق التي نخدمها'}</h4>
             <ul className="space-y-2 sm:space-y-3">
               <li>
-                <Link to="/irvine" className="text-sm sm:text-base text-gray-300 hover:text-amber-400 transition-colors">
+                <Link to="/irvine/" className="text-sm sm:text-base text-gray-300 hover:text-amber-400 transition-colors">
                   Irvine, CA
                 </Link>
               </li>
               <li>
-                <Link to="/anaheim" className="text-sm sm:text-base text-gray-300 hover:text-amber-400 transition-colors">
+                <Link to="/anaheim/" className="text-sm sm:text-base text-gray-300 hover:text-amber-400 transition-colors">
                   Anaheim, CA
                 </Link>
               </li>
               <li>
-                <Link to="/santa-ana" className="text-sm sm:text-base text-gray-300 hover:text-amber-400 transition-colors">
+                <Link to="/santa-ana/" className="text-sm sm:text-base text-gray-300 hover:text-amber-400 transition-colors">
                   Santa Ana, CA
                 </Link>
               </li>
               <li>
-                <Link to="/los-angeles" className="text-sm sm:text-base text-gray-300 hover:text-amber-400 transition-colors">
+                <Link to="/los-angeles/" className="text-sm sm:text-base text-gray-300 hover:text-amber-400 transition-colors">
                   Los Angeles, CA
                 </Link>
               </li>
               <li>
-                <Link to="/blog" className="text-sm sm:text-base text-gray-300 hover:text-amber-400 transition-colors">
+                <Link to="/blog/" className="text-sm sm:text-base text-gray-300 hover:text-amber-400 transition-colors">
                   {language === 'en' ? 'Immigration Blog' : 'مدونة الهجرة'}
                 </Link>
               </li>

@@ -86,10 +86,10 @@ const HomePage = ({ language, content }) => {
             {t.categories.map((category, idx) => {
               const IconComponent = category.icon;
               const routes = [
-                '/services/visas-family',
-                '/services/status-citizenship',
-                '/services/legal-documents',
-                '/services/professional-services'
+                '/services/visas-family/',
+                '/services/status-citizenship/',
+                '/services/legal-documents/',
+                '/services/professional-services/'
               ];
 
               return (

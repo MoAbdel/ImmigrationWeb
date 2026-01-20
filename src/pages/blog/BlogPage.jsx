@@ -203,7 +203,7 @@ const BlogPage = ({ language }) => {
                     </div>
 
                     <Link
-                      to={`/blog/${post.slug}`}
+                      to={`/blog/${post.slug}/`}
                       className="mt-4 inline-flex items-center gap-2 text-amber-600 hover:text-amber-700 font-semibold group/link"
                     >
                       {t.readMore}
