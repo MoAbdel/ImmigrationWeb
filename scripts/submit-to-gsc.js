@@ -2,6 +2,8 @@ import { google } from 'googleapis';
 import path from 'path';
 import { fileURLToPath } from 'url';
 import { blogPosts } from '../src/data/blogPosts.js';
+import { config } from 'dotenv';
+config();
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -23,12 +25,26 @@ const urls = blogPosts
 
 async function submitToIndexingAPI() {
   try {
-    // Load credentials
-    const credentialsPath = path.join(__dirname, '..', 'gsc-credentials.json');
-    const auth = new google.auth.GoogleAuth({
-      keyFile: credentialsPath,
-      scopes: ['https://www.googleapis.com/auth/indexing']
-    });
+    // Load credentials from environment variable (JSON string) or file path
+    let auth;
+
+    if (process.env.GSC_CREDENTIALS_JSON) {
+      // Use credentials from environment variable (JSON string)
+      const credentials = JSON.parse(process.env.GSC_CREDENTIALS_JSON);
+      auth = new google.auth.GoogleAuth({
+        credentials,
+        scopes: ['https://www.googleapis.com/auth/indexing']
+      });
+    } else if (process.env.GSC_CREDENTIALS_PATH) {
+      // Use credentials from file path
+      const credentialsPath = path.resolve(process.env.GSC_CREDENTIALS_PATH);
+      auth = new google.auth.GoogleAuth({
+        keyFile: credentialsPath,
+        scopes: ['https://www.googleapis.com/auth/indexing']
+      });
+    } else {
+      throw new Error('Missing credentials: Set GSC_CREDENTIALS_JSON (JSON string) or GSC_CREDENTIALS_PATH (file path) environment variable');
+    }
 
     const indexing = google.indexing({ version: 'v3', auth });
 
