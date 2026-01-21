@@ -1,10 +1,7 @@
 import React from 'react'
-import ReactDOM from 'react-dom/client'
+import { ViteSSG } from 'vite-plugin-ssg'
 import App from './App.jsx'
+import { ssgRoutes } from './ssg-routes'
 import './index.css'
 
-ReactDOM.createRoot(document.getElementById('root')).render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-)
+export const createApp = ViteSSG(App, { routes: ssgRoutes })

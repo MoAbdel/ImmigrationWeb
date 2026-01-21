@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom';
 import { HelmetProvider } from 'react-helmet-async';
 import { Users, Flag, FileText, ScrollText, Heart, Award, Shield } from 'lucide-react';
 
@@ -623,7 +623,6 @@ const App = () => {
   };
               return (
               <HelmetProvider>
-                <Router>
                   <div className="min-h-screen flex flex-col">
                     <Navbar language={language} setLanguage={setLanguage} content={content} />
 
@@ -854,7 +853,6 @@ const App = () => {
                     <SupportBubble language={language} content={content} />
                     <ExitIntentModal language={language} content={content} />
                   </div>
-                </Router>
               </HelmetProvider>
               );
 };
