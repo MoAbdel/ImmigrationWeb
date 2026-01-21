@@ -227,6 +227,20 @@ import PalestinianRefugeeStatusDaly from './pages/blog/posts/PalestinianRefugeeS
 import BirthTourismDefenseRanchoPV from './pages/blog/posts/BirthTourismDefenseRanchoPV';
 import YemeniTPSRenewalElCentro from './pages/blog/posts/YemeniTPSRenewalElCentro';
 import HumanitarianParoleExtensionFontana from './pages/blog/posts/HumanitarianParoleExtensionFontana';
+import I130GrandparentsRedlands from './pages/blog/posts/I130GrandparentsRedlands';
+import F2APreferenceCategoryAppleValley from './pages/blog/posts/F2APreferenceCategoryAppleValley';
+import K1InterviewTipsMissionViejo from './pages/blog/posts/K1InterviewTipsMissionViejo';
+import I751LateFilingTustin from './pages/blog/posts/I751LateFilingTustin';
+import WithholdingOfRemovalMorenoValley from './pages/blog/posts/WithholdingOfRemovalMorenoValley';
+import ReasonableFearInterviewPerris from './pages/blog/posts/ReasonableFearInterviewPerris';
+import N400EarlyFilingSanClemente from './pages/blog/posts/N400EarlyFilingSanClemente';
+import CitizenshipAccommodationsArcadia from './pages/blog/posts/CitizenshipAccommodationsArcadia';
+import H1BCapGapAlisoViejo from './pages/blog/posts/H1BCapGapAlisoViejo';
+import R1ReligiousWorkerRanchoSantaMargarita from './pages/blog/posts/R1ReligiousWorkerRanchoSantaMargarita';
+import TPSReRegistrationAzusa from './pages/blog/posts/TPSReRegistrationAzusa';
+import I539ChangeStatusPalmDesert from './pages/blog/posts/I539ChangeStatusPalmDesert';
+import ImmigrationPOALaHabra from './pages/blog/posts/ImmigrationPOALaHabra';
+import CopticChristianResourcesCypress from './pages/blog/posts/CopticChristianResourcesCypress';
 
 import EB2NIWStrategy from './pages/blog/posts/EB2NIWStrategy';
 import MarriageGreenCardTimeline from './pages/blog/posts/MarriageGreenCardTimeline';
@@ -846,6 +860,20 @@ const App = () => {
                         <Route path="/blog/birth-tourism-defense-rancho-palos-verdes" element={<BirthTourismDefenseRanchoPV language={language} />} />
                         <Route path="/blog/yemeni-tps-renewal-el-centro" element={<YemeniTPSRenewalElCentro language={language} />} />
                         <Route path="/blog/humanitarian-parole-extension-fontana" element={<HumanitarianParoleExtensionFontana language={language} />} />
+                        <Route path="/blog/i130-grandparents-petition-redlands" element={<I130GrandparentsRedlands language={language} />} />
+                        <Route path="/blog/f2a-preference-category-apple-valley" element={<F2APreferenceCategoryAppleValley language={language} />} />
+                        <Route path="/blog/k1-interview-tips-mission-viejo" element={<K1InterviewTipsMissionViejo language={language} />} />
+                        <Route path="/blog/i751-late-filing-tustin" element={<I751LateFilingTustin language={language} />} />
+                        <Route path="/blog/withholding-of-removal-moreno-valley" element={<WithholdingOfRemovalMorenoValley language={language} />} />
+                        <Route path="/blog/reasonable-fear-interview-perris" element={<ReasonableFearInterviewPerris language={language} />} />
+                        <Route path="/blog/n400-early-filing-san-clemente" element={<N400EarlyFilingSanClemente language={language} />} />
+                        <Route path="/blog/citizenship-accommodations-arcadia" element={<CitizenshipAccommodationsArcadia language={language} />} />
+                        <Route path="/blog/h1b-cap-gap-aliso-viejo" element={<H1BCapGapAlisoViejo language={language} />} />
+                        <Route path="/blog/r1-religious-worker-rancho-santa-margarita" element={<R1ReligiousWorkerRanchoSantaMargarita language={language} />} />
+                        <Route path="/blog/tps-re-registration-azusa" element={<TPSReRegistrationAzusa language={language} />} />
+                        <Route path="/blog/i539-change-status-palm-desert" element={<I539ChangeStatusPalmDesert language={language} />} />
+                        <Route path="/blog/immigration-poa-la-habra" element={<ImmigrationPOALaHabra language={language} />} />
+                        <Route path="/blog/coptic-christian-resources-cypress" element={<CopticChristianResourcesCypress language={language} />} />
                       </Routes>
                     </main>
 

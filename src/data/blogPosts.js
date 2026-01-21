@@ -3,6 +3,160 @@
 
 export const blogPosts = [
   {
+    id: 1119,
+    slug: "coptic-christian-resources-cypress",
+    title: { en: "Coptic Christian Community Immigration Resources in Cypress: Support for Egyptian Christian Families", ar: "موارد الهجرة لمجتمع الأقباط المسيحيين في سايبرس: دعم للعائلات المسيحية المصرية" },
+    excerpt: { en: "Immigration resources for Coptic Christian families in Cypress. Religious persecution asylum, community support, family reunification for Egyptian Christians. Arabic-speaking staff.", ar: "موارد الهجرة للعائلات القبطية المسيحية في سايبرس. لجوء الاضطهاد الديني، دعم المجتمع، لم شمل العائلة للمسيحيين المصريين. فريق يتحدث العربية." },
+    date: "January 21, 2026",
+    readTime: "13",
+    category: "community",
+    location: "Cypress",
+    image: "/images/blog/community.jpg"
+  },
+  {
+    id: 1118,
+    slug: "immigration-poa-la-habra",
+    title: { en: "Power of Attorney for Immigration Cases in La Habra: G-28 Form and Representation Guide", ar: "التوكيل الرسمي لقضايا الهجرة في لا هابرا: دليل نموذج G-28 والتمثيل" },
+    excerpt: { en: "Understanding power of attorney for immigration. G-28 form requirements, when POA is needed, representation rules for Arab families in La Habra.", ar: "فهم التوكيل الرسمي للهجرة. متطلبات نموذج G-28، متى يكون التوكيل مطلوباً، قواعد التمثيل للعائلات العربية في لا هابرا." },
+    date: "January 21, 2026",
+    readTime: "11",
+    category: "documents",
+    location: "La Habra",
+    image: "/images/blog/documents.jpg"
+  },
+  {
+    id: 1117,
+    slug: "i539-change-status-palm-desert",
+    title: { en: "I-539 Change of Status in Palm Desert: Complete Guide to Changing Your Immigration Status", ar: "تغيير الوضع I-539 في بالم ديزرت: دليل شامل لتغيير وضعك الهجري" },
+    excerpt: { en: "Change your immigration status with Form I-539 in Palm Desert. B-2 to F-1, status extensions, eligibility requirements. Arabic-speaking immigration help.", ar: "غيّر وضعك الهجري بنموذج I-539 في بالم ديزرت. B-2 إلى F-1، تمديد الوضع، متطلبات الأهلية. مساعدة هجرة بالعربية." },
+    date: "January 21, 2026",
+    readTime: "12",
+    category: "status",
+    location: "Palm Desert",
+    image: "/images/blog/status.jpg"
+  },
+  {
+    id: 1116,
+    slug: "tps-re-registration-azusa",
+    title: { en: "TPS Re-Registration in Azusa: Complete Guide to Temporary Protected Status Renewal", ar: "إعادة التسجيل في TPS في أزوسا: دليل شامل لتجديد الوضع المحمي المؤقت" },
+    excerpt: { en: "TPS re-registration guide for Azusa residents. Deadlines, EAD renewal, eligible countries, required documents. Arabic-speaking immigration assistance.", ar: "دليل إعادة التسجيل في TPS لسكان أزوسا. المواعيد النهائية، تجديد EAD، الدول المؤهلة، الوثائق المطلوبة. مساعدة هجرة بالعربية." },
+    date: "January 21, 2026",
+    readTime: "12",
+    category: "status",
+    location: "Azusa",
+    image: "/images/blog/status.jpg"
+  },
+  {
+    id: 1115,
+    slug: "r1-religious-worker-rancho-santa-margarita",
+    title: { en: "R-1 Religious Worker Visa in Rancho Santa Margarita: Guide for Ministers and Religious Staff", ar: "تأشيرة R-1 للعامل الديني في رانشو سانتا مارغريتا: دليل للوزراء والموظفين الدينيين" },
+    excerpt: { en: "R-1 religious worker visa requirements for ministers, imams, and religious staff in Rancho Santa Margarita. Path to green card, eligibility, Arabic support.", ar: "متطلبات تأشيرة R-1 للعامل الديني للوزراء والأئمة والموظفين الدينيين في رانشو سانتا مارغريتا. المسار للبطاقة الخضراء، الأهلية، دعم عربي." },
+    date: "January 21, 2026",
+    readTime: "13",
+    category: "work",
+    location: "Rancho Santa Margarita",
+    image: "/images/blog/work.jpg"
+  },
+  {
+    id: 1114,
+    slug: "h1b-cap-gap-aliso-viejo",
+    title: { en: "H-1B Cap Gap Extension in Aliso Viejo: Maintaining Status for F-1 Students", ar: "تمديد فجوة سقف H-1B في أليسو فييخو: الحفاظ على الوضع لطلاب F-1" },
+    excerpt: { en: "H-1B cap gap extension guide for F-1 students in Aliso Viejo. Maintain status and work authorization while waiting for H-1B. Expert immigration help.", ar: "دليل تمديد فجوة سقف H-1B لطلاب F-1 في أليسو فييخو. حافظ على الوضع وتصريح العمل أثناء انتظار H-1B. مساعدة هجرة خبيرة." },
+    date: "January 21, 2026",
+    readTime: "12",
+    category: "work",
+    location: "Aliso Viejo",
+    image: "/images/blog/work.jpg"
+  },
+  {
+    id: 1113,
+    slug: "citizenship-accommodations-arcadia",
+    title: { en: "Citizenship Test Accommodations in Arcadia: N-648 Medical Waiver Guide for Elderly and Disabled", ar: "تسهيلات اختبار المواطنة في أركاديا: دليل الإعفاء الطبي N-648 لكبار السن والمعاقين" },
+    excerpt: { en: "Citizenship test accommodations and N-648 medical waiver in Arcadia. Help for elderly and disabled applicants. Arabic-speaking naturalization assistance.", ar: "تسهيلات اختبار المواطنة والإعفاء الطبي N-648 في أركاديا. مساعدة للمتقدمين المسنين والمعاقين. مساعدة تجنس بالعربية." },
+    date: "January 21, 2026",
+    readTime: "12",
+    category: "citizenship",
+    location: "Arcadia",
+    image: "/images/blog/citizenship.jpg"
+  },
+  {
+    id: 1112,
+    slug: "n400-early-filing-san-clemente",
+    title: { en: "N-400 Early Filing in San Clemente: When You Can Apply 90 Days Before Eligibility", ar: "التقديم المبكر لـ N-400 في سان كليمنتي: متى يمكنك التقديم قبل 90 يوماً من الأهلية" },
+    excerpt: { en: "File your N-400 citizenship application early in San Clemente. 90-day early filing rule explained. Strategic timing for naturalization. Arabic support available.", ar: "قدم طلب المواطنة N-400 مبكراً في سان كليمنتي. شرح قاعدة التقديم المبكر 90 يوماً. التوقيت الاستراتيجي للتجنس. دعم عربي متاح." },
+    date: "January 21, 2026",
+    readTime: "11",
+    category: "citizenship",
+    location: "San Clemente",
+    image: "/images/blog/citizenship.jpg"
+  },
+  {
+    id: 1111,
+    slug: "reasonable-fear-interview-perris",
+    title: { en: "Reasonable Fear Interview in Perris: Guide for Those with Prior Removal Orders", ar: "مقابلة الخوف المعقول في بيريس: دليل لمن لديهم أوامر ترحيل سابقة" },
+    excerpt: { en: "Reasonable fear interview preparation for Perris residents with prior removal orders. RFI process, what to expect, asylum protection. Arabic-speaking help.", ar: "تحضير مقابلة الخوف المعقول لسكان بيريس مع أوامر ترحيل سابقة. عملية RFI، ما تتوقعه، حماية اللجوء. مساعدة بالعربية." },
+    date: "January 21, 2026",
+    readTime: "13",
+    category: "asylum",
+    location: "Perris",
+    image: "/images/blog/asylum.jpg"
+  },
+  {
+    id: 1110,
+    slug: "withholding-of-removal-moreno-valley",
+    title: { en: "Withholding of Removal in Moreno Valley: Protection When Asylum Isn't Available", ar: "حجب الترحيل في مورينو فالي: الحماية عندما لا يكون اللجوء متاحاً" },
+    excerpt: { en: "Withholding of removal protection in Moreno Valley for those who can't prove asylum eligibility. CAT protection, requirements, differences from asylum.", ar: "حماية حجب الترحيل في مورينو فالي لمن لا يستطيعون إثبات أهلية اللجوء. حماية CAT، المتطلبات، الاختلافات عن اللجوء." },
+    date: "January 21, 2026",
+    readTime: "14",
+    category: "asylum",
+    location: "Moreno Valley",
+    image: "/images/blog/asylum.jpg"
+  },
+  {
+    id: 1109,
+    slug: "i751-late-filing-tustin",
+    title: { en: "I-751 Late Filing in Tustin: Removing Conditions After the Deadline", ar: "التقديم المتأخر لـ I-751 في توستين: إزالة الشروط بعد الموعد النهائي" },
+    excerpt: { en: "Filed I-751 late in Tustin? Learn about late filing options, good cause exceptions, and how to remove conditions on your green card. Arabic-speaking help.", ar: "قدمت I-751 متأخراً في توستين؟ تعرف على خيارات التقديم المتأخر، استثناءات السبب الوجيه، وكيفية إزالة الشروط من بطاقتك الخضراء. مساعدة بالعربية." },
+    date: "January 21, 2026",
+    readTime: "12",
+    category: "marriage",
+    location: "Tustin",
+    image: "/images/blog/marriage.jpg"
+  },
+  {
+    id: 1108,
+    slug: "k1-interview-tips-mission-viejo",
+    title: { en: "K-1 Fiancé Visa Interview Tips in Mission Viejo: How to Prepare Your Fiancé for Embassy Success", ar: "نصائح مقابلة تأشيرة K-1 للخطيب في ميشن فييخو: كيف تحضّر خطيبك لنجاح السفارة" },
+    excerpt: { en: "Expert K-1 visa interview preparation tips from Mission Viejo. Common questions, documents needed, embassy-specific guidance. Arabic support available.", ar: "نصائح خبيرة لتحضير مقابلة تأشيرة K-1 من ميشن فييخو. الأسئلة الشائعة، الوثائق المطلوبة، إرشادات خاصة بالسفارة. دعم عربي متاح." },
+    date: "January 21, 2026",
+    readTime: "15",
+    category: "marriage",
+    location: "Mission Viejo",
+    image: "/images/blog/marriage.jpg"
+  },
+  {
+    id: 1107,
+    slug: "f2a-preference-category-apple-valley",
+    title: { en: "F2A Preference Category Immigration in Apple Valley: Spouse and Children of Green Card Holders", ar: "فئة الأفضلية F2A للهجرة في آبل فالي: الأزواج وأطفال حاملي البطاقة الخضراء" },
+    excerpt: { en: "F2A preference category immigration help in Apple Valley for spouses and children of green card holders. Wait times, process, upgrade strategies.", ar: "مساعدة هجرة فئة الأفضلية F2A في آبل فالي للأزواج وأطفال حاملي البطاقة الخضراء. أوقات الانتظار، العملية، استراتيجيات الترقية." },
+    date: "January 21, 2026",
+    readTime: "13",
+    category: "family",
+    location: "Apple Valley",
+    image: "/images/blog/family.jpg"
+  },
+  {
+    id: 1106,
+    slug: "i130-grandparents-petition-redlands",
+    title: { en: "I-130 Petition for Grandparents in Redlands: Complete Guide to Family Immigration for Elderly Parents", ar: "التماس I-130 للأجداد في ريدلاندز: دليل شامل لهجرة الوالدين المسنين" },
+    excerpt: { en: "Bring your grandparents to America through I-130 family petition. Expert help in Redlands for Arab families reuniting with elderly parents.", ar: "أحضر أجدادك إلى أمريكا من خلال التماس العائلة I-130. مساعدة متخصصة في ريدلاندز للعائلات العربية لجمع شمل الوالدين المسنين." },
+    date: "January 21, 2026",
+    readTime: "14",
+    category: "family",
+    location: "Redlands",
+    image: "/images/blog/family.jpg"
+  },
+  {
     id: 1105,
     slug: "humanitarian-parole-extension-fontana",
     title: { en: "Humanitarian Parole Expiring? Options for Extension and Status Adjustment in Fontana", ar: "هل تنتهي صلاحية الإفراج الإنساني؟ خيارات التمديد وتعديل الوضع في فونتانا" },
