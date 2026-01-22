@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Routes, Route } from 'react-router-dom';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { HelmetProvider } from 'react-helmet-async';
 import { Users, Flag, FileText, ScrollText, Heart, Award, Shield } from 'lucide-react';
 
@@ -636,6 +636,7 @@ const App = () => {
     }
   };
               return (
+              <BrowserRouter>
               <HelmetProvider>
                   <div className="min-h-screen flex flex-col">
                     <Navbar language={language} setLanguage={setLanguage} content={content} />
@@ -882,6 +883,7 @@ const App = () => {
                     <ExitIntentModal language={language} content={content} />
                   </div>
               </HelmetProvider>
+              </BrowserRouter>
               );
 };
 
