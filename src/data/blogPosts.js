@@ -3849,6 +3849,11 @@ export const categories = {
     en: "Resources",
     ar: "الموارد",
     icon: "Book"
+  },
+  news: {
+    en: "Immigration News",
+    ar: "أخبار الهجرة",
+    icon: "Newspaper"
   }
 };
 
