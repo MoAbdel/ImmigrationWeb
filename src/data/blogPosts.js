@@ -3,6 +3,116 @@
 
 export const blogPosts = [
   {
+    id: 1129,
+    slug: "n400-special-accommodations-westminster",
+    title: { en: "N-400 Special Accommodations in Westminster: Citizenship Test Help for Disabilities", ar: "التسهيلات الخاصة لـ N-400 في ويستمنستر: مساعدة اختبار الجنسية للإعاقات" },
+    excerpt: { en: "N-400 disability accommodations and N-648 waivers in Westminster. Citizenship test exemptions for medical conditions, elderly applicants in Little Saigon.", ar: "تسهيلات الإعاقة لـ N-400 وإعفاءات N-648 في ويستمنستر. إعفاءات اختبار الجنسية للحالات الطبية والمتقدمين المسنين." },
+    date: "January 22, 2026",
+    readTime: "10",
+    category: "citizenship",
+    location: "Westminster",
+    image: "/images/blog/citizenship.jpg"
+  },
+  {
+    id: 1128,
+    slug: "i130-adult-married-children-san-dimas",
+    title: { en: "I-130 Petition for Married Adult Children in San Dimas: F3 Family Immigration Guide", ar: "التماس I-130 للأبناء البالغين المتزوجين في سان ديماس: دليل هجرة العائلة F3" },
+    excerpt: { en: "I-130 petition for married adult children (F3 category) in San Dimas. Wait times, documentation requirements for Eastern LA County families.", ar: "التماس I-130 للأبناء البالغين المتزوجين (فئة F3) في سان ديماس. أوقات الانتظار ومتطلبات التوثيق." },
+    date: "January 22, 2026",
+    readTime: "11",
+    category: "family",
+    location: "San Dimas",
+    image: "/images/blog/family.jpg"
+  },
+  {
+    id: 1127,
+    slug: "syrian-humanitarian-parole-la-mesa",
+    title: { en: "Syrian Humanitarian Parole in La Mesa: Protection Options for Syrian Families", ar: "الإفراج المشروط الإنساني للسوريين في لا ميسا: خيارات الحماية للعائلات السورية" },
+    excerpt: { en: "Humanitarian parole and protection options for Syrians in La Mesa. Syrian TPS, asylum, and family reunification in San Diego County.", ar: "الإفراج المشروط الإنساني وخيارات الحماية للسوريين في لا ميسا. TPS السوري واللجوء ولم شمل العائلة." },
+    date: "January 22, 2026",
+    readTime: "13",
+    category: "asylum",
+    location: "La Mesa",
+    image: "/images/blog/asylum.jpg"
+  },
+  {
+    id: 1126,
+    slug: "uscis-certified-translation-stanton",
+    title: { en: "USCIS Certified Translation Services in Stanton: Document Translation for Immigration", ar: "خدمات الترجمة المعتمدة من USCIS في ستانتون: ترجمة الوثائق للهجرة" },
+    excerpt: { en: "Certified translation services for USCIS in Stanton. Arabic-English translation for birth certificates, marriage certificates in Orange County.", ar: "خدمات الترجمة المعتمدة لـ USCIS في ستانتون. ترجمة عربية-إنجليزية لشهادات الميلاد والزواج." },
+    date: "January 22, 2026",
+    readTime: "9",
+    category: "documents",
+    location: "Stanton",
+    image: "/images/blog/documents.jpg"
+  },
+  {
+    id: 1125,
+    slug: "emergency-travel-authorization-rancho-bernardo",
+    title: { en: "Emergency Travel Authorization in Rancho Bernardo: Urgent Advance Parole Guide", ar: "تصريح السفر الطارئ في رانشو برناردو: دليل الإفراج المشروط العاجل" },
+    excerpt: { en: "Emergency advance parole and urgent travel authorization in Rancho Bernardo. Expedite travel documents for family emergencies in San Diego.", ar: "الإفراج المشروط الطارئ وتصريح السفر العاجل في رانشو برناردو. تسريع وثائق السفر للطوارئ العائلية." },
+    date: "January 22, 2026",
+    readTime: "10",
+    category: "travel",
+    location: "Rancho Bernardo",
+    image: "/images/blog/travel.jpg"
+  },
+  {
+    id: 1124,
+    slug: "k3-vs-cr1-spouse-visa-laguna-beach",
+    title: { en: "K-3 Spouse Visa vs CR-1 Immigrant Visa in Laguna Beach: Which Is Right for You?", ar: "تأشيرة الزوج K-3 مقابل تأشيرة المهاجر CR-1 في لاجونا بيتش: أيهما مناسب لك؟" },
+    excerpt: { en: "Compare K-3 and CR-1 spouse visas in Laguna Beach. Which marriage visa is faster and provides immediate green card in Orange County.", ar: "قارن تأشيرات الزوج K-3 وCR-1 في لاجونا بيتش. أي تأشيرة زواج أسرع وتوفر البطاقة الخضراء الفورية." },
+    date: "January 22, 2026",
+    readTime: "11",
+    category: "marriage",
+    location: "Laguna Beach",
+    image: "/images/blog/marriage.jpg"
+  },
+  {
+    id: 1123,
+    slug: "iraqi-refugee-women-empowerment-lakeside",
+    title: { en: "Iraqi Refugee Women Empowerment Resources in Lakeside: Immigration & Community Support", ar: "موارد تمكين النساء اللاجئات العراقيات في ليكسايد: الهجرة ودعم المجتمع" },
+    excerpt: { en: "Immigration resources and community support for Iraqi refugee women in Lakeside. Family petitions, VAWA, Arabic-speaking services in East San Diego.", ar: "موارد الهجرة ودعم المجتمع للنساء اللاجئات العراقيات في ليكسايد. الالتماسات العائلية وVAWA والخدمات بالعربية." },
+    date: "January 22, 2026",
+    readTime: "14",
+    category: "community",
+    location: "Lakeside",
+    image: "/images/blog/community.jpg"
+  },
+  {
+    id: 1122,
+    slug: "citizenship-green-card-holders-santee",
+    title: { en: "Citizenship for Green Card Holders in Santee: Your Complete Naturalization Guide", ar: "الجنسية لحاملي البطاقة الخضراء في سانتي: دليلك الكامل للتجنس" },
+    excerpt: { en: "Complete naturalization guide for green card holders in Santee. N-400 requirements, civics test, interview tips for East San Diego County.", ar: "دليل التجنس الكامل لحاملي البطاقة الخضراء في سانتي. متطلبات N-400 واختبار التربية المدنية ونصائح المقابلة." },
+    date: "January 22, 2026",
+    readTime: "12",
+    category: "citizenship",
+    location: "Santee",
+    image: "/images/blog/citizenship.jpg"
+  },
+  {
+    id: 1121,
+    slug: "eb1c-multinational-manager-newport-coast",
+    title: { en: "EB-1C Multinational Manager Green Card in Newport Coast: Executive Immigration Path", ar: "البطاقة الخضراء للمدير متعدد الجنسيات EB-1C في نيوبورت كوست" },
+    excerpt: { en: "EB-1C multinational manager and executive green card in Newport Coast. L-1A to EB-1C pathway, premium processing for Orange County business leaders.", ar: "البطاقة الخضراء للمدير متعدد الجنسيات والتنفيذي EB-1C في نيوبورت كوست. مسار L-1A إلى EB-1C والمعالجة المميزة." },
+    date: "January 22, 2026",
+    readTime: "13",
+    category: "work",
+    location: "Newport Coast",
+    image: "/images/blog/work.jpg"
+  },
+  {
+    id: 1120,
+    slug: "sudanese-asylum-support-san-marcos",
+    title: { en: "Sudanese Asylum Support in San Marcos: Protection for Families Fleeing Crisis", ar: "دعم اللجوء السوداني في سان ماركوس: حماية للعائلات الفارة من الأزمة" },
+    excerpt: { en: "Asylum and TPS support for Sudanese families in San Marcos. Protection options, documentation requirements for Sudan nationals in North San Diego County.", ar: "دعم اللجوء وTPS للعائلات السودانية في سان ماركوس. خيارات الحماية ومتطلبات التوثيق للمواطنين السودانيين." },
+    date: "January 22, 2026",
+    readTime: "14",
+    category: "asylum",
+    location: "San Marcos",
+    image: "/images/blog/asylum.jpg"
+  },
+  {
     id: 1119,
     slug: "coptic-christian-resources-cypress",
     title: { en: "Coptic Christian Community Immigration Resources in Cypress: Support for Egyptian Christian Families", ar: "موارد الهجرة لمجتمع الأقباط المسيحيين في سايبرس: دعم للعائلات المسيحية المصرية" },

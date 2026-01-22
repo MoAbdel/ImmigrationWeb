@@ -242,6 +242,18 @@ import I539ChangeStatusPalmDesert from './pages/blog/posts/I539ChangeStatusPalmD
 import ImmigrationPOALaHabra from './pages/blog/posts/ImmigrationPOALaHabra';
 import CopticChristianResourcesCypress from './pages/blog/posts/CopticChristianResourcesCypress';
 
+// New posts - January 22, 2026
+import SudaneseAsylumSanMarcos from './pages/blog/posts/SudaneseAsylumSanMarcos';
+import EB1CMultinationalManagerNewportCoast from './pages/blog/posts/EB1CMultinationalManagerNewportCoast';
+import CitizenshipGreenCardHoldersSantee from './pages/blog/posts/CitizenshipGreenCardHoldersSantee';
+import IraqiRefugeeWomenLakeside from './pages/blog/posts/IraqiRefugeeWomenLakeside';
+import K3vsCR1LagunaBeach from './pages/blog/posts/K3vsCR1LagunaBeach';
+import EmergencyTravelRanchoBernardo from './pages/blog/posts/EmergencyTravelRanchoBernardo';
+import USCISCertifiedTranslationStanton from './pages/blog/posts/USCISCertifiedTranslationStanton';
+import SyrianHumanitarianParoleLaMesa from './pages/blog/posts/SyrianHumanitarianParoleLaMesa';
+import I130AdultMarriedChildrenSanDimas from './pages/blog/posts/I130AdultMarriedChildrenSanDimas';
+import N400SpecialAccommodationsWestminster from './pages/blog/posts/N400SpecialAccommodationsWestminster';
+
 import EB2NIWStrategy from './pages/blog/posts/EB2NIWStrategy';
 import MarriageGreenCardTimeline from './pages/blog/posts/MarriageGreenCardTimeline';
 import H1BAlternatives from './pages/blog/posts/H1BAlternatives';
@@ -875,6 +887,18 @@ const App = () => {
                         <Route path="/blog/i539-change-status-palm-desert" element={<I539ChangeStatusPalmDesert language={language} />} />
                         <Route path="/blog/immigration-poa-la-habra" element={<ImmigrationPOALaHabra language={language} />} />
                         <Route path="/blog/coptic-christian-resources-cypress" element={<CopticChristianResourcesCypress language={language} />} />
+
+                        {/* New posts - January 22, 2026 */}
+                        <Route path="/blog/sudanese-asylum-support-san-marcos" element={<SudaneseAsylumSanMarcos language={language} />} />
+                        <Route path="/blog/eb1c-multinational-manager-newport-coast" element={<EB1CMultinationalManagerNewportCoast language={language} />} />
+                        <Route path="/blog/citizenship-green-card-holders-santee" element={<CitizenshipGreenCardHoldersSantee language={language} />} />
+                        <Route path="/blog/iraqi-refugee-women-empowerment-lakeside" element={<IraqiRefugeeWomenLakeside language={language} />} />
+                        <Route path="/blog/k3-vs-cr1-spouse-visa-laguna-beach" element={<K3vsCR1LagunaBeach language={language} />} />
+                        <Route path="/blog/emergency-travel-authorization-rancho-bernardo" element={<EmergencyTravelRanchoBernardo language={language} />} />
+                        <Route path="/blog/uscis-certified-translation-stanton" element={<USCISCertifiedTranslationStanton language={language} />} />
+                        <Route path="/blog/syrian-humanitarian-parole-la-mesa" element={<SyrianHumanitarianParoleLaMesa language={language} />} />
+                        <Route path="/blog/i130-adult-married-children-san-dimas" element={<I130AdultMarriedChildrenSanDimas language={language} />} />
+                        <Route path="/blog/n400-special-accommodations-westminster" element={<N400SpecialAccommodationsWestminster language={language} />} />
                       </Routes>
                     </main>
 
