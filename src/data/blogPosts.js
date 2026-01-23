@@ -3845,6 +3845,196 @@ export const blogPosts = [
     category: "documents",
     date: "2026-01-12",
     readTime: 8
+  },
+  {
+    id: 124,
+    slug: "i130-unmarried-sons-daughters-signal-hill",
+    pillar: "family",
+    title: {
+      en: "I-130 for Unmarried Sons and Daughters in Signal Hill: F2B Family Preference Guide",
+      ar: "I-130 للأبناء والبنات غير المتزوجين في سيغنال هيل: دليل فئة التفضيل العائلي F2B"
+    },
+    excerpt: {
+      en: "F2B family preference petition help in Signal Hill for unmarried adult children of green card holders. Long Beach area immigration support.",
+      ar: "مساعدة طلب التفضيل العائلي F2B في سيغنال هيل للأبناء البالغين غير المتزوجين لحاملي البطاقة الخضراء."
+    },
+    location: "Signal Hill",
+    county: "Los Angeles County",
+    targetDemographic: ["Family", "Green Card Holder", "Arab"],
+    category: "family",
+    date: "2026-01-23",
+    readTime: 12
+  },
+  {
+    id: 125,
+    slug: "iranian-asylum-protection-tarzana",
+    pillar: "asylum",
+    title: {
+      en: "Iranian Asylum Protection in Tarzana: Religious and Political Persecution Cases",
+      ar: "حماية اللجوء الإيراني في تارزانا: قضايا الاضطهاد الديني والسياسي"
+    },
+    excerpt: {
+      en: "Asylum help for Iranian nationals in Tarzana facing persecution. Support for Baha'i, Christian converts, and political dissidents.",
+      ar: "مساعدة اللجوء للمواطنين الإيرانيين في تارزانا الذين يواجهون الاضطهاد. دعم للبهائيين والمتحولين للمسيحية والمعارضين السياسيين."
+    },
+    location: "Tarzana",
+    county: "Los Angeles County",
+    targetDemographic: ["Iranian", "Persian", "Asylum"],
+    category: "asylum",
+    date: "2026-01-23",
+    readTime: 14
+  },
+  {
+    id: 126,
+    slug: "affidavit-bona-fide-marriage-hawthorne",
+    pillar: "marriage",
+    title: {
+      en: "Affidavit of Bona Fide Marriage in Hawthorne: Evidence for Immigration Cases",
+      ar: "إفادة خطية للزواج الحقيقي في هاوثورن: أدلة لقضايا الهجرة"
+    },
+    excerpt: {
+      en: "Marriage affidavit preparation help in Hawthorne. Third-party declarations and evidence documentation for green card applications.",
+      ar: "مساعدة إعداد الإفادة الخطية للزواج في هاوثورن. إقرارات الطرف الثالث وتوثيق الأدلة لطلبات البطاقة الخضراء."
+    },
+    location: "Hawthorne",
+    county: "Los Angeles County",
+    targetDemographic: ["Marriage", "Couple", "Arab"],
+    category: "marriage",
+    date: "2026-01-23",
+    readTime: 11
+  },
+  {
+    id: 127,
+    slug: "selective-service-naturalization-paramount",
+    pillar: "citizenship",
+    title: {
+      en: "Selective Service and Naturalization in Paramount: Requirements for Male Applicants",
+      ar: "التسجيل الانتقائي والتجنس في باراماونت: متطلبات المتقدمين الذكور"
+    },
+    excerpt: {
+      en: "Selective Service registration help for citizenship in Paramount. Requirements for men 18-31 applying for U.S. naturalization.",
+      ar: "مساعدة التسجيل في الخدمة الانتقائية للجنسية في باراماونت. متطلبات الرجال 18-31 المتقدمين للتجنس الأمريكي."
+    },
+    location: "Paramount",
+    county: "Los Angeles County",
+    targetDemographic: ["Male", "Citizenship", "Arab"],
+    category: "citizenship",
+    date: "2026-01-23",
+    readTime: 10
+  },
+  {
+    id: 128,
+    slug: "eb2-schedule-a-healthcare-workers-torrance",
+    pillar: "work",
+    title: {
+      en: "EB-2 Schedule A for Healthcare Workers in Torrance: Fast-Track Green Cards",
+      ar: "EB-2 جدول A لعمال الرعاية الصحية في تورانس: البطاقات الخضراء السريعة"
+    },
+    excerpt: {
+      en: "Schedule A healthcare worker green card help in Torrance. Nurses and physical therapists get labor certification exemption.",
+      ar: "مساعدة البطاقة الخضراء لعمال الرعاية الصحية جدول A في تورانس. الممرضات والمعالجون الفيزيائيون يحصلون على إعفاء شهادة العمل."
+    },
+    location: "Torrance",
+    county: "Los Angeles County",
+    targetDemographic: ["Healthcare", "Nurse", "Professional"],
+    category: "work",
+    date: "2026-01-23",
+    readTime: 13
+  },
+  {
+    id: 129,
+    slug: "i485-adjustment-interview-alhambra",
+    pillar: "status",
+    title: {
+      en: "I-485 Adjustment of Status Interview in Alhambra: Green Card Interview Preparation",
+      ar: "مقابلة تعديل الوضع I-485 في الهامبرا: التحضير لمقابلة البطاقة الخضراء"
+    },
+    excerpt: {
+      en: "Green card interview preparation help in Alhambra. What to expect at your I-485 adjustment of status interview.",
+      ar: "مساعدة التحضير لمقابلة البطاقة الخضراء في الهامبرا. ما تتوقعه في مقابلة تعديل الوضع I-485."
+    },
+    location: "Alhambra",
+    county: "Los Angeles County",
+    targetDemographic: ["Green Card", "Interview", "Arab"],
+    category: "status",
+    date: "2026-01-23",
+    readTime: 12
+  },
+  {
+    id: 130,
+    slug: "travel-while-i130-pending-compton",
+    pillar: "travel",
+    title: {
+      en: "Travel While I-130 Pending in Compton: Risks and Safe Options",
+      ar: "السفر أثناء انتظار I-130 في كومبتون: المخاطر والخيارات الآمنة"
+    },
+    excerpt: {
+      en: "Travel guidance for pending I-130 petitions in Compton. Understand risks, visa options, and how to protect your case.",
+      ar: "إرشادات السفر لطلبات I-130 المعلقة في كومبتون. فهم المخاطر وخيارات التأشيرة وكيفية حماية قضيتك."
+    },
+    location: "Compton",
+    county: "Los Angeles County",
+    targetDemographic: ["Travel", "Family", "Arab"],
+    category: "travel",
+    date: "2026-01-23",
+    readTime: 11
+  },
+  {
+    id: 131,
+    slug: "document-apostille-legalization-montclair",
+    pillar: "documents",
+    title: {
+      en: "Document Apostille and Legalization in Montclair: Authentication Guide",
+      ar: "توثيق المستندات والتصديق في مونتكلير: دليل المصادقة"
+    },
+    excerpt: {
+      en: "Apostille and document legalization help in Montclair. Authenticate documents for international use and immigration purposes.",
+      ar: "مساعدة التوثيق والتصديق على المستندات في مونتكلير. مصادقة المستندات للاستخدام الدولي وأغراض الهجرة."
+    },
+    location: "Montclair",
+    county: "San Bernardino County",
+    targetDemographic: ["Documents", "Authentication", "Arab"],
+    category: "documents",
+    date: "2026-01-23",
+    readTime: 10
+  },
+  {
+    id: 132,
+    slug: "tunisian-community-immigration-glendale",
+    pillar: "community",
+    title: {
+      en: "Tunisian Community Immigration Resources in Glendale: Services and Support",
+      ar: "موارد هجرة المجتمع التونسي في غلينديل: الخدمات والدعم"
+    },
+    excerpt: {
+      en: "Immigration resources for the Tunisian community in Glendale. Family petitions, citizenship, and Arabic-speaking support services.",
+      ar: "موارد الهجرة للمجتمع التونسي في غلينديل. طلبات العائلة والجنسية وخدمات الدعم بالعربية."
+    },
+    location: "Glendale",
+    county: "Los Angeles County",
+    targetDemographic: ["Tunisian", "North African", "Arab"],
+    category: "community",
+    date: "2026-01-23",
+    readTime: 11
+  },
+  {
+    id: 133,
+    slug: "iraqi-widows-immigration-san-bernardino",
+    pillar: "community",
+    title: {
+      en: "Iraqi Widow Immigration Support in San Bernardino: I-360 Self-Petition Guide",
+      ar: "دعم هجرة الأرامل العراقيات في سان برناردينو: دليل I-360 للالتماس الذاتي"
+    },
+    excerpt: {
+      en: "Immigration help for Iraqi widows in San Bernardino. I-360 self-petition options and widow/widower green card pathways.",
+      ar: "مساعدة الهجرة للأرامل العراقيات في سان برناردينو. خيارات الالتماس الذاتي I-360 ومسارات البطاقة الخضراء للأرامل."
+    },
+    location: "San Bernardino",
+    county: "San Bernardino County",
+    targetDemographic: ["Iraqi", "Widow", "Women"],
+    category: "community",
+    date: "2026-01-23",
+    readTime: 12
   }
 ];
 

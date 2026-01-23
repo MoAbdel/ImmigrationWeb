@@ -254,6 +254,18 @@ import SyrianHumanitarianParoleLaMesa from './pages/blog/posts/SyrianHumanitaria
 import I130AdultMarriedChildrenSanDimas from './pages/blog/posts/I130AdultMarriedChildrenSanDimas';
 import N400SpecialAccommodationsWestminster from './pages/blog/posts/N400SpecialAccommodationsWestminster';
 
+// New posts - January 23, 2026
+import I130UnmarriedSonsSignalHill from './pages/blog/posts/I130UnmarriedSonsSignalHill';
+import IranianAsylumTarzana from './pages/blog/posts/IranianAsylumTarzana';
+import AffidavitBonaFideMarriageHawthorne from './pages/blog/posts/AffidavitBonaFideMarriageHawthorne';
+import SelectiveServiceNaturalizationParamount from './pages/blog/posts/SelectiveServiceNaturalizationParamount';
+import EB2ScheduleAHealthcareTorrance from './pages/blog/posts/EB2ScheduleAHealthcareTorrance';
+import I485InterviewAlhambra from './pages/blog/posts/I485InterviewAlhambra';
+import TravelWhileI130PendingCompton from './pages/blog/posts/TravelWhileI130PendingCompton';
+import DocumentApostilleMontclair from './pages/blog/posts/DocumentApostilleMontclair';
+import TunisianCommunityGlendale from './pages/blog/posts/TunisianCommunityGlendale';
+import IraqiWidowsImmigrationSanBernardino from './pages/blog/posts/IraqiWidowsImmigrationSanBernardino';
+
 import EB2NIWStrategy from './pages/blog/posts/EB2NIWStrategy';
 import MarriageGreenCardTimeline from './pages/blog/posts/MarriageGreenCardTimeline';
 import H1BAlternatives from './pages/blog/posts/H1BAlternatives';
@@ -899,6 +911,18 @@ const App = () => {
                         <Route path="/blog/syrian-humanitarian-parole-la-mesa" element={<SyrianHumanitarianParoleLaMesa language={language} />} />
                         <Route path="/blog/i130-adult-married-children-san-dimas" element={<I130AdultMarriedChildrenSanDimas language={language} />} />
                         <Route path="/blog/n400-special-accommodations-westminster" element={<N400SpecialAccommodationsWestminster language={language} />} />
+
+                        {/* New posts - January 23, 2026 */}
+                        <Route path="/blog/i130-unmarried-sons-daughters-signal-hill" element={<I130UnmarriedSonsSignalHill language={language} />} />
+                        <Route path="/blog/iranian-asylum-protection-tarzana" element={<IranianAsylumTarzana language={language} />} />
+                        <Route path="/blog/affidavit-bona-fide-marriage-hawthorne" element={<AffidavitBonaFideMarriageHawthorne language={language} />} />
+                        <Route path="/blog/selective-service-naturalization-paramount" element={<SelectiveServiceNaturalizationParamount language={language} />} />
+                        <Route path="/blog/eb2-schedule-a-healthcare-workers-torrance" element={<EB2ScheduleAHealthcareTorrance language={language} />} />
+                        <Route path="/blog/i485-adjustment-interview-alhambra" element={<I485InterviewAlhambra language={language} />} />
+                        <Route path="/blog/travel-while-i130-pending-compton" element={<TravelWhileI130PendingCompton language={language} />} />
+                        <Route path="/blog/document-apostille-legalization-montclair" element={<DocumentApostilleMontclair language={language} />} />
+                        <Route path="/blog/tunisian-community-immigration-glendale" element={<TunisianCommunityGlendale language={language} />} />
+                        <Route path="/blog/iraqi-widows-immigration-san-bernardino" element={<IraqiWidowsImmigrationSanBernardino language={language} />} />
                       </Routes>
                     </main>
 
