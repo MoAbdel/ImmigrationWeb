@@ -204,7 +204,12 @@ const N400DenialAppealPasadena = ({ language }) => {
           a: "This is very serious. If USCIS believes you made willful misrepresentations, it can bar naturalization and potentially affect your green card. At the N-336 hearing, you can explain that any errors were honest mistakes. Bring evidence supporting your intent (original documents, explanations of confusion). If the issue is serious, consult an immigration attorney immediately."
         }
       ],
-      disclaimer: "This article provides general information about N-400 citizenship denial appeals in Pasadena and does not constitute legal advice. SoCal Immigration Services is a document preparation company, not a law firm. Denial appeals have strict deadlines and complex legal issues. For legal advice specific to your denial, please consult with a licensed immigration attorney as soon as possible."
+      disclaimer: "This article provides general information about N-400 citizenship denial appeals in Pasadena and does not constitute legal advice. SoCal Immigration Services is a document preparation company, not a law firm. Denial appeals have strict deadlines and complex legal issues. For legal advice specific to your denial, please consult with a licensed immigration attorney as soon as possible.",
+      cta: {
+        title: "Need N-400 Appeal Help in Pasadena?",
+        text: "Our team assists with N-336 hearing preparation, documentation, and reapplication support.",
+        button: "Get Started Today"
+      }
     },
     ar: {
       slug: "n400-denial-appeal-pasadena",
@@ -247,7 +252,12 @@ const N400DenialAppealPasadena = ({ language }) => {
           a: "للأسف، الموعد النهائي البالغ 30 يوماً لـ N-336 قضائي ولا يمكن تمديده. إذا فاتك، لا يمكنك طلب جلسة استماع إدارية. خياراتك هي إعادة التقديم بـ N-400 جديد أو المحكمة الفيدرالية في ظروف محدودة."
         }
       ],
-      disclaimer: "تقدم هذه المقالة معلومات عامة حول استئناف رفض N-400 في باسادينا ولا تشكل مشورة قانونية."
+      disclaimer: "تقدم هذه المقالة معلومات عامة حول استئناف رفض N-400 في باسادينا ولا تشكل مشورة قانونية.",
+      cta: {
+        title: "هل تحتاج مساعدة في استئناف N-400 في باسادينا؟",
+        text: "فريقنا يساعد في التحضير لجلسة N-336 والتوثيق ودعم إعادة التقديم.",
+        button: "ابدأ اليوم"
+      }
     }
   };
 

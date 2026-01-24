@@ -200,7 +200,12 @@ const MoroccanCommunityResourcesLongBeach = ({ language }) => {
           a: "The Moroccan Consulate General in Los Angeles serves the Southern California area, including Long Beach. It's located in the Manhattan Beach/Los Angeles area. They provide passport services, civil status documents, notarization, and other consular services. Check their website for current hours and appointment requirements."
         }
       ],
-      disclaimer: "This article provides general information about immigration resources for the Moroccan community in Long Beach and does not constitute legal advice. SoCal Immigration Services is a document preparation company, not a law firm. For legal advice specific to your immigration situation, please consult with a licensed immigration attorney."
+      disclaimer: "This article provides general information about immigration resources for the Moroccan community in Long Beach and does not constitute legal advice. SoCal Immigration Services is a document preparation company, not a law firm. For legal advice specific to your immigration situation, please consult with a licensed immigration attorney.",
+      cta: {
+        title: "Need Immigration Help in Long Beach?",
+        text: "Our team assists Moroccan families with document preparation, translations, and immigration applications.",
+        button: "Get Started Today"
+      }
     },
     ar: {
       slug: "moroccan-community-resources-long-beach",
@@ -241,7 +246,12 @@ const MoroccanCommunityResourcesLongBeach = ({ language }) => {
           a: "نعم، المغرب كان مؤهلاً باستمرار لقرعة DV. ومع ذلك، تُحدد الأهلية كل عام بناءً على أرقام الهجرة، لذا تحقق دائماً من تعليمات السنة الحالية."
         }
       ],
-      disclaimer: "تقدم هذه المقالة معلومات عامة حول موارد الهجرة للمجتمع المغربي في لونغ بيتش ولا تشكل مشورة قانونية."
+      disclaimer: "تقدم هذه المقالة معلومات عامة حول موارد الهجرة للمجتمع المغربي في لونغ بيتش ولا تشكل مشورة قانونية.",
+      cta: {
+        title: "هل تحتاج مساعدة في الهجرة في لونغ بيتش؟",
+        text: "فريقنا يساعد العائلات المغربية في إعداد الوثائق والترجمات وطلبات الهجرة.",
+        button: "ابدأ اليوم"
+      }
     }
   };
 

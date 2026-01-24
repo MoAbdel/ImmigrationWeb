@@ -200,7 +200,12 @@ const MarriageGreenCardAfterDivorceBrea = ({ language }) => {
           a: "There's no waiting period for remarriage, but immigration implications exist. If you have a conditional green card, focus on your I-751 waiver first. For sponsoring a new spouse, USCIS will scrutinize a very quick remarriage. Having your permanent green card before sponsoring a new spouse is advisable. Wait times for new petitions are also a factor."
         }
       ],
-      disclaimer: "This article provides general information about divorce and immigration status in Brea and does not constitute legal advice. SoCal Immigration Services is a document preparation company, not a law firm. For legal advice specific to your situation, especially in cases involving domestic violence, please consult with a licensed immigration attorney. Processing times and requirements may change; verify current information with USCIS.gov."
+      disclaimer: "This article provides general information about divorce and immigration status in Brea and does not constitute legal advice. SoCal Immigration Services is a document preparation company, not a law firm. For legal advice specific to your situation, especially in cases involving domestic violence, please consult with a licensed immigration attorney. Processing times and requirements may change; verify current information with USCIS.gov.",
+      cta: {
+        title: "Need I-751 Waiver Help in Brea?",
+        text: "Our team assists with I-751 divorce waivers, document preparation, and protecting your immigration status.",
+        button: "Get Started Today"
+      }
     },
     ar: {
       slug: "marriage-green-card-after-divorce-brea",
@@ -241,7 +246,12 @@ const MarriageGreenCardAfterDivorceBrea = ({ language }) => {
           a: "لا، الطلاق لا يؤدي تلقائياً إلى الترحيل. إذا كان لديك بطاقة خضراء دائمة، فالطلاق ليس له تأثير على وضعك. إذا كان لديك بطاقة خضراء مشروطة، يمكنك تقديم إعفاء I-751."
         }
       ],
-      disclaimer: "تقدم هذه المقالة معلومات عامة حول الطلاق والوضع الهجري في بريا ولا تشكل مشورة قانونية."
+      disclaimer: "تقدم هذه المقالة معلومات عامة حول الطلاق والوضع الهجري في بريا ولا تشكل مشورة قانونية.",
+      cta: {
+        title: "هل تحتاج مساعدة في إعفاء I-751 في بريا؟",
+        text: "فريقنا يساعد في إعفاءات I-751 للطلاق وإعداد الوثائق وحماية وضعك الهجري.",
+        button: "ابدأ اليوم"
+      }
     }
   };
 

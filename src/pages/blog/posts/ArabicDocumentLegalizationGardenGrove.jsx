@@ -201,7 +201,12 @@ const ArabicDocumentLegalizationGardenGrove = ({ language }) => {
           a: "Most civil documents (birth certificates, marriage certificates) don't expire for USCIS purposes. Police clearances are generally valid for 12-24 months. Medical examinations have specific validity periods (usually 6 months to 2 years depending on circumstances). The legalization itself doesn't expire, but USCIS may request updated documents if significant time has passed."
         }
       ],
-      disclaimer: "This article provides general information about Arabic document legalization in Garden Grove and does not constitute legal advice. SoCal Immigration Services is a document preparation company, not a law firm. Document requirements can vary by case and country. For specific questions about your documents, consult with a licensed immigration attorney."
+      disclaimer: "This article provides general information about Arabic document legalization in Garden Grove and does not constitute legal advice. SoCal Immigration Services is a document preparation company, not a law firm. Document requirements can vary by case and country. For specific questions about your documents, consult with a licensed immigration attorney.",
+      cta: {
+        title: "Need Document Legalization Help in Garden Grove?",
+        text: "Our team assists with Arabic document authentication, embassy legalization, and certified translations.",
+        button: "Get Started Today"
+      }
     },
     ar: {
       slug: "arabic-document-legalization-garden-grove",
@@ -242,7 +247,12 @@ const ArabicDocumentLegalizationGardenGrove = ({ language }) => {
           a: "أنت بحاجة إلى تصديق السفارة بدلاً من الأبوستيل. هذا يعني الحصول على مصادقة وثيقتك من وزارة خارجية بلدك، ثم تصديقها من سفارة بلدك في الولايات المتحدة."
         }
       ],
-      disclaimer: "تقدم هذه المقالة معلومات عامة حول تصديق الوثائق العربية في غاردن غروف ولا تشكل مشورة قانونية."
+      disclaimer: "تقدم هذه المقالة معلومات عامة حول تصديق الوثائق العربية في غاردن غروف ولا تشكل مشورة قانونية.",
+      cta: {
+        title: "هل تحتاج مساعدة في تصديق الوثائق في غاردن غروف؟",
+        text: "فريقنا يساعد في مصادقة الوثائق العربية وتصديق السفارة والترجمات المعتمدة.",
+        button: "ابدأ اليوم"
+      }
     }
   };
 

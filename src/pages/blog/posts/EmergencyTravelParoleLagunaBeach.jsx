@@ -200,7 +200,12 @@ const EmergencyTravelParoleLagunaBeach = ({ language }) => {
           a: "This is very risky. If you entered without inspection and leave the U.S., you may trigger the 3-year or 10-year bar to re-entry based on your unlawful presence. Advance parole allows you to leave, but it doesn't protect you from the bars upon return (unless you have certain protections like DACA or TPS). Consult an immigration attorney before traveling if you entered without inspection."
         }
       ],
-      disclaimer: "This article provides general information about emergency advance parole in Laguna Beach and does not constitute legal advice. SoCal Immigration Services is a document preparation company, not a law firm. Emergency travel situations require careful consideration of your specific case. For legal advice, please consult with a licensed immigration attorney as soon as possible in emergency situations."
+      disclaimer: "This article provides general information about emergency advance parole in Laguna Beach and does not constitute legal advice. SoCal Immigration Services is a document preparation company, not a law firm. Emergency travel situations require careful consideration of your specific case. For legal advice, please consult with a licensed immigration attorney as soon as possible in emergency situations.",
+      cta: {
+        title: "Need Emergency Travel Help in Laguna Beach?",
+        text: "Our team assists with urgent advance parole applications and emergency travel document preparation.",
+        button: "Get Started Today"
+      }
     },
     ar: {
       slug: "emergency-travel-parole-laguna-beach",
@@ -241,7 +246,12 @@ const EmergencyTravelParoleLagunaBeach = ({ language }) => {
           a: "في الطوارئ الحقيقية مع التوثيق الصحيح، الموافقة في نفس اليوم أو اليوم التالي ممكنة في مكاتب USCIS الميدانية. ومع ذلك، لا يوجد ضمان."
         }
       ],
-      disclaimer: "تقدم هذه المقالة معلومات عامة حول الإفراج المشروط الطارئ في لاجونا بيتش ولا تشكل مشورة قانونية."
+      disclaimer: "تقدم هذه المقالة معلومات عامة حول الإفراج المشروط الطارئ في لاجونا بيتش ولا تشكل مشورة قانونية.",
+      cta: {
+        title: "هل تحتاج مساعدة سفر طارئة في لاجونا بيتش؟",
+        text: "فريقنا يساعد في طلبات الإفراج المشروط العاجل وإعداد وثائق السفر الطارئة.",
+        button: "ابدأ اليوم"
+      }
     }
   };
 

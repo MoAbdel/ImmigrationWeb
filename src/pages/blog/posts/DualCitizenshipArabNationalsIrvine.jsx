@@ -206,7 +206,12 @@ const DualCitizenshipArabNationalsIrvine = ({ language }) => {
           a: "Egyptian law technically requires permission before acquiring foreign citizenship. If you naturalized without this, your Egyptian citizenship status may be unclear. Options include: applying for retention retroactively (often successful), continuing to use Egyptian passport and hoping no issues arise, or consulting with an Egyptian immigration lawyer. Many Egyptians naturalize without prior permission and continue traveling to Egypt without problems, but there's some legal risk."
         }
       ],
-      disclaimer: "This article provides general information about dual citizenship for Arab nationals in Irvine and does not constitute legal advice. Laws regarding dual citizenship vary by country and change frequently. SoCal Immigration Services is a document preparation company, not a law firm. For legal advice about your specific situation, especially regarding your home country's citizenship laws, consult with qualified legal counsel in both the United States and your country of origin."
+      disclaimer: "This article provides general information about dual citizenship for Arab nationals in Irvine and does not constitute legal advice. Laws regarding dual citizenship vary by country and change frequently. SoCal Immigration Services is a document preparation company, not a law firm. For legal advice about your specific situation, especially regarding your home country's citizenship laws, consult with qualified legal counsel in both the United States and your country of origin.",
+      cta: {
+        title: "Need Citizenship Help in Irvine?",
+        text: "Our team assists with N-400 naturalization applications, document preparation, and citizenship test prep.",
+        button: "Get Started Today"
+      }
     },
     ar: {
       slug: "dual-citizenship-arab-nationals-irvine",
@@ -247,7 +252,12 @@ const DualCitizenshipArabNationalsIrvine = ({ language }) => {
           a: "لا، الولايات المتحدة لا تخطر الحكومات الأجنبية عندما يتجنس مواطنوها. ومع ذلك، إذا كان لبلدك الأصلي قيود على الجنسية المزدوجة، قد يعلمون من خلال وسائل أخرى."
         }
       ],
-      disclaimer: "تقدم هذه المقالة معلومات عامة حول الجنسية المزدوجة للمواطنين العرب في إيرفين ولا تشكل مشورة قانونية."
+      disclaimer: "تقدم هذه المقالة معلومات عامة حول الجنسية المزدوجة للمواطنين العرب في إيرفين ولا تشكل مشورة قانونية.",
+      cta: {
+        title: "هل تحتاج مساعدة في الجنسية في إيرفين؟",
+        text: "فريقنا يساعد في طلبات التجنس N-400 وإعداد الوثائق والتحضير لاختبار الجنسية.",
+        button: "ابدأ اليوم"
+      }
     }
   };
 

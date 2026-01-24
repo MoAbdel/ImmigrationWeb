@@ -207,7 +207,12 @@ const GreenCardAbandonmentPreventionTorrance = ({ language }) => {
           a: "Courts and USCIS recognize compelling circumstances. Document everything: your parent's medical condition, why you needed to be there, your efforts to return when possible, and all the U.S. ties you maintained. Get a re-entry permit before leaving if possible. If you must stay longer than 2 years, document why return wasn't possible. Compassionate circumstances can overcome abandonment claims, but strong documentation is essential."
         }
       ],
-      disclaimer: "This article provides general information about preventing green card abandonment in Torrance and does not constitute legal advice. SoCal Immigration Services is a document preparation company, not a law firm. Abandonment issues can result in loss of permanent resident status. For legal advice about your specific travel situation, please consult with a licensed immigration attorney before departing the United States."
+      disclaimer: "This article provides general information about preventing green card abandonment in Torrance and does not constitute legal advice. SoCal Immigration Services is a document preparation company, not a law firm. Abandonment issues can result in loss of permanent resident status. For legal advice about your specific travel situation, please consult with a licensed immigration attorney before departing the United States.",
+      cta: {
+        title: "Need Re-Entry Permit Help in Torrance?",
+        text: "Our team assists with I-131 re-entry permits and maintaining your permanent residence status.",
+        button: "Get Started Today"
+      }
     },
     ar: {
       slug: "green-card-abandonment-prevention-torrance",
@@ -248,7 +253,12 @@ const GreenCardAbandonmentPreventionTorrance = ({ language }) => {
           a: "على الأرجح لا، لكن قد تواجه أسئلة في نقطة الدخول. الرحلات بين 6-12 شهراً تخلق افتراض التخلي الذي يمكنك التغلب عليه بأدلة على استمرار الروابط مع أمريكا."
         }
       ],
-      disclaimer: "تقدم هذه المقالة معلومات عامة حول منع التخلي عن البطاقة الخضراء في تورانس ولا تشكل مشورة قانونية."
+      disclaimer: "تقدم هذه المقالة معلومات عامة حول منع التخلي عن البطاقة الخضراء في تورانس ولا تشكل مشورة قانونية.",
+      cta: {
+        title: "هل تحتاج مساعدة في تصريح إعادة الدخول في تورانس؟",
+        text: "فريقنا يساعد في تصاريح إعادة الدخول I-131 والحفاظ على وضع إقامتك الدائمة.",
+        button: "ابدأ اليوم"
+      }
     }
   };
 

@@ -205,7 +205,12 @@ const ChristianPersecutionAsylumGlendale = ({ language }) => {
           a: "Not immediately. You can apply for work authorization (Form I-765) 150 days after filing your asylum application if no decision has been made. USCIS then has 30 days to adjudicate. The 180-day 'asylum clock' can be stopped by certain actions, extending the wait. Many asylum seekers wait 6-12 months before receiving work authorization."
         }
       ],
-      disclaimer: "This article provides general information about asylum claims based on Christian persecution in Glendale and does not constitute legal advice. SoCal Immigration Services is a document preparation company, not a law firm. Asylum cases are complex and have strict deadlines. For legal advice specific to your situation, please consult with a licensed immigration attorney experienced in asylum law."
+      disclaimer: "This article provides general information about asylum claims based on Christian persecution in Glendale and does not constitute legal advice. SoCal Immigration Services is a document preparation company, not a law firm. Asylum cases are complex and have strict deadlines. For legal advice specific to your situation, please consult with a licensed immigration attorney experienced in asylum law.",
+      cta: {
+        title: "Need Asylum Help in Glendale?",
+        text: "Our team assists with asylum applications, evidence documentation, and religious persecution claims.",
+        button: "Get Started Today"
+      }
     },
     ar: {
       slug: "christian-persecution-asylum-glendale",
@@ -247,7 +252,12 @@ const ChristianPersecutionAsylumGlendale = ({ language }) => {
           a: "ربما. إذا تغيرت الظروف في بلدك (زيادة اضطهاد المسيحيين) أو واجهت ظروفاً استثنائية، قد تنطبق الاستثناءات. يمكنك أيضاً طلب حجب الترحيل وحماية CAT."
         }
       ],
-      disclaimer: "تقدم هذه المقالة معلومات عامة حول مطالبات اللجوء المبنية على الاضطهاد المسيحي في غليندال ولا تشكل مشورة قانونية."
+      disclaimer: "تقدم هذه المقالة معلومات عامة حول مطالبات اللجوء المبنية على الاضطهاد المسيحي في غليندال ولا تشكل مشورة قانونية.",
+      cta: {
+        title: "هل تحتاج مساعدة في اللجوء في غليندال؟",
+        text: "فريقنا يساعد في طلبات اللجوء وتوثيق الأدلة ومطالبات الاضطهاد الديني.",
+        button: "ابدأ اليوم"
+      }
     }
   };
 

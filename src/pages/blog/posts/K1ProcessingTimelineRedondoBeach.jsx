@@ -201,7 +201,12 @@ const K1ProcessingTimelineRedondoBeach = ({ language }) => {
           a: "An RFE adds 2-4 months to processing. Respond thoroughly and quickly. Common RFE reasons include insufficient proof of meeting in person, unclear relationship evidence, or missing documents. Have an immigration professional review your response to ensure it fully addresses USCIS concerns. The goal is to avoid a second RFE or denial."
         }
       ],
-      disclaimer: "This article provides general information about K-1 visa processing timelines in Redondo Beach and does not constitute legal advice. SoCal Immigration Services is a document preparation company, not a law firm. For legal advice specific to your situation, please consult with a licensed immigration attorney. Processing times and requirements may change; verify current information with USCIS.gov."
+      disclaimer: "This article provides general information about K-1 visa processing timelines in Redondo Beach and does not constitute legal advice. SoCal Immigration Services is a document preparation company, not a law firm. For legal advice specific to your situation, please consult with a licensed immigration attorney. Processing times and requirements may change; verify current information with USCIS.gov.",
+      cta: {
+        title: "Need K-1 Visa Help in Redondo Beach?",
+        text: "Our team assists couples with K-1 fiancé visa petitions, document preparation, and relationship evidence.",
+        button: "Get Started Today"
+      }
     },
     ar: {
       slug: "k1-processing-timeline-redondo-beach",
@@ -244,7 +249,12 @@ const K1ProcessingTimelineRedondoBeach = ({ language }) => {
           a: "للأسف، لا توجد معالجة مميزة لالتماس I-129F. تعالج USCIS والسفارات الحالات بالترتيب المستلم. يمكنك المساعدة في منع التأخيرات بتقديم التماس كامل مع أدلة قوية مقدماً والرد بسرعة على أي طلبات للمعلومات الإضافية."
         }
       ],
-      disclaimer: "تقدم هذه المقالة معلومات عامة حول الجدول الزمني لتأشيرة K-1 في ريدوندو بيتش ولا تشكل مشورة قانونية."
+      disclaimer: "تقدم هذه المقالة معلومات عامة حول الجدول الزمني لتأشيرة K-1 في ريدوندو بيتش ولا تشكل مشورة قانونية.",
+      cta: {
+        title: "هل تحتاج مساعدة في تأشيرة K-1 في ريدوندو بيتش؟",
+        text: "فريقنا يساعد الأزواج في التماسات تأشيرة K-1 للخطيب وإعداد الوثائق وأدلة العلاقة.",
+        button: "ابدأ اليوم"
+      }
     }
   };
 

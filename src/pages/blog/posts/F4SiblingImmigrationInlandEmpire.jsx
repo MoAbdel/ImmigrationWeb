@@ -198,7 +198,12 @@ const F4SiblingImmigrationInlandEmpire = ({ language }) => {
           a: "The pending I-130 petition does not help obtain a tourist visa and may actually make it harder. A pending immigrant petition shows immigrant intent, which can be grounds for denying a B-1/B-2 visitor visa. Your sibling must demonstrate strong ties to their home country and intent to return. The F4 petition is for eventual immigration, not visiting."
         }
       ],
-      disclaimer: "This article provides general information about F4 sibling immigration in the Inland Empire and does not constitute legal advice. SoCal Immigration Services is a document preparation company, not a law firm. For legal advice specific to your situation, please consult with a licensed immigration attorney. Processing times and requirements may change; verify current information with USCIS.gov."
+      disclaimer: "This article provides general information about F4 sibling immigration in the Inland Empire and does not constitute legal advice. SoCal Immigration Services is a document preparation company, not a law firm. For legal advice specific to your situation, please consult with a licensed immigration attorney. Processing times and requirements may change; verify current information with USCIS.gov.",
+      cta: {
+        title: "Need Sibling Petition Help in the Inland Empire?",
+        text: "Our team assists families with F4 sibling petitions, document preparation, and long-term immigration planning.",
+        button: "Get Started Today"
+      }
     },
     ar: {
       slug: "f4-sibling-immigration-inland-empire",
@@ -244,7 +249,12 @@ const F4SiblingImmigrationInlandEmpire = ({ language }) => {
           a: "قدم الآن. رسوم التقديم 535 دولاراً، وكل يوم تنتظره يضيف يوماً آخر لانتظار شقيقك. التقديم المبكر هو القرار الأهم في حالات F4."
         }
       ],
-      disclaimer: "تقدم هذه المقالة معلومات عامة حول هجرة الأشقاء F4 في إنلاند إمباير ولا تشكل مشورة قانونية. خدمات الهجرة في جنوب كاليفورنيا هي شركة إعداد وثائق وليست مكتب محاماة."
+      disclaimer: "تقدم هذه المقالة معلومات عامة حول هجرة الأشقاء F4 في إنلاند إمباير ولا تشكل مشورة قانونية. خدمات الهجرة في جنوب كاليفورنيا هي شركة إعداد وثائق وليست مكتب محاماة.",
+      cta: {
+        title: "هل تحتاج مساعدة في التماس الأشقاء في إنلاند إمباير؟",
+        text: "فريقنا يساعد العائلات في التماسات F4 للأشقاء وإعداد الوثائق والتخطيط طويل المدى للهجرة.",
+        button: "ابدأ اليوم"
+      }
     }
   };
 

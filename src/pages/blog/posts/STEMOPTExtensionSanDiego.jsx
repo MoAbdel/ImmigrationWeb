@@ -199,7 +199,12 @@ const STEMOPTExtensionSanDiego = ({ language }) => {
           a: "Yes, if you filed your STEM OPT application before your current OPT expired. You receive an automatic 180-day extension of your OPT work authorization while your STEM OPT application is pending. Your receipt notice, combined with your expired EAD, serves as proof of work authorization. Show both to your employer."
         }
       ],
-      disclaimer: "This article provides general information about STEM OPT extensions in San Diego and does not constitute legal advice. SoCal Immigration Services is a document preparation company, not a law firm. OPT applications have strict deadlines and requirements. For legal advice specific to your situation, please consult with a licensed immigration attorney."
+      disclaimer: "This article provides general information about STEM OPT extensions in San Diego and does not constitute legal advice. SoCal Immigration Services is a document preparation company, not a law firm. OPT applications have strict deadlines and requirements. For legal advice specific to your situation, please consult with a licensed immigration attorney.",
+      cta: {
+        title: "Need STEM OPT Help in San Diego?",
+        text: "Our team assists with I-765 applications, I-983 training plans, and STEM OPT extension filings.",
+        button: "Get Started Today"
+      }
     },
     ar: {
       slug: "stem-opt-extension-san-diego",
@@ -240,7 +245,12 @@ const STEMOPTExtensionSanDiego = ({ language }) => {
           a: "لا. فقط الدرجات ذات أكواد CIP في قائمة برامج الدرجات المعينة STEM تتأهل. إذا لم يكن كود CIP لدرجتك في القائمة، لا يمكنك التقدم لتمديد STEM."
         }
       ],
-      disclaimer: "تقدم هذه المقالة معلومات عامة حول تمديدات STEM OPT في سان دييغو ولا تشكل مشورة قانونية."
+      disclaimer: "تقدم هذه المقالة معلومات عامة حول تمديدات STEM OPT في سان دييغو ولا تشكل مشورة قانونية.",
+      cta: {
+        title: "هل تحتاج مساعدة في STEM OPT في سان دييغو؟",
+        text: "فريقنا يساعد في طلبات I-765 وخطط التدريب I-983 وتقديم تمديد STEM OPT.",
+        button: "ابدأ اليوم"
+      }
     }
   };
 

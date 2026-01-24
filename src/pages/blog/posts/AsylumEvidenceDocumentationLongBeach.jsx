@@ -210,7 +210,12 @@ const AsylumEvidenceDocumentationLongBeach = ({ language }) => {
           a: "State Department Human Rights Reports are available free at state.gov. USCIRF reports are at uscirf.gov. Human Rights Watch reports are at hrw.org. These are the most commonly cited sources. University libraries often have subscriptions to additional databases. Immigration legal aid organizations may have country conditions packets already compiled."
         }
       ],
-      disclaimer: "This article provides general information about gathering evidence for asylum in Long Beach and does not constitute legal advice. SoCal Immigration Services is a document preparation company, not a law firm. Asylum cases have strict deadlines and complex legal standards. For legal advice specific to your situation, please consult with a licensed immigration attorney experienced in asylum law."
+      disclaimer: "This article provides general information about gathering evidence for asylum in Long Beach and does not constitute legal advice. SoCal Immigration Services is a document preparation company, not a law firm. Asylum cases have strict deadlines and complex legal standards. For legal advice specific to your situation, please consult with a licensed immigration attorney experienced in asylum law.",
+      cta: {
+        title: "Need Asylum Documentation Help in Long Beach?",
+        text: "Our team assists with asylum evidence gathering, declarations, and document organization.",
+        button: "Get Started Today"
+      }
     },
     ar: {
       slug: "asylum-evidence-documentation-long-beach",
@@ -250,7 +255,12 @@ const AsylumEvidenceDocumentationLongBeach = ({ language }) => {
           a: "لا يوجد طول مطلوب، لكن معظم الإفادات الفعالة 10-30 صفحة. ركز على الجودة وليس الكمية. قم بتضمين تفاصيل كافية لإظهار أن الاضطهاد كان حقيقياً وأنك تخشى العودة."
         }
       ],
-      disclaimer: "تقدم هذه المقالة معلومات عامة حول جمع الأدلة للجوء في لونغ بيتش ولا تشكل مشورة قانونية."
+      disclaimer: "تقدم هذه المقالة معلومات عامة حول جمع الأدلة للجوء في لونغ بيتش ولا تشكل مشورة قانونية.",
+      cta: {
+        title: "هل تحتاج مساعدة في توثيق اللجوء في لونغ بيتش؟",
+        text: "فريقنا يساعد في جمع أدلة اللجوء والإفادات وتنظيم الوثائق.",
+        button: "ابدأ اليوم"
+      }
     }
   };
 

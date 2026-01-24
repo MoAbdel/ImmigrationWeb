@@ -197,7 +197,12 @@ const ParentPetitionPalmSprings = ({ language }) => {
           a: "All immigrant visa applicants must undergo a medical examination. Certain health conditions can make a person inadmissible, including communicable diseases and lack of required vaccinations. Most conditions can be resolved through treatment or waivers. If your parent has a serious health condition, discuss this with an immigration professional before filing."
         }
       ],
-      disclaimer: "This article provides general information about I-130 parent petitions in Palm Springs and the Coachella Valley and does not constitute legal advice. SoCal Immigration Services is a document preparation company, not a law firm. For legal advice specific to your situation, please consult with a licensed immigration attorney. Processing times and requirements may change; verify current information with USCIS.gov."
+      disclaimer: "This article provides general information about I-130 parent petitions in Palm Springs and the Coachella Valley and does not constitute legal advice. SoCal Immigration Services is a document preparation company, not a law firm. For legal advice specific to your situation, please consult with a licensed immigration attorney. Processing times and requirements may change; verify current information with USCIS.gov.",
+      cta: {
+        title: "Need Parent Petition Help in Palm Springs?",
+        text: "Our team assists families with I-130 petitions, document preparation, and family immigration applications.",
+        button: "Get Started Today"
+      }
     },
     ar: {
       slug: "parent-petition-i130-palm-springs",
@@ -248,7 +253,12 @@ const ParentPetitionPalmSprings = ({ language }) => {
           a: "تستغرق العملية الإجمالية عادة 15-25 شهراً من تقديم I-130 إلى حصول والديك على تأشيرات الهجرة. يشمل ذلك 12-18 شهراً لمعالجة I-130 و2-4 أشهر في مركز التأشيرات الوطني."
         }
       ],
-      disclaimer: "تقدم هذه المقالة معلومات عامة حول التماسات الوالدين I-130 في بالم سبرينغز ولا تشكل مشورة قانونية. خدمات الهجرة في جنوب كاليفورنيا هي شركة إعداد وثائق وليست مكتب محاماة."
+      disclaimer: "تقدم هذه المقالة معلومات عامة حول التماسات الوالدين I-130 في بالم سبرينغز ولا تشكل مشورة قانونية. خدمات الهجرة في جنوب كاليفورنيا هي شركة إعداد وثائق وليست مكتب محاماة.",
+      cta: {
+        title: "هل تحتاج مساعدة في التماس الوالدين في بالم سبرينغز؟",
+        text: "فريقنا يساعد العائلات في التماسات I-130 وإعداد الوثائق وطلبات هجرة العائلة.",
+        button: "ابدأ اليوم"
+      }
     }
   };
 

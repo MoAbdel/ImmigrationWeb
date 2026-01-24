@@ -201,7 +201,12 @@ const H1BDenialOptionsLosAngeles = ({ language }) => {
           a: "Yes, you can file a new H-1B petition. If you're cap-subject, you'll need to go through the lottery again for a new fiscal year unless you're filing an amendment or extension of previously granted H-1B status. Address all reasons for the previous denial in the new petition. Using a different employer may help if employer-related issues caused the denial."
         }
       ],
-      disclaimer: "This article provides general information about options after H-1B denial in Los Angeles and does not constitute legal advice. SoCal Immigration Services is a document preparation company, not a law firm. H-1B denials involve complex legal issues and strict deadlines. For legal advice specific to your denial, please consult with a licensed immigration attorney immediately."
+      disclaimer: "This article provides general information about options after H-1B denial in Los Angeles and does not constitute legal advice. SoCal Immigration Services is a document preparation company, not a law firm. H-1B denials involve complex legal issues and strict deadlines. For legal advice specific to your denial, please consult with a licensed immigration attorney immediately.",
+      cta: {
+        title: "Need H-1B Help in Los Angeles?",
+        text: "Our team assists with H-1B petitions, motions, and alternative visa documentation.",
+        button: "Get Started Today"
+      }
     },
     ar: {
       slug: "h1b-denial-options-los-angeles",
@@ -244,7 +249,12 @@ const H1BDenialOptionsLosAngeles = ({ language }) => {
           a: "يعتمد ذلك على سبب الرفض وجدولك الزمني. الاستئنافات تستغرق 6-18 شهراً. الالتماس الجديد، خاصة مع المعالجة المميزة، قد يحصل على قرار في 15 يوم عمل."
         }
       ],
-      disclaimer: "تقدم هذه المقالة معلومات عامة حول الخيارات بعد رفض H-1B في لوس أنجلوس ولا تشكل مشورة قانونية."
+      disclaimer: "تقدم هذه المقالة معلومات عامة حول الخيارات بعد رفض H-1B في لوس أنجلوس ولا تشكل مشورة قانونية.",
+      cta: {
+        title: "هل تحتاج مساعدة في H-1B في لوس أنجلوس؟",
+        text: "فريقنا يساعد في التماسات H-1B والطلبات وتوثيق التأشيرات البديلة.",
+        button: "ابدأ اليوم"
+      }
     }
   };
 
