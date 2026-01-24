@@ -274,6 +274,22 @@ import DACAUpdates from './pages/blog/posts/DACAUpdates';
 import CitizenshipPrep from './pages/blog/posts/CitizenshipPrep';
 import K1vsCR1Comparison from './pages/blog/posts/K1vsCR1Comparison';
 
+// New posts - January 24, 2026
+import ParentPetitionPalmSprings from './pages/blog/posts/ParentPetitionPalmSprings';
+import F4SiblingImmigrationInlandEmpire from './pages/blog/posts/F4SiblingImmigrationInlandEmpire';
+import K1ProcessingTimelineRedondoBeach from './pages/blog/posts/K1ProcessingTimelineRedondoBeach';
+import MarriageGreenCardAfterDivorceBrea from './pages/blog/posts/MarriageGreenCardAfterDivorceBrea';
+import ChristianPersecutionAsylumGlendale from './pages/blog/posts/ChristianPersecutionAsylumGlendale';
+import AsylumEvidenceDocumentationLongBeach from './pages/blog/posts/AsylumEvidenceDocumentationLongBeach';
+import DualCitizenshipArabNationalsIrvine from './pages/blog/posts/DualCitizenshipArabNationalsIrvine';
+import N400DenialAppealPasadena from './pages/blog/posts/N400DenialAppealPasadena';
+import STEMOPTExtensionSanDiego from './pages/blog/posts/STEMOPTExtensionSanDiego';
+import H1BDenialOptionsLosAngeles from './pages/blog/posts/H1BDenialOptionsLosAngeles';
+import GreenCardAbandonmentPreventionTorrance from './pages/blog/posts/GreenCardAbandonmentPreventionTorrance';
+import EmergencyTravelParoleLagunaBeach from './pages/blog/posts/EmergencyTravelParoleLagunaBeach';
+import ArabicDocumentLegalizationGardenGrove from './pages/blog/posts/ArabicDocumentLegalizationGardenGrove';
+import MoroccanCommunityResourcesLongBeach from './pages/blog/posts/MoroccanCommunityResourcesLongBeach';
+
 const App = () => {
   const [language, setLanguage] = useState('en');
 
@@ -923,6 +939,22 @@ const App = () => {
                         <Route path="/blog/document-apostille-legalization-montclair" element={<DocumentApostilleMontclair language={language} />} />
                         <Route path="/blog/tunisian-community-immigration-glendale" element={<TunisianCommunityGlendale language={language} />} />
                         <Route path="/blog/iraqi-widows-immigration-san-bernardino" element={<IraqiWidowsImmigrationSanBernardino language={language} />} />
+
+                        {/* New posts - January 24, 2026 */}
+                        <Route path="/blog/parent-petition-i130-palm-springs" element={<ParentPetitionPalmSprings language={language} />} />
+                        <Route path="/blog/f4-sibling-immigration-inland-empire" element={<F4SiblingImmigrationInlandEmpire language={language} />} />
+                        <Route path="/blog/k1-processing-timeline-redondo-beach" element={<K1ProcessingTimelineRedondoBeach language={language} />} />
+                        <Route path="/blog/marriage-green-card-after-divorce-brea" element={<MarriageGreenCardAfterDivorceBrea language={language} />} />
+                        <Route path="/blog/christian-persecution-asylum-glendale" element={<ChristianPersecutionAsylumGlendale language={language} />} />
+                        <Route path="/blog/asylum-evidence-documentation-long-beach" element={<AsylumEvidenceDocumentationLongBeach language={language} />} />
+                        <Route path="/blog/dual-citizenship-arab-nationals-irvine" element={<DualCitizenshipArabNationalsIrvine language={language} />} />
+                        <Route path="/blog/n400-denial-appeal-pasadena" element={<N400DenialAppealPasadena language={language} />} />
+                        <Route path="/blog/stem-opt-extension-san-diego" element={<STEMOPTExtensionSanDiego language={language} />} />
+                        <Route path="/blog/h1b-denial-options-los-angeles" element={<H1BDenialOptionsLosAngeles language={language} />} />
+                        <Route path="/blog/green-card-abandonment-prevention-torrance" element={<GreenCardAbandonmentPreventionTorrance language={language} />} />
+                        <Route path="/blog/emergency-travel-parole-laguna-beach" element={<EmergencyTravelParoleLagunaBeach language={language} />} />
+                        <Route path="/blog/arabic-document-legalization-garden-grove" element={<ArabicDocumentLegalizationGardenGrove language={language} />} />
+                        <Route path="/blog/moroccan-community-resources-long-beach" element={<MoroccanCommunityResourcesLongBeach language={language} />} />
                       </Routes>
                     </main>
 

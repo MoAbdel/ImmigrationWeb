@@ -3,6 +3,160 @@
 
 export const blogPosts = [
   {
+    id: 1143,
+    slug: "moroccan-community-resources-long-beach",
+    title: { en: "Moroccan Community Immigration Resources in Long Beach: Support for Moroccan Families", ar: "موارد الهجرة لمجتمع المغاربة في لونغ بيتش: دعم للعائلات المغربية" },
+    excerpt: { en: "Immigration resources for Moroccan families in Long Beach. DV lottery, family petitions, citizenship for Moroccans. Arabic and French-speaking help.", ar: "موارد الهجرة للعائلات المغربية في لونغ بيتش. قرعة DV، التماسات العائلة، الجنسية للمغاربة." },
+    date: "January 24, 2026",
+    readTime: "12",
+    category: "community",
+    location: "Long Beach",
+    image: "/images/blog/community.jpg"
+  },
+  {
+    id: 1142,
+    slug: "arabic-document-legalization-garden-grove",
+    title: { en: "Arabic Document Legalization in Garden Grove: Authentication for Immigration", ar: "تصديق الوثائق العربية في غاردن غروف: المصادقة للهجرة" },
+    excerpt: { en: "Arabic document legalization and authentication in Garden Grove. Embassy attestation, apostille, translation for USCIS. Arabic-speaking document services.", ar: "تصديق ومصادقة الوثائق العربية في غاردن غروف. تصديق السفارة، الترجمة لـ USCIS." },
+    date: "January 24, 2026",
+    readTime: "13",
+    category: "documents",
+    location: "Garden Grove",
+    image: "/images/blog/documents.jpg"
+  },
+  {
+    id: 1141,
+    slug: "emergency-travel-parole-laguna-beach",
+    title: { en: "Emergency Travel Parole in Laguna Beach: Urgent Advance Parole for Family Emergencies", ar: "إذن السفر الطارئ في لاجونا بيتش: الإفراج المشروط العاجل للطوارئ العائلية" },
+    excerpt: { en: "Emergency advance parole for urgent travel in Laguna Beach. Family emergencies, expedited processing, I-131 emergency. Arabic-speaking immigration help.", ar: "إفراج مشروط طارئ للسفر العاجل في لاجونا بيتش. الطوارئ العائلية، المعالجة المعجلة." },
+    date: "January 24, 2026",
+    readTime: "12",
+    category: "travel",
+    location: "Laguna Beach",
+    image: "/images/blog/travel.jpg"
+  },
+  {
+    id: 1140,
+    slug: "green-card-abandonment-prevention-torrance",
+    title: { en: "Green Card Abandonment Prevention in Torrance: Protecting Your Permanent Residence", ar: "منع التخلي عن البطاقة الخضراء في تورانس: حماية إقامتك الدائمة" },
+    excerpt: { en: "Prevent green card abandonment while living abroad from Torrance. Re-entry permits, ties to U.S., and protecting permanent resident status.", ar: "منع التخلي عن البطاقة الخضراء أثناء العيش في الخارج من تورانس. تصاريح إعادة الدخول." },
+    date: "January 24, 2026",
+    readTime: "13",
+    category: "status",
+    location: "Torrance",
+    image: "/images/blog/status.jpg"
+  },
+  {
+    id: 1139,
+    slug: "h1b-denial-options-los-angeles",
+    title: { en: "H-1B Denial Options in Los Angeles: What to Do When Your Petition Is Denied", ar: "خيارات رفض H-1B في لوس أنجلوس: ماذا تفعل عندما يُرفض التماسك" },
+    excerpt: { en: "Options after H-1B denial in Los Angeles. Appeal, motion to reopen, re-filing strategies. Maintain status and explore alternatives.", ar: "الخيارات بعد رفض H-1B في لوس أنجلوس. الاستئناف، طلب إعادة الفتح، استراتيجيات إعادة التقديم." },
+    date: "January 24, 2026",
+    readTime: "15",
+    category: "work",
+    location: "Los Angeles",
+    image: "/images/blog/work.jpg"
+  },
+  {
+    id: 1138,
+    slug: "stem-opt-extension-san-diego",
+    title: { en: "STEM OPT Extension in San Diego: 24-Month Work Authorization for STEM Graduates", ar: "تمديد STEM OPT في سان دييغو: تصريح عمل 24 شهراً لخريجي STEM" },
+    excerpt: { en: "STEM OPT extension guide for F-1 students in San Diego. 24-month work authorization, employer requirements, I-983 training plan.", ar: "دليل تمديد STEM OPT لطلاب F-1 في سان دييغو. تصريح عمل 24 شهراً، متطلبات صاحب العمل." },
+    date: "January 24, 2026",
+    readTime: "14",
+    category: "work",
+    location: "San Diego",
+    image: "/images/blog/work.jpg"
+  },
+  {
+    id: 1137,
+    slug: "n400-denial-appeal-pasadena",
+    title: { en: "N-400 Citizenship Denial Appeal in Pasadena: What to Do When Naturalization Is Denied", ar: "استئناف رفض طلب الجنسية N-400 في باسادينا: ماذا تفعل عند رفض التجنس" },
+    excerpt: { en: "What to do when your N-400 citizenship application is denied in Pasadena. Appeal options, N-336 hearing, federal court review.", ar: "ماذا تفعل عندما يُرفض طلب الجنسية N-400 في باسادينا. خيارات الاستئناف، جلسة N-336." },
+    date: "January 24, 2026",
+    readTime: "14",
+    category: "citizenship",
+    location: "Pasadena",
+    image: "/images/blog/citizenship.jpg"
+  },
+  {
+    id: 1136,
+    slug: "dual-citizenship-arab-nationals-irvine",
+    title: { en: "Dual Citizenship for Arab Nationals in Irvine: Can You Keep Your Original Citizenship?", ar: "الجنسية المزدوجة للمواطنين العرب في إيرفين: هل يمكنك الاحتفاظ بجنسيتك الأصلية؟" },
+    excerpt: { en: "Dual citizenship options for Arab nationals in Irvine. Whether Egyptians, Jordanians, Lebanese can keep original citizenship after U.S. naturalization.", ar: "خيارات الجنسية المزدوجة للمواطنين العرب في إيرفين. هل يمكن للمصريين والأردنيين واللبنانيين الاحتفاظ بجنسيتهم الأصلية." },
+    date: "January 24, 2026",
+    readTime: "13",
+    category: "citizenship",
+    location: "Irvine",
+    image: "/images/blog/citizenship.jpg"
+  },
+  {
+    id: 1135,
+    slug: "asylum-evidence-documentation-long-beach",
+    title: { en: "Asylum Evidence and Documentation in Long Beach: Building a Strong Case", ar: "أدلة ووثائق اللجوء في لونغ بيتش: بناء قضية قوية" },
+    excerpt: { en: "How to document and gather evidence for asylum in Long Beach. Country conditions, personal testimony, and supporting documents.", ar: "كيفية توثيق وجمع الأدلة للجوء في لونغ بيتش. ظروف البلد، الشهادة الشخصية، والوثائق الداعمة." },
+    date: "January 24, 2026",
+    readTime: "16",
+    category: "asylum",
+    location: "Long Beach",
+    image: "/images/blog/asylum.jpg"
+  },
+  {
+    id: 1134,
+    slug: "christian-persecution-asylum-glendale",
+    title: { en: "Christian Persecution Asylum in Glendale: Protection for Middle Eastern Christians", ar: "لجوء الاضطهاد المسيحي في غليندال: حماية للمسيحيين من الشرق الأوسط" },
+    excerpt: { en: "Asylum for persecuted Christians in Glendale. Protection for Chaldean, Coptic, Armenian, and Arab Christians facing religious persecution.", ar: "لجوء للمسيحيين المضطهدين في غليندال. حماية للكلدانيين والأقباط والأرمن والمسيحيين العرب." },
+    date: "January 24, 2026",
+    readTime: "15",
+    category: "asylum",
+    location: "Glendale",
+    image: "/images/blog/asylum.jpg"
+  },
+  {
+    id: 1133,
+    slug: "marriage-green-card-after-divorce-brea",
+    title: { en: "Marriage-Based Green Card After Divorce in Brea: Protecting Your Immigration Status", ar: "البطاقة الخضراء عبر الزواج بعد الطلاق في بريا: حماية وضعك الهجري" },
+    excerpt: { en: "Protect your green card after divorce in Brea. I-751 waiver, VAWA self-petition, and options for conditional residents.", ar: "احمِ بطاقتك الخضراء بعد الطلاق في بريا. إعفاء I-751، التماس VAWA الذاتي." },
+    date: "January 24, 2026",
+    readTime: "14",
+    category: "marriage",
+    location: "Brea",
+    image: "/images/blog/marriage.jpg"
+  },
+  {
+    id: 1132,
+    slug: "k1-processing-timeline-redondo-beach",
+    title: { en: "K-1 Fiancé Visa Processing Timeline in Redondo Beach: Complete 2026 Guide", ar: "الجدول الزمني لمعالجة تأشيرة K-1 للخطيب في ريدوندو بيتش: دليل 2026 الكامل" },
+    excerpt: { en: "K-1 fiancé visa processing timeline in Redondo Beach. Current wait times, stages of the process, and tips for South Bay couples.", ar: "الجدول الزمني لمعالجة تأشيرة K-1 للخطيب في ريدوندو بيتش. أوقات الانتظار الحالية ومراحل العملية." },
+    date: "January 24, 2026",
+    readTime: "13",
+    category: "marriage",
+    location: "Redondo Beach",
+    image: "/images/blog/marriage.jpg"
+  },
+  {
+    id: 1131,
+    slug: "f4-sibling-immigration-inland-empire",
+    title: { en: "F4 Sibling Immigration in the Inland Empire: Long Wait Times and Strategic Planning", ar: "هجرة الأشقاء F4 في إنلاند إمباير: أوقات الانتظار الطويلة والتخطيط الاستراتيجي" },
+    excerpt: { en: "F4 sibling immigration help in the Inland Empire. Long wait times for brother and sister petitions. Strategic planning for Arab families.", ar: "مساعدة هجرة الأشقاء F4 في إنلاند إمباير. أوقات انتظار طويلة لالتماسات الإخوة والأخوات." },
+    date: "January 24, 2026",
+    readTime: "14",
+    category: "family",
+    location: "Inland Empire",
+    image: "/images/blog/family.jpg"
+  },
+  {
+    id: 1130,
+    slug: "parent-petition-i130-palm-springs",
+    title: { en: "I-130 Parent Petition in Palm Springs: Bringing Your Parents to the Coachella Valley", ar: "التماس الوالدين I-130 في بالم سبرينغز: إحضار والديك إلى وادي كواتشيلا" },
+    excerpt: { en: "I-130 parent petition services in Palm Springs. Bring your parents to America from the Coachella Valley. Arabic-speaking immigration help.", ar: "خدمات التماس الوالدين I-130 في بالم سبرينغز. أحضر والديك إلى أمريكا من وادي كواتشيلا." },
+    date: "January 24, 2026",
+    readTime: "12",
+    category: "family",
+    location: "Palm Springs",
+    image: "/images/blog/family.jpg"
+  },
+  {
     id: 1129,
     slug: "n400-special-accommodations-westminster",
     title: { en: "N-400 Special Accommodations in Westminster: Citizenship Test Help for Disabilities", ar: "التسهيلات الخاصة لـ N-400 في ويستمنستر: مساعدة اختبار الجنسية للإعاقات" },
