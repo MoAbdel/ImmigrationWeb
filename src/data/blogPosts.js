@@ -3,6 +3,138 @@
 
 export const blogPosts = [
   {
+    id: 1155,
+    slug: "f2b-unmarried-adult-children-petition-temecula",
+    title: { en: "F2B Unmarried Adult Children Petition in Temecula: Family Preference Immigration Guide", ar: "التماس F2B للأطفال البالغين غير المتزوجين في تيميكولا: دليل هجرة الأفضلية العائلية" },
+    excerpt: { en: "F2B visa petition guide for unmarried adult children in Temecula. Long wait times, priority dates, and strategic planning for Arab families.", ar: "دليل التماس تأشيرة F2B للأطفال البالغين غير المتزوجين في تيميكولا. أوقات الانتظار الطويلة والتخطيط الاستراتيجي." },
+    date: "January 25, 2026",
+    readTime: "14",
+    category: "family",
+    location: "Temecula",
+    image: "/images/blog/family.jpg"
+  },
+  {
+    id: 1154,
+    slug: "k1-affidavit-of-support-pomona",
+    title: { en: "K-1 Fiancé Visa Affidavit of Support in Pomona: I-134 Financial Requirements", ar: "إثبات الدعم المالي لتأشيرة K-1 للخطيب في بومونا: متطلبات I-134 المالية" },
+    excerpt: { en: "I-134 affidavit of support requirements for K-1 fiancé visa in Pomona. Income requirements, joint sponsors, and financial documentation for Arab couples.", ar: "متطلبات إثبات الدعم المالي I-134 لتأشيرة K-1 للخطيب في بومونا. متطلبات الدخل والكفلاء المشتركين." },
+    date: "January 25, 2026",
+    readTime: "13",
+    category: "marriage",
+    location: "Pomona",
+    image: "/images/blog/marriage.jpg"
+  },
+  {
+    id: 1153,
+    slug: "asylum-ead-renewal-victorville",
+    title: { en: "Asylum EAD Renewal in Victorville: Work Permit Extension for Pending Cases", ar: "تجديد تصريح العمل للجوء في فيكتورفيل: تمديد إذن العمل للقضايا المعلقة" },
+    excerpt: { en: "Asylum work permit renewal guide in Victorville. EAD extension for pending asylum cases, C08 category, and maintaining work authorization.", ar: "دليل تجديد تصريح العمل للجوء في فيكتورفيل. تمديد EAD للقضايا المعلقة والحفاظ على إذن العمل." },
+    date: "January 25, 2026",
+    readTime: "12",
+    category: "asylum",
+    location: "Victorville",
+    image: "/images/blog/asylum.jpg"
+  },
+  {
+    id: 1152,
+    slug: "credible-fear-interview-escondido",
+    title: { en: "Credible Fear Interview Preparation in Escondido: Asylum Screening Guide", ar: "التحضير لمقابلة الخوف الموثوق في إسكونديدو: دليل فحص اللجوء" },
+    excerpt: { en: "How to prepare for credible fear interview in Escondido. Questions to expect, evidence needed, and what happens after for Arab asylum seekers.", ar: "كيفية التحضير لمقابلة الخوف الموثوق في إسكونديدو. الأسئلة المتوقعة والأدلة المطلوبة." },
+    date: "January 25, 2026",
+    readTime: "15",
+    category: "asylum",
+    location: "Escondido",
+    image: "/images/blog/asylum.jpg"
+  },
+  {
+    id: 1151,
+    slug: "citizenship-test-study-materials-buena-park",
+    title: { en: "Citizenship Test Study Materials in Buena Park: Civics and English Exam Prep", ar: "مواد دراسة اختبار الجنسية في بوينا بارك: التحضير لامتحان التربية المدنية واللغة الإنجليزية" },
+    excerpt: { en: "Free citizenship test study materials for Buena Park residents. 100 civics questions, English test prep, and Arabic study resources.", ar: "مواد دراسة مجانية لاختبار الجنسية لسكان بوينا بارك. 100 سؤال مدني والتحضير للاختبار بالعربية." },
+    date: "January 25, 2026",
+    readTime: "11",
+    category: "citizenship",
+    location: "Buena Park",
+    image: "/images/blog/citizenship.jpg"
+  },
+  {
+    id: 1150,
+    slug: "h1b-premium-processing-huntington-beach",
+    title: { en: "H-1B Premium Processing in Huntington Beach: 15-Day Expedited Service", ar: "المعالجة المتميزة لـ H-1B في هانتنغتون بيتش: خدمة معجلة في 15 يوماً" },
+    excerpt: { en: "H-1B premium processing guide for Huntington Beach professionals. $2,805 fee, 15-day decision, and when to upgrade from regular processing.", ar: "دليل المعالجة المتميزة لـ H-1B للمهنيين في هانتنغتون بيتش. رسوم 2,805 دولار وقرار في 15 يوماً." },
+    date: "January 25, 2026",
+    readTime: "12",
+    category: "work",
+    location: "Huntington Beach",
+    image: "/images/blog/work.jpg"
+  },
+  {
+    id: 1149,
+    slug: "cap-exempt-h1b-fullerton",
+    title: { en: "Cap-Exempt H-1B Visa in Fullerton: Work at Universities and Research Institutions", ar: "تأشيرة H-1B المعفاة من الحصة في فولرتون: العمل في الجامعات ومؤسسات البحث" },
+    excerpt: { en: "Cap-exempt H-1B opportunities in Fullerton. University positions, nonprofit research, and avoiding the H-1B lottery for Middle Eastern professionals.", ar: "فرص H-1B المعفاة من الحصة في فولرتون. الوظائف الجامعية والبحث غير الربحي." },
+    date: "January 25, 2026",
+    readTime: "13",
+    category: "work",
+    location: "Fullerton",
+    image: "/images/blog/work.jpg"
+  },
+  {
+    id: 1148,
+    slug: "i90-green-card-renewal-oceanside",
+    title: { en: "I-90 Green Card Renewal in Oceanside: Replace Expired or Lost Cards", ar: "تجديد البطاقة الخضراء I-90 في أوشنسايد: استبدال البطاقات المنتهية أو المفقودة" },
+    excerpt: { en: "I-90 green card renewal guide for Oceanside residents. Replace expired, damaged, or lost permanent resident cards. Arabic-speaking help available.", ar: "دليل تجديد البطاقة الخضراء I-90 لسكان أوشنسايد. استبدال البطاقات المنتهية أو التالفة أو المفقودة." },
+    date: "January 25, 2026",
+    readTime: "11",
+    category: "status",
+    location: "Oceanside",
+    image: "/images/blog/status.jpg"
+  },
+  {
+    id: 1147,
+    slug: "reentry-permit-extended-travel-vista",
+    title: { en: "Re-Entry Permit for Extended Travel in Vista: Protect Green Card While Abroad", ar: "تصريح إعادة الدخول للسفر الممتد في فيستا: حماية البطاقة الخضراء أثناء التواجد بالخارج" },
+    excerpt: { en: "Re-entry permit guide for Vista green card holders. Travel abroad for up to 2 years without abandoning permanent residence. I-131 application help.", ar: "دليل تصريح إعادة الدخول لحاملي البطاقة الخضراء في فيستا. السفر للخارج حتى سنتين دون التخلي عن الإقامة." },
+    date: "January 25, 2026",
+    readTime: "12",
+    category: "travel",
+    location: "Vista",
+    image: "/images/blog/travel.jpg"
+  },
+  {
+    id: 1146,
+    slug: "syrian-document-authentication-carlsbad",
+    title: { en: "Syrian Document Authentication in Carlsbad: Legalizing Documents for Immigration", ar: "توثيق الوثائق السورية في كارلسباد: تصديق المستندات للهجرة" },
+    excerpt: { en: "Syrian document authentication and legalization in Carlsbad. How to verify documents from Syria for USCIS when embassy services are unavailable.", ar: "توثيق وتصديق الوثائق السورية في كارلسباد. كيفية التحقق من الوثائق عندما لا تتوفر خدمات السفارة." },
+    date: "January 25, 2026",
+    readTime: "14",
+    category: "documents",
+    location: "Carlsbad",
+    image: "/images/blog/documents.jpg"
+  },
+  {
+    id: 1145,
+    slug: "jordanian-community-resources-san-marcos",
+    title: { en: "Jordanian Community Immigration Resources in San Marcos: Support for Jordanian Families", ar: "موارد الهجرة للمجتمع الأردني في سان ماركوس: دعم للعائلات الأردنية" },
+    excerpt: { en: "Immigration resources for Jordanian families in San Marcos. Family petitions, citizenship, DV lottery, and Arabic-speaking immigration help.", ar: "موارد الهجرة للعائلات الأردنية في سان ماركوس. التماسات العائلة والجنسية وقرعة DV." },
+    date: "January 25, 2026",
+    readTime: "12",
+    category: "community",
+    location: "San Marcos",
+    image: "/images/blog/community.jpg"
+  },
+  {
+    id: 1144,
+    slug: "lebanese-community-support-downey",
+    title: { en: "Lebanese Community Immigration Support in Downey: Services for Lebanese Families", ar: "دعم الهجرة للمجتمع اللبناني في داوني: خدمات للعائلات اللبنانية" },
+    excerpt: { en: "Immigration support for Lebanese families in Downey. Family reunification, citizenship, business visas, and Arabic-speaking document preparation.", ar: "دعم الهجرة للعائلات اللبنانية في داوني. لم شمل الأسرة والجنسية وتأشيرات الأعمال." },
+    date: "January 25, 2026",
+    readTime: "13",
+    category: "community",
+    location: "Downey",
+    image: "/images/blog/community.jpg"
+  },
+  {
     id: 1143,
     slug: "moroccan-community-resources-long-beach",
     title: { en: "Moroccan Community Immigration Resources in Long Beach: Support for Moroccan Families", ar: "موارد الهجرة لمجتمع المغاربة في لونغ بيتش: دعم للعائلات المغربية" },
