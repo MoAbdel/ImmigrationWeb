@@ -290,6 +290,21 @@ import EmergencyTravelParoleLagunaBeach from './pages/blog/posts/EmergencyTravel
 import ArabicDocumentLegalizationGardenGrove from './pages/blog/posts/ArabicDocumentLegalizationGardenGrove';
 import MoroccanCommunityResourcesLongBeach from './pages/blog/posts/MoroccanCommunityResourcesLongBeach';
 
+// New posts - January 26, 2026
+import AdvanceParoleComboCardCerritos from './pages/blog/posts/AdvanceParoleComboCardCerritos';
+import H1BChangeEmployerSealBeach from './pages/blog/posts/H1BChangeEmployerSealBeach';
+import I130SameSexMarriageWestHollywood from './pages/blog/posts/I130SameSexMarriageWestHollywood';
+import I485EmploymentAuthorizationLaVerne from './pages/blog/posts/I485EmploymentAuthorizationLaVerne';
+import I864PovertyGuidelines2026DiamondBar from './pages/blog/posts/I864PovertyGuidelines2026DiamondBar';
+import IraqiActivistAsylumLemonGrove from './pages/blog/posts/IraqiActivistAsylumLemonGrove';
+import K1AbuDhabiEmbassyInterview from './pages/blog/posts/K1AbuDhabiEmbassyInterview';
+import N600CitizenshipCertificateMonrovia from './pages/blog/posts/N600CitizenshipCertificateMonrovia';
+import AlgerianCommunityResourcesOrangeCounty from './pages/blog/posts/AlgerianCommunityResourcesOrangeCounty';
+import KurdishRefugeeSupportElCajon from './pages/blog/posts/KurdishRefugeeSupportElCajon';
+import I485DenialAppealOntario from './pages/blog/posts/I485DenialAppealOntario';
+import LibyanAsylumCasesGlendale from './pages/blog/posts/LibyanAsylumCasesGlendale';
+import BerberAmazighCommunityLosAngeles from './pages/blog/posts/BerberAmazighCommunityLosAngeles';
+
 const App = () => {
   const [language, setLanguage] = useState('en');
 
@@ -955,6 +970,21 @@ const App = () => {
                         <Route path="/blog/emergency-travel-parole-laguna-beach" element={<EmergencyTravelParoleLagunaBeach language={language} />} />
                         <Route path="/blog/arabic-document-legalization-garden-grove" element={<ArabicDocumentLegalizationGardenGrove language={language} />} />
                         <Route path="/blog/moroccan-community-resources-long-beach" element={<MoroccanCommunityResourcesLongBeach language={language} />} />
+
+                        {/* New posts - January 26, 2026 */}
+                        <Route path="/blog/advance-parole-combo-card-cerritos" element={<AdvanceParoleComboCardCerritos language={language} />} />
+                        <Route path="/blog/h1b-change-employer-seal-beach" element={<H1BChangeEmployerSealBeach language={language} />} />
+                        <Route path="/blog/i130-same-sex-marriage-west-hollywood" element={<I130SameSexMarriageWestHollywood language={language} />} />
+                        <Route path="/blog/i485-employment-authorization-la-verne" element={<I485EmploymentAuthorizationLaVerne language={language} />} />
+                        <Route path="/blog/i864-poverty-guidelines-2026-diamond-bar" element={<I864PovertyGuidelines2026DiamondBar language={language} />} />
+                        <Route path="/blog/iraqi-activist-asylum-lemon-grove" element={<IraqiActivistAsylumLemonGrove language={language} />} />
+                        <Route path="/blog/k1-abu-dhabi-embassy-interview-rancho-santa-fe" element={<K1AbuDhabiEmbassyInterview language={language} />} />
+                        <Route path="/blog/n600-citizenship-certificate-monrovia" element={<N600CitizenshipCertificateMonrovia language={language} />} />
+                        <Route path="/blog/algerian-community-resources-orange-county" element={<AlgerianCommunityResourcesOrangeCounty language={language} />} />
+                        <Route path="/blog/kurdish-refugee-support-el-cajon" element={<KurdishRefugeeSupportElCajon language={language} />} />
+                        <Route path="/blog/i485-denial-appeal-ontario" element={<I485DenialAppealOntario language={language} />} />
+                        <Route path="/blog/libyan-asylum-cases-glendale" element={<LibyanAsylumCasesGlendale language={language} />} />
+                        <Route path="/blog/berber-amazigh-community-los-angeles" element={<BerberAmazighCommunityLosAngeles language={language} />} />
                       </Routes>
                     </main>
 
