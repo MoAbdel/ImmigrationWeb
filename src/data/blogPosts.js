@@ -3,6 +3,149 @@
 
 export const blogPosts = [
   {
+    id: 1168,
+    slug: "iraqi-siv-follow-to-join-riverside",
+    title: { en: "Iraqi SIV Follow-to-Join Benefits in Riverside: Family Reunification for Interpreters", ar: "مزايا الانضمام اللاحق لـ SIV العراقي في ريفرسايد: لم شمل عائلات المترجمين" },
+    excerpt: { en: "Iraqi SIV follow-to-join guide for Riverside. Bring spouses and children to the US after your arrival as a Special Immigrant Visa holder.", ar: "دليل الانضمام اللاحق لـ SIV العراقي في ريفرسايد. جلب الأزواج والأطفال بعد وصولك كحامل تأشيرة المهاجر الخاص." },
+    date: "January 27, 2026",
+    readTime: "14",
+    category: "status",
+    location: "Riverside",
+    image: "/images/blog/status.jpg"
+  },
+  {
+    id: 1167,
+    slug: "u-visa-certification-lakewood",
+    title: { en: "U Visa Law Enforcement Certification in Lakewood: Crime Victim Immigration Benefits", ar: "شهادة إنفاذ القانون لتأشيرة U في ليكوود: مزايا الهجرة لضحايا الجريمة" },
+    excerpt: { en: "U visa certification guide in Lakewood. How crime victims obtain law enforcement certification for immigration benefits and work authorization.", ar: "دليل شهادة تأشيرة U في ليكوود. كيفية حصول ضحايا الجريمة على شهادة إنفاذ القانون لمزايا الهجرة." },
+    date: "January 27, 2026",
+    readTime: "15",
+    category: "status",
+    location: "Lakewood",
+    image: "/images/blog/status.jpg"
+  },
+  {
+    id: 1166,
+    slug: "h1b-cap-registration-san-dimas",
+    title: { en: "H-1B Cap Registration in San Dimas: Electronic Lottery System Guide for Professionals", ar: "تسجيل حصة H-1B في سان ديماس: دليل نظام القرعة الإلكترونية للمهنيين" },
+    excerpt: { en: "H-1B cap registration guide for San Dimas professionals. Electronic lottery process, employer requirements, and selection odds for Arab workers.", ar: "دليل تسجيل حصة H-1B للمهنيين في سان ديماس. عملية القرعة الإلكترونية ومتطلبات صاحب العمل." },
+    date: "January 27, 2026",
+    readTime: "14",
+    category: "work",
+    location: "San Dimas",
+    image: "/images/blog/work.jpg"
+  },
+  {
+    id: 1165,
+    slug: "palestinian-tps-anaheim",
+    title: { en: "Palestinian TPS Designation in Anaheim: Temporary Protected Status Updates and Application", ar: "تصنيف TPS الفلسطيني في أناهايم: تحديثات وطلبات الوضع المحمي المؤقت" },
+    excerpt: { en: "Palestinian TPS information for Anaheim residents. Eligibility requirements, application process, and work authorization for protected status.", ar: "معلومات TPS الفلسطيني لسكان أناهايم. متطلبات الأهلية وعملية التقديم وتصريح العمل." },
+    date: "January 27, 2026",
+    readTime: "13",
+    category: "status",
+    location: "Anaheim",
+    image: "/images/blog/status.jpg"
+  },
+  {
+    id: 1164,
+    slug: "refugee-health-screening-santee",
+    title: { en: "Refugee Health Screening Requirements in Santee: Medical Exam and Vaccination Guide", ar: "متطلبات الفحص الصحي للاجئين في سانتي: دليل الفحص الطبي والتطعيمات" },
+    excerpt: { en: "Refugee health screening guide for Santee. Required medical exams, vaccinations, and health documentation for newly arrived refugees.", ar: "دليل الفحص الصحي للاجئين في سانتي. الفحوصات الطبية المطلوبة والتطعيمات والوثائق الصحية." },
+    date: "January 27, 2026",
+    readTime: "12",
+    category: "community",
+    location: "Santee",
+    image: "/images/blog/community.jpg"
+  },
+  {
+    id: 1163,
+    slug: "green-card-registry-compton",
+    title: { en: "Green Card Through Registry in Compton: Path for Long-Term Residents Since 1972", ar: "البطاقة الخضراء عبر السجل في كومبتون: مسار للمقيمين منذ 1972" },
+    excerpt: { en: "Registry provision green card guide for Compton. How continuous US presence since 1972 creates path to permanent residence for long-term residents.", ar: "دليل البطاقة الخضراء عبر السجل في كومبتون. كيف يخلق التواجد المستمر منذ 1972 مساراً للإقامة الدائمة." },
+    date: "January 27, 2026",
+    readTime: "13",
+    category: "status",
+    location: "Compton",
+    image: "/images/blog/status.jpg"
+  },
+  {
+    id: 1162,
+    slug: "eb2-perm-process-costa-mesa",
+    title: { en: "EB-2 PERM Labor Certification in Costa Mesa: Employment Green Card for Professionals", ar: "شهادة العمل PERM لـ EB-2 في كوستا ميسا: البطاقة الخضراء للمهنيين" },
+    excerpt: { en: "EB-2 PERM process guide in Costa Mesa. Labor certification requirements, prevailing wage, and recruitment for Arab professional workers.", ar: "دليل عملية PERM لـ EB-2 في كوستا ميسا. متطلبات شهادة العمل والأجر السائد والتوظيف للمهنيين العرب." },
+    date: "January 27, 2026",
+    readTime: "15",
+    category: "work",
+    location: "Costa Mesa",
+    image: "/images/blog/work.jpg"
+  },
+  {
+    id: 1161,
+    slug: "i130-married-child-claremont",
+    title: { en: "I-130 Petition for Married Children in Claremont: F3 Family Preference Immigration", ar: "التماس I-130 للأطفال المتزوجين في كليرمونت: هجرة الأفضلية العائلية F3" },
+    excerpt: { en: "F3 visa petition guide for married adult children in Claremont. Long wait times, priority dates, and maintaining eligibility during the process.", ar: "دليل التماس تأشيرة F3 للأطفال البالغين المتزوجين في كليرمونت. أوقات الانتظار الطويلة وتواريخ الأولوية." },
+    date: "January 27, 2026",
+    readTime: "14",
+    category: "family",
+    location: "Claremont",
+    image: "/images/blog/family.jpg"
+  },
+  {
+    id: 1160,
+    slug: "n400-continuous-residence-fontana",
+    title: { en: "N-400 Continuous Residence Requirement in Fontana: Citizenship Physical Presence Rules", ar: "متطلبات الإقامة المستمرة لـ N-400 في فونتانا: قواعد التواجد الفعلي للجنسية" },
+    excerpt: { en: "Continuous residence guide for N-400 citizenship in Fontana. Physical presence requirements, travel limitations, and maintaining eligibility.", ar: "دليل الإقامة المستمرة لجنسية N-400 في فونتانا. متطلبات التواجد الفعلي وقيود السفر." },
+    date: "January 27, 2026",
+    readTime: "13",
+    category: "citizenship",
+    location: "Fontana",
+    image: "/images/blog/citizenship.jpg"
+  },
+  {
+    id: 1159,
+    slug: "egyptian-coptic-asylum-el-monte",
+    title: { en: "Egyptian Coptic Christian Asylum in El Monte: Religious Persecution Claims Guide", ar: "لجوء الأقباط المصريين في إل مونتي: دليل مطالبات الاضطهاد الديني" },
+    excerpt: { en: "Asylum guide for Coptic Christians from Egypt in El Monte. Religious persecution documentation, country conditions evidence, and case preparation.", ar: "دليل اللجوء للأقباط المسيحيين من مصر في إل مونتي. توثيق الاضطهاد الديني وأدلة ظروف البلاد." },
+    date: "January 27, 2026",
+    readTime: "16",
+    category: "asylum",
+    location: "El Monte",
+    image: "/images/blog/asylum.jpg"
+  },
+  {
+    id: 1158,
+    slug: "stepparent-adoption-immigration-lake-forest",
+    title: { en: "Stepparent Adoption Immigration Benefits in Lake Forest: Child Status Protection", ar: "مزايا الهجرة لتبني زوج الأم في ليك فورست: حماية وضع الطفل" },
+    excerpt: { en: "Stepparent adoption immigration guide in Lake Forest. How adoption before 18 creates immediate relative status and faster green card processing.", ar: "دليل هجرة تبني زوج الأم في ليك فورست. كيف يخلق التبني قبل 18 وضع القريب المباشر." },
+    date: "January 27, 2026",
+    readTime: "14",
+    category: "family",
+    location: "Lake Forest",
+    image: "/images/blog/family.jpg"
+  },
+  {
+    id: 1157,
+    slug: "asylum-c08-ead-hemet",
+    title: { en: "Asylum C08 EAD Work Permit in Hemet: Employment Authorization for Pending Cases", ar: "تصريح العمل C08 للجوء في هيميت: إذن العمل للقضايا المعلقة" },
+    excerpt: { en: "C08 asylum EAD guide for Hemet applicants. Work permit eligibility, 180-day clock, and maintaining employment authorization during pending cases.", ar: "دليل EAD C08 للجوء لمقدمي الطلبات في هيميت. أهلية تصريح العمل وساعة 180 يوماً." },
+    date: "January 27, 2026",
+    readTime: "13",
+    category: "asylum",
+    location: "Hemet",
+    image: "/images/blog/asylum.jpg"
+  },
+  {
+    id: 1156,
+    slug: "f2b-sibling-petition-san-bernardino",
+    title: { en: "F2B Unmarried Adult Children Petition in San Bernardino: Family Preference Immigration Guide", ar: "التماس F2B للأطفال البالغين غير المتزوجين في سان برناردينو: دليل هجرة الأفضلية العائلية" },
+    excerpt: { en: "F2B visa petition guide for unmarried adult children in San Bernardino. Priority dates, wait times, and maintaining eligibility for Arab families.", ar: "دليل التماس تأشيرة F2B للأطفال البالغين غير المتزوجين في سان برناردينو. تواريخ الأولوية وأوقات الانتظار." },
+    date: "January 27, 2026",
+    readTime: "14",
+    category: "family",
+    location: "San Bernardino",
+    image: "/images/blog/family.jpg"
+  },
+  {
     id: 1155,
     slug: "f2b-unmarried-adult-children-petition-temecula",
     title: { en: "F2B Unmarried Adult Children Petition in Temecula: Family Preference Immigration Guide", ar: "التماس F2B للأطفال البالغين غير المتزوجين في تيميكولا: دليل هجرة الأفضلية العائلية" },
