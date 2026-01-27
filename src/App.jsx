@@ -7,6 +7,7 @@ import { Users, Flag, FileText, ScrollText, Heart, Award, Shield } from 'lucide-
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import SupportBubble from './components/SupportBubble';
+import PhoneWidget from './components/PhoneWidget';
 import ExitIntentModal from './components/ExitIntentModal';
 
 // Pages
@@ -304,6 +305,35 @@ import KurdishRefugeeSupportElCajon from './pages/blog/posts/KurdishRefugeeSuppo
 import I485DenialAppealOntario from './pages/blog/posts/I485DenialAppealOntario';
 import LibyanAsylumCasesGlendale from './pages/blog/posts/LibyanAsylumCasesGlendale';
 import BerberAmazighCommunityLosAngeles from './pages/blog/posts/BerberAmazighCommunityLosAngeles';
+
+// New posts - January 27, 2026
+import F2BSiblingPetitionSanBernardino from './pages/blog/posts/F2BSiblingPetitionSanBernardino';
+import AsylumC08EADHemet from './pages/blog/posts/AsylumC08EADHemet';
+import StepparentAdoptionImmigrationLakeForest from './pages/blog/posts/StepparentAdoptionImmigrationLakeForest';
+import EgyptianCopticAsylumElMonte from './pages/blog/posts/EgyptianCopticAsylumElMonte';
+import N400ContinuousResidenceFontana from './pages/blog/posts/N400ContinuousResidenceFontana';
+import I130MarriedChildClaremont from './pages/blog/posts/I130MarriedChildClaremont';
+import EB2PERMProcessCostaMesa from './pages/blog/posts/EB2PERMProcessCostaMesa';
+import GreenCardRegistryCompton from './pages/blog/posts/GreenCardRegistryCompton';
+import RefugeeHealthScreeningSantee from './pages/blog/posts/RefugeeHealthScreeningSantee';
+import PalestinianTPSAnaheim from './pages/blog/posts/PalestinianTPSAnaheim';
+import H1BCapRegistrationSanDimas from './pages/blog/posts/H1BCapRegistrationSanDimas';
+import UVisaCertificationLakewood from './pages/blog/posts/UVisaCertificationLakewood';
+import IraqiSIVFollowToJoinRiverside from './pages/blog/posts/IraqiSIVFollowToJoinRiverside';
+
+// New posts - January 25, 2026
+import F2BUnmarriedAdultChildrenPetitionTemecula from './pages/blog/posts/F2BUnmarriedAdultChildrenPetitionTemecula';
+import K1AffidavitOfSupportPomona from './pages/blog/posts/K1AffidavitOfSupportPomona';
+import AsylumEadRenewalVictorville from './pages/blog/posts/AsylumEadRenewalVictorville';
+import CredibleFearInterviewEscondido from './pages/blog/posts/CredibleFearInterviewEscondido';
+import CitizenshipTestStudyMaterialsBuenaPark from './pages/blog/posts/CitizenshipTestStudyMaterialsBuenaPark';
+import H1BPremiumProcessingHuntingtonBeach from './pages/blog/posts/H1BPremiumProcessingHuntingtonBeach';
+import CapExemptH1BFullerton from './pages/blog/posts/CapExemptH1BFullerton';
+import I90GreenCardRenewalOceanside from './pages/blog/posts/I90GreenCardRenewalOceanside';
+import ReentryPermitExtendedTravelVista from './pages/blog/posts/ReentryPermitExtendedTravelVista';
+import SyrianDocumentAuthenticationCarlsbad from './pages/blog/posts/SyrianDocumentAuthenticationCarlsbad';
+import JordanianCommunityResourcesSanMarcos from './pages/blog/posts/JordanianCommunityResourcesSanMarcos';
+import LebaneseCommunityResourcesDowney from './pages/blog/posts/LebaneseCommunityResourcesDowney';
 
 const App = () => {
   const [language, setLanguage] = useState('en');
@@ -690,311 +720,341 @@ const App = () => {
       }
     }
   };
-              return (
-              <BrowserRouter>
-              <HelmetProvider>
-                  <div className="min-h-screen flex flex-col">
-                    <Navbar language={language} setLanguage={setLanguage} content={content} />
+  return (
+    <BrowserRouter>
+      <HelmetProvider>
+        <div className="min-h-screen flex flex-col">
+          <Navbar language={language} setLanguage={setLanguage} content={content} />
 
-                    <main className="flex-grow">
-                      <Routes>
-                        <Route path="/" element={<HomePage language={language} content={content} />} />
-                        <Route path="/services/visas-family" element={<VisasFamilyPage language={language} />} />
-                        <Route path="/services/status-citizenship" element={<StatusCitizenshipPage language={language} />} />
-                        <Route path="/services/legal-documents" element={<LegalDocumentsPage language={language} />} />
-                        <Route path="/services/professional-services" element={<ProfessionalServicesPage language={language} />} />
+          <main className="flex-grow">
+            <Routes>
+              <Route path="/" element={<HomePage language={language} content={content} />} />
+              <Route path="/services/visas-family" element={<VisasFamilyPage language={language} />} />
+              <Route path="/services/status-citizenship" element={<StatusCitizenshipPage language={language} />} />
+              <Route path="/services/legal-documents" element={<LegalDocumentsPage language={language} />} />
+              <Route path="/services/professional-services" element={<ProfessionalServicesPage language={language} />} />
 
-                        {/* Additional Service Landing Pages */}
-                        <Route path="/family-immigration" element={<FamilyImmigrationPage language={language} />} />
-                        <Route path="/asylum-services" element={<AsylumServicesPage language={language} />} />
-                        <Route path="/citizenship-naturalization" element={<CitizenshipPage language={language} />} />
-                        <Route path="/daca-services" element={<DACAServicesPage language={language} />} />
-                        <Route path="/green-card-services" element={<GreenCardServicesPage language={language} />} />
+              {/* Additional Service Landing Pages */}
+              <Route path="/family-immigration" element={<FamilyImmigrationPage language={language} />} />
+              <Route path="/asylum-services" element={<AsylumServicesPage language={language} />} />
+              <Route path="/citizenship-naturalization" element={<CitizenshipPage language={language} />} />
+              <Route path="/daca-services" element={<DACAServicesPage language={language} />} />
+              <Route path="/green-card-services" element={<GreenCardServicesPage language={language} />} />
 
-                        {/* City Landing Pages */}
-                        <Route path="/irvine" element={<IrvinePage language={language} />} />
-                        <Route path="/anaheim" element={<AnaheimPage language={language} />} />
-                        <Route path="/los-angeles" element={<LosAngelesPage language={language} />} />
-                        <Route path="/santa-ana" element={<SantaAnaPage language={language} />} />
+              {/* City Landing Pages */}
+              <Route path="/irvine" element={<IrvinePage language={language} />} />
+              <Route path="/anaheim" element={<AnaheimPage language={language} />} />
+              <Route path="/los-angeles" element={<LosAngelesPage language={language} />} />
+              <Route path="/santa-ana" element={<SantaAnaPage language={language} />} />
 
-                        {/* Blog Routes */}
-                        <Route path="/blog" element={<BlogPage language={language} />} />
-                        <Route path="/blog/family-petition-i130-el-cajon" element={<FamilyPetitionI130ElCajon language={language} />} />
-                        <Route path="/blog/bringing-parents-anaheim" element={<BringingParentsAnaheim language={language} />} />
-                        <Route path="/blog/sibling-immigration-riverside" element={<SiblingImmigrationRiverside language={language} />} />
-                        <Route path="/blog/asylum-application-el-cajon" element={<AsylumApplicationElCajon language={language} />} />
-                        <Route path="/blog/refugee-adjustment-san-diego" element={<RefugeeAdjustmentSanDiego language={language} />} />
-                        <Route path="/blog/k1-fiance-visa-anaheim" element={<K1FianceVisaAnaheim language={language} />} />
-                        <Route path="/blog/marriage-green-card-irvine" element={<MarriageGreenCardIrvine language={language} />} />
-                        <Route path="/blog/naturalization-garden-grove" element={<NaturalizationGardenGrove language={language} />} />
-                        <Route path="/blog/civics-test-corona" element={<CivicsTestCorona language={language} />} />
-                        <Route path="/blog/h1b-visa-irvine" element={<H1BVisaIrvine language={language} />} />
-                        <Route path="/blog/opt-to-h1b-san-diego" element={<OPTtoH1BSanDiego language={language} />} />
-                        <Route path="/blog/green-card-renewal-los-angeles" element={<GreenCardRenewalLosAngeles language={language} />} />
-                        <Route path="/blog/adjustment-of-status-riverside" element={<AdjustmentOfStatusRiverside language={language} />} />
-                        <Route path="/blog/advance-parole-garden-grove" element={<AdvanceParoleGardenGrove language={language} />} />
-                        <Route path="/blog/refugee-travel-doc-el-cajon" element={<RefugeeTravelDocElCajon language={language} />} />
-                        <Route path="/blog/uscis-translation-anaheim" element={<USCISTranslationAnaheim language={language} />} />
-                        <Route path="/blog/affidavit-of-support-san-diego" element={<AffidavitOfSupportSanDiego language={language} />} />
-                        <Route path="/blog/know-your-rights-los-angeles" element={<KnowYourRightsLosAngeles language={language} />} />
-                        <Route path="/blog/iraqi-chaldean-resources-el-cajon" element={<IraqiChaldeanResourcesElCajon language={language} />} />
-                        <Route path="/blog/i730-refugee-family-san-diego" element={<I730RefugeeFamilySanDiego language={language} />} />
-                        <Route path="/blog/vawa-self-petition-los-angeles" element={<VAWASelfPetitionLosAngeles language={language} />} />
-                        <Route path="/blog/f1-student-visa-extension-irvine" element={<F1StudentVisaIrvine language={language} />} />
-                        <Route path="/blog/l1a-intracompany-transfer-irvine" element={<L1AIntracompanyIrvine language={language} />} />
-                        <Route path="/blog/consular-processing-vs-adjustment-anaheim" element={<ConsularProcessingAnaheim language={language} />} />
-                        <Route path="/blog/daca-information-riverside" element={<DACAInformationRiverside language={language} />} />
-                        <Route path="/blog/daca-renewal-i821d-hemet" element={<DACAReviewalI821DHemet language={language} />} />
-                        <Route path="/blog/eb5-investment-green-card-irvine" element={<EB5InvestmentIrvine language={language} />} />
-                        <Route path="/blog/divorce-immigration-impact-garden-grove" element={<DivorceImmigrationGardenGrove language={language} />} />
-                        <Route path="/blog/emergency-passport-services-el-cajon" element={<EmergencyPassportElCajon language={language} />} />
-                        <Route path="/blog/medical-exam-i693-san-diego" element={<MedicalExamI693SanDiego language={language} />} />
-                        <Route path="/blog/name-change-immigration-los-angeles" element={<NameChangeImmigrationLosAngeles language={language} />} />
-                        <Route path="/blog/credible-fear-interview-glendale" element={<CredibleFearInterviewGlendale language={language} />} />
-                        <Route path="/blog/work-authorization-ead-rancho-cucamonga" element={<WorkAuthorizationEADRanchoCucamonga language={language} />} />
-                        <Route path="/blog/perm-employment-green-card-ontario" element={<PERMEmploymentGreenCardOntario language={language} />} />
-                        <Route path="/blog/citizenship-refugees-chula-vista" element={<CitizenshipRefugeesChulVista language={language} />} />
-                        <Route path="/blog/military-spouse-immigration-oceanside" element={<MilitarySpouseImmigrationOceanside language={language} />} />
-                        <Route path="/blog/large-family-immigration-temecula" element={<LargeFamilyImmigrationTemecula language={language} />} />
-                        <Route path="/blog/reentry-permit-murrieta" element={<ReEntryPermitMurrieta language={language} />} />
-                        <Route path="/blog/i751-removing-conditions-corona" element={<I751RemovingConditionsCorona language={language} />} />
-                        <Route path="/blog/refugee-resettlement-glendale" element={<RefugeeResettlementGlendale language={language} />} />
-                        <Route path="/blog/green-card-interview-prep-rancho-cucamonga" element={<GreenCardInterviewPrepRanchoCucamonga language={language} />} />
-                        <Route path="/blog/u-visa-crime-victims-santa-ana" element={<UVisaCrimeVictimsSantaAna language={language} />} />
-                        <Route path="/blog/tps-temporary-protected-status-long-beach" element={<TPSTemporaryProtectedStatusLongBeach language={language} />} />
-                        <Route path="/blog/b1-b2-visa-extension-fullerton" element={<B1B2VisaExtensionFullerton language={language} />} />
-                        <Route path="/blog/n600-certificate-citizenship-costa-mesa" element={<N600CertificateCitizenshipCostaMesa language={language} />} />
-                        <Route path="/blog/i-601-waiver-escondido" element={<I601WaiverEscondido language={language} />} />
-                        <Route path="/blog/humanitarian-parole-fontana" element={<HumanitarianParoleFontana language={language} />} />
-                        <Route path="/blog/public-charge-rule-pomona" element={<PublicChargeRulePomona language={language} />} />
-                        <Route path="/blog/i-864a-joint-sponsor-torrance" element={<I864AJointSponsorTorrance language={language} />} />
-                        <Route path="/blog/tn-visa-san-bernardino" element={<TNVisaSanBernardino language={language} />} />
-                        <Route path="/blog/expedited-naturalization-vista" element={<ExpeditedNaturalizationVista language={language} />} />
-                        <Route path="/blog/e2-treaty-investor-visa-anaheim" element={<E2TreatyInvestorAnaheim language={language} />} />
-                        <Route path="/blog/yemeni-refugee-support-el-cajon" element={<YemeniRefugeeSupportElCajon language={language} />} />
-                        <Route path="/blog/marriage-fraud-investigation-defense-garden-grove" element={<MarriageFraudDefenseGardenGrove language={language} />} />
-                        <Route path="/blog/n648-medical-disability-waiver-san-diego" element={<N648MedicalWaiverSanDiego language={language} />} />
-                        <Route path="/blog/uscis-case-status-inquiry-los-angeles" element={<USCISCaseStatusLosAngeles language={language} />} />
-                        <Route path="/blog/i130-unmarried-adult-children-riverside" element={<I130UnmarriedChildrenRiverside language={language} />} />
-                        <Route path="/blog/citizenship-through-marriage-corona" element={<CitizenshipMarriageCorona language={language} />} />
-                        <Route path="/blog/iraqi-siv-special-immigrant-visa-el-cajon" element={<IraqiSIVElCajon language={language} />} />
-                        <Route path="/blog/k3-spouse-visa-ontario" element={<K3SpouseVisaOntario language={language} />} />
-                        <Route path="/blog/avoiding-immigration-scams-anaheim" element={<AvoidingImmigrationScamsAnaheim language={language} />} />
-                        <Route path="/blog/eb2-niw-national-interest-waiver-westminster" element={<EB2NIWWestminster language={language} />} />
-                        <Route path="/blog/h4-ead-work-permit-buena-park" element={<H4EADWorkPermitBuenaPark language={language} />} />
-                        <Route path="/blog/deportation-defense-help-pasadena" element={<DeportationDefensePasadena language={language} />} />
-                        <Route path="/blog/palestinian-asylum-support-chula-vista" element={<PalestinianAsylumChulaVista language={language} />} />
-                        <Route path="/blog/child-status-protection-act-huntington-beach" element={<ChildStatusProtectionActHuntingtonBeach language={language} />} />
-                        <Route path="/blog/i-290b-motion-reopen-reconsider-lake-forest" element={<I290BMotionReopenLakeForest language={language} />} />
-                        <Route path="/blog/deferred-inspection-mission-viejo" element={<DeferredInspectionMissionViejo language={language} />} />
-                        <Route path="/blog/adoption-immigration-whittier" element={<AdoptionImmigrationWhittier language={language} />} />
-                        <Route path="/blog/employment-verification-i9-downey" element={<EmploymentVerificationI9Downey language={language} />} />
-                        <Route path="/blog/arab-senior-citizens-immigration-resources-santa-clarita" element={<ArabSeniorResourcesSantaClarita language={language} />} />
-                        <Route path="/blog/widow-widower-immigration-benefits-riverside" element={<WidowWidowerImmigrationRiverside language={language} />} />
-                        <Route path="/blog/naturalization-fee-waiver-el-cajon" element={<NaturalizationFeeWaiverElCajon language={language} />} />
-                        <Route path="/blog/eb1a-extraordinary-ability-visa-la-jolla" element={<EB1AExtraordinaryAbilityLaJolla language={language} />} />
-                        <Route path="/blog/lebanese-community-immigration-resources-orange-county" element={<LebaneseCommunityResourcesOrangeCounty language={language} />} />
-                        <Route path="/blog/emergency-advance-parole-corona" element={<EmergencyAdvanceParoleCorona language={language} />} />
-                        <Route path="/blog/marriage-certificate-authentication-temecula" element={<MarriageCertificateAuthenticationTemecula language={language} />} />
-                        <Route path="/blog/asylum-interview-preparation-san-diego" element={<AsylumInterviewPreparationSanDiego language={language} />} />
-                        <Route path="/blog/religious-worker-r1-visa-glendale" element={<ReligiousWorkerR1VisaGlendale language={language} />} />
-                        <Route path="/blog/i751-waiver-divorced-couples-ontario" element={<I751WaiverDivorcedCouplesOntario language={language} />} />
-                        <Route path="/blog/egyptian-community-immigration-resources-anaheim" element={<EgyptianCommunityResourcesAnaheim language={language} />} />
-                        <Route path="/blog/o1-extraordinary-artist-visa-glendale" element={<O1ArtistVisaGlendale language={language} />} />
-                        <Route path="/blog/i140-priority-date-santa-ana" element={<I140PriorityDateSantaAna language={language} />} />
-                        <Route path="/blog/grandparent-visitor-visa-murrieta" element={<GrandparentVisitorVisaMurrieta language={language} />} />
-                        <Route path="/blog/jordanian-community-resources-chino-hills" element={<JordanianCommunityResourcesChinoHills language={language} />} />
-                        <Route path="/blog/cat-protection-el-cajon" element={<CATProtectionElCajon language={language} />} />
-                        <Route path="/blog/eb3-unskilled-worker-ontario" element={<EB3UnskilledWorkerOntario language={language} />} />
-                        <Route path="/blog/birth-certificate-correction-garden-grove" element={<BirthCertificateCorrectionGardenGrove language={language} />} />
-                        <Route path="/blog/f3-married-children-long-beach" element={<F3MarriedChildrenLongBeach language={language} />} />
-                        <Route path="/blog/dual-intent-visa-issues-irvine" element={<DualIntentVisaIrvine language={language} />} />
-                        <Route path="/blog/arab-women-entrepreneurs-orange-county" element={<ArabWomenEntrepreneursOC language={language} />} />
-                        <Route path="/blog/afghan-siv-application-el-cajon" element={<AfghanSIVElCajon language={language} />} />
-                        <Route path="/blog/uscis-biometrics-appointment-anaheim" element={<BiometricsAppointmentAnaheim language={language} />} />
-                        <Route path="/blog/immigration-court-hearing-los-angeles" element={<ImmigrationCourtHearingLosAngeles language={language} />} />
-                        <Route path="/blog/diversity-visa-lottery-irvine" element={<DiversityVisaLotteryIrvine language={language} />} />
-                        <Route path="/blog/combo-card-ead-advance-parole-san-diego" element={<ComboCardEADSanDiego language={language} />} />
-                        <Route path="/blog/uscis-expedite-request-riverside" element={<USCISExpediteRequestRiverside language={language} />} />
-                        <Route path="/blog/i20-transfer-f1-students-fullerton" element={<I20TransferFullerton language={language} />} />
-                        <Route path="/blog/visa-stamping-us-consulates-glendale" element={<VisaStampingUSConsulatesGlendale language={language} />} />
-                        <Route path="/blog/unlawful-presence-waiver-i601a-santa-ana" element={<UnlawfulPresenceWaiverSantaAna language={language} />} />
-                        <Route path="/blog/immigration-bond-hearing-orange-county" element={<ImmigrationBondHearingOrangeCounty language={language} />} />
-                        <Route path="/blog/withholding-of-removal-hemet" element={<WithholdingOfRemovalHemet language={language} />} />
-                        <Route path="/blog/f1-visa-reinstatement-claremont" element={<F1VisaReinstatementClaremont language={language} />} />
-                        <Route path="/blog/ssa-benefits-immigrants-norwalk" element={<SSABenefitsImmigrantsNorwalk language={language} />} />
-                        <Route path="/blog/stokes-interview-preparation-brea" element={<StokesInterviewPrepBrea language={language} />} />
-                        <Route path="/blog/i130-priority-date-waiting-tustin" element={<I130PriorityDateWaitTustin language={language} />} />
-                        <Route path="/blog/naturalization-criminal-record-redlands" element={<NaturalizationCriminalRecordRedlands language={language} />} />
-                        <Route path="/blog/sb1-returning-resident-visa-moreno-valley" element={<SB1ReturningResidentMorenoValley language={language} />} />
-                        <Route path="/blog/i864-income-requirements-upland" element={<I864IncomeRequirementsUpland language={language} />} />
-                        <Route path="/blog/sudanese-tps-national-city" element={<SudaneseTpsNationalCity language={language} />} />
-                        <Route path="/blog/employment-green-card-priority-date-laguna-hills" element={<EmploymentGreenCardPriorityLagunaHills language={language} />} />
-                        <Route path="/blog/consular-interview-preparation-san-clemente" element={<ConsularInterviewPrepSanClemente language={language} />} />
-                        <Route path="/blog/o1-visa-extraordinary-ability-pasadena" element={<O1VisaExtraordinaryAbilityPasadena language={language} />} />
-                        <Route path="/blog/j1-visa-waiver-fullerton" element={<J1VisaWaiverFullerton language={language} />} />
-                        <Route path="/blog/tn-visa-professionals-chula-vista" element={<TNVisaProfessionalsChulaVista language={language} />} />
-                        <Route path="/blog/removal-proceedings-defense-long-beach" element={<RemovalProceedingsDefenseLongBeach language={language} />} />
-                        <Route path="/blog/i-601-inadmissibility-waiver-san-bernardino" element={<I601InadmissibilityWaiverSanBernardino language={language} />} />
-                        <Route path="/blog/i-212-permission-reapply-fontana" element={<I212PermissionReapplyFontana language={language} />} />
-                        <Route path="/blog/special-immigrant-juvenile-status-pomona" element={<SpecialImmigrantJuvenileStatusPomona language={language} />} />
-                        <Route path="/blog/cat-protection-escondido" element={<CATProtectionEscondido language={language} />} />
-                        <Route path="/blog/public-charge-rule-rancho-cucamonga" element={<PublicChargeRanchoCucamonga language={language} />} />
-                        <Route path="/blog/b1-b2-visitor-visa-extension-newport-beach" element={<B1B2VisaExtensionNewportBeach language={language} />} />
-                        <Route path="/blog/h4-ead-mission-viejo" element={<H4EADMissionViejo language={language} />} />
-                        <Route path="/blog/daca-renewal-santa-ana" element={<DACARenevwalSantaAna language={language} />} />
-                        <Route path="/blog/eb5-regional-center-investment-beverly-hills" element={<EB5RegionalCenterBeverlyHills language={language} />} />
-                        <Route path="/blog/i140-premium-processing-laguna-niguel" element={<I140PremiumProcessingLagunaNiguel language={language} />} />
-                        <Route path="/blog/syrian-tps-extension-vista" element={<SyrianTPSExtensionVista language={language} />} />
-                        <Route path="/blog/widow-widower-green-card-downey" element={<WidowWidowerGreenCardDowney language={language} />} />
-                        <Route path="/blog/r1-religious-worker-visa-glendale" element={<R1ReligiousWorkerVisaGlendale language={language} />} />
-                        <Route path="/blog/k2-fiance-child-visa-garden-grove" element={<K2FianceChildVisaGardenGrove language={language} />} />
-                        <Route path="/blog/u-visa-work-authorization-pomona" element={<UVisaWorkAuthorizationPomona language={language} />} />
-                        <Route path="/blog/adjustment-of-status-interview-tustin" element={<AdjustmentInterviewTustin language={language} />} />
-                        <Route path="/blog/i131-travel-authorization-murrieta" element={<I131TravelAuthorizationMurrieta language={language} />} />
-                        <Route path="/blog/lebanese-asylum-oceanside" element={<LebaneseAsylumOceanside language={language} />} />
-                        <Route path="/blog/eb4-special-immigrant-la-mirada" element={<EB4SpecialImmigrantLaMirada language={language} />} />
-                        <Route path="/blog/deferred-action-request-torrance" element={<DeferredActionRequestTorrance language={language} />} />
-                        <Route path="/blog/egyptian-family-petition-anaheim" element={<EgyptianFamilyPetitionAnaheim language={language} />} />
-                        <Route path="/blog/i765-work-permit-renewal-santa-clarita" element={<I765WorkPermitRenewalSantaClarita language={language} />} />
-                        <Route path="/blog/i94-arrival-departure-record-arcadia" element={<I94ArrivalDepartureArcadia language={language} />} />
-                        <Route path="/blog/f1-stem-opt-extension-fountain-valley" element={<F1STEMOPTFountainValley language={language} />} />
-                        <Route path="/blog/vawa-self-petition-aliso-viejo" element={<VAWASelfPetitionAlisoViejo language={language} />} />
-                        <Route path="/blog/citizenship-oath-ceremony-yorba-linda" element={<CitizenshipOathCeremonyYorbaLinda language={language} />} />
-                        <Route path="/blog/h2b-seasonal-worker-visa-oxnard" element={<H2BSeasonalWorkerOxnard language={language} />} />
-                        <Route path="/blog/visa-overstay-help-hesperia" element={<VisaOverstayHelpHesperia language={language} />} />
-                        <Route path="/blog/family-relationship-evidence-cerritos" element={<FamilyRelationshipEvidenceCerritos language={language} />} />
-                        <Route path="/blog/eb1b-outstanding-researcher-calabasas" element={<EB1BOutstandingResearcherCalabasas language={language} />} />
-                        <Route path="/blog/n470-travel-naturalization-thousand-oaks" element={<N470TravelNaturalizationThousandOaks language={language} />} />
-                        <Route path="/blog/immigration-health-insurance-lakewood" element={<ImmigrationHealthInsuranceLakewood language={language} />} />
-                        <Route path="/blog/iraqi-asylee-adjustment-lancaster" element={<IraqiAsyleeAdjustmentLancaster language={language} />} />
-                        <Route path="/blog/yemeni-family-petition-san-marcos" element={<YemeniFamilyPetitionSanMarcos language={language} />} />
-                        <Route path="/blog/green-card-photo-service-lake-elsinore" element={<GreenCardPhotoServiceLakeElsinore language={language} />} />
-                        <Route path="/blog/i797-notice-of-action-bellflower" element={<I797NoticeActionBellflower language={language} />} />
-                        <Route path="/blog/asylum-clock-work-authorization-perris" element={<AsylumClockWorkAuthorizationPerris language={language} />} />
-                        <Route path="/blog/iraqi-chaldean-family-reunification-national-city" element={<IraqiChaldeanFamilyNationalCity language={language} />} />
-                        <Route path="/blog/marriage-visa-timeline-diamond-bar" element={<MarriageVisaTimelineDiamondBar language={language} />} />
-                        <Route path="/blog/f2-dependent-visa-placentia" element={<F2DependentVisaPlacentia language={language} />} />
-                        <Route path="/blog/citizenship-test-accommodations-apple-valley" element={<CitizenshipTestAccommodationsAppleValley language={language} />} />
-                        <Route path="/blog/immigration-attorney-vs-preparer-cypress" element={<ImmigrationAttorneyVsPreparerCypress language={language} />} />
-                        <Route path="/blog/syrian-refugee-green-card-encinitas" element={<SyrianRefugeeGreenCardEncinitas language={language} />} />
-                        <Route path="/blog/immigration-consequences-crimes-glendora" element={<ImmigrationConsequencesCrimesGlendora language={language} />} />
-                        <Route path="/blog/i864-poverty-guidelines-2026-pico-rivera" element={<I864PovertyGuidelinesPicoRivera language={language} />} />
-                        <Route path="/blog/green-card-registry-baldwin-park" element={<GreenCardRegistryBaldwinPark language={language} />} />
-                        <Route path="/blog/expedited-passport-immigration-palmdale" element={<ExpeditedPassportImmigrationPalmdale language={language} />} />
-                        <Route path="/blog/h1b-cap-season-strategy-azusa" element={<H1BCapSeasonStrategyAzusa language={language} />} />
-                        <Route path="/blog/l2-dependent-work-authorization-newport-beach" element={<L2DependentWorkAuthorizationNewportBeach language={language} />} />
-                        <Route path="/blog/military-naturalization-camp-pendleton" element={<MilitaryNaturalizationCampPendleton language={language} />} />
-                        <Route path="/blog/i485-processing-delays-san-bernardino" element={<I485ProcessingDelaysSanBernardino language={language} />} />
-                        <Route path="/blog/syrian-siv-el-monte" element={<SyrianSIVElMonte language={language} />} />
-                        <Route path="/blog/joint-sponsor-requirements-yorba-linda" element={<JointSponsorRequirementsYorbaLinda language={language} />} />
-                        <Route path="/blog/f2-dependent-visa-claremont" element={<F2DependentVisaClaremont language={language} />} />
-                        <Route path="/blog/healthcare-worker-visas-west-covina" element={<HealthcareWorkerVisasWestCovina language={language} />} />
-                        <Route path="/blog/naturalization-after-marriage-green-card-menifee" element={<NaturalizationAfterMarriageGreenCardMenifee language={language} />} />
-                        <Route path="/blog/i94-arrival-record-issues-brea" element={<I94ArrivalRecordIssuesBrea language={language} />} />
-                        <Route path="/blog/moroccan-community-resources-lakewood" element={<MoroccanCommunityResourcesLakewood language={language} />} />
-                        <Route path="/blog/vawa-self-petition-beaumont" element={<VAWASelfPetitionBeaumont language={language} />} />
-                        <Route path="/blog/refugee-travel-document-rialto" element={<RefugeeTravelDocumentRialto language={language} />} />
-                        <Route path="/blog/l1-blanket-petition-chino-hills" element={<L1BlanketPetitionChinoHills language={language} />} />
-                        <Route path="/blog/citizenship-through-parents-indio" element={<CitizenshipThroughParentsIndio language={language} />} />
-                        <Route path="/blog/k2-children-visa-la-quinta" element={<K2ChildrenVisaLaQuinta language={language} />} />
-                        <Route path="/blog/i360-religious-worker-colton" element={<I360ReligiousWorkerColton language={language} />} />
-                        <Route path="/blog/egyptian-community-resources-hesperia" element={<EgyptianCommunityResourcesHesperia language={language} />} />
-                        <Route path="/blog/i864-poverty-guidelines-2026-yucaipa" element={<I864PovertyGuidelines2026Yucaipa language={language} />} />
-                        <Route path="/blog/asylum-affirmative-defensive-montebello" element={<AsylumAffirmativeDefensiveMontebello language={language} />} />
-                        <Route path="/blog/eb2-advanced-degree-culver-city" element={<EB2AdvancedDegreeCulverCity language={language} />} />
-                        <Route path="/blog/e1-treaty-trader-laguna-hills" element={<E1TreatyTraderLagunaHills language={language} />} />
-                        <Route path="/blog/visa-bulletin-explained-chino" element={<VisaBulletinExplainedChino language={language} />} />
-                        <Route path="/blog/i912-fee-waiver-barstow" element={<I912FeeWaiverBarstow language={language} />} />
-                        <Route path="/blog/dv-2027-lottery-results-whittier" element={<DV2027LotteryResultsWhittier language={language} />} />
-                        <Route path="/blog/iraqi-chaldean-community-spring-valley" element={<IraqiChaldeanSpringValley language={language} />} />
-                        <Route path="/blog/i-129f-processing-delays-san-juan-capistrano" element={<I129FProcessingDelaysSanJuan language={language} />} />
-                        <Route path="/blog/green-card-lottery-eligibility-norco" element={<GreenCardLotteryEligibilityNorco language={language} />} />
-                        <Route path="/blog/sponsor-income-calculator-upland" element={<SponsorIncomeCalculatorUpland language={language} />} />
-                        <Route path="/blog/uscis-account-setup-altadena" element={<USCISAccountSetupAltadena language={language} />} />
-                        <Route path="/blog/palestinian-refugee-status-daly-city" element={<PalestinianRefugeeStatusDaly language={language} />} />
-                        <Route path="/blog/birth-tourism-defense-rancho-palos-verdes" element={<BirthTourismDefenseRanchoPV language={language} />} />
-                        <Route path="/blog/yemeni-tps-renewal-el-centro" element={<YemeniTPSRenewalElCentro language={language} />} />
-                        <Route path="/blog/humanitarian-parole-extension-fontana" element={<HumanitarianParoleExtensionFontana language={language} />} />
-                        <Route path="/blog/i130-grandparents-petition-redlands" element={<I130GrandparentsRedlands language={language} />} />
-                        <Route path="/blog/f2a-preference-category-apple-valley" element={<F2APreferenceCategoryAppleValley language={language} />} />
-                        <Route path="/blog/k1-interview-tips-mission-viejo" element={<K1InterviewTipsMissionViejo language={language} />} />
-                        <Route path="/blog/i751-late-filing-tustin" element={<I751LateFilingTustin language={language} />} />
-                        <Route path="/blog/withholding-of-removal-moreno-valley" element={<WithholdingOfRemovalMorenoValley language={language} />} />
-                        <Route path="/blog/reasonable-fear-interview-perris" element={<ReasonableFearInterviewPerris language={language} />} />
-                        <Route path="/blog/n400-early-filing-san-clemente" element={<N400EarlyFilingSanClemente language={language} />} />
-                        <Route path="/blog/citizenship-accommodations-arcadia" element={<CitizenshipAccommodationsArcadia language={language} />} />
-                        <Route path="/blog/h1b-cap-gap-aliso-viejo" element={<H1BCapGapAlisoViejo language={language} />} />
-                        <Route path="/blog/r1-religious-worker-rancho-santa-margarita" element={<R1ReligiousWorkerRanchoSantaMargarita language={language} />} />
-                        <Route path="/blog/tps-re-registration-azusa" element={<TPSReRegistrationAzusa language={language} />} />
-                        <Route path="/blog/i539-change-status-palm-desert" element={<I539ChangeStatusPalmDesert language={language} />} />
-                        <Route path="/blog/immigration-poa-la-habra" element={<ImmigrationPOALaHabra language={language} />} />
-                        <Route path="/blog/coptic-christian-resources-cypress" element={<CopticChristianResourcesCypress language={language} />} />
+              {/* Blog Routes */}
+              <Route path="/blog" element={<BlogPage language={language} />} />
+              <Route path="/blog/family-petition-i130-el-cajon" element={<FamilyPetitionI130ElCajon language={language} />} />
+              <Route path="/blog/bringing-parents-anaheim" element={<BringingParentsAnaheim language={language} />} />
+              <Route path="/blog/sibling-immigration-riverside" element={<SiblingImmigrationRiverside language={language} />} />
+              <Route path="/blog/asylum-application-el-cajon" element={<AsylumApplicationElCajon language={language} />} />
+              <Route path="/blog/refugee-adjustment-san-diego" element={<RefugeeAdjustmentSanDiego language={language} />} />
+              <Route path="/blog/k1-fiance-visa-anaheim" element={<K1FianceVisaAnaheim language={language} />} />
+              <Route path="/blog/marriage-green-card-irvine" element={<MarriageGreenCardIrvine language={language} />} />
+              <Route path="/blog/naturalization-garden-grove" element={<NaturalizationGardenGrove language={language} />} />
+              <Route path="/blog/civics-test-corona" element={<CivicsTestCorona language={language} />} />
+              <Route path="/blog/h1b-visa-irvine" element={<H1BVisaIrvine language={language} />} />
+              <Route path="/blog/opt-to-h1b-san-diego" element={<OPTtoH1BSanDiego language={language} />} />
+              <Route path="/blog/green-card-renewal-los-angeles" element={<GreenCardRenewalLosAngeles language={language} />} />
+              <Route path="/blog/adjustment-of-status-riverside" element={<AdjustmentOfStatusRiverside language={language} />} />
+              <Route path="/blog/advance-parole-garden-grove" element={<AdvanceParoleGardenGrove language={language} />} />
+              <Route path="/blog/refugee-travel-doc-el-cajon" element={<RefugeeTravelDocElCajon language={language} />} />
+              <Route path="/blog/uscis-translation-anaheim" element={<USCISTranslationAnaheim language={language} />} />
+              <Route path="/blog/affidavit-of-support-san-diego" element={<AffidavitOfSupportSanDiego language={language} />} />
+              <Route path="/blog/know-your-rights-los-angeles" element={<KnowYourRightsLosAngeles language={language} />} />
+              <Route path="/blog/iraqi-chaldean-resources-el-cajon" element={<IraqiChaldeanResourcesElCajon language={language} />} />
+              <Route path="/blog/i730-refugee-family-san-diego" element={<I730RefugeeFamilySanDiego language={language} />} />
+              <Route path="/blog/vawa-self-petition-los-angeles" element={<VAWASelfPetitionLosAngeles language={language} />} />
+              <Route path="/blog/f1-student-visa-extension-irvine" element={<F1StudentVisaIrvine language={language} />} />
+              <Route path="/blog/l1a-intracompany-transfer-irvine" element={<L1AIntracompanyIrvine language={language} />} />
+              <Route path="/blog/consular-processing-vs-adjustment-anaheim" element={<ConsularProcessingAnaheim language={language} />} />
+              <Route path="/blog/daca-information-riverside" element={<DACAInformationRiverside language={language} />} />
+              <Route path="/blog/daca-renewal-i821d-hemet" element={<DACAReviewalI821DHemet language={language} />} />
+              <Route path="/blog/eb5-investment-green-card-irvine" element={<EB5InvestmentIrvine language={language} />} />
+              <Route path="/blog/divorce-immigration-impact-garden-grove" element={<DivorceImmigrationGardenGrove language={language} />} />
+              <Route path="/blog/emergency-passport-services-el-cajon" element={<EmergencyPassportElCajon language={language} />} />
+              <Route path="/blog/medical-exam-i693-san-diego" element={<MedicalExamI693SanDiego language={language} />} />
+              <Route path="/blog/name-change-immigration-los-angeles" element={<NameChangeImmigrationLosAngeles language={language} />} />
+              <Route path="/blog/credible-fear-interview-glendale" element={<CredibleFearInterviewGlendale language={language} />} />
+              <Route path="/blog/work-authorization-ead-rancho-cucamonga" element={<WorkAuthorizationEADRanchoCucamonga language={language} />} />
+              <Route path="/blog/perm-employment-green-card-ontario" element={<PERMEmploymentGreenCardOntario language={language} />} />
+              <Route path="/blog/citizenship-refugees-chula-vista" element={<CitizenshipRefugeesChulVista language={language} />} />
+              <Route path="/blog/military-spouse-immigration-oceanside" element={<MilitarySpouseImmigrationOceanside language={language} />} />
+              <Route path="/blog/large-family-immigration-temecula" element={<LargeFamilyImmigrationTemecula language={language} />} />
+              <Route path="/blog/reentry-permit-murrieta" element={<ReEntryPermitMurrieta language={language} />} />
+              <Route path="/blog/i751-removing-conditions-corona" element={<I751RemovingConditionsCorona language={language} />} />
+              <Route path="/blog/refugee-resettlement-glendale" element={<RefugeeResettlementGlendale language={language} />} />
+              <Route path="/blog/green-card-interview-prep-rancho-cucamonga" element={<GreenCardInterviewPrepRanchoCucamonga language={language} />} />
+              <Route path="/blog/u-visa-crime-victims-santa-ana" element={<UVisaCrimeVictimsSantaAna language={language} />} />
+              <Route path="/blog/tps-temporary-protected-status-long-beach" element={<TPSTemporaryProtectedStatusLongBeach language={language} />} />
+              <Route path="/blog/b1-b2-visa-extension-fullerton" element={<B1B2VisaExtensionFullerton language={language} />} />
+              <Route path="/blog/n600-certificate-citizenship-costa-mesa" element={<N600CertificateCitizenshipCostaMesa language={language} />} />
+              <Route path="/blog/i-601-waiver-escondido" element={<I601WaiverEscondido language={language} />} />
+              <Route path="/blog/humanitarian-parole-fontana" element={<HumanitarianParoleFontana language={language} />} />
+              <Route path="/blog/public-charge-rule-pomona" element={<PublicChargeRulePomona language={language} />} />
+              <Route path="/blog/i-864a-joint-sponsor-torrance" element={<I864AJointSponsorTorrance language={language} />} />
+              <Route path="/blog/tn-visa-san-bernardino" element={<TNVisaSanBernardino language={language} />} />
+              <Route path="/blog/expedited-naturalization-vista" element={<ExpeditedNaturalizationVista language={language} />} />
+              <Route path="/blog/e2-treaty-investor-visa-anaheim" element={<E2TreatyInvestorAnaheim language={language} />} />
+              <Route path="/blog/yemeni-refugee-support-el-cajon" element={<YemeniRefugeeSupportElCajon language={language} />} />
+              <Route path="/blog/marriage-fraud-investigation-defense-garden-grove" element={<MarriageFraudDefenseGardenGrove language={language} />} />
+              <Route path="/blog/n648-medical-disability-waiver-san-diego" element={<N648MedicalWaiverSanDiego language={language} />} />
+              <Route path="/blog/uscis-case-status-inquiry-los-angeles" element={<USCISCaseStatusLosAngeles language={language} />} />
+              <Route path="/blog/i130-unmarried-adult-children-riverside" element={<I130UnmarriedChildrenRiverside language={language} />} />
+              <Route path="/blog/citizenship-through-marriage-corona" element={<CitizenshipMarriageCorona language={language} />} />
+              <Route path="/blog/iraqi-siv-special-immigrant-visa-el-cajon" element={<IraqiSIVElCajon language={language} />} />
+              <Route path="/blog/k3-spouse-visa-ontario" element={<K3SpouseVisaOntario language={language} />} />
+              <Route path="/blog/avoiding-immigration-scams-anaheim" element={<AvoidingImmigrationScamsAnaheim language={language} />} />
+              <Route path="/blog/eb2-niw-national-interest-waiver-westminster" element={<EB2NIWWestminster language={language} />} />
+              <Route path="/blog/h4-ead-work-permit-buena-park" element={<H4EADWorkPermitBuenaPark language={language} />} />
+              <Route path="/blog/deportation-defense-help-pasadena" element={<DeportationDefensePasadena language={language} />} />
+              <Route path="/blog/palestinian-asylum-support-chula-vista" element={<PalestinianAsylumChulaVista language={language} />} />
+              <Route path="/blog/child-status-protection-act-huntington-beach" element={<ChildStatusProtectionActHuntingtonBeach language={language} />} />
+              <Route path="/blog/i-290b-motion-reopen-reconsider-lake-forest" element={<I290BMotionReopenLakeForest language={language} />} />
+              <Route path="/blog/deferred-inspection-mission-viejo" element={<DeferredInspectionMissionViejo language={language} />} />
+              <Route path="/blog/adoption-immigration-whittier" element={<AdoptionImmigrationWhittier language={language} />} />
+              <Route path="/blog/employment-verification-i9-downey" element={<EmploymentVerificationI9Downey language={language} />} />
+              <Route path="/blog/arab-senior-citizens-immigration-resources-santa-clarita" element={<ArabSeniorResourcesSantaClarita language={language} />} />
+              <Route path="/blog/widow-widower-immigration-benefits-riverside" element={<WidowWidowerImmigrationRiverside language={language} />} />
+              <Route path="/blog/naturalization-fee-waiver-el-cajon" element={<NaturalizationFeeWaiverElCajon language={language} />} />
+              <Route path="/blog/eb1a-extraordinary-ability-visa-la-jolla" element={<EB1AExtraordinaryAbilityLaJolla language={language} />} />
+              <Route path="/blog/lebanese-community-immigration-resources-orange-county" element={<LebaneseCommunityResourcesOrangeCounty language={language} />} />
+              <Route path="/blog/emergency-advance-parole-corona" element={<EmergencyAdvanceParoleCorona language={language} />} />
+              <Route path="/blog/marriage-certificate-authentication-temecula" element={<MarriageCertificateAuthenticationTemecula language={language} />} />
+              <Route path="/blog/asylum-interview-preparation-san-diego" element={<AsylumInterviewPreparationSanDiego language={language} />} />
+              <Route path="/blog/religious-worker-r1-visa-glendale" element={<ReligiousWorkerR1VisaGlendale language={language} />} />
+              <Route path="/blog/i751-waiver-divorced-couples-ontario" element={<I751WaiverDivorcedCouplesOntario language={language} />} />
+              <Route path="/blog/egyptian-community-immigration-resources-anaheim" element={<EgyptianCommunityResourcesAnaheim language={language} />} />
+              <Route path="/blog/o1-extraordinary-artist-visa-glendale" element={<O1ArtistVisaGlendale language={language} />} />
+              <Route path="/blog/i140-priority-date-santa-ana" element={<I140PriorityDateSantaAna language={language} />} />
+              <Route path="/blog/grandparent-visitor-visa-murrieta" element={<GrandparentVisitorVisaMurrieta language={language} />} />
+              <Route path="/blog/jordanian-community-resources-chino-hills" element={<JordanianCommunityResourcesChinoHills language={language} />} />
+              <Route path="/blog/cat-protection-el-cajon" element={<CATProtectionElCajon language={language} />} />
+              <Route path="/blog/eb3-unskilled-worker-ontario" element={<EB3UnskilledWorkerOntario language={language} />} />
+              <Route path="/blog/birth-certificate-correction-garden-grove" element={<BirthCertificateCorrectionGardenGrove language={language} />} />
+              <Route path="/blog/f3-married-children-long-beach" element={<F3MarriedChildrenLongBeach language={language} />} />
+              <Route path="/blog/dual-intent-visa-issues-irvine" element={<DualIntentVisaIrvine language={language} />} />
+              <Route path="/blog/arab-women-entrepreneurs-orange-county" element={<ArabWomenEntrepreneursOC language={language} />} />
+              <Route path="/blog/afghan-siv-application-el-cajon" element={<AfghanSIVElCajon language={language} />} />
+              <Route path="/blog/uscis-biometrics-appointment-anaheim" element={<BiometricsAppointmentAnaheim language={language} />} />
+              <Route path="/blog/immigration-court-hearing-los-angeles" element={<ImmigrationCourtHearingLosAngeles language={language} />} />
+              <Route path="/blog/diversity-visa-lottery-irvine" element={<DiversityVisaLotteryIrvine language={language} />} />
+              <Route path="/blog/combo-card-ead-advance-parole-san-diego" element={<ComboCardEADSanDiego language={language} />} />
+              <Route path="/blog/uscis-expedite-request-riverside" element={<USCISExpediteRequestRiverside language={language} />} />
+              <Route path="/blog/i20-transfer-f1-students-fullerton" element={<I20TransferFullerton language={language} />} />
+              <Route path="/blog/visa-stamping-us-consulates-glendale" element={<VisaStampingUSConsulatesGlendale language={language} />} />
+              <Route path="/blog/unlawful-presence-waiver-i601a-santa-ana" element={<UnlawfulPresenceWaiverSantaAna language={language} />} />
+              <Route path="/blog/immigration-bond-hearing-orange-county" element={<ImmigrationBondHearingOrangeCounty language={language} />} />
+              <Route path="/blog/withholding-of-removal-hemet" element={<WithholdingOfRemovalHemet language={language} />} />
+              <Route path="/blog/f1-visa-reinstatement-claremont" element={<F1VisaReinstatementClaremont language={language} />} />
+              <Route path="/blog/ssa-benefits-immigrants-norwalk" element={<SSABenefitsImmigrantsNorwalk language={language} />} />
+              <Route path="/blog/stokes-interview-preparation-brea" element={<StokesInterviewPrepBrea language={language} />} />
+              <Route path="/blog/i130-priority-date-waiting-tustin" element={<I130PriorityDateWaitTustin language={language} />} />
+              <Route path="/blog/naturalization-criminal-record-redlands" element={<NaturalizationCriminalRecordRedlands language={language} />} />
+              <Route path="/blog/sb1-returning-resident-visa-moreno-valley" element={<SB1ReturningResidentMorenoValley language={language} />} />
+              <Route path="/blog/i864-income-requirements-upland" element={<I864IncomeRequirementsUpland language={language} />} />
+              <Route path="/blog/sudanese-tps-national-city" element={<SudaneseTpsNationalCity language={language} />} />
+              <Route path="/blog/employment-green-card-priority-date-laguna-hills" element={<EmploymentGreenCardPriorityLagunaHills language={language} />} />
+              <Route path="/blog/consular-interview-preparation-san-clemente" element={<ConsularInterviewPrepSanClemente language={language} />} />
+              <Route path="/blog/o1-visa-extraordinary-ability-pasadena" element={<O1VisaExtraordinaryAbilityPasadena language={language} />} />
+              <Route path="/blog/j1-visa-waiver-fullerton" element={<J1VisaWaiverFullerton language={language} />} />
+              <Route path="/blog/tn-visa-professionals-chula-vista" element={<TNVisaProfessionalsChulaVista language={language} />} />
+              <Route path="/blog/removal-proceedings-defense-long-beach" element={<RemovalProceedingsDefenseLongBeach language={language} />} />
+              <Route path="/blog/i-601-inadmissibility-waiver-san-bernardino" element={<I601InadmissibilityWaiverSanBernardino language={language} />} />
+              <Route path="/blog/i-212-permission-reapply-fontana" element={<I212PermissionReapplyFontana language={language} />} />
+              <Route path="/blog/special-immigrant-juvenile-status-pomona" element={<SpecialImmigrantJuvenileStatusPomona language={language} />} />
+              <Route path="/blog/cat-protection-escondido" element={<CATProtectionEscondido language={language} />} />
+              <Route path="/blog/public-charge-rule-rancho-cucamonga" element={<PublicChargeRanchoCucamonga language={language} />} />
+              <Route path="/blog/b1-b2-visitor-visa-extension-newport-beach" element={<B1B2VisaExtensionNewportBeach language={language} />} />
+              <Route path="/blog/h4-ead-mission-viejo" element={<H4EADMissionViejo language={language} />} />
+              <Route path="/blog/daca-renewal-santa-ana" element={<DACARenevwalSantaAna language={language} />} />
+              <Route path="/blog/eb5-regional-center-investment-beverly-hills" element={<EB5RegionalCenterBeverlyHills language={language} />} />
+              <Route path="/blog/i140-premium-processing-laguna-niguel" element={<I140PremiumProcessingLagunaNiguel language={language} />} />
+              <Route path="/blog/syrian-tps-extension-vista" element={<SyrianTPSExtensionVista language={language} />} />
+              <Route path="/blog/widow-widower-green-card-downey" element={<WidowWidowerGreenCardDowney language={language} />} />
+              <Route path="/blog/r1-religious-worker-visa-glendale" element={<R1ReligiousWorkerVisaGlendale language={language} />} />
+              <Route path="/blog/k2-fiance-child-visa-garden-grove" element={<K2FianceChildVisaGardenGrove language={language} />} />
+              <Route path="/blog/u-visa-work-authorization-pomona" element={<UVisaWorkAuthorizationPomona language={language} />} />
+              <Route path="/blog/adjustment-of-status-interview-tustin" element={<AdjustmentInterviewTustin language={language} />} />
+              <Route path="/blog/i131-travel-authorization-murrieta" element={<I131TravelAuthorizationMurrieta language={language} />} />
+              <Route path="/blog/lebanese-asylum-oceanside" element={<LebaneseAsylumOceanside language={language} />} />
+              <Route path="/blog/eb4-special-immigrant-la-mirada" element={<EB4SpecialImmigrantLaMirada language={language} />} />
+              <Route path="/blog/deferred-action-request-torrance" element={<DeferredActionRequestTorrance language={language} />} />
+              <Route path="/blog/egyptian-family-petition-anaheim" element={<EgyptianFamilyPetitionAnaheim language={language} />} />
+              <Route path="/blog/i765-work-permit-renewal-santa-clarita" element={<I765WorkPermitRenewalSantaClarita language={language} />} />
+              <Route path="/blog/i94-arrival-departure-record-arcadia" element={<I94ArrivalDepartureArcadia language={language} />} />
+              <Route path="/blog/f1-stem-opt-extension-fountain-valley" element={<F1STEMOPTFountainValley language={language} />} />
+              <Route path="/blog/vawa-self-petition-aliso-viejo" element={<VAWASelfPetitionAlisoViejo language={language} />} />
+              <Route path="/blog/citizenship-oath-ceremony-yorba-linda" element={<CitizenshipOathCeremonyYorbaLinda language={language} />} />
+              <Route path="/blog/h2b-seasonal-worker-visa-oxnard" element={<H2BSeasonalWorkerOxnard language={language} />} />
+              <Route path="/blog/visa-overstay-help-hesperia" element={<VisaOverstayHelpHesperia language={language} />} />
+              <Route path="/blog/family-relationship-evidence-cerritos" element={<FamilyRelationshipEvidenceCerritos language={language} />} />
+              <Route path="/blog/eb1b-outstanding-researcher-calabasas" element={<EB1BOutstandingResearcherCalabasas language={language} />} />
+              <Route path="/blog/n470-travel-naturalization-thousand-oaks" element={<N470TravelNaturalizationThousandOaks language={language} />} />
+              <Route path="/blog/immigration-health-insurance-lakewood" element={<ImmigrationHealthInsuranceLakewood language={language} />} />
+              <Route path="/blog/iraqi-asylee-adjustment-lancaster" element={<IraqiAsyleeAdjustmentLancaster language={language} />} />
+              <Route path="/blog/yemeni-family-petition-san-marcos" element={<YemeniFamilyPetitionSanMarcos language={language} />} />
+              <Route path="/blog/green-card-photo-service-lake-elsinore" element={<GreenCardPhotoServiceLakeElsinore language={language} />} />
+              <Route path="/blog/i797-notice-of-action-bellflower" element={<I797NoticeActionBellflower language={language} />} />
+              <Route path="/blog/asylum-clock-work-authorization-perris" element={<AsylumClockWorkAuthorizationPerris language={language} />} />
+              <Route path="/blog/iraqi-chaldean-family-reunification-national-city" element={<IraqiChaldeanFamilyNationalCity language={language} />} />
+              <Route path="/blog/marriage-visa-timeline-diamond-bar" element={<MarriageVisaTimelineDiamondBar language={language} />} />
+              <Route path="/blog/f2-dependent-visa-placentia" element={<F2DependentVisaPlacentia language={language} />} />
+              <Route path="/blog/citizenship-test-accommodations-apple-valley" element={<CitizenshipTestAccommodationsAppleValley language={language} />} />
+              <Route path="/blog/immigration-attorney-vs-preparer-cypress" element={<ImmigrationAttorneyVsPreparerCypress language={language} />} />
+              <Route path="/blog/syrian-refugee-green-card-encinitas" element={<SyrianRefugeeGreenCardEncinitas language={language} />} />
+              <Route path="/blog/immigration-consequences-crimes-glendora" element={<ImmigrationConsequencesCrimesGlendora language={language} />} />
+              <Route path="/blog/i864-poverty-guidelines-2026-pico-rivera" element={<I864PovertyGuidelinesPicoRivera language={language} />} />
+              <Route path="/blog/green-card-registry-baldwin-park" element={<GreenCardRegistryBaldwinPark language={language} />} />
+              <Route path="/blog/expedited-passport-immigration-palmdale" element={<ExpeditedPassportImmigrationPalmdale language={language} />} />
+              <Route path="/blog/h1b-cap-season-strategy-azusa" element={<H1BCapSeasonStrategyAzusa language={language} />} />
+              <Route path="/blog/l2-dependent-work-authorization-newport-beach" element={<L2DependentWorkAuthorizationNewportBeach language={language} />} />
+              <Route path="/blog/military-naturalization-camp-pendleton" element={<MilitaryNaturalizationCampPendleton language={language} />} />
+              <Route path="/blog/i485-processing-delays-san-bernardino" element={<I485ProcessingDelaysSanBernardino language={language} />} />
+              <Route path="/blog/syrian-siv-el-monte" element={<SyrianSIVElMonte language={language} />} />
+              <Route path="/blog/joint-sponsor-requirements-yorba-linda" element={<JointSponsorRequirementsYorbaLinda language={language} />} />
+              <Route path="/blog/f2-dependent-visa-claremont" element={<F2DependentVisaClaremont language={language} />} />
+              <Route path="/blog/healthcare-worker-visas-west-covina" element={<HealthcareWorkerVisasWestCovina language={language} />} />
+              <Route path="/blog/naturalization-after-marriage-green-card-menifee" element={<NaturalizationAfterMarriageGreenCardMenifee language={language} />} />
+              <Route path="/blog/i94-arrival-record-issues-brea" element={<I94ArrivalRecordIssuesBrea language={language} />} />
+              <Route path="/blog/moroccan-community-resources-lakewood" element={<MoroccanCommunityResourcesLakewood language={language} />} />
+              <Route path="/blog/vawa-self-petition-beaumont" element={<VAWASelfPetitionBeaumont language={language} />} />
+              <Route path="/blog/refugee-travel-document-rialto" element={<RefugeeTravelDocumentRialto language={language} />} />
+              <Route path="/blog/l1-blanket-petition-chino-hills" element={<L1BlanketPetitionChinoHills language={language} />} />
+              <Route path="/blog/citizenship-through-parents-indio" element={<CitizenshipThroughParentsIndio language={language} />} />
+              <Route path="/blog/k2-children-visa-la-quinta" element={<K2ChildrenVisaLaQuinta language={language} />} />
+              <Route path="/blog/i360-religious-worker-colton" element={<I360ReligiousWorkerColton language={language} />} />
+              <Route path="/blog/egyptian-community-resources-hesperia" element={<EgyptianCommunityResourcesHesperia language={language} />} />
+              <Route path="/blog/i864-poverty-guidelines-2026-yucaipa" element={<I864PovertyGuidelines2026Yucaipa language={language} />} />
+              <Route path="/blog/asylum-affirmative-defensive-montebello" element={<AsylumAffirmativeDefensiveMontebello language={language} />} />
+              <Route path="/blog/eb2-advanced-degree-culver-city" element={<EB2AdvancedDegreeCulverCity language={language} />} />
+              <Route path="/blog/e1-treaty-trader-laguna-hills" element={<E1TreatyTraderLagunaHills language={language} />} />
+              <Route path="/blog/visa-bulletin-explained-chino" element={<VisaBulletinExplainedChino language={language} />} />
+              <Route path="/blog/i912-fee-waiver-barstow" element={<I912FeeWaiverBarstow language={language} />} />
+              <Route path="/blog/dv-2027-lottery-results-whittier" element={<DV2027LotteryResultsWhittier language={language} />} />
+              <Route path="/blog/iraqi-chaldean-community-spring-valley" element={<IraqiChaldeanSpringValley language={language} />} />
+              <Route path="/blog/i-129f-processing-delays-san-juan-capistrano" element={<I129FProcessingDelaysSanJuan language={language} />} />
+              <Route path="/blog/green-card-lottery-eligibility-norco" element={<GreenCardLotteryEligibilityNorco language={language} />} />
+              <Route path="/blog/sponsor-income-calculator-upland" element={<SponsorIncomeCalculatorUpland language={language} />} />
+              <Route path="/blog/uscis-account-setup-altadena" element={<USCISAccountSetupAltadena language={language} />} />
+              <Route path="/blog/palestinian-refugee-status-daly-city" element={<PalestinianRefugeeStatusDaly language={language} />} />
+              <Route path="/blog/birth-tourism-defense-rancho-palos-verdes" element={<BirthTourismDefenseRanchoPV language={language} />} />
+              <Route path="/blog/yemeni-tps-renewal-el-centro" element={<YemeniTPSRenewalElCentro language={language} />} />
+              <Route path="/blog/humanitarian-parole-extension-fontana" element={<HumanitarianParoleExtensionFontana language={language} />} />
+              <Route path="/blog/i130-grandparents-petition-redlands" element={<I130GrandparentsRedlands language={language} />} />
+              <Route path="/blog/f2a-preference-category-apple-valley" element={<F2APreferenceCategoryAppleValley language={language} />} />
+              <Route path="/blog/k1-interview-tips-mission-viejo" element={<K1InterviewTipsMissionViejo language={language} />} />
+              <Route path="/blog/i751-late-filing-tustin" element={<I751LateFilingTustin language={language} />} />
+              <Route path="/blog/withholding-of-removal-moreno-valley" element={<WithholdingOfRemovalMorenoValley language={language} />} />
+              <Route path="/blog/reasonable-fear-interview-perris" element={<ReasonableFearInterviewPerris language={language} />} />
+              <Route path="/blog/n400-early-filing-san-clemente" element={<N400EarlyFilingSanClemente language={language} />} />
+              <Route path="/blog/citizenship-accommodations-arcadia" element={<CitizenshipAccommodationsArcadia language={language} />} />
+              <Route path="/blog/h1b-cap-gap-aliso-viejo" element={<H1BCapGapAlisoViejo language={language} />} />
+              <Route path="/blog/r1-religious-worker-rancho-santa-margarita" element={<R1ReligiousWorkerRanchoSantaMargarita language={language} />} />
+              <Route path="/blog/tps-re-registration-azusa" element={<TPSReRegistrationAzusa language={language} />} />
+              <Route path="/blog/i539-change-status-palm-desert" element={<I539ChangeStatusPalmDesert language={language} />} />
+              <Route path="/blog/immigration-poa-la-habra" element={<ImmigrationPOALaHabra language={language} />} />
+              <Route path="/blog/coptic-christian-resources-cypress" element={<CopticChristianResourcesCypress language={language} />} />
 
-                        {/* New posts - January 22, 2026 */}
-                        <Route path="/blog/sudanese-asylum-support-san-marcos" element={<SudaneseAsylumSanMarcos language={language} />} />
-                        <Route path="/blog/eb1c-multinational-manager-newport-coast" element={<EB1CMultinationalManagerNewportCoast language={language} />} />
-                        <Route path="/blog/citizenship-green-card-holders-santee" element={<CitizenshipGreenCardHoldersSantee language={language} />} />
-                        <Route path="/blog/iraqi-refugee-women-empowerment-lakeside" element={<IraqiRefugeeWomenLakeside language={language} />} />
-                        <Route path="/blog/k3-vs-cr1-spouse-visa-laguna-beach" element={<K3vsCR1LagunaBeach language={language} />} />
-                        <Route path="/blog/emergency-travel-authorization-rancho-bernardo" element={<EmergencyTravelRanchoBernardo language={language} />} />
-                        <Route path="/blog/uscis-certified-translation-stanton" element={<USCISCertifiedTranslationStanton language={language} />} />
-                        <Route path="/blog/syrian-humanitarian-parole-la-mesa" element={<SyrianHumanitarianParoleLaMesa language={language} />} />
-                        <Route path="/blog/i130-adult-married-children-san-dimas" element={<I130AdultMarriedChildrenSanDimas language={language} />} />
-                        <Route path="/blog/n400-special-accommodations-westminster" element={<N400SpecialAccommodationsWestminster language={language} />} />
+              {/* New posts - January 22, 2026 */}
+              <Route path="/blog/sudanese-asylum-support-san-marcos" element={<SudaneseAsylumSanMarcos language={language} />} />
+              <Route path="/blog/eb1c-multinational-manager-newport-coast" element={<EB1CMultinationalManagerNewportCoast language={language} />} />
+              <Route path="/blog/citizenship-green-card-holders-santee" element={<CitizenshipGreenCardHoldersSantee language={language} />} />
+              <Route path="/blog/iraqi-refugee-women-empowerment-lakeside" element={<IraqiRefugeeWomenLakeside language={language} />} />
+              <Route path="/blog/k3-vs-cr1-spouse-visa-laguna-beach" element={<K3vsCR1LagunaBeach language={language} />} />
+              <Route path="/blog/emergency-travel-authorization-rancho-bernardo" element={<EmergencyTravelRanchoBernardo language={language} />} />
+              <Route path="/blog/uscis-certified-translation-stanton" element={<USCISCertifiedTranslationStanton language={language} />} />
+              <Route path="/blog/syrian-humanitarian-parole-la-mesa" element={<SyrianHumanitarianParoleLaMesa language={language} />} />
+              <Route path="/blog/i130-adult-married-children-san-dimas" element={<I130AdultMarriedChildrenSanDimas language={language} />} />
+              <Route path="/blog/n400-special-accommodations-westminster" element={<N400SpecialAccommodationsWestminster language={language} />} />
 
-                        {/* New posts - January 23, 2026 */}
-                        <Route path="/blog/i130-unmarried-sons-daughters-signal-hill" element={<I130UnmarriedSonsSignalHill language={language} />} />
-                        <Route path="/blog/iranian-asylum-protection-tarzana" element={<IranianAsylumTarzana language={language} />} />
-                        <Route path="/blog/affidavit-bona-fide-marriage-hawthorne" element={<AffidavitBonaFideMarriageHawthorne language={language} />} />
-                        <Route path="/blog/selective-service-naturalization-paramount" element={<SelectiveServiceNaturalizationParamount language={language} />} />
-                        <Route path="/blog/eb2-schedule-a-healthcare-workers-torrance" element={<EB2ScheduleAHealthcareTorrance language={language} />} />
-                        <Route path="/blog/i485-adjustment-interview-alhambra" element={<I485InterviewAlhambra language={language} />} />
-                        <Route path="/blog/travel-while-i130-pending-compton" element={<TravelWhileI130PendingCompton language={language} />} />
-                        <Route path="/blog/document-apostille-legalization-montclair" element={<DocumentApostilleMontclair language={language} />} />
-                        <Route path="/blog/tunisian-community-immigration-glendale" element={<TunisianCommunityGlendale language={language} />} />
-                        <Route path="/blog/iraqi-widows-immigration-san-bernardino" element={<IraqiWidowsImmigrationSanBernardino language={language} />} />
+              {/* New posts - January 23, 2026 */}
+              <Route path="/blog/i130-unmarried-sons-daughters-signal-hill" element={<I130UnmarriedSonsSignalHill language={language} />} />
+              <Route path="/blog/iranian-asylum-protection-tarzana" element={<IranianAsylumTarzana language={language} />} />
+              <Route path="/blog/affidavit-bona-fide-marriage-hawthorne" element={<AffidavitBonaFideMarriageHawthorne language={language} />} />
+              <Route path="/blog/selective-service-naturalization-paramount" element={<SelectiveServiceNaturalizationParamount language={language} />} />
+              <Route path="/blog/eb2-schedule-a-healthcare-workers-torrance" element={<EB2ScheduleAHealthcareTorrance language={language} />} />
+              <Route path="/blog/i485-adjustment-interview-alhambra" element={<I485InterviewAlhambra language={language} />} />
+              <Route path="/blog/travel-while-i130-pending-compton" element={<TravelWhileI130PendingCompton language={language} />} />
+              <Route path="/blog/document-apostille-legalization-montclair" element={<DocumentApostilleMontclair language={language} />} />
+              <Route path="/blog/tunisian-community-immigration-glendale" element={<TunisianCommunityGlendale language={language} />} />
+              <Route path="/blog/iraqi-widows-immigration-san-bernardino" element={<IraqiWidowsImmigrationSanBernardino language={language} />} />
 
-                        {/* New posts - January 24, 2026 */}
-                        <Route path="/blog/parent-petition-i130-palm-springs" element={<ParentPetitionPalmSprings language={language} />} />
-                        <Route path="/blog/f4-sibling-immigration-inland-empire" element={<F4SiblingImmigrationInlandEmpire language={language} />} />
-                        <Route path="/blog/k1-processing-timeline-redondo-beach" element={<K1ProcessingTimelineRedondoBeach language={language} />} />
-                        <Route path="/blog/marriage-green-card-after-divorce-brea" element={<MarriageGreenCardAfterDivorceBrea language={language} />} />
-                        <Route path="/blog/christian-persecution-asylum-glendale" element={<ChristianPersecutionAsylumGlendale language={language} />} />
-                        <Route path="/blog/asylum-evidence-documentation-long-beach" element={<AsylumEvidenceDocumentationLongBeach language={language} />} />
-                        <Route path="/blog/dual-citizenship-arab-nationals-irvine" element={<DualCitizenshipArabNationalsIrvine language={language} />} />
-                        <Route path="/blog/n400-denial-appeal-pasadena" element={<N400DenialAppealPasadena language={language} />} />
-                        <Route path="/blog/stem-opt-extension-san-diego" element={<STEMOPTExtensionSanDiego language={language} />} />
-                        <Route path="/blog/h1b-denial-options-los-angeles" element={<H1BDenialOptionsLosAngeles language={language} />} />
-                        <Route path="/blog/green-card-abandonment-prevention-torrance" element={<GreenCardAbandonmentPreventionTorrance language={language} />} />
-                        <Route path="/blog/emergency-travel-parole-laguna-beach" element={<EmergencyTravelParoleLagunaBeach language={language} />} />
-                        <Route path="/blog/arabic-document-legalization-garden-grove" element={<ArabicDocumentLegalizationGardenGrove language={language} />} />
-                        <Route path="/blog/moroccan-community-resources-long-beach" element={<MoroccanCommunityResourcesLongBeach language={language} />} />
+              {/* New posts - January 24, 2026 */}
+              <Route path="/blog/parent-petition-i130-palm-springs" element={<ParentPetitionPalmSprings language={language} />} />
+              <Route path="/blog/f4-sibling-immigration-inland-empire" element={<F4SiblingImmigrationInlandEmpire language={language} />} />
+              <Route path="/blog/k1-processing-timeline-redondo-beach" element={<K1ProcessingTimelineRedondoBeach language={language} />} />
+              <Route path="/blog/marriage-green-card-after-divorce-brea" element={<MarriageGreenCardAfterDivorceBrea language={language} />} />
+              <Route path="/blog/christian-persecution-asylum-glendale" element={<ChristianPersecutionAsylumGlendale language={language} />} />
+              <Route path="/blog/asylum-evidence-documentation-long-beach" element={<AsylumEvidenceDocumentationLongBeach language={language} />} />
+              <Route path="/blog/dual-citizenship-arab-nationals-irvine" element={<DualCitizenshipArabNationalsIrvine language={language} />} />
+              <Route path="/blog/n400-denial-appeal-pasadena" element={<N400DenialAppealPasadena language={language} />} />
+              <Route path="/blog/stem-opt-extension-san-diego" element={<STEMOPTExtensionSanDiego language={language} />} />
+              <Route path="/blog/h1b-denial-options-los-angeles" element={<H1BDenialOptionsLosAngeles language={language} />} />
+              <Route path="/blog/green-card-abandonment-prevention-torrance" element={<GreenCardAbandonmentPreventionTorrance language={language} />} />
+              <Route path="/blog/emergency-travel-parole-laguna-beach" element={<EmergencyTravelParoleLagunaBeach language={language} />} />
+              <Route path="/blog/arabic-document-legalization-garden-grove" element={<ArabicDocumentLegalizationGardenGrove language={language} />} />
+              <Route path="/blog/moroccan-community-resources-long-beach" element={<MoroccanCommunityResourcesLongBeach language={language} />} />
 
-                        {/* New posts - January 26, 2026 */}
-                        <Route path="/blog/advance-parole-combo-card-cerritos" element={<AdvanceParoleComboCardCerritos language={language} />} />
-                        <Route path="/blog/h1b-change-employer-seal-beach" element={<H1BChangeEmployerSealBeach language={language} />} />
-                        <Route path="/blog/i130-same-sex-marriage-west-hollywood" element={<I130SameSexMarriageWestHollywood language={language} />} />
-                        <Route path="/blog/i485-employment-authorization-la-verne" element={<I485EmploymentAuthorizationLaVerne language={language} />} />
-                        <Route path="/blog/i864-poverty-guidelines-2026-diamond-bar" element={<I864PovertyGuidelines2026DiamondBar language={language} />} />
-                        <Route path="/blog/iraqi-activist-asylum-lemon-grove" element={<IraqiActivistAsylumLemonGrove language={language} />} />
-                        <Route path="/blog/k1-abu-dhabi-embassy-interview-rancho-santa-fe" element={<K1AbuDhabiEmbassyInterview language={language} />} />
-                        <Route path="/blog/n600-citizenship-certificate-monrovia" element={<N600CitizenshipCertificateMonrovia language={language} />} />
-                        <Route path="/blog/algerian-community-resources-orange-county" element={<AlgerianCommunityResourcesOrangeCounty language={language} />} />
-                        <Route path="/blog/kurdish-refugee-support-el-cajon" element={<KurdishRefugeeSupportElCajon language={language} />} />
-                        <Route path="/blog/i485-denial-appeal-ontario" element={<I485DenialAppealOntario language={language} />} />
-                        <Route path="/blog/libyan-asylum-cases-glendale" element={<LibyanAsylumCasesGlendale language={language} />} />
-                        <Route path="/blog/berber-amazigh-community-los-angeles" element={<BerberAmazighCommunityLosAngeles language={language} />} />
-                      </Routes>
-                    </main>
+              {/* New posts - January 26, 2026 */}
+              <Route path="/blog/advance-parole-combo-card-cerritos" element={<AdvanceParoleComboCardCerritos language={language} />} />
+              <Route path="/blog/h1b-change-employer-seal-beach" element={<H1BChangeEmployerSealBeach language={language} />} />
+              <Route path="/blog/i130-same-sex-marriage-west-hollywood" element={<I130SameSexMarriageWestHollywood language={language} />} />
+              <Route path="/blog/i485-employment-authorization-la-verne" element={<I485EmploymentAuthorizationLaVerne language={language} />} />
+              <Route path="/blog/i864-poverty-guidelines-2026-diamond-bar" element={<I864PovertyGuidelines2026DiamondBar language={language} />} />
+              <Route path="/blog/iraqi-activist-asylum-lemon-grove" element={<IraqiActivistAsylumLemonGrove language={language} />} />
+              <Route path="/blog/k1-abu-dhabi-embassy-interview-rancho-santa-fe" element={<K1AbuDhabiEmbassyInterview language={language} />} />
+              <Route path="/blog/n600-citizenship-certificate-monrovia" element={<N600CitizenshipCertificateMonrovia language={language} />} />
+              <Route path="/blog/algerian-community-resources-orange-county" element={<AlgerianCommunityResourcesOrangeCounty language={language} />} />
+              <Route path="/blog/kurdish-refugee-support-el-cajon" element={<KurdishRefugeeSupportElCajon language={language} />} />
+              <Route path="/blog/i485-denial-appeal-ontario" element={<I485DenialAppealOntario language={language} />} />
+              <Route path="/blog/libyan-asylum-cases-glendale" element={<LibyanAsylumCasesGlendale language={language} />} />
+              <Route path="/blog/berber-amazigh-community-los-angeles" element={<BerberAmazighCommunityLosAngeles language={language} />} />
 
-                    <Footer language={language} content={content} />
-                    <SupportBubble language={language} content={content} />
-                    <ExitIntentModal language={language} content={content} />
-                  </div>
-              </HelmetProvider>
-              </BrowserRouter>
-              );
+              {/* New posts - January 27, 2026 */}
+              <Route path="/blog/f2b-sibling-petition-san-bernardino" element={<F2BSiblingPetitionSanBernardino language={language} />} />
+              <Route path="/blog/asylum-c08-ead-hemet" element={<AsylumC08EADHemet language={language} />} />
+              <Route path="/blog/stepparent-adoption-immigration-lake-forest" element={<StepparentAdoptionImmigrationLakeForest language={language} />} />
+              <Route path="/blog/egyptian-coptic-asylum-el-monte" element={<EgyptianCopticAsylumElMonte language={language} />} />
+              <Route path="/blog/n400-continuous-residence-fontana" element={<N400ContinuousResidenceFontana language={language} />} />
+              <Route path="/blog/i130-married-child-claremont" element={<I130MarriedChildClaremont language={language} />} />
+              <Route path="/blog/eb2-perm-process-costa-mesa" element={<EB2PERMProcessCostaMesa language={language} />} />
+              <Route path="/blog/green-card-registry-compton" element={<GreenCardRegistryCompton language={language} />} />
+              <Route path="/blog/refugee-health-screening-santee" element={<RefugeeHealthScreeningSantee language={language} />} />
+              <Route path="/blog/palestinian-tps-anaheim" element={<PalestinianTPSAnaheim language={language} />} />
+              <Route path="/blog/h1b-cap-registration-san-dimas" element={<H1BCapRegistrationSanDimas language={language} />} />
+              <Route path="/blog/u-visa-certification-lakewood" element={<UVisaCertificationLakewood language={language} />} />
+              <Route path="/blog/iraqi-siv-follow-to-join-riverside" element={<IraqiSIVFollowToJoinRiverside language={language} />} />
+
+              {/* New posts - January 25, 2026 */}
+              <Route path="/blog/f2b-unmarried-adult-children-petition-temecula" element={<F2BUnmarriedAdultChildrenPetitionTemecula language={language} />} />
+              <Route path="/blog/k1-affidavit-of-support-pomona" element={<K1AffidavitOfSupportPomona language={language} />} />
+              <Route path="/blog/asylum-ead-renewal-victorville" element={<AsylumEadRenewalVictorville language={language} />} />
+              <Route path="/blog/credible-fear-interview-escondido" element={<CredibleFearInterviewEscondido language={language} />} />
+              <Route path="/blog/citizenship-test-study-materials-buena-park" element={<CitizenshipTestStudyMaterialsBuenaPark language={language} />} />
+              <Route path="/blog/h1b-premium-processing-huntington-beach" element={<H1BPremiumProcessingHuntingtonBeach language={language} />} />
+              <Route path="/blog/cap-exempt-h1b-fullerton" element={<CapExemptH1BFullerton language={language} />} />
+              <Route path="/blog/i90-green-card-renewal-oceanside" element={<I90GreenCardRenewalOceanside language={language} />} />
+              <Route path="/blog/reentry-permit-extended-travel-vista" element={<ReentryPermitExtendedTravelVista language={language} />} />
+              <Route path="/blog/syrian-document-authentication-carlsbad" element={<SyrianDocumentAuthenticationCarlsbad language={language} />} />
+              <Route path="/blog/jordanian-community-resources-san-marcos" element={<JordanianCommunityResourcesSanMarcos language={language} />} />
+              <Route path="/blog/lebanese-community-support-downey" element={<LebaneseCommunityResourcesDowney language={language} />} />
+            </Routes>
+          </main>
+
+          <Footer language={language} content={content} />
+          <PhoneWidget language={language} />
+          <SupportBubble language={language} content={content} />
+          <ExitIntentModal language={language} content={content} />
+        </div>
+      </HelmetProvider>
+    </BrowserRouter>
+  );
 };
 
-              export default App;
+export default App;
