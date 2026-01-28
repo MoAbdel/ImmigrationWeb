@@ -3,6 +3,50 @@
 
 export const blogPosts = [
   {
+    id: 1170,
+    slug: "tps-temporary-protected-status-colton",
+    title: { en: "TPS Temporary Protected Status in Colton: Guide for Arab Immigrants", ar: "TPS الوضع المحمي المؤقت في كولتون: دليل للمهاجرين العرب" },
+    excerpt: { en: "Complete TPS guide for Colton residents. Syria, Yemen, Sudan, Somalia TPS eligibility, work permits, travel rules for Arab community.", ar: "دليل TPS كامل لسكان كولتون. أهلية سوريا، اليمن، السودان، الصومال، تصاريح العمل، قواعد السفر للمجتمع العربي." },
+    date: "January 28, 2026",
+    readTime: "18",
+    category: "status",
+    location: "Colton",
+    image: "/images/blog/status.jpg"
+  },
+  {
+    id: 1170,
+    slug: "birth-certificate-apostille-indio",
+    title: { en: "Birth Certificate Apostille Services in Indio: Arab Immigration Document Help", ar: "خدمات أبوستيل شهادة الميلاد في إنديو: مساعدة وثائق الهجرة العربية" },
+    excerpt: { en: "Complete guide to birth certificate apostille and authentication in Indio. Hague Convention countries, California Secretary of State process, Arabic translation services for Coachella Valley.", ar: "دليل شامل لأبوستيل وتوثيق شهادة الميلاد في إنديو. دول اتفاقية لاهاي، عملية وزير خارجية كاليفورنيا، خدمات الترجمة العربية لوادي كوتشيلا." },
+    date: "January 28, 2026",
+    readTime: "14",
+    category: "documents",
+    location: "Indio",
+    image: "/images/blog/documents.jpg"
+  },
+  {
+    id: 1182,
+    slug: "stem-opt-extension-santa-ana",
+    title: { en: "STEM OPT Extension in Santa Ana: 24-Month Work Authorization for Arab Graduates", ar: "تمديد STEM OPT في سانتا آنا: تصريح عمل لمدة 24 شهراً للخريجين العرب" },
+    excerpt: { en: "STEM OPT Extension guide for international students in Santa Ana. E-Verify requirements, Form I-983, filing deadlines, and H-1B transition planning.", ar: "دليل تمديد STEM OPT للطلاب الدوليين في سانتا آنا. متطلبات E-Verify، نموذج I-983، مواعيد التقديم، والتخطيط للانتقال إلى H-1B." },
+    date: "January 28, 2026",
+    readTime: "14",
+    category: "work",
+    location: "Santa Ana",
+    image: "/images/blog/work.jpg"
+  },
+  {
+    id: 1169,
+    slug: "n336-naturalization-appeal-lakewood",
+    title: { en: "N-336 Naturalization Appeal in Lakewood: Overturning Citizenship Denials for Arabs", ar: "استئناف التجنس N-336 في ليكوود: إلغاء رفض الجنسية للعرب" },
+    excerpt: { en: "Comprehensive N-336 appeal guide for Lakewood residents. Challenge citizenship denials with 30-day deadline, required evidence, and hearing process for Arab families.", ar: "دليل شامل لاستئناف N-336 لسكان ليكوود. طعن في رفض الجنسية مع موعد نهائي 30 يوماً والأدلة المطلوبة وعملية الجلسة للعائلات العربية." },
+    date: "January 28, 2026",
+    readTime: "16",
+    category: "citizenship",
+    location: "Lakewood",
+    image: "/images/blog/citizenship.jpg"
+  },
+  {
     id: 1168,
     slug: "iraqi-siv-follow-to-join-riverside",
     title: { en: "Iraqi SIV Follow-to-Join Benefits in Riverside: Family Reunification for Interpreters", ar: "مزايا الانضمام اللاحق لـ SIV العراقي في ريفرسايد: لم شمل عائلات المترجمين" },

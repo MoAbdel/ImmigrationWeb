@@ -321,6 +321,10 @@ import H1BCapRegistrationSanDimas from './pages/blog/posts/H1BCapRegistrationSan
 import UVisaCertificationLakewood from './pages/blog/posts/UVisaCertificationLakewood';
 import IraqiSIVFollowToJoinRiverside from './pages/blog/posts/IraqiSIVFollowToJoinRiverside';
 
+// New posts - January 28, 2026
+import N336NaturalizationAppealLakewood from './pages/blog/posts/N336NaturalizationAppealLakewood';
+import TPSStatusColton from './pages/blog/posts/TPSStatusColton';
+
 // New posts - January 25, 2026
 import F2BUnmarriedAdultChildrenPetitionTemecula from './pages/blog/posts/F2BUnmarriedAdultChildrenPetitionTemecula';
 import K1AffidavitOfSupportPomona from './pages/blog/posts/K1AffidavitOfSupportPomona';
@@ -1030,6 +1034,10 @@ const App = () => {
               <Route path="/blog/h1b-cap-registration-san-dimas" element={<H1BCapRegistrationSanDimas language={language} />} />
               <Route path="/blog/u-visa-certification-lakewood" element={<UVisaCertificationLakewood language={language} />} />
               <Route path="/blog/iraqi-siv-follow-to-join-riverside" element={<IraqiSIVFollowToJoinRiverside language={language} />} />
+
+              {/* New posts - January 28, 2026 */}
+              <Route path="/blog/n336-naturalization-appeal-lakewood" element={<N336NaturalizationAppealLakewood language={language} />} />
+              <Route path="/blog/tps-temporary-protected-status-colton" element={<TPSStatusColton language={language} />} />
 
               {/* New posts - January 25, 2026 */}
               <Route path="/blog/f2b-unmarried-adult-children-petition-temecula" element={<F2BUnmarriedAdultChildrenPetitionTemecula language={language} />} />
