@@ -31,8 +31,6 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
-
-  <!-- Service Landing Pages -->
   <url>
     <loc>https://www.socalimmigrationservices.com/family-immigration/</loc>
     <changefreq>monthly</changefreq>
@@ -58,8 +56,6 @@
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
-
-  <!-- City Landing Pages -->
   <url>
     <loc>https://www.socalimmigrationservices.com/irvine/</loc>
     <changefreq>monthly</changefreq>
@@ -82,6 +78,206 @@
   </url>
 
   <!-- Blog Posts -->
+  <url>
+    <loc>https://www.socalimmigrationservices.com/blog/i-130-family-petition-lake-elsinore/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.socalimmigrationservices.com/blog/arab-mental-health-immigration-fontana/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.socalimmigrationservices.com/blog/power-of-attorney-immigration-bellflower/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.socalimmigrationservices.com/blog/transportation-letter-emergency-travel-upland/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.socalimmigrationservices.com/blog/i-90-green-card-renewal-moreno-valley/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.socalimmigrationservices.com/blog/l1b-specialized-knowledge-visa-newport-beach/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.socalimmigrationservices.com/blog/selective-service-citizenship-westminster/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.socalimmigrationservices.com/blog/i-751-remove-conditions-fullerton/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.socalimmigrationservices.com/blog/yemen-tps-national-city/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.socalimmigrationservices.com/blog/i-485-concurrent-filing-brea/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.socalimmigrationservices.com/blog/tps-temporary-protected-status-colton/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.socalimmigrationservices.com/blog/birth-certificate-apostille-indio/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.socalimmigrationservices.com/blog/stem-opt-extension-santa-ana/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.socalimmigrationservices.com/blog/n336-naturalization-appeal-lakewood/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.socalimmigrationservices.com/blog/iraqi-siv-follow-to-join-riverside/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.socalimmigrationservices.com/blog/u-visa-certification-lakewood/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.socalimmigrationservices.com/blog/h1b-cap-registration-san-dimas/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.socalimmigrationservices.com/blog/palestinian-tps-anaheim/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.socalimmigrationservices.com/blog/refugee-health-screening-santee/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.socalimmigrationservices.com/blog/green-card-registry-compton/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.socalimmigrationservices.com/blog/eb2-perm-process-costa-mesa/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.socalimmigrationservices.com/blog/i130-married-child-claremont/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.socalimmigrationservices.com/blog/n400-continuous-residence-fontana/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.socalimmigrationservices.com/blog/egyptian-coptic-asylum-el-monte/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.socalimmigrationservices.com/blog/stepparent-adoption-immigration-lake-forest/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.socalimmigrationservices.com/blog/asylum-c08-ead-hemet/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.socalimmigrationservices.com/blog/f2b-sibling-petition-san-bernardino/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.socalimmigrationservices.com/blog/advance-parole-combo-card-cerritos/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.socalimmigrationservices.com/blog/i485-employment-authorization-la-verne/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.socalimmigrationservices.com/blog/i130-same-sex-marriage-west-hollywood/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.socalimmigrationservices.com/blog/h1b-change-employer-seal-beach/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.socalimmigrationservices.com/blog/n600-citizenship-certificate-monrovia/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.socalimmigrationservices.com/blog/iraqi-activist-asylum-lemon-grove/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.socalimmigrationservices.com/blog/k1-abu-dhabi-embassy-interview/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.socalimmigrationservices.com/blog/i864-poverty-guidelines-2026-diamond-bar/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.socalimmigrationservices.com/blog/algerian-community-resources-orange-county/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.socalimmigrationservices.com/blog/kurdish-refugee-support-el-cajon/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.socalimmigrationservices.com/blog/libyan-asylum-cases-glendale/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.socalimmigrationservices.com/blog/berber-amazigh-community-los-angeles/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.socalimmigrationservices.com/blog/i485-denial-appeal-ontario/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
   <url>
     <loc>https://www.socalimmigrationservices.com/blog/f2b-unmarried-adult-children-petition-temecula/</loc>
     <changefreq>monthly</changefreq>

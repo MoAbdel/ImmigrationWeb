@@ -790,6 +790,47 @@ When `/blog-generator [n] [pillar]` is invoked:
 
    ⛔ **WITHOUT BOTH**: Blog posts will show as blank/white pages!
 
+   ### Sitemap Update Instructions (MANDATORY):
+
+   **After adding any new blog posts, you MUST regenerate the sitemap:**
+
+   Run this Node.js script to regenerate `public/sitemap.xml`:
+   ```bash
+   node -e "
+   const fs = require('fs');
+   const data = require('./src/data/blogPosts.js');
+   const blogPosts = data.blogPosts;
+
+   const staticPages = [
+     { loc: 'https://www.socalimmigrationservices.com/', changefreq: 'weekly', priority: '1.0' },
+     { loc: 'https://www.socalimmigrationservices.com/services/visas-family/', changefreq: 'monthly', priority: '0.9' },
+     { loc: 'https://www.socalimmigrationservices.com/services/status-citizenship/', changefreq: 'monthly', priority: '0.9' },
+     { loc: 'https://www.socalimmigrationservices.com/services/legal-documents/', changefreq: 'monthly', priority: '0.9' },
+     { loc: 'https://www.socalimmigrationservices.com/services/professional-services/', changefreq: 'monthly', priority: '0.9' },
+     { loc: 'https://www.socalimmigrationservices.com/blog/', changefreq: 'weekly', priority: '0.8' },
+     { loc: 'https://www.socalimmigrationservices.com/family-immigration/', changefreq: 'monthly', priority: '0.9' },
+     { loc: 'https://www.socalimmigrationservices.com/asylum-services/', changefreq: 'monthly', priority: '0.9' },
+     { loc: 'https://www.socalimmigrationservices.com/citizenship-naturalization/', changefreq: 'monthly', priority: '0.9' },
+     { loc: 'https://www.socalimmigrationservices.com/daca-services/', changefreq: 'monthly', priority: '0.9' },
+     { loc: 'https://www.socalimmigrationservices.com/green-card-services/', changefreq: 'monthly', priority: '0.9' },
+     { loc: 'https://www.socalimmigrationservices.com/irvine/', changefreq: 'monthly', priority: '0.8' },
+     { loc: 'https://www.socalimmigrationservices.com/anaheim/', changefreq: 'monthly', priority: '0.8' },
+     { loc: 'https://www.socalimmigrationservices.com/los-angeles/', changefreq: 'monthly', priority: '0.8' },
+     { loc: 'https://www.socalimmigrationservices.com/santa-ana/', changefreq: 'monthly', priority: '0.8' },
+   ];
+
+   let xml = '<?xml version=\"1.0\" encoding=\"UTF-8\"?>\\n<urlset xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\\n  <!-- Main Pages -->\\n';
+   staticPages.forEach(p => xml += '  <url>\\n    <loc>'+p.loc+'</loc>\\n    <changefreq>'+p.changefreq+'</changefreq>\\n    <priority>'+p.priority+'</priority>\\n  </url>\\n');
+   xml += '\\n  <!-- Blog Posts -->\\n';
+   blogPosts.forEach(p => xml += '  <url>\\n    <loc>https://www.socalimmigrationservices.com/blog/'+p.slug+'/</loc>\\n    <changefreq>monthly</changefreq>\\n    <priority>0.7</priority>\\n  </url>\\n');
+   xml += '</urlset>\\n';
+   fs.writeFileSync('public/sitemap.xml', xml);
+   console.log('Sitemap regenerated with '+(staticPages.length+blogPosts.length)+' URLs ('+blogPosts.length+' blog posts)');
+   "
+   ```
+
+   ⛔ **WITHOUT SITEMAP UPDATE**: New blog posts will NOT be indexed by search engines!
+
 5. **Verify Uniqueness**
    - Check all titles are unique
    - Check all slugs are unique
@@ -3433,6 +3474,39 @@ curl -X POST "https://ssl.bing.com/webmaster/api.svc/json/SubmitUrl?apikey=${BIN
 
 ### Workflow Steps (Execute IMMEDIATELY after generating posts)
 
+#### Step 0: Regenerate Sitemap (CRITICAL - DO NOT SKIP)
+```bash
+node -e "
+const fs = require('fs');
+const data = require('./src/data/blogPosts.js');
+const blogPosts = data.blogPosts;
+const staticPages = [
+  { loc: 'https://www.socalimmigrationservices.com/', changefreq: 'weekly', priority: '1.0' },
+  { loc: 'https://www.socalimmigrationservices.com/services/visas-family/', changefreq: 'monthly', priority: '0.9' },
+  { loc: 'https://www.socalimmigrationservices.com/services/status-citizenship/', changefreq: 'monthly', priority: '0.9' },
+  { loc: 'https://www.socalimmigrationservices.com/services/legal-documents/', changefreq: 'monthly', priority: '0.9' },
+  { loc: 'https://www.socalimmigrationservices.com/services/professional-services/', changefreq: 'monthly', priority: '0.9' },
+  { loc: 'https://www.socalimmigrationservices.com/blog/', changefreq: 'weekly', priority: '0.8' },
+  { loc: 'https://www.socalimmigrationservices.com/family-immigration/', changefreq: 'monthly', priority: '0.9' },
+  { loc: 'https://www.socalimmigrationservices.com/asylum-services/', changefreq: 'monthly', priority: '0.9' },
+  { loc: 'https://www.socalimmigrationservices.com/citizenship-naturalization/', changefreq: 'monthly', priority: '0.9' },
+  { loc: 'https://www.socalimmigrationservices.com/daca-services/', changefreq: 'monthly', priority: '0.9' },
+  { loc: 'https://www.socalimmigrationservices.com/green-card-services/', changefreq: 'monthly', priority: '0.9' },
+  { loc: 'https://www.socalimmigrationservices.com/irvine/', changefreq: 'monthly', priority: '0.8' },
+  { loc: 'https://www.socalimmigrationservices.com/anaheim/', changefreq: 'monthly', priority: '0.8' },
+  { loc: 'https://www.socalimmigrationservices.com/los-angeles/', changefreq: 'monthly', priority: '0.8' },
+  { loc: 'https://www.socalimmigrationservices.com/santa-ana/', changefreq: 'monthly', priority: '0.8' },
+];
+let xml = '<?xml version=\"1.0\" encoding=\"UTF-8\"?>\\n<urlset xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\\n  <!-- Main Pages -->\\n';
+staticPages.forEach(p => xml += '  <url>\\n    <loc>'+p.loc+'</loc>\\n    <changefreq>'+p.changefreq+'</changefreq>\\n    <priority>'+p.priority+'</priority>\\n  </url>\\n');
+xml += '\\n  <!-- Blog Posts -->\\n';
+blogPosts.forEach(p => xml += '  <url>\\n    <loc>https://www.socalimmigrationservices.com/blog/'+p.slug+'/</loc>\\n    <changefreq>monthly</changefreq>\\n    <priority>0.7</priority>\\n  </url>\\n');
+xml += '</urlset>\\n';
+fs.writeFileSync('public/sitemap.xml', xml);
+console.log('Sitemap: '+(staticPages.length+blogPosts.length)+' URLs');
+"
+```
+
 #### Step 1: Stage All New/Modified Blog Files
 ```bash
 git add src/pages/blog/posts/
@@ -3488,6 +3562,8 @@ Co-Authored-By: Claude Opus 4.5 <noreply@anthropic.com>
 - Commit was made but not pushed
 - User has to ask "why isn't this committed?"
 - Any blog post files are left in uncommitted state
+- Sitemap was NOT regenerated with new blog posts
+- New blog posts are missing from sitemap.xml
 
 ### ✅ SUCCESS CONDITIONS - THE SKILL IS COMPLETE WHEN:
 - All new blog post .jsx files are committed
