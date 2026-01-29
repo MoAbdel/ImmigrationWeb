@@ -3,6 +3,116 @@
 
 export const blogPosts = [
   {
+    id: 1193,
+    slug: "i-130-family-petition-lake-elsinore",
+    title: { en: "I-130 Family Petition Guide for Lake Elsinore Residents", ar: "دليل عريضة العائلة I-130 لسكان ليك إلسينور" },
+    excerpt: { en: "File I-130 family petitions in Lake Elsinore. U.S. citizens and green card holders can sponsor spouses, children, parents, and siblings for immigration.", ar: "قدم عرائض العائلة I-130 في ليك إلسينور. يمكن للمواطنين وحاملي البطاقات الخضراء كفالة الأزواج والأطفال والآباء." },
+    date: "January 29, 2026",
+    readTime: "16",
+    category: "family",
+    location: "Lake Elsinore",
+    image: "/images/blog/family.jpg"
+  },
+  {
+    id: 1192,
+    slug: "arab-mental-health-immigration-fontana",
+    title: { en: "Mental Health Support for Arab Immigrants in Fontana", ar: "دعم الصحة النفسية للمهاجرين العرب في فونتانا" },
+    excerpt: { en: "Find culturally sensitive mental health support for Arab immigrants in Fontana. Arabic-speaking therapists help with immigration stress and asylum trauma.", ar: "اعثر على دعم صحة نفسية حساس ثقافياً للمهاجرين العرب في فونتانا. معالجون ناطقون بالعربية يساعدون في ضغوط الهجرة." },
+    date: "January 29, 2026",
+    readTime: "15",
+    category: "community",
+    location: "Fontana",
+    image: "/images/blog/community.jpg"
+  },
+  {
+    id: 1191,
+    slug: "power-of-attorney-immigration-bellflower",
+    title: { en: "Power of Attorney for Immigration Cases in Bellflower", ar: "التوكيل الرسمي لقضايا الهجرة في بيلفلاور" },
+    excerpt: { en: "Immigration power of attorney and Form G-28 guide for Bellflower families. Authorize representatives to handle USCIS cases and access records.", ar: "دليل التوكيل الرسمي للهجرة ونموذج G-28 لعائلات بيلفلاور. صرح للممثلين بمعالجة قضايا USCIS والوصول للسجلات." },
+    date: "January 29, 2026",
+    readTime: "14",
+    category: "documents",
+    location: "Bellflower",
+    image: "/images/blog/documents.jpg"
+  },
+  {
+    id: 1190,
+    slug: "transportation-letter-emergency-travel-upland",
+    title: { en: "Transportation Letter for Emergency Travel in Upland", ar: "خطاب النقل للسفر الطارئ في أبلاند" },
+    excerpt: { en: "Emergency travel document guide for Upland immigrants. Get transportation letters for urgent travel when green card or passport is unavailable.", ar: "دليل وثائق السفر الطارئ لمهاجري أبلاند. احصل على خطابات النقل للسفر العاجل عندما لا تتوفر البطاقة الخضراء أو جواز السفر." },
+    date: "January 29, 2026",
+    readTime: "14",
+    category: "travel",
+    location: "Upland",
+    image: "/images/blog/travel.jpg"
+  },
+  {
+    id: 1189,
+    slug: "i-90-green-card-renewal-moreno-valley",
+    title: { en: "I-90 Green Card Renewal in Moreno Valley: Replace Expired or Lost Cards", ar: "تجديد البطاقة الخضراء I-90 في مورينو فالي: استبدال البطاقات المنتهية أو المفقودة" },
+    excerpt: { en: "Renew your green card in Moreno Valley with Form I-90. Replace expired, damaged, or lost permanent resident cards. Complete guide for Arab community.", ar: "جدد بطاقتك الخضراء في مورينو فالي باستخدام النموذج I-90. استبدل بطاقات المقيم الدائم المنتهية أو التالفة أو المفقودة." },
+    date: "January 29, 2026",
+    readTime: "15",
+    category: "status",
+    location: "Moreno Valley",
+    image: "/images/blog/status.jpg"
+  },
+  {
+    id: 1188,
+    slug: "l1b-specialized-knowledge-visa-newport-beach",
+    title: { en: "L-1B Specialized Knowledge Visa in Newport Beach: Intracompany Transfer Guide", ar: "تأشيرة المعرفة المتخصصة L-1B في نيوبورت بيتش: دليل النقل داخل الشركة" },
+    excerpt: { en: "L-1B specialized knowledge visa guide for Newport Beach professionals. Transfer within multinational companies to U.S. positions with expert knowledge.", ar: "دليل تأشيرة المعرفة المتخصصة L-1B لمهنيي نيوبورت بيتش. الانتقال داخل الشركات متعددة الجنسيات إلى مناصب أمريكية." },
+    date: "January 29, 2026",
+    readTime: "16",
+    category: "work",
+    location: "Newport Beach",
+    image: "/images/blog/work.jpg"
+  },
+  {
+    id: 1187,
+    slug: "selective-service-citizenship-westminster",
+    title: { en: "Selective Service Registration and Citizenship in Westminster", ar: "التسجيل في الخدمة الانتقائية والجنسية في وستمنستر" },
+    excerpt: { en: "Selective Service requirements for male immigrants seeking citizenship in Westminster. Registration rules, exemptions, and naturalization impact guide.", ar: "متطلبات الخدمة الانتقائية للمهاجرين الذكور الساعين للجنسية في وستمنستر. قواعد التسجيل والإعفاءات وتأثير التجنس." },
+    date: "January 29, 2026",
+    readTime: "14",
+    category: "citizenship",
+    location: "Westminster",
+    image: "/images/blog/citizenship.jpg"
+  },
+  {
+    id: 1186,
+    slug: "i-751-remove-conditions-fullerton",
+    title: { en: "I-751 Remove Conditions on Green Card in Fullerton: Marriage-Based Immigration Guide", ar: "I-751 إزالة الشروط من البطاقة الخضراء في فوليرتون: دليل الهجرة القائمة على الزواج" },
+    excerpt: { en: "File I-751 to remove conditions on your marriage-based green card in Fullerton. Joint filing, waiver options, and required evidence guide for Arab families.", ar: "قدم I-751 لإزالة الشروط من بطاقتك الخضراء القائمة على الزواج في فوليرتون. التقديم المشترك وخيارات الإعفاء والأدلة المطلوبة." },
+    date: "January 29, 2026",
+    readTime: "15",
+    category: "marriage",
+    location: "Fullerton",
+    image: "/images/blog/marriage.jpg"
+  },
+  {
+    id: 1185,
+    slug: "yemen-tps-national-city",
+    title: { en: "Yemen TPS Application and Renewal in National City", ar: "طلب وتجديد TPS اليمن في ناشيونال سيتي" },
+    excerpt: { en: "Yemen TPS guide for National City residents. Application requirements, renewal deadlines, work permits, and travel authorization for Yemeni nationals.", ar: "دليل TPS اليمن لسكان ناشيونال سيتي. متطلبات التقديم ومواعيد التجديد وتصاريح العمل وتصريح السفر للمواطنين اليمنيين." },
+    date: "January 29, 2026",
+    readTime: "16",
+    category: "asylum",
+    location: "National City",
+    image: "/images/blog/asylum.jpg"
+  },
+  {
+    id: 1184,
+    slug: "i-485-concurrent-filing-brea",
+    title: { en: "I-485 Concurrent Filing in Brea: Green Card Application with I-130 Guide", ar: "التقديم المتزامن I-485 في بريا: دليل طلب البطاقة الخضراء مع I-130" },
+    excerpt: { en: "File I-485 concurrently with I-130 in Brea. Immediate relatives can apply for green card adjustment of status simultaneously with family petition.", ar: "قدم I-485 بالتزامن مع I-130 في بريا. يمكن للأقارب المباشرين التقدم لتعديل الوضع للبطاقة الخضراء بالتزامن مع عريضة العائلة." },
+    date: "January 29, 2026",
+    readTime: "15",
+    category: "family",
+    location: "Brea",
+    image: "/images/blog/family.jpg"
+  },
+  {
     id: 1170,
     slug: "tps-temporary-protected-status-colton",
     title: { en: "TPS Temporary Protected Status in Colton: Guide for Arab Immigrants", ar: "TPS الوضع المحمي المؤقت في كولتون: دليل للمهاجرين العرب" },
