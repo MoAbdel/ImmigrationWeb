@@ -205,6 +205,9 @@ const BlogPostTemplate = ({ content, language }) => {
     experience: language === 'en' ? '15+ years experience' : 'أكثر من 15 عاماً من الخبرة'
   };
 
+  const authorName = typeof t.author === 'string' ? t.author : t.author?.name;
+  const authorDisplay = authorName || 'SoCal Immigration Services';
+
   return (
     <>
       <Helmet>
@@ -284,7 +287,7 @@ const BlogPostTemplate = ({ content, language }) => {
             <div className="flex flex-wrap items-center gap-6 mt-6 pt-6 border-t border-gray-700">
               <div className="flex items-center gap-2 text-gray-300">
                 <User size={16} />
-                <span>{t.author}</span>
+                <span>{authorDisplay}</span>
               </div>
               <div className="flex items-center gap-2 text-gray-300">
                 <CheckCircle size={16} className="text-green-400" />
