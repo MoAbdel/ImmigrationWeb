@@ -60,24 +60,24 @@ const SelectiveServiceCitizenshipWestminster = ({ language }) => {
           content: "Registration is simple and free for Westminster residents:",
           steps: [
             {
-              title: "Online Registration",
-              description: "Visit sss.gov and complete online registration. Takes about 2 minutes. Receive confirmation immediately."
+              heading: "Online Registration",
+              text: "Visit sss.gov and complete online registration. Takes about 2 minutes. Receive confirmation immediately."
             },
             {
-              title: "Paper Registration (Form)",
-              description: "Get SSS Form 1 at any post office. Fill out and mail. Allow 2-3 weeks for processing."
+              heading: "Paper Registration (Form)",
+              text: "Get SSS Form 1 at any post office. Fill out and mail. Allow 2-3 weeks for processing."
             },
             {
-              title: "FAFSA Automatic Registration",
-              description: "If you complete FAFSA for financial aid and check the registration box, you're automatically registered with Selective Service."
+              heading: "FAFSA Automatic Registration",
+              text: "If you complete FAFSA for financial aid and check the registration box, you're automatically registered with Selective Service."
             },
             {
-              title: "Driver's License Registration",
-              description: "California DMV automatically registers males 18-25 when they get a driver's license (unless you opt out)."
+              heading: "Driver's License Registration",
+              text: "California DMV automatically registers males 18-25 when they get a driver's license (unless you opt out)."
             },
             {
-              title: "Verify Registration",
-              description: "Visit sss.gov/verify to confirm your registration status. Print your registration card."
+              heading: "Verify Registration",
+              text: "Visit sss.gov/verify to confirm your registration status. Print your registration card."
             }
           ]
         },
@@ -246,24 +246,24 @@ const SelectiveServiceCitizenshipWestminster = ({ language }) => {
           content: "التسجيل بسيط ومجاني لسكان ويستمنستر:",
           steps: [
             {
-              title: "التسجيل عبر الإنترنت",
-              description: "قم بزيارة sss.gov وأكمل التسجيل عبر الإنترنت. يستغرق حوالي دقيقتين. تلقي التأكيد فوراً."
+              heading: "التسجيل عبر الإنترنت",
+              text: "قم بزيارة sss.gov وأكمل التسجيل عبر الإنترنت. يستغرق حوالي دقيقتين. تلقي التأكيد فوراً."
             },
             {
-              title: "التسجيل الورقي (النموذج)",
-              description: "احصل على نموذج SSS 1 من أي مكتب بريد. املأه وأرسله بالبريد. اسمح بـ 2-3 أسابيع للمعالجة."
+              heading: "التسجيل الورقي (النموذج)",
+              text: "احصل على نموذج SSS 1 من أي مكتب بريد. املأه وأرسله بالبريد. اسمح بـ 2-3 أسابيع للمعالجة."
             },
             {
-              title: "التسجيل التلقائي عبر FAFSA",
-              description: "إذا أكملت FAFSA للمساعدة المالية وحددت مربع التسجيل، يتم تسجيلك تلقائياً في الخدمة الانتقائية."
+              heading: "التسجيل التلقائي عبر FAFSA",
+              text: "إذا أكملت FAFSA للمساعدة المالية وحددت مربع التسجيل، يتم تسجيلك تلقائياً في الخدمة الانتقائية."
             },
             {
-              title: "التسجيل عبر رخصة القيادة",
-              description: "DMV كاليفورنيا يسجل تلقائياً الذكور 18-25 عند حصولهم على رخصة قيادة (ما لم تختار الخروج)."
+              heading: "التسجيل عبر رخصة القيادة",
+              text: "DMV كاليفورنيا يسجل تلقائياً الذكور 18-25 عند حصولهم على رخصة قيادة (ما لم تختار الخروج)."
             },
             {
-              title: "التحقق من التسجيل",
-              description: "قم بزيارة sss.gov/verify لتأكيد حالة تسجيلك. اطبع بطاقة تسجيلك."
+              heading: "التحقق من التسجيل",
+              text: "قم بزيارة sss.gov/verify لتأكيد حالة تسجيلك. اطبع بطاقة تسجيلك."
             }
           ]
         },

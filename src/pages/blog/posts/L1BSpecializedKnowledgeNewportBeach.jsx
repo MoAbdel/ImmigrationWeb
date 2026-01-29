@@ -80,32 +80,32 @@ const L1BSpecializedKnowledgeNewportBeach = ({ language }) => {
           content: "Follow these steps for L-1B petition from Newport Beach:",
           steps: [
             {
-              title: "Establish Qualifying Relationship",
-              description: "Document the corporate relationship between U.S. and foreign entities. Show ownership, control, and business operations in both countries."
+              heading: "Establish Qualifying Relationship",
+              text: "Document the corporate relationship between U.S. and foreign entities. Show ownership, control, and business operations in both countries."
             },
             {
-              title: "Document Specialized Knowledge",
-              description: "Prepare detailed explanation of employee's specialized knowledge and why it's essential for U.S. operations. This is the most scrutinized element."
+              heading: "Document Specialized Knowledge",
+              text: "Prepare detailed explanation of employee's specialized knowledge and why it's essential for U.S. operations. This is the most scrutinized element."
             },
             {
-              title: "Prepare Complete Petition",
-              description: "File Form I-129 with L supplement, all supporting documents, and required fees. Ensure all evidence directly supports specialized knowledge claim."
+              heading: "Prepare Complete Petition",
+              text: "File Form I-129 with L supplement, all supporting documents, and required fees. Ensure all evidence directly supports specialized knowledge claim."
             },
             {
-              title: "Consider Premium Processing",
-              description: "For $2,805, USCIS processes within 15 business days. Strongly recommended for Newport Beach businesses needing quick transfers."
+              heading: "Consider Premium Processing",
+              text: "For $2,805, USCIS processes within 15 business days. Strongly recommended for Newport Beach businesses needing quick transfers."
             },
             {
-              title: "Respond to RFE (if issued)",
-              description: "L-1B has high RFE rates. Be prepared to provide additional evidence proving specialized knowledge is genuine and necessary."
+              heading: "Respond to RFE (if issued)",
+              text: "L-1B has high RFE rates. Be prepared to provide additional evidence proving specialized knowledge is genuine and necessary."
             },
             {
-              title: "Consular Processing or Status Change",
-              description: "If abroad, employee attends visa interview at U.S. embassy. If in U.S. in valid status, may change status without leaving."
+              heading: "Consular Processing or Status Change",
+              text: "If abroad, employee attends visa interview at U.S. embassy. If in U.S. in valid status, may change status without leaving."
             },
             {
-              title: "Begin U.S. Employment",
-              description: "Once approved, employee can work only for petitioning employer in specialized knowledge capacity."
+              heading: "Begin U.S. Employment",
+              text: "Once approved, employee can work only for petitioning employer in specialized knowledge capacity."
             }
           ]
         },
@@ -288,32 +288,32 @@ const L1BSpecializedKnowledgeNewportBeach = ({ language }) => {
           content: "اتبع هذه الخطوات لطلب L-1B من نيوبورت بيتش:",
           steps: [
             {
-              title: "إنشاء العلاقة المؤهلة",
-              description: "وثق العلاقة المؤسسية بين الكيانات الأمريكية والأجنبية. أظهر الملكية والسيطرة والعمليات التجارية في كلا البلدين."
+              heading: "إنشاء العلاقة المؤهلة",
+              text: "وثق العلاقة المؤسسية بين الكيانات الأمريكية والأجنبية. أظهر الملكية والسيطرة والعمليات التجارية في كلا البلدين."
             },
             {
-              title: "توثيق المعرفة المتخصصة",
-              description: "أعد شرحاً مفصلاً للمعرفة المتخصصة للموظف ولماذا هي ضرورية للعمليات الأمريكية. هذا هو العنصر الأكثر تدقيقاً."
+              heading: "توثيق المعرفة المتخصصة",
+              text: "أعد شرحاً مفصلاً للمعرفة المتخصصة للموظف ولماذا هي ضرورية للعمليات الأمريكية. هذا هو العنصر الأكثر تدقيقاً."
             },
             {
-              title: "إعداد الطلب الكامل",
-              description: "قدم نموذج I-129 مع ملحق L، جميع المستندات الداعمة، والرسوم المطلوبة. تأكد من أن جميع الأدلة تدعم مباشرة ادعاء المعرفة المتخصصة."
+              heading: "إعداد الطلب الكامل",
+              text: "قدم نموذج I-129 مع ملحق L، جميع المستندات الداعمة، والرسوم المطلوبة. تأكد من أن جميع الأدلة تدعم مباشرة ادعاء المعرفة المتخصصة."
             },
             {
-              title: "النظر في المعالجة المميزة",
-              description: "مقابل $2,805، تعالج USCIS خلال 15 يوم عمل. يُنصح بشدة لشركات نيوبورت بيتش التي تحتاج لعمليات نقل سريعة."
+              heading: "النظر في المعالجة المميزة",
+              text: "مقابل $2,805، تعالج USCIS خلال 15 يوم عمل. يُنصح بشدة لشركات نيوبورت بيتش التي تحتاج لعمليات نقل سريعة."
             },
             {
-              title: "الرد على RFE (إذا صدر)",
-              description: "L-1B لديها معدلات RFE عالية. كن مستعداً لتقديم أدلة إضافية تثبت أن المعرفة المتخصصة حقيقية وضرورية."
+              heading: "الرد على RFE (إذا صدر)",
+              text: "L-1B لديها معدلات RFE عالية. كن مستعداً لتقديم أدلة إضافية تثبت أن المعرفة المتخصصة حقيقية وضرورية."
             },
             {
-              title: "المعالجة القنصلية أو تغيير الوضع",
-              description: "إذا كان في الخارج، يحضر الموظف مقابلة التأشيرة في السفارة الأمريكية. إذا كان في الولايات المتحدة بوضع صالح، يمكن تغيير الوضع دون المغادرة."
+              heading: "المعالجة القنصلية أو تغيير الوضع",
+              text: "إذا كان في الخارج، يحضر الموظف مقابلة التأشيرة في السفارة الأمريكية. إذا كان في الولايات المتحدة بوضع صالح، يمكن تغيير الوضع دون المغادرة."
             },
             {
-              title: "بدء العمل في الولايات المتحدة",
-              description: "بمجرد الموافقة، يمكن للموظف العمل فقط لدى صاحب العمل مقدم الطلب بصفة المعرفة المتخصصة."
+              heading: "بدء العمل في الولايات المتحدة",
+              text: "بمجرد الموافقة، يمكن للموظف العمل فقط لدى صاحب العمل مقدم الطلب بصفة المعرفة المتخصصة."
             }
           ]
         },

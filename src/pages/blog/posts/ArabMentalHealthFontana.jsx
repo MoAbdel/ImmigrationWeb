@@ -35,7 +35,7 @@ const ArabMentalHealthFontana = ({ language }) => {
       locationIntro: 'Fontana\'s growing Arab immigrant community faces distinct mental health challenges. The city\'s 215,000+ residents include increasing numbers of Arab families who need mental health support that respects cultural values, religious beliefs, and immigration experiences. Local resources specifically serve this community with Arabic language services and cultural competence.',
       sections: [
         {
-          title: 'Immigration-Related Mental Health Challenges',
+          heading: 'Immigration-Related Mental Health Challenges',
           content: `Arab immigrants in Fontana experience mental health challenges that mainstream services often misunderstand. Immigration stress affects every family member differently, and culturally appropriate support makes recovery possible.
 
 **Common Immigration Mental Health Issues:**
@@ -65,7 +65,7 @@ Research from the American Psychological Association shows:
 Fontana's Arab community deserves mental health support that understands these unique factors.`
         },
         {
-          title: 'Arabic-Speaking Mental Health Providers',
+          heading: 'Arabic-Speaking Mental Health Providers',
           content: `Finding a therapist who speaks Arabic and understands Arab culture transforms the treatment experience. Fontana-area providers offer specialized services for Arab immigrants.
 
 **Local Arabic-Speaking Therapists:**
@@ -103,7 +103,7 @@ Fontana's Arab community deserves mental health support that understands these u
 5. Do you accept Medi-Cal or offer sliding scale fees?`
         },
         {
-          title: 'Community Mental Health Resources',
+          heading: 'Community Mental Health Resources',
           content: `Beyond individual therapy, Fontana's community resources provide crucial mental health support through group settings, peer support, and community connection.
 
 **Fontana Community Support Groups:**
@@ -141,7 +141,7 @@ Fontana's Arab community deserves mental health support that understands these u
 - Muslim Mental Health Hotline: (866) 867-8773`
         },
         {
-          title: 'Mental Health During Immigration Proceedings',
+          heading: 'Mental Health During Immigration Proceedings',
           content: `Immigration cases create intense psychological pressure. Understanding how mental health intersects with immigration law helps families navigate both systems effectively.
 
 **Mental Health Documentation for Immigration:**
@@ -186,7 +186,7 @@ Not all mental health providers understand immigration law. Key qualifications:
 - Expert witnesses for immigration court`
         },
         {
-          title: 'Family Mental Health Support',
+          heading: 'Family Mental Health Support',
           content: `Immigration affects entire families, with each member experiencing unique challenges. Family-focused mental health support addresses these interconnected needs.
 
 **Children and Immigration Stress:**
@@ -232,7 +232,7 @@ Older Arab immigrants face unique challenges:
 - Cultural activity groups`
         },
         {
-          title: 'Insurance and Affordable Mental Health Care',
+          heading: 'Insurance and Affordable Mental Health Care',
           content: `Cost should never prevent Arab immigrants from accessing mental health care. Multiple programs provide free or affordable services in Fontana.
 
 **Medi-Cal Mental Health Coverage:**
@@ -274,7 +274,7 @@ California Medi-Cal covers comprehensive mental health:
 - Crisis lines (always free)`
         },
         {
-          title: 'Overcoming Stigma in Arab Communities',
+          heading: 'Overcoming Stigma in Arab Communities',
           content: `Mental health stigma in Arab communities prevents many from seeking help. Understanding and addressing stigma opens doors to healing.
 
 **Common Stigma Barriers:**
@@ -318,7 +318,7 @@ Licensed therapists maintain strict confidentiality:
 - Culturally sensitive to honor/shame concerns`
         },
         {
-          title: 'How SoCal Immigration Services Helps',
+          heading: 'How SoCal Immigration Services Helps',
           content: `Immigration legal support and mental health services work together for successful outcomes. SoCal Immigration Services integrates both for Fontana families.
 
 **Our Mental Health Support Services:**
@@ -388,8 +388,8 @@ We connect Fontana families with the mental health resources they need while pro
       ],
       cta: {
         title: 'Need Immigration Support with Mental Health Considerations?',
-        description: 'SoCal Immigration Services provides trauma-informed immigration legal services for Fontana families. We connect you with mental health resources while handling your immigration case with cultural sensitivity and expertise.',
-        buttonText: 'Schedule a Consultation',
+        text: 'SoCal Immigration Services provides trauma-informed immigration legal services for Fontana families. We connect you with mental health resources while handling your immigration case with cultural sensitivity and expertise.',
+        button: 'Schedule a Consultation',
         phone: '(714) 909-7308'
       }
     },
@@ -425,7 +425,7 @@ We connect Fontana families with the mental health resources they need while pro
       locationIntro: 'يواجه مجتمع المهاجرين العرب المتنامي في فونتانا تحديات صحة نفسية مميزة. يشمل سكان المدينة البالغ عددهم أكثر من 215,000 أعداداً متزايدة من العائلات العربية التي تحتاج دعم صحة نفسية يحترم القيم الثقافية والمعتقدات الدينية وتجارب الهجرة.',
       sections: [
         {
-          title: 'تحديات الصحة النفسية المتعلقة بالهجرة',
+          heading: 'تحديات الصحة النفسية المتعلقة بالهجرة',
           content: `يواجه المهاجرون العرب في فونتانا تحديات صحة نفسية غالباً ما تسيء الخدمات العامة فهمها. يؤثر ضغط الهجرة على كل فرد من أفراد العائلة بشكل مختلف، والدعم المناسب ثقافياً يجعل التعافي ممكناً.
 
 **مشاكل الصحة النفسية الشائعة للهجرة:**
@@ -439,7 +439,7 @@ We connect Fontana families with the mental health resources they need while pro
 العلاج النفسي يجب أن يراعي الآراء الإسلامية حول الصحة النفسية ومخاوف الشرف والأساليب الجماعية واللغة العربية للتعبير العاطفي.`
         },
         {
-          title: 'مقدمو الصحة النفسية الناطقون بالعربية',
+          heading: 'مقدمو الصحة النفسية الناطقون بالعربية',
           content: `العثور على معالج يتحدث العربية ويفهم الثقافة العربية يحول تجربة العلاج. يقدم مقدمو منطقة فونتانا خدمات متخصصة للمهاجرين العرب.
 
 **المعالجون المحليون الناطقون بالعربية:**
@@ -461,7 +461,7 @@ We connect Fontana families with the mental health resources they need while pro
 - مستشارون مسلمون عبر BetterHelp`
         },
         {
-          title: 'موارد الصحة النفسية المجتمعية',
+          heading: 'موارد الصحة النفسية المجتمعية',
           content: `بالإضافة إلى العلاج الفردي، توفر موارد مجتمع فونتانا دعماً حاسماً للصحة النفسية من خلال الإعدادات الجماعية ودعم الأقران والتواصل المجتمعي.
 
 **مجموعات دعم مجتمع فونتانا:**
@@ -483,7 +483,7 @@ We connect Fontana families with the mental health resources they need while pro
 - خط الصحة النفسية الإسلامي: (866) 867-8773`
         },
         {
-          title: 'الصحة النفسية أثناء إجراءات الهجرة',
+          heading: 'الصحة النفسية أثناء إجراءات الهجرة',
           content: `تخلق قضايا الهجرة ضغطاً نفسياً شديداً. فهم كيف تتقاطع الصحة النفسية مع قانون الهجرة يساعد العائلات على التنقل في كلا النظامين بفعالية.
 
 **توثيق الصحة النفسية للهجرة:**
@@ -505,7 +505,7 @@ We connect Fontana families with the mental health resources they need while pro
 - إظهار الروابط المجتمعية والعائلية`
         },
         {
-          title: 'دعم الصحة النفسية للعائلة',
+          heading: 'دعم الصحة النفسية للعائلة',
           content: `تؤثر الهجرة على العائلات بأكملها، مع كل فرد يواجه تحديات فريدة. دعم الصحة النفسية المركز على العائلة يعالج هذه الاحتياجات المترابطة.
 
 **الأطفال وضغوط الهجرة:**
@@ -531,7 +531,7 @@ We connect Fontana families with the mental health resources they need while pro
 - الحزن على الوطن والروابط المفقودة`
         },
         {
-          title: 'التأمين والرعاية الصحية النفسية الميسورة',
+          heading: 'التأمين والرعاية الصحية النفسية الميسورة',
           content: `لا يجب أن تمنع التكلفة أبداً المهاجرين العرب من الوصول إلى الرعاية الصحية النفسية. توفر برامج متعددة خدمات مجانية أو ميسورة في فونتانا.
 
 **تغطية الصحة النفسية من Medi-Cal:**
@@ -554,7 +554,7 @@ We connect Fontana families with the mental health resources they need while pro
 - مجموعات دعم المجتمع`
         },
         {
-          title: 'التغلب على الوصمة في المجتمعات العربية',
+          heading: 'التغلب على الوصمة في المجتمعات العربية',
           content: `تمنع وصمة الصحة النفسية في المجتمعات العربية كثيرين من طلب المساعدة. فهم الوصمة ومعالجتها يفتح أبواب الشفاء.
 
 **حواجز الوصمة الشائعة:**
@@ -581,7 +581,7 @@ We connect Fontana families with the mental health resources they need while pro
 - اشرح أن المعالج يفهم الثقافة العربية`
         },
         {
-          title: 'كيف تساعد خدمات الهجرة في جنوب كاليفورنيا',
+          heading: 'كيف تساعد خدمات الهجرة في جنوب كاليفورنيا',
           content: `الدعم القانوني للهجرة وخدمات الصحة النفسية يعملان معاً لنتائج ناجحة. تدمج خدمات الهجرة في جنوب كاليفورنيا كليهما لعائلات فونتانا.
 
 **خدمات دعم الصحة النفسية لدينا:**
@@ -628,8 +628,8 @@ We connect Fontana families with the mental health resources they need while pro
       ],
       cta: {
         title: 'هل تحتاج دعم هجرة مع اعتبارات الصحة النفسية؟',
-        description: 'تقدم خدمات الهجرة في جنوب كاليفورنيا خدمات قانونية للهجرة مدركة للصدمات لعائلات فونتانا. نربطك بموارد الصحة النفسية أثناء التعامل مع قضية الهجرة الخاصة بك بحساسية ثقافية وخبرة.',
-        buttonText: 'حدد موعد استشارة',
+        text: 'تقدم خدمات الهجرة في جنوب كاليفورنيا خدمات قانونية للهجرة مدركة للصدمات لعائلات فونتانا. نربطك بموارد الصحة النفسية أثناء التعامل مع قضية الهجرة الخاصة بك بحساسية ثقافية وخبرة.',
+        button: 'حدد موعد استشارة',
         phone: '(714) 909-7308'
       }
     }

@@ -56,24 +56,24 @@ const PowerOfAttorneyImmigrationBellflower = ({ language }) => {
           content: "Follow these steps to properly authorize a representative:",
           steps: [
             {
-              title: "Download Current Form",
-              description: "Get the latest Form G-28 from uscis.gov. Using outdated forms can cause rejection."
+              heading: "Download Current Form",
+              text: "Get the latest Form G-28 from uscis.gov. Using outdated forms can cause rejection."
             },
             {
-              title: "Complete Part 1 (Your Information)",
-              description: "Enter your name, address, date of birth, and A-number (if you have one). Sign where indicated."
+              heading: "Complete Part 1 (Your Information)",
+              text: "Enter your name, address, date of birth, and A-number (if you have one). Sign where indicated."
             },
             {
-              title: "Representative Completes Part 2",
-              description: "Your representative enters their information, bar number or accreditation details, and signs."
+              heading: "Representative Completes Part 2",
+              text: "Your representative enters their information, bar number or accreditation details, and signs."
             },
             {
-              title: "Identify the Case",
-              description: "Specify which application or case the G-28 covers. Can cover multiple applications if listed."
+              heading: "Identify the Case",
+              text: "Specify which application or case the G-28 covers. Can cover multiple applications if listed."
             },
             {
-              title: "Submit with Application",
-              description: "Include G-28 with your USCIS application or submit separately if case is already pending."
+              heading: "Submit with Application",
+              text: "Include G-28 with your USCIS application or submit separately if case is already pending."
             }
           ]
         },
@@ -243,24 +243,24 @@ const PowerOfAttorneyImmigrationBellflower = ({ language }) => {
           content: "اتبع هذه الخطوات لتفويض ممثل بشكل صحيح:",
           steps: [
             {
-              title: "حمّل النموذج الحالي",
-              description: "احصل على أحدث نموذج G-28 من uscis.gov. استخدام نماذج قديمة قد يسبب الرفض."
+              heading: "حمّل النموذج الحالي",
+              text: "احصل على أحدث نموذج G-28 من uscis.gov. استخدام نماذج قديمة قد يسبب الرفض."
             },
             {
-              title: "أكمل الجزء 1 (معلوماتك)",
-              description: "أدخل اسمك وعنوانك وتاريخ ميلادك ورقم A (إن كان لديك). وقّع حيث يُشار."
+              heading: "أكمل الجزء 1 (معلوماتك)",
+              text: "أدخل اسمك وعنوانك وتاريخ ميلادك ورقم A (إن كان لديك). وقّع حيث يُشار."
             },
             {
-              title: "الممثل يكمل الجزء 2",
-              description: "يدخل ممثلك معلوماته ورقم نقابته أو تفاصيل الاعتماد، ويوقع."
+              heading: "الممثل يكمل الجزء 2",
+              text: "يدخل ممثلك معلوماته ورقم نقابته أو تفاصيل الاعتماد، ويوقع."
             },
             {
-              title: "حدد القضية",
-              description: "حدد أي طلب أو قضية يغطيها G-28. يمكن أن يغطي طلبات متعددة إذا تم إدراجها."
+              heading: "حدد القضية",
+              text: "حدد أي طلب أو قضية يغطيها G-28. يمكن أن يغطي طلبات متعددة إذا تم إدراجها."
             },
             {
-              title: "قدم مع الطلب",
-              description: "ضمّن G-28 مع طلب USCIS الخاص بك أو قدمه بشكل منفصل إذا كانت القضية معلقة بالفعل."
+              heading: "قدم مع الطلب",
+              text: "ضمّن G-28 مع طلب USCIS الخاص بك أو قدمه بشكل منفصل إذا كانت القضية معلقة بالفعل."
             }
           ]
         },

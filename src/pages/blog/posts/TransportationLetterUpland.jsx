@@ -42,24 +42,24 @@ const TransportationLetterUpland = ({ language }) => {
           content: "For Upland residents still in the United States, follow these steps:",
           steps: [
             {
-              title: "Schedule InfoPass Appointment",
-              description: "Call USCIS Contact Center at 1-800-375-5283 to schedule an emergency appointment at your nearest field office (San Bernardino serves Upland area)."
+              heading: "Schedule InfoPass Appointment",
+              text: "Call USCIS Contact Center at 1-800-375-5283 to schedule an emergency appointment at your nearest field office (San Bernardino serves Upland area)."
             },
             {
-              title: "Gather Required Documents",
-              description: "Bring passport, proof of permanent resident status (approval notice, previous card, I-94), travel itinerary, and proof of emergency if applicable."
+              heading: "Gather Required Documents",
+              text: "Bring passport, proof of permanent resident status (approval notice, previous card, I-94), travel itinerary, and proof of emergency if applicable."
             },
             {
-              title: "Explain Emergency Need",
-              description: "Be prepared to explain why you need to travel urgently and why your green card is unavailable. USCIS grants these for genuine emergencies."
+              heading: "Explain Emergency Need",
+              text: "Be prepared to explain why you need to travel urgently and why your green card is unavailable. USCIS grants these for genuine emergencies."
             },
             {
-              title: "Receive ADIT Stamp or Letter",
-              description: "If approved, officer stamps your passport with temporary I-551 evidence or provides transportation letter. Valid for re-entry."
+              heading: "Receive ADIT Stamp or Letter",
+              text: "If approved, officer stamps your passport with temporary I-551 evidence or provides transportation letter. Valid for re-entry."
             },
             {
-              title: "Travel with Documentation",
-              description: "Carry stamped passport, any approval notices, and copy of I-90 receipt if applicable when traveling."
+              heading: "Travel with Documentation",
+              text: "Carry stamped passport, any approval notices, and copy of I-90 receipt if applicable when traveling."
             }
           ]
         },
@@ -230,24 +230,24 @@ const TransportationLetterUpland = ({ language }) => {
           content: "لسكان أبلاند الموجودين في الولايات المتحدة، اتبع هذه الخطوات:",
           steps: [
             {
-              title: "حدد موعد InfoPass",
-              description: "اتصل بمركز اتصال USCIS على 1-800-375-5283 لتحديد موعد طارئ في أقرب مكتب ميداني (سان برناردينو يخدم منطقة أبلاند)."
+              heading: "حدد موعد InfoPass",
+              text: "اتصل بمركز اتصال USCIS على 1-800-375-5283 لتحديد موعد طارئ في أقرب مكتب ميداني (سان برناردينو يخدم منطقة أبلاند)."
             },
             {
-              title: "اجمع المستندات المطلوبة",
-              description: "أحضر جواز السفر، إثبات وضع المقيم الدائم (إشعار الموافقة، البطاقة السابقة، I-94)، خط سير السفر، وإثبات الطوارئ إن وُجد."
+              heading: "اجمع المستندات المطلوبة",
+              text: "أحضر جواز السفر، إثبات وضع المقيم الدائم (إشعار الموافقة، البطاقة السابقة، I-94)، خط سير السفر، وإثبات الطوارئ إن وُجد."
             },
             {
-              title: "اشرح الحاجة الطارئة",
-              description: "كن مستعداً لشرح لماذا تحتاج للسفر بشكل عاجل ولماذا بطاقتك الخضراء غير متاحة. USCIS تمنح هذه للطوارئ الحقيقية."
+              heading: "اشرح الحاجة الطارئة",
+              text: "كن مستعداً لشرح لماذا تحتاج للسفر بشكل عاجل ولماذا بطاقتك الخضراء غير متاحة. USCIS تمنح هذه للطوارئ الحقيقية."
             },
             {
-              title: "استلم ختم ADIT أو الخطاب",
-              description: "إذا تمت الموافقة، يختم الموظف جواز سفرك بدليل I-551 المؤقت أو يقدم خطاب النقل. صالح لإعادة الدخول."
+              heading: "استلم ختم ADIT أو الخطاب",
+              text: "إذا تمت الموافقة، يختم الموظف جواز سفرك بدليل I-551 المؤقت أو يقدم خطاب النقل. صالح لإعادة الدخول."
             },
             {
-              title: "سافر مع التوثيق",
-              description: "احمل جواز السفر المختوم، أي إشعارات موافقة، ونسخة من إيصال I-90 إن وُجد عند السفر."
+              heading: "سافر مع التوثيق",
+              text: "احمل جواز السفر المختوم، أي إشعارات موافقة، ونسخة من إيصال I-90 إن وُجد عند السفر."
             }
           ]
         },

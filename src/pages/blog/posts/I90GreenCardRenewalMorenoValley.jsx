@@ -70,28 +70,28 @@ const I90GreenCardRenewalMorenoValley = ({ language }) => {
           content: "Follow these steps for successful I-90 filing:",
           steps: [
             {
-              title: "File Online (Recommended)",
-              description: "Create USCIS online account at uscis.gov/file-online. Filing online is faster, provides instant receipt, and allows easy status tracking."
+              heading: "File Online (Recommended)",
+              text: "Create USCIS online account at uscis.gov/file-online. Filing online is faster, provides instant receipt, and allows easy status tracking."
             },
             {
-              title: "Or File by Mail",
-              description: "Download Form I-90, complete it, and mail to appropriate USCIS lockbox with payment and supporting documents. Paper filing takes longer."
+              heading: "Or File by Mail",
+              text: "Download Form I-90, complete it, and mail to appropriate USCIS lockbox with payment and supporting documents. Paper filing takes longer."
             },
             {
-              title: "Pay Filing Fee",
-              description: "Current fee is $465 (no biometrics fee for I-90). Pay online by credit/debit or include check/money order with mail filing."
+              heading: "Pay Filing Fee",
+              text: "Current fee is $465 (no biometrics fee for I-90). Pay online by credit/debit or include check/money order with mail filing."
             },
             {
-              title: "Receive Receipt Notice",
-              description: "Receipt notice (I-797C) arrives within 2-4 weeks. This extends your green card validity for 24 months when combined with expired card."
+              heading: "Receive Receipt Notice",
+              text: "Receipt notice (I-797C) arrives within 2-4 weeks. This extends your green card validity for 24 months when combined with expired card."
             },
             {
-              title: "Attend Biometrics (if required)",
-              description: "Most I-90 applicants don't need biometrics if fingerprints are already on file. If required, attend appointment at nearest ASC."
+              heading: "Attend Biometrics (if required)",
+              text: "Most I-90 applicants don't need biometrics if fingerprints are already on file. If required, attend appointment at nearest ASC."
             },
             {
-              title: "Wait for New Card",
-              description: "Processing currently takes 10-12 months. New 10-year green card arrives by mail when approved."
+              heading: "Wait for New Card",
+              text: "Processing currently takes 10-12 months. New 10-year green card arrives by mail when approved."
             }
           ]
         },
@@ -283,28 +283,28 @@ const I90GreenCardRenewalMorenoValley = ({ language }) => {
           content: "اتبع هذه الخطوات لتقديم I-90 بنجاح:",
           steps: [
             {
-              title: "قدم عبر الإنترنت (موصى به)",
-              description: "أنشئ حساب USCIS عبر الإنترنت على uscis.gov/file-online. التقديم عبر الإنترنت أسرع، يوفر استلاماً فورياً، ويسمح بتتبع الحالة بسهولة."
+              heading: "قدم عبر الإنترنت (موصى به)",
+              text: "أنشئ حساب USCIS عبر الإنترنت على uscis.gov/file-online. التقديم عبر الإنترنت أسرع، يوفر استلاماً فورياً، ويسمح بتتبع الحالة بسهولة."
             },
             {
-              title: "أو قدم بالبريد",
-              description: "حمّل نموذج I-90، أكمله، وأرسله بالبريد إلى صندوق بريد USCIS المناسب مع الدفع والمستندات الداعمة. التقديم الورقي يستغرق وقتاً أطول."
+              heading: "أو قدم بالبريد",
+              text: "حمّل نموذج I-90، أكمله، وأرسله بالبريد إلى صندوق بريد USCIS المناسب مع الدفع والمستندات الداعمة. التقديم الورقي يستغرق وقتاً أطول."
             },
             {
-              title: "ادفع رسوم التقديم",
-              description: "الرسوم الحالية $465 (لا رسوم بيومتريك لـ I-90). ادفع عبر الإنترنت ببطاقة ائتمان/خصم أو ضمّن شيكاً/حوالة مع التقديم بالبريد."
+              heading: "ادفع رسوم التقديم",
+              text: "الرسوم الحالية $465 (لا رسوم بيومتريك لـ I-90). ادفع عبر الإنترنت ببطاقة ائتمان/خصم أو ضمّن شيكاً/حوالة مع التقديم بالبريد."
             },
             {
-              title: "استلم إشعار الاستلام",
-              description: "إشعار الاستلام (I-797C) يصل خلال 2-4 أسابيع. هذا يمدد صلاحية بطاقتك الخضراء لمدة 24 شهراً عند دمجه مع البطاقة المنتهية."
+              heading: "استلم إشعار الاستلام",
+              text: "إشعار الاستلام (I-797C) يصل خلال 2-4 أسابيع. هذا يمدد صلاحية بطاقتك الخضراء لمدة 24 شهراً عند دمجه مع البطاقة المنتهية."
             },
             {
-              title: "احضر البيومتريك (إذا لزم الأمر)",
-              description: "معظم متقدمي I-90 لا يحتاجون بيومتريك إذا كانت البصمات موجودة بالفعل في الملف. إذا لزم الأمر، احضر الموعد في أقرب ASC."
+              heading: "احضر البيومتريك (إذا لزم الأمر)",
+              text: "معظم متقدمي I-90 لا يحتاجون بيومتريك إذا كانت البصمات موجودة بالفعل في الملف. إذا لزم الأمر، احضر الموعد في أقرب ASC."
             },
             {
-              title: "انتظر البطاقة الجديدة",
-              description: "المعالجة تستغرق حالياً 10-12 شهراً. البطاقة الخضراء الجديدة لمدة 10 سنوات تصل بالبريد عند الموافقة."
+              heading: "انتظر البطاقة الجديدة",
+              text: "المعالجة تستغرق حالياً 10-12 شهراً. البطاقة الخضراء الجديدة لمدة 10 سنوات تصل بالبريد عند الموافقة."
             }
           ]
         },

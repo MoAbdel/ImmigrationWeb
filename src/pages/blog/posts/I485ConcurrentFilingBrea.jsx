@@ -72,32 +72,32 @@ const I485ConcurrentFilingBrea = ({ language }) => {
           content: "Here's what to expect when filing concurrently from Brea:",
           steps: [
             {
-              title: "Prepare Complete Package",
-              description: "Gather all documents for both the immigrant petition and I-485. Ensure medical exam is completed and sealed. Organize evidence chronologically."
+              heading: "Prepare Complete Package",
+              text: "Gather all documents for both the immigrant petition and I-485. Ensure medical exam is completed and sealed. Organize evidence chronologically."
             },
             {
-              title: "Submit Applications Together",
-              description: "Mail both applications in the same package to the appropriate USCIS lockbox. Include I-765 and I-131 if desired. Pay all filing fees."
+              heading: "Submit Applications Together",
+              text: "Mail both applications in the same package to the appropriate USCIS lockbox. Include I-765 and I-131 if desired. Pay all filing fees."
             },
             {
-              title: "Receive Receipt Notices",
-              description: "Within 2-4 weeks, receive receipt notices for all applications filed. Each form gets a separate receipt number for tracking."
+              heading: "Receive Receipt Notices",
+              text: "Within 2-4 weeks, receive receipt notices for all applications filed. Each form gets a separate receipt number for tracking."
             },
             {
-              title: "Biometrics Appointment",
-              description: "Attend fingerprinting at the nearest Application Support Center (typically Santa Ana or Los Angeles for Brea residents). Usually scheduled 3-6 weeks after receipt."
+              heading: "Biometrics Appointment",
+              text: "Attend fingerprinting at the nearest Application Support Center (typically Santa Ana or Los Angeles for Brea residents). Usually scheduled 3-6 weeks after receipt."
             },
             {
-              title: "Receive EAD/Advance Parole",
-              description: "If filed, work permit and travel document typically arrive 3-6 months after filing. Often combined into single 'combo card.'"
+              heading: "Receive EAD/Advance Parole",
+              text: "If filed, work permit and travel document typically arrive 3-6 months after filing. Often combined into single 'combo card.'"
             },
             {
-              title: "Interview (if required)",
-              description: "Many family-based cases require interviews at the local USCIS field office. Employment-based cases may have interviews waived."
+              heading: "Interview (if required)",
+              text: "Many family-based cases require interviews at the local USCIS field office. Employment-based cases may have interviews waived."
             },
             {
-              title: "Green Card Approval",
-              description: "Upon approval, receive welcome notice followed by green card in mail. Total timeline typically 12-24 months for concurrent filing."
+              heading: "Green Card Approval",
+              text: "Upon approval, receive welcome notice followed by green card in mail. Total timeline typically 12-24 months for concurrent filing."
             }
           ]
         },
@@ -257,32 +257,32 @@ const I485ConcurrentFilingBrea = ({ language }) => {
           content: "إليك ما يمكن توقعه عند التقديم المتزامن من بريا:",
           steps: [
             {
-              title: "إعداد الحزمة الكاملة",
-              description: "جمع جميع الوثائق لكل من طلب الهجرة و I-485. تأكد من اكتمال الفحص الطبي وختمه. تنظيم الأدلة زمنياً."
+              heading: "إعداد الحزمة الكاملة",
+              text: "جمع جميع الوثائق لكل من طلب الهجرة و I-485. تأكد من اكتمال الفحص الطبي وختمه. تنظيم الأدلة زمنياً."
             },
             {
-              title: "تقديم الطلبات معاً",
-              description: "إرسال كلا الطلبين في نفس الحزمة إلى صندوق بريد USCIS المناسب. تضمين I-765 و I-131 إذا رغبت. دفع جميع رسوم التقديم."
+              heading: "تقديم الطلبات معاً",
+              text: "إرسال كلا الطلبين في نفس الحزمة إلى صندوق بريد USCIS المناسب. تضمين I-765 و I-131 إذا رغبت. دفع جميع رسوم التقديم."
             },
             {
-              title: "استلام إشعارات الاستلام",
-              description: "خلال 2-4 أسابيع، استلام إشعارات استلام لجميع الطلبات المقدمة. كل نموذج يحصل على رقم استلام منفصل للتتبع."
+              heading: "استلام إشعارات الاستلام",
+              text: "خلال 2-4 أسابيع، استلام إشعارات استلام لجميع الطلبات المقدمة. كل نموذج يحصل على رقم استلام منفصل للتتبع."
             },
             {
-              title: "موعد البيومتريك",
-              description: "حضور البصمات في أقرب مركز دعم التطبيقات (عادة سانتا آنا أو لوس أنجلوس لسكان بريا). عادة يتم جدولته 3-6 أسابيع بعد الاستلام."
+              heading: "موعد البيومتريك",
+              text: "حضور البصمات في أقرب مركز دعم التطبيقات (عادة سانتا آنا أو لوس أنجلوس لسكان بريا). عادة يتم جدولته 3-6 أسابيع بعد الاستلام."
             },
             {
-              title: "استلام EAD/الإفراج المسبق",
-              description: "إذا تم التقديم، يصل تصريح العمل ووثيقة السفر عادة خلال 3-6 أشهر بعد التقديم. غالباً ما يتم دمجهما في 'بطاقة كومبو' واحدة."
+              heading: "استلام EAD/الإفراج المسبق",
+              text: "إذا تم التقديم، يصل تصريح العمل ووثيقة السفر عادة خلال 3-6 أشهر بعد التقديم. غالباً ما يتم دمجهما في 'بطاقة كومبو' واحدة."
             },
             {
-              title: "المقابلة (إذا لزم الأمر)",
-              description: "تتطلب معظم الحالات المبنية على العائلة مقابلات في مكتب USCIS المحلي. قد يتم التنازل عن المقابلات للحالات المبنية على التوظيف."
+              heading: "المقابلة (إذا لزم الأمر)",
+              text: "تتطلب معظم الحالات المبنية على العائلة مقابلات في مكتب USCIS المحلي. قد يتم التنازل عن المقابلات للحالات المبنية على التوظيف."
             },
             {
-              title: "الموافقة على البطاقة الخضراء",
-              description: "عند الموافقة، استلام إشعار الترحيب يليه البطاقة الخضراء في البريد. الجدول الزمني الإجمالي عادة 12-24 شهراً للتقديم المتزامن."
+              heading: "الموافقة على البطاقة الخضراء",
+              text: "عند الموافقة، استلام إشعار الترحيب يليه البطاقة الخضراء في البريد. الجدول الزمني الإجمالي عادة 12-24 شهراً للتقديم المتزامن."
             }
           ]
         },

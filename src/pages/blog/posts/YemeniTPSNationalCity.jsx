@@ -70,32 +70,32 @@ const YemeniTPSNationalCity = ({ language }) => {
           content: "The application process for TPS involves several forms:",
           steps: [
             {
-              title: "Determine Eligibility",
-              description: "Verify you meet continuous presence and residence requirements. Gather evidence of your Yemeni nationality and U.S. presence."
+              heading: "Determine Eligibility",
+              text: "Verify you meet continuous presence and residence requirements. Gather evidence of your Yemeni nationality and U.S. presence."
             },
             {
-              title: "File Form I-821 (TPS Application)",
-              description: "Complete the main TPS application. Include evidence of nationality, residence, and presence in the U.S."
+              heading: "File Form I-821 (TPS Application)",
+              text: "Complete the main TPS application. Include evidence of nationality, residence, and presence in the U.S."
             },
             {
-              title: "File Form I-765 (Work Permit)",
-              description: "Submit employment authorization application. Can be filed simultaneously with I-821."
+              heading: "File Form I-765 (Work Permit)",
+              text: "Submit employment authorization application. Can be filed simultaneously with I-821."
             },
             {
-              title: "Submit Required Documents",
-              description: "Include passport, birth certificate, proof of residence, identity photos, and any required translations."
+              heading: "Submit Required Documents",
+              text: "Include passport, birth certificate, proof of residence, identity photos, and any required translations."
             },
             {
-              title: "Pay Fees or Request Waiver",
-              description: "I-821 costs $50, I-765 costs $410, plus biometrics if required. Fee waivers available for those who qualify."
+              heading: "Pay Fees or Request Waiver",
+              text: "I-821 costs $50, I-765 costs $410, plus biometrics if required. Fee waivers available for those who qualify."
             },
             {
-              title: "Attend Biometrics Appointment",
-              description: "Fingerprinting at local Application Support Center (usually San Diego for National City residents)."
+              heading: "Attend Biometrics Appointment",
+              text: "Fingerprinting at local Application Support Center (usually San Diego for National City residents)."
             },
             {
-              title: "Receive Decision",
-              description: "If approved, receive TPS approval notice and EAD card. Keep documents safe and track expiration dates."
+              heading: "Receive Decision",
+              text: "If approved, receive TPS approval notice and EAD card. Keep documents safe and track expiration dates."
             }
           ]
         },
@@ -274,32 +274,32 @@ const YemeniTPSNationalCity = ({ language }) => {
           content: "تتضمن عملية التقدم لـ TPS عدة نماذج:",
           steps: [
             {
-              title: "تحديد الأهلية",
-              description: "تحقق من استيفائك لمتطلبات التواجد والإقامة المستمرة. اجمع أدلة على جنسيتك اليمنية وتواجدك في الولايات المتحدة."
+              heading: "تحديد الأهلية",
+              text: "تحقق من استيفائك لمتطلبات التواجد والإقامة المستمرة. اجمع أدلة على جنسيتك اليمنية وتواجدك في الولايات المتحدة."
             },
             {
-              title: "تقديم نموذج I-821 (طلب TPS)",
-              description: "أكمل طلب TPS الرئيسي. تضمين أدلة على الجنسية والإقامة والتواجد في الولايات المتحدة."
+              heading: "تقديم نموذج I-821 (طلب TPS)",
+              text: "أكمل طلب TPS الرئيسي. تضمين أدلة على الجنسية والإقامة والتواجد في الولايات المتحدة."
             },
             {
-              title: "تقديم نموذج I-765 (تصريح العمل)",
-              description: "تقديم طلب تصريح العمل. يمكن تقديمه بالتزامن مع I-821."
+              heading: "تقديم نموذج I-765 (تصريح العمل)",
+              text: "تقديم طلب تصريح العمل. يمكن تقديمه بالتزامن مع I-821."
             },
             {
-              title: "تقديم المستندات المطلوبة",
-              description: "تضمين جواز السفر، شهادة الميلاد، إثبات الإقامة، صور الهوية، وأي ترجمات مطلوبة."
+              heading: "تقديم المستندات المطلوبة",
+              text: "تضمين جواز السفر، شهادة الميلاد، إثبات الإقامة، صور الهوية، وأي ترجمات مطلوبة."
             },
             {
-              title: "دفع الرسوم أو طلب إعفاء",
-              description: "I-821 يكلف $50، I-765 يكلف $410، بالإضافة إلى البيومتريك إذا لزم الأمر. إعفاءات الرسوم متاحة لمن يتأهل."
+              heading: "دفع الرسوم أو طلب إعفاء",
+              text: "I-821 يكلف $50، I-765 يكلف $410، بالإضافة إلى البيومتريك إذا لزم الأمر. إعفاءات الرسوم متاحة لمن يتأهل."
             },
             {
-              title: "حضور موعد البيومتريك",
-              description: "البصمات في مركز دعم التطبيقات المحلي (عادة سان دييغو لسكان ناشيونال سيتي)."
+              heading: "حضور موعد البيومتريك",
+              text: "البصمات في مركز دعم التطبيقات المحلي (عادة سان دييغو لسكان ناشيونال سيتي)."
             },
             {
-              title: "استلام القرار",
-              description: "إذا تمت الموافقة، استلام إشعار موافقة TPS وبطاقة EAD. احتفظ بالوثائق بأمان وتتبع تواريخ انتهاء الصلاحية."
+              heading: "استلام القرار",
+              text: "إذا تمت الموافقة، استلام إشعار موافقة TPS وبطاقة EAD. احتفظ بالوثائق بأمان وتتبع تواريخ انتهاء الصلاحية."
             }
           ]
         },

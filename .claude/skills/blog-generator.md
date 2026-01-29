@@ -594,6 +594,36 @@ const requiredSections = [
 ];
 ```
 
+## ⚠️ CRITICAL: Section Structure Format
+
+**SECTIONS MUST USE `heading` NOT `title` FOR SECTION HEADERS**
+
+The BlogPostTemplate.jsx expects sections with this exact structure:
+
+```jsx
+sections: [
+  {
+    heading: "Section Title Here",  // ← MUST be "heading", NOT "title"
+    content: "Section content...",
+    list: ["Item 1", "Item 2"],     // Optional
+    steps: [{title, description}],   // Optional
+    table: {headers, rows}           // Optional
+  }
+]
+```
+
+**WRONG (causes empty/white posts):**
+```jsx
+{ title: "Section Title" }  // ❌ WRONG - template ignores this
+```
+
+**CORRECT:**
+```jsx
+{ heading: "Section Title" }  // ✅ CORRECT - template renders this
+```
+
+This is enforced by BlogPostTemplate.jsx lines 414-420 which checks for `section.heading`.
+
 ## Internal Linking Strategy:
 
 ```

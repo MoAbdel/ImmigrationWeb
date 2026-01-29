@@ -77,28 +77,28 @@ const I751JointFilingFullerton = ({ language }) => {
           content: "Here's what to expect after filing your joint I-751 from Fullerton:",
           steps: [
             {
-              title: "Submit Application",
-              description: "Mail complete I-751 package to USCIS lockbox during 90-day window. Include all required forms, documents, and payment."
+              heading: "Submit Application",
+              text: "Mail complete I-751 package to USCIS lockbox during 90-day window. Include all required forms, documents, and payment."
             },
             {
-              title: "Receive Receipt Notice",
-              description: "Within 2-4 weeks, receive Form I-797C receipt notice. This extends your green card validity for 24 months."
+              heading: "Receive Receipt Notice",
+              text: "Within 2-4 weeks, receive Form I-797C receipt notice. This extends your green card validity for 24 months."
             },
             {
-              title: "Biometrics Appointment",
-              description: "If required, attend fingerprinting at local Application Support Center (Santa Ana or Los Angeles for Fullerton residents)."
+              heading: "Biometrics Appointment",
+              text: "If required, attend fingerprinting at local Application Support Center (Santa Ana or Los Angeles for Fullerton residents)."
             },
             {
-              title: "Case Processing",
-              description: "USCIS reviews your application and evidence. Current processing times are 12-24 months depending on service center."
+              heading: "Case Processing",
+              text: "USCIS reviews your application and evidence. Current processing times are 12-24 months depending on service center."
             },
             {
-              title: "Interview (If Required)",
-              description: "Some cases require interview at local field office. Both spouses must attend. Bring originals of all submitted documents."
+              heading: "Interview (If Required)",
+              text: "Some cases require interview at local field office. Both spouses must attend. Bring originals of all submitted documents."
             },
             {
-              title: "Decision",
-              description: "If approved, receive new 10-year permanent green card in mail. If denied, receive explanation and appeal options."
+              heading: "Decision",
+              text: "If approved, receive new 10-year permanent green card in mail. If denied, receive explanation and appeal options."
             }
           ]
         },
@@ -267,28 +267,28 @@ const I751JointFilingFullerton = ({ language }) => {
           content: "إليك ما يمكن توقعه بعد تقديم I-751 المشترك من فولرتون:",
           steps: [
             {
-              title: "تقديم الطلب",
-              description: "أرسل حزمة I-751 الكاملة إلى صندوق بريد USCIS خلال نافذة الـ 90 يوماً. تضمين جميع النماذج والمستندات والدفع المطلوبة."
+              heading: "تقديم الطلب",
+              text: "أرسل حزمة I-751 الكاملة إلى صندوق بريد USCIS خلال نافذة الـ 90 يوماً. تضمين جميع النماذج والمستندات والدفع المطلوبة."
             },
             {
-              title: "استلام إشعار الاستلام",
-              description: "خلال 2-4 أسابيع، استلم إشعار الاستلام I-797C. هذا يمدد صلاحية بطاقتك الخضراء لمدة 24 شهراً."
+              heading: "استلام إشعار الاستلام",
+              text: "خلال 2-4 أسابيع، استلم إشعار الاستلام I-797C. هذا يمدد صلاحية بطاقتك الخضراء لمدة 24 شهراً."
             },
             {
-              title: "موعد البيومتريك",
-              description: "إذا لزم الأمر، احضر البصمات في مركز دعم التطبيقات المحلي (سانتا آنا أو لوس أنجلوس لسكان فولرتون)."
+              heading: "موعد البيومتريك",
+              text: "إذا لزم الأمر، احضر البصمات في مركز دعم التطبيقات المحلي (سانتا آنا أو لوس أنجلوس لسكان فولرتون)."
             },
             {
-              title: "معالجة القضية",
-              description: "تراجع USCIS طلبك وأدلتك. أوقات المعالجة الحالية 12-24 شهراً اعتماداً على مركز الخدمة."
+              heading: "معالجة القضية",
+              text: "تراجع USCIS طلبك وأدلتك. أوقات المعالجة الحالية 12-24 شهراً اعتماداً على مركز الخدمة."
             },
             {
-              title: "المقابلة (إذا لزم الأمر)",
-              description: "بعض الحالات تتطلب مقابلة في المكتب الميداني المحلي. يجب أن يحضر كلا الزوجين. أحضر النسخ الأصلية من جميع المستندات المقدمة."
+              heading: "المقابلة (إذا لزم الأمر)",
+              text: "بعض الحالات تتطلب مقابلة في المكتب الميداني المحلي. يجب أن يحضر كلا الزوجين. أحضر النسخ الأصلية من جميع المستندات المقدمة."
             },
             {
-              title: "القرار",
-              description: "إذا تمت الموافقة، استلم البطاقة الخضراء الدائمة الجديدة لمدة 10 سنوات بالبريد. إذا تم الرفض، استلم التفسير وخيارات الاستئناف."
+              heading: "القرار",
+              text: "إذا تمت الموافقة، استلم البطاقة الخضراء الدائمة الجديدة لمدة 10 سنوات بالبريد. إذا تم الرفض، استلم التفسير وخيارات الاستئناف."
             }
           ]
         },

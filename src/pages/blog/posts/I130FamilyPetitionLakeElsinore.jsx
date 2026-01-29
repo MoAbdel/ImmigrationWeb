@@ -35,7 +35,7 @@ const I130FamilyPetitionLakeElsinore = ({ language }) => {
       locationIntro: 'Lake Elsinore\'s diverse community includes many families separated by borders. The city\'s 75,000+ residents include U.S. citizens and permanent residents eager to reunite with family members abroad. Understanding the I-130 petition process enables Lake Elsinore families to begin the legal pathway toward permanent family reunification.',
       sections: [
         {
-          title: 'What is Form I-130?',
+          heading: 'What is Form I-130?',
           content: `Form I-130, Petition for Alien Relative, is the first step in most family-based green card applications. This form establishes the qualifying family relationship between the petitioner (U.S. citizen or permanent resident) and the beneficiary (foreign national family member).
 
 **Key I-130 Facts:**
@@ -69,7 +69,7 @@ const I130FamilyPetitionLakeElsinore = ({ language }) => {
 Understanding these categories determines visa availability and waiting times for your Lake Elsinore family.`
         },
         {
-          title: 'Family Preference Categories and Wait Times',
+          heading: 'Family Preference Categories and Wait Times',
           content: `Not all family relationships receive immediate visa availability. USCIS organizes family immigration into immediate relatives and preference categories with annual limits.
 
 **Immediate Relatives (No Wait - U.S. Citizens Only):**
@@ -115,7 +115,7 @@ Applicants from high-demand countries face longer waits:
 Check the monthly Visa Bulletin for current wait times.`
         },
         {
-          title: 'I-130 Documentation Requirements',
+          heading: 'I-130 Documentation Requirements',
           content: `Successful I-130 petitions require comprehensive documentation proving the family relationship and the petitioner's legal status.
 
 **Petitioner Documentation:**
@@ -165,7 +165,7 @@ Evidence of U.S. citizenship or permanent residence:
 - Organize documents by category with clear labels`
         },
         {
-          title: 'I-130 Filing Process Step by Step',
+          heading: 'I-130 Filing Process Step by Step',
           content: `Lake Elsinore residents can file I-130 petitions through USCIS online or by mail. Here's the complete process:
 
 **Step 1: Determine Eligibility**
@@ -216,7 +216,7 @@ Evidence of U.S. citizenship or permanent residence:
 - Denied: appeal rights explained in notice`
         },
         {
-          title: 'After I-130 Approval',
+          heading: 'After I-130 Approval',
           content: `I-130 approval is just the first step. What happens next depends on your family member's location and the visa category.
 
 **For Immediate Relatives (No Waiting Period):**
@@ -257,7 +257,7 @@ Evidence of U.S. citizenship or permanent residence:
 - Preserve relationship (don't divorce if spouse petition)`
         },
         {
-          title: 'Common I-130 Issues and Solutions',
+          heading: 'Common I-130 Issues and Solutions',
           content: `Many I-130 petitions face challenges that delay or prevent approval. Understanding common issues helps Lake Elsinore families avoid problems.
 
 **Insufficient Relationship Evidence:**
@@ -309,7 +309,7 @@ Evidence of U.S. citizenship or permanent residence:
 - Navigate complex situations`
         },
         {
-          title: 'Special I-130 Situations',
+          heading: 'Special I-130 Situations',
           content: `Certain family situations require additional steps or face unique rules in the I-130 process.
 
 **Stepparent/Stepchild Relationships:**
@@ -354,7 +354,7 @@ Evidence of U.S. citizenship or permanent residence:
 - Consult attorney immediately if this occurs`
         },
         {
-          title: 'How SoCal Immigration Services Helps',
+          heading: 'How SoCal Immigration Services Helps',
           content: `Navigating the I-130 process successfully requires attention to detail and understanding of immigration law. SoCal Immigration Services provides comprehensive support for Lake Elsinore families.
 
 **Our I-130 Services:**
@@ -426,8 +426,8 @@ Start your family reunification journey with expert guidance from our experience
       ],
       cta: {
         title: 'Ready to Sponsor Your Family Member?',
-        description: 'SoCal Immigration Services helps Lake Elsinore families navigate the I-130 petition process with expert guidance and personalized support. Contact us to start reuniting your family through proper legal channels.',
-        buttonText: 'Schedule a Consultation',
+        text: 'SoCal Immigration Services helps Lake Elsinore families navigate the I-130 petition process with expert guidance and personalized support. Contact us to start reuniting your family through proper legal channels.',
+        button: 'Schedule a Consultation',
         phone: '(714) 909-7308'
       }
     },
@@ -463,7 +463,7 @@ Start your family reunification journey with expert guidance from our experience
       locationIntro: 'يشمل مجتمع ليك إلسينور المتنوع العديد من العائلات المفصولة بالحدود. يشمل سكان المدينة البالغ عددهم أكثر من 75,000 مواطنين أمريكيين ومقيمين دائمين حريصين على لم شمل أفراد العائلة في الخارج.',
       sections: [
         {
-          title: 'ما هو نموذج I-130؟',
+          heading: 'ما هو نموذج I-130؟',
           content: `نموذج I-130، عريضة للقريب الأجنبي، هو الخطوة الأولى في معظم طلبات البطاقة الخضراء القائمة على العائلة. يثبت هذا النموذج العلاقة العائلية المؤهلة بين مقدم العريضة والمستفيد.
 
 **حقائق I-130 الرئيسية:**
@@ -488,7 +488,7 @@ Start your family reunification journey with expert guidance from our experience
 - الأطفال غير المتزوجين 21 سنة فأكثر`
         },
         {
-          title: 'فئات تفضيل العائلة وأوقات الانتظار',
+          heading: 'فئات تفضيل العائلة وأوقات الانتظار',
           content: `ليس كل العلاقات العائلية تتلقى توفر تأشيرة فوري. تنظم USCIS هجرة العائلة إلى أقارب مباشرين وفئات تفضيل بحدود سنوية.
 
 **الأقارب المباشرون (بدون انتظار - للمواطنين الأمريكيين فقط):**
@@ -519,7 +519,7 @@ Start your family reunification journey with expert guidance from our experience
 - الانتظار الحالي: 15-24 سنة`
         },
         {
-          title: 'متطلبات توثيق I-130',
+          heading: 'متطلبات توثيق I-130',
           content: `تتطلب عرائض I-130 الناجحة توثيقاً شاملاً يثبت العلاقة العائلية والوضع القانوني لمقدم العريضة.
 
 **توثيق مقدم العريضة:**
@@ -550,7 +550,7 @@ Start your family reunification journey with expert guidance from our experience
 - دليل أن مقدم العريضة 21 سنة أو أكثر`
         },
         {
-          title: 'عملية تقديم I-130 خطوة بخطوة',
+          heading: 'عملية تقديم I-130 خطوة بخطوة',
           content: `يمكن لسكان ليك إلسينور تقديم عرائض I-130 عبر الإنترنت أو بالبريد.
 
 **الخطوة 1: تحديد الأهلية**
@@ -589,7 +589,7 @@ Start your family reunification journey with expert guidance from our experience
 - الرفض: حقوق الاستئناف موضحة في الإشعار`
         },
         {
-          title: 'بعد موافقة I-130',
+          heading: 'بعد موافقة I-130',
           content: `موافقة I-130 هي الخطوة الأولى فقط. ما يحدث بعد ذلك يعتمد على موقع فرد عائلتك وفئة التأشيرة.
 
 **للأقارب المباشرين (بدون فترة انتظار):**
@@ -619,7 +619,7 @@ Start your family reunification journey with expert guidance from our experience
 3. عندما يصبح تاريخ الأولوية "حالياً"، التأشيرة متاحة`
         },
         {
-          title: 'مشاكل I-130 الشائعة والحلول',
+          heading: 'مشاكل I-130 الشائعة والحلول',
           content: `تواجه كثير من عرائض I-130 تحديات تؤخر أو تمنع الموافقة.
 
 **دليل علاقة غير كافٍ:**
@@ -648,7 +648,7 @@ Start your family reunification journey with expert guidance from our experience
 - أرفق الأصول لتكملة الدخل`
         },
         {
-          title: 'حالات I-130 الخاصة',
+          heading: 'حالات I-130 الخاصة',
           content: `بعض الحالات العائلية تتطلب خطوات إضافية أو تواجه قواعد فريدة.
 
 **علاقات زوج/زوجة الأب/الأم والأطفال:**
@@ -676,7 +676,7 @@ Start your family reunification journey with expert guidance from our experience
 - لا حاجة لأن يقدم المعنف I-130`
         },
         {
-          title: 'كيف تساعد خدمات الهجرة في جنوب كاليفورنيا',
+          heading: 'كيف تساعد خدمات الهجرة في جنوب كاليفورنيا',
           content: `يتطلب التنقل في عملية I-130 بنجاح اهتماماً بالتفاصيل وفهماً لقانون الهجرة. توفر خدمات الهجرة في جنوب كاليفورنيا دعماً شاملاً لعائلات ليك إلسينور.
 
 **خدمات I-130 لدينا:**
@@ -730,8 +730,8 @@ Start your family reunification journey with expert guidance from our experience
       ],
       cta: {
         title: 'هل أنت مستعد لكفالة فرد عائلتك؟',
-        description: 'تساعد خدمات الهجرة في جنوب كاليفورنيا عائلات ليك إلسينور في التنقل في عملية عريضة I-130 بتوجيه خبير ودعم شخصي. اتصل بنا لبدء لم شمل عائلتك من خلال القنوات القانونية الصحيحة.',
-        buttonText: 'حدد موعد استشارة',
+        text: 'تساعد خدمات الهجرة في جنوب كاليفورنيا عائلات ليك إلسينور في التنقل في عملية عريضة I-130 بتوجيه خبير ودعم شخصي. اتصل بنا لبدء لم شمل عائلتك من خلال القنوات القانونية الصحيحة.',
+        button: 'حدد موعد استشارة',
         phone: '(714) 909-7308'
       }
     }
