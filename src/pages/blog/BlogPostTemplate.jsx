@@ -452,8 +452,8 @@ const BlogPostTemplate = ({ content, language }) => {
                               {i + 1}
                             </span>
                             <div>
-                              <strong className="text-slate-900">{step.title}</strong>
-                              <p className="text-gray-700 mt-1">{step.description}</p>
+                              <strong className="text-slate-900">{step.title || step.heading}</strong>
+                              <p className="text-gray-700 mt-1">{step.description || step.text}</p>
                             </div>
                           </li>
                         ))}
