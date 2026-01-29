@@ -770,10 +770,25 @@ When `/blog-generator [n] [pillar]` is invoked:
    - Each linking back to pillar
    - Each with full SEO/AEO optimization
 
-4. **Update Blog Infrastructure**
-   - Add to blogPosts.js
-   - Update routes in App.jsx
+4. **Update Blog Infrastructure** ⚠️ CRITICAL - BLOGS WILL NOT WORK WITHOUT THIS
+   - Add to blogPosts.js (data entry)
+   - **CRITICAL: Update routes in App.jsx** - both import AND Route element required!
    - Add to sitemap structure
+
+   ### App.jsx Update Instructions (MANDATORY):
+   For EACH new blog post, add BOTH:
+
+   **A) Import statement** (after last import, before `const App = () => {`):
+   ```jsx
+   import ComponentName from './pages/blog/posts/ComponentName';
+   ```
+
+   **B) Route element** (before `</Routes>` closing tag):
+   ```jsx
+   <Route path="/blog/slug-name" element={<ComponentName language={language} />} />
+   ```
+
+   ⛔ **WITHOUT BOTH**: Blog posts will show as blank/white pages!
 
 5. **Verify Uniqueness**
    - Check all titles are unique
