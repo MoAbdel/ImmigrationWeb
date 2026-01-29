@@ -100,7 +100,7 @@ const Footer = ({ language, content }) => {
           <div>
             <h4 className="text-xl sm:text-2xl font-bold mb-4 sm:mb-6 font-serif">{t.footer.contact}</h4>
             <div className="space-y-3 sm:space-y-4 mb-6 sm:mb-8">
-              <a href="#" className="flex items-center gap-2 sm:gap-3 group hover:translate-x-1 transition-transform">
+              <a href="#" className="flex items-center gap-2 sm:gap-3 group hover:translate-x-1 transition-transform" aria-label="Business address">
                 <div className="w-9 h-9 sm:w-10 sm:h-10 rounded-lg gradient-gold flex items-center justify-center shadow-md group-hover:shadow-lg transition-all">
                   <MapPin size={18} className="sm:hidden text-white" />
                   <MapPin size={20} className="hidden sm:block text-white" />
