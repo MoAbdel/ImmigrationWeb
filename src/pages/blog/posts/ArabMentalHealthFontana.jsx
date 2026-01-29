@@ -26,11 +26,7 @@ const ArabMentalHealthFontana = ({ language }) => {
       date: 'January 29, 2026',
       lastUpdated: 'January 29, 2026',
       readTime: '15 min read',
-      author: {
-        name: 'SoCal Immigration Services',
-        role: 'Community Resource Specialists',
-        image: '/images/team/socal-team.jpg'
-      },
+      author: 'SoCal Immigration Services',
       summary: 'Immigration creates unique mental health challenges for Arab families in Fontana. This guide connects you with culturally sensitive mental health resources, Arabic-speaking therapists, and community support systems that understand immigration trauma, asylum experiences, and family adjustment challenges.',
       locationIntro: 'Fontana\'s growing Arab immigrant community faces distinct mental health challenges. The city\'s 215,000+ residents include increasing numbers of Arab families who need mental health support that respects cultural values, religious beliefs, and immigration experiences. Local resources specifically serve this community with Arabic language services and cultural competence.',
       sections: [
@@ -416,11 +412,7 @@ We connect Fontana families with the mental health resources they need while pro
       date: '٢٩ يناير ٢٠٢٦',
       lastUpdated: '٢٩ يناير ٢٠٢٦',
       readTime: '١٥ دقيقة قراءة',
-      author: {
-        name: 'خدمات الهجرة في جنوب كاليفورنيا',
-        role: 'متخصصو موارد المجتمع',
-        image: '/images/team/socal-team.jpg'
-      },
+      author: 'خدمات الهجرة في جنوب كاليفورنيا',
       summary: 'تخلق الهجرة تحديات صحة نفسية فريدة للعائلات العربية في فونتانا. يربطك هذا الدليل بموارد الصحة النفسية الحساسة ثقافياً والمعالجين الناطقين بالعربية وأنظمة دعم المجتمع التي تفهم صدمات الهجرة وتجارب اللجوء وتحديات تكيف العائلة.',
       locationIntro: 'يواجه مجتمع المهاجرين العرب المتنامي في فونتانا تحديات صحة نفسية مميزة. يشمل سكان المدينة البالغ عددهم أكثر من 215,000 أعداداً متزايدة من العائلات العربية التي تحتاج دعم صحة نفسية يحترم القيم الثقافية والمعتقدات الدينية وتجارب الهجرة.',
       sections: [

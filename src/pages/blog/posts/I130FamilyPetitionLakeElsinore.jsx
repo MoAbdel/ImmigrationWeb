@@ -26,11 +26,7 @@ const I130FamilyPetitionLakeElsinore = ({ language }) => {
       date: 'January 29, 2026',
       lastUpdated: 'January 29, 2026',
       readTime: '16 min read',
-      author: {
-        name: 'SoCal Immigration Services',
-        role: 'Family Immigration Specialists',
-        image: '/images/team/socal-team.jpg'
-      },
+      author: 'SoCal Immigration Services',
       summary: 'The I-130 Petition for Alien Relative is the foundation of family-based immigration in America. Lake Elsinore residents who are U.S. citizens or permanent residents can sponsor qualifying family members for green cards. This guide explains eligibility, processing times, documentation requirements, and how to navigate the family petition process successfully.',
       locationIntro: 'Lake Elsinore\'s diverse community includes many families separated by borders. The city\'s 75,000+ residents include U.S. citizens and permanent residents eager to reunite with family members abroad. Understanding the I-130 petition process enables Lake Elsinore families to begin the legal pathway toward permanent family reunification.',
       sections: [
@@ -454,11 +450,7 @@ Start your family reunification journey with expert guidance from our experience
       date: '٢٩ يناير ٢٠٢٦',
       lastUpdated: '٢٩ يناير ٢٠٢٦',
       readTime: '١٦ دقيقة قراءة',
-      author: {
-        name: 'خدمات الهجرة في جنوب كاليفورنيا',
-        role: 'متخصصو هجرة العائلة',
-        image: '/images/team/socal-team.jpg'
-      },
+      author: 'خدمات الهجرة في جنوب كاليفورنيا',
       summary: 'عريضة I-130 للقريب الأجنبي هي أساس الهجرة القائمة على العائلة في أمريكا. يمكن لسكان ليك إلسينور من المواطنين الأمريكيين أو المقيمين الدائمين كفالة أفراد العائلة المؤهلين للحصول على البطاقات الخضراء. يشرح هذا الدليل الأهلية وأوقات المعالجة ومتطلبات التوثيق.',
       locationIntro: 'يشمل مجتمع ليك إلسينور المتنوع العديد من العائلات المفصولة بالحدود. يشمل سكان المدينة البالغ عددهم أكثر من 75,000 مواطنين أمريكيين ومقيمين دائمين حريصين على لم شمل أفراد العائلة في الخارج.',
       sections: [
