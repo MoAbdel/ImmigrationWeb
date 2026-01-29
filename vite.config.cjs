@@ -24,7 +24,10 @@ module.exports = async () => {
     '/blog/'
   ];
 
-  const blogRoutes = blogPosts.map((post) => `/blog/${post.slug}/`);
+  const blogRoutes = [...blogPosts]
+    .sort((a, b) => new Date(b.date) - new Date(a.date))
+    .slice(0, 100)
+    .map((post) => `/blog/${post.slug}/`);
   const routes = Array.from(new Set([...staticRoutes, ...blogRoutes]));
 
   return defineConfig({
@@ -34,7 +37,8 @@ module.exports = async () => {
         staticDir: path.join(__dirname, 'dist'),
         routes,
         renderer: new vitePrerender.PuppeteerRenderer({
-          renderAfterTime: 1500
+          renderAfterTime: 5000,
+          maxConcurrentRoutes: 4
         })
       })
     ]
