@@ -339,6 +339,18 @@ import SyrianDocumentAuthenticationCarlsbad from './pages/blog/posts/SyrianDocum
 import JordanianCommunityResourcesSanMarcos from './pages/blog/posts/JordanianCommunityResourcesSanMarcos';
 import LebaneseCommunityResourcesDowney from './pages/blog/posts/LebaneseCommunityResourcesDowney';
 
+// New posts - January 29, 2026
+import I485ConcurrentFilingBrea from './pages/blog/posts/I485ConcurrentFilingBrea';
+import YemeniTPSNationalCity from './pages/blog/posts/YemeniTPSNationalCity';
+import I751JointFilingFullerton from './pages/blog/posts/I751JointFilingFullerton';
+import SelectiveServiceCitizenshipWestminster from './pages/blog/posts/SelectiveServiceCitizenshipWestminster';
+import L1BSpecializedKnowledgeNewportBeach from './pages/blog/posts/L1BSpecializedKnowledgeNewportBeach';
+import I90GreenCardRenewalMorenoValley from './pages/blog/posts/I90GreenCardRenewalMorenoValley';
+import TransportationLetterUpland from './pages/blog/posts/TransportationLetterUpland';
+import PowerOfAttorneyImmigrationBellflower from './pages/blog/posts/PowerOfAttorneyImmigrationBellflower';
+import ArabMentalHealthFontana from './pages/blog/posts/ArabMentalHealthFontana';
+import I130FamilyPetitionLakeElsinore from './pages/blog/posts/I130FamilyPetitionLakeElsinore';
+
 const App = () => {
   const [language, setLanguage] = useState('en');
 
@@ -1052,6 +1064,18 @@ const App = () => {
               <Route path="/blog/syrian-document-authentication-carlsbad" element={<SyrianDocumentAuthenticationCarlsbad language={language} />} />
               <Route path="/blog/jordanian-community-resources-san-marcos" element={<JordanianCommunityResourcesSanMarcos language={language} />} />
               <Route path="/blog/lebanese-community-support-downey" element={<LebaneseCommunityResourcesDowney language={language} />} />
+
+              {/* New posts - January 29, 2026 */}
+              <Route path="/blog/i-485-concurrent-filing-brea" element={<I485ConcurrentFilingBrea language={language} />} />
+              <Route path="/blog/yemen-tps-national-city" element={<YemeniTPSNationalCity language={language} />} />
+              <Route path="/blog/i-751-remove-conditions-fullerton" element={<I751JointFilingFullerton language={language} />} />
+              <Route path="/blog/selective-service-citizenship-westminster" element={<SelectiveServiceCitizenshipWestminster language={language} />} />
+              <Route path="/blog/l1b-specialized-knowledge-visa-newport-beach" element={<L1BSpecializedKnowledgeNewportBeach language={language} />} />
+              <Route path="/blog/i-90-green-card-renewal-moreno-valley" element={<I90GreenCardRenewalMorenoValley language={language} />} />
+              <Route path="/blog/transportation-letter-emergency-travel-upland" element={<TransportationLetterUpland language={language} />} />
+              <Route path="/blog/power-of-attorney-immigration-bellflower" element={<PowerOfAttorneyImmigrationBellflower language={language} />} />
+              <Route path="/blog/arab-mental-health-immigration-fontana" element={<ArabMentalHealthFontana language={language} />} />
+              <Route path="/blog/i-130-family-petition-lake-elsinore" element={<I130FamilyPetitionLakeElsinore language={language} />} />
             </Routes>
           </main>
 
